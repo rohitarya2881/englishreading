@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan's Grammar & Vocab Book</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0d1117; --sidebar:#0d1117; --paper:#161b22; --card:#1c2128;
+  --border:#30363d; --text:#e6edf3; --muted:#8b949e; --hover:#21262d;
+  --active:#1f6feb; --active-bg:rgba(31,111,235,0.15);
+  --sw:285px;
+  /* grammar colors */
+  --c1:#e8c07d; --c2:#7ec8c8; --c3:#f28b6e; --c4:#a8d8a8;
+  --c5:#c9a84c; --c6:#58a6ff; --c7:#f0883e; --c8:#3fb950;
+  --c9:#ff7b72; --ca:#d2a8ff; --cb:#79c0ff;
+  /* vocab color */
+  --v:#b392f0; --v2:rgba(179,146,240,0.15);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;font-size:16px;line-height:1.9;display:flex;height:100vh;overflow:hidden;}
+
+/* ══ SIDEBAR ══ */
+#sidebar{
+  width:var(--sw);min-width:var(--sw);
+  background:var(--sidebar);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;height:100vh;overflow:hidden;
+  transition:transform .3s ease;z-index:100;
+}
+.sb-head{padding:16px 14px 10px;border-bottom:1px solid var(--border);flex-shrink:0;}
+.sb-head h2{font-family:'Playfair Display',serif;font-size:14.5px;font-weight:700;color:var(--c1);line-height:1.3;}
+.sb-head p{font-size:11px;color:var(--muted);margin-top:2px;font-style:italic;}
+.sb-search{padding:9px 10px;border-bottom:1px solid var(--border);flex-shrink:0;}
+.sb-search input{
+  width:100%;background:var(--card);border:1px solid var(--border);
+  border-radius:6px;padding:6px 10px;color:var(--text);
+  font-size:12.5px;font-family:'Lora',serif;outline:none;transition:border-color .2s;
+}
+.sb-search input:focus{border-color:var(--active);}
+.sb-search input::placeholder{color:var(--muted);}
+.sb-tree{flex:1;overflow-y:auto;padding:6px 0;}
+.sb-tree::-webkit-scrollbar{width:3px;}
+.sb-tree::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+
+/* FOLDER */
+.folder-head{
+  display:flex;align-items:center;gap:7px;
+  padding:7px 12px;cursor:pointer;
+  font-size:11.5px;font-weight:700;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--muted);
+  user-select:none;transition:color .2s;
+}
+.folder-head:hover{color:var(--text);}
+.folder-arrow{font-size:9px;transition:transform .25s;color:var(--muted);}
+.folder.open .folder-arrow{transform:rotate(90deg);}
+.folder-badge{
+  margin-left:auto;font-size:10px;
+  background:var(--card);border:1px solid var(--border);
+  padding:1px 7px;border-radius:10px;color:var(--muted);
+  letter-spacing:0;text-transform:none;font-weight:400;
+}
+.folder-dot{width:7px;height:7px;border-radius:2px;flex-shrink:0;}
+.folder-items{display:none;}
+.folder.open .folder-items{display:block;}
+
+/* SUB-FOLDER (for vocab batches) */
+.subfolder-head{
+  display:flex;align-items:center;gap:7px;
+  padding:5px 12px 5px 22px;cursor:pointer;
+  font-size:11.5px;font-weight:600;letter-spacing:.5px;
+  color:var(--muted);user-select:none;transition:color .2s;
+}
+.subfolder-head:hover{color:var(--text);}
+.subfolder-arrow{font-size:8px;transition:transform .2s;color:var(--muted);}
+.subfolder.open .subfolder-arrow{transform:rotate(90deg);}
+.subfolder-items{display:none;padding-left:10px;}
+.subfolder.open .subfolder-items{display:block;}
+
+/* CHAPTER ITEM */
+.chap-item{
+  display:flex;align-items:center;gap:8px;
+  padding:5px 12px 5px 28px;
+  cursor:pointer;font-size:12.5px;color:var(--muted);
+  transition:all .15s;border-left:2px solid transparent;
+  user-select:none;
+}
+.chap-item:hover{color:var(--text);background:var(--hover);}
+.chap-item.active{color:var(--text);background:var(--active-bg);border-left-color:var(--active);font-weight:500;}
+.ci-num{font-size:10px;color:var(--muted);min-width:18px;flex-shrink:0;}
+.chap-item.active .ci-num{color:var(--active);}
+.ci-title{line-height:1.35;flex:1;}
+
+/* ══ MAIN ══ */
+#main{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+#topbar{
+  height:46px;min-height:46px;
+  background:var(--paper);border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:10px;padding:0 18px;flex-shrink:0;
+}
+#menu-btn{background:none;border:none;color:var(--muted);cursor:pointer;font-size:18px;padding:4px;display:none;line-height:1;}
+#breadcrumb{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px;flex:1;min-width:0;}
+.bc-sep{opacity:.4;}
+.bc-chapter{color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#nav-btns{display:flex;gap:6px;margin-left:auto;}
+.nav-btn{
+  background:var(--card);border:1px solid var(--border);
+  color:var(--muted);padding:4px 12px;border-radius:5px;
+  cursor:pointer;font-size:12px;font-family:'Lora',serif;transition:all .2s;
+}
+.nav-btn:hover{color:var(--text);border-color:var(--active);}
+.nav-btn:disabled{opacity:.3;cursor:default;}
+
+#content{flex:1;overflow-y:auto;padding:38px 42px 80px;}
+#content::-webkit-scrollbar{width:4px;}
+#content::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+
+/* HOME */
+.home-screen{max-width:680px;margin:0 auto;}
+.home-screen h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);color:var(--c1);font-weight:700;text-shadow:0 0 40px rgba(232,192,125,.2);margin-bottom:6px;}
+.home-screen h1 em{color:var(--c2);font-style:italic;}
+.hs-sub{color:var(--muted);font-size:13px;font-style:italic;margin-bottom:30px;}
+.legend-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:7px;margin-bottom:30px;}
+.lg-item{display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:9px 12px;font-size:12px;color:var(--muted);}
+.lg-dot{width:9px;height:9px;border-radius:2px;flex-shrink:0;}
+.how-to{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 20px;}
+.how-to h3{font-size:12px;color:var(--c1);margin-bottom:10px;letter-spacing:.5px;text-transform:uppercase;}
+.how-to p{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:6px;}
+.how-to code{background:var(--bg);border:1px solid var(--border);padding:1px 7px;border-radius:4px;font-size:11.5px;color:var(--c4);font-family:monospace;}
+
+/* CHAPTER VIEW */
+.chapter-view{max-width:720px;margin:0 auto;}
+.cv-tag{display:inline-block;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;padding:3px 12px;border-radius:2px;margin-bottom:10px;font-family:'Lora',serif;font-weight:700;}
+.cv-title{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--c1);margin-bottom:6px;line-height:1.3;}
+.cv-desc{font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:16px;}
+
+/* NOTE BOX */
+.note-box{
+  border-radius:8px;padding:13px 16px;margin-bottom:14px;
+  font-size:13px;line-height:1.75;border-left:3px solid;
+}
+.note-box.grammar{background:rgba(232,192,125,.07);border-color:var(--c1);}
+.note-box.grammar b{color:var(--c1);}
+.note-box.vocab{background:rgba(179,146,240,.07);border-color:var(--v);}
+.note-box.vocab b{color:var(--v);}
+
+/* RULE CARD */
+.rule-card{border-radius:8px;padding:13px 16px;margin-bottom:14px;font-size:13px;line-height:1.75;border-left:3px solid;}
+.rule-card b{font-weight:600;}
+
+/* CHIPS */
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 18px;}
+.chip{font-size:12px;padding:4px 12px;border-radius:20px;font-family:'Lora',serif;}
+
+/* STORY BLOCK */
+.stb{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin-bottom:9px;position:relative;transition:border-color .3s;}
+.stb:hover{border-color:rgba(255,255,255,.09);}
+.stb::before{content:attr(data-n);position:absolute;top:-10px;left:16px;background:var(--bg);padding:0 7px;font-size:10px;color:var(--muted);letter-spacing:1px;font-family:'Lora',serif;}
+.stb p{font-size:15px;color:#cdd9e5;}
+
+/* DIVIDER */
+.divider{display:flex;align-items:center;gap:12px;margin:24px 0;opacity:.35;}
+.divider::before,.divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--c1),transparent);}
+.divider span{color:var(--c1);font-size:13px;}
+
+/* CHAPTER NAV FOOTER */
+.chap-nav{display:flex;justify-content:space-between;align-items:center;margin-top:36px;padding-top:22px;border-top:1px solid var(--border);}
+.cn-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:8px 16px;border-radius:6px;cursor:pointer;font-size:12.5px;font-family:'Lora',serif;transition:all .2s;max-width:45%;}
+.cn-btn:hover{color:var(--text);border-color:var(--active);}
+.cn-btn:disabled{opacity:.3;cursor:default;}
+.cn-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:2px;}
+.cn-name{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/* ══ GRAMMAR HIGHLIGHTS ══ */
+.h1,.h2,.h3,.h4,.h5,.h6,.h7,.h8,.h9,.ha,.hb{font-weight:500;border-bottom:1px solid;cursor:default;transition:.2s;}
+.h1{color:var(--c1);border-color:rgba(232,192,125,.4);} .h1:hover{background:rgba(232,192,125,.1);border-radius:3px;}
+.h2{color:var(--c2);border-color:rgba(126,200,200,.4);} .h2:hover{background:rgba(126,200,200,.1);border-radius:3px;}
+.h3{color:var(--c3);border-color:rgba(242,139,110,.4);} .h3:hover{background:rgba(242,139,110,.1);border-radius:3px;}
+.h4{color:var(--c4);border-color:rgba(168,216,168,.4);} .h4:hover{background:rgba(168,216,168,.1);border-radius:3px;}
+.h5{color:var(--c5);border-color:rgba(201,168,76,.4);}  .h5:hover{background:rgba(201,168,76,.1);border-radius:3px;}
+.h6{color:var(--c6);border-color:rgba(88,166,255,.4);}  .h6:hover{background:rgba(88,166,255,.1);border-radius:3px;}
+.h7{color:var(--c7);border-color:rgba(240,136,62,.4);}  .h7:hover{background:rgba(240,136,62,.1);border-radius:3px;}
+.h8{color:var(--c8);border-color:rgba(63,185,80,.4);}   .h8:hover{background:rgba(63,185,80,.1);border-radius:3px;}
+.h9{color:var(--c9);border-color:rgba(255,123,114,.4);} .h9:hover{background:rgba(255,123,114,.1);border-radius:3px;}
+.ha{color:var(--ca);border-color:rgba(210,168,255,.4);} .ha:hover{background:rgba(210,168,255,.1);border-radius:3px;}
+.hb{color:var(--cb);border-color:rgba(121,192,255,.4);} .hb:hover{background:rgba(121,192,255,.1);border-radius:3px;}
+
+/* ══ VOCAB WORD + TOOLTIP ══ */
+.vw{
+  color:var(--v);font-weight:500;
+  border-bottom:1px dashed rgba(179,146,240,.5);
+  cursor:pointer;position:relative;display:inline;
+}
+.tooltip{
+  display:none;position:absolute;
+  bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);
+  background:#1a1528;border:1px solid rgba(179,146,240,.4);
+  border-radius:10px;padding:14px 16px;width:280px;
+  z-index:9999;box-shadow:0 8px 32px rgba(0,0,0,.7);pointer-events:none;
+  text-align:left;
+}
+.vw.tt-open .tooltip{display:block;}
+.tt-word{font-family:'Playfair Display',serif;font-size:15px;color:var(--v);font-weight:700;margin-bottom:4px;}
+.tt-pos{display:inline-block;font-size:10px;background:rgba(179,146,240,.15);color:var(--v);border:1px solid rgba(179,146,240,.3);padding:1px 8px;border-radius:10px;margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;font-weight:600;}
+.tt-hindi{font-size:13px;color:#e8c07d;font-weight:500;margin-bottom:8px;}
+.tt-meaning{font-size:12.5px;color:#cdd9e5;line-height:1.65;margin-bottom:8px;border-bottom:1px solid rgba(255,255,255,.07);padding-bottom:8px;}
+.tt-ex-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:4px;}
+.tt-example{font-size:12.5px;color:#7ec8c8;font-style:italic;line-height:1.6;}
+.tt-arrow{position:absolute;bottom:-6px;left:50%;transform:translateX(-50%) rotate(45deg);width:10px;height:10px;background:#1a1528;border-right:1px solid rgba(179,146,240,.4);border-bottom:1px solid rgba(179,146,240,.4);}
+
+/* CHIP/BADGE COLOR CLASSES */
+.t1{background:rgba(232,192,125,.1);color:var(--c1);border:1px solid rgba(232,192,125,.25);}
+.t2{background:rgba(126,200,200,.1);color:var(--c2);border:1px solid rgba(126,200,200,.25);}
+.t3{background:rgba(242,139,110,.1);color:var(--c3);border:1px solid rgba(242,139,110,.25);}
+.t4{background:rgba(168,216,168,.1);color:var(--c4);border:1px solid rgba(168,216,168,.25);}
+.t5{background:rgba(201,168,76,.1); color:var(--c5);border:1px solid rgba(201,168,76,.25);}
+.t6{background:rgba(88,166,255,.1); color:var(--c6);border:1px solid rgba(88,166,255,.25);}
+.t7{background:rgba(240,136,62,.1); color:var(--c7);border:1px solid rgba(240,136,62,.25);}
+.t8{background:rgba(63,185,80,.1);  color:var(--c8);border:1px solid rgba(63,185,80,.25);}
+.t9{background:rgba(255,123,114,.1);color:var(--c9);border:1px solid rgba(255,123,114,.25);}
+.ta{background:rgba(210,168,255,.1);color:var(--ca);border:1px solid rgba(210,168,255,.25);}
+.tb{background:rgba(121,192,255,.1);color:var(--cb);border:1px solid rgba(121,192,255,.25);}
+.tv{background:var(--v2);color:var(--v);border:1px solid rgba(179,146,240,.3);}
+
+/* rule card bg */
+.r1{background:rgba(232,192,125,.07);border-color:var(--c1);} .r1 b{color:var(--c1);}
+.r2{background:rgba(126,200,200,.07);border-color:var(--c2);} .r2 b{color:var(--c2);}
+.r3{background:rgba(242,139,110,.07);border-color:var(--c3);} .r3 b{color:var(--c3);}
+.r4{background:rgba(168,216,168,.07);border-color:var(--c4);} .r4 b{color:var(--c4);}
+.r5{background:rgba(201,168,76,.07); border-color:var(--c5);} .r5 b{color:var(--c5);}
+.r6{background:rgba(88,166,255,.07); border-color:var(--c6);} .r6 b{color:var(--c6);}
+.r7{background:rgba(240,136,62,.07); border-color:var(--c7);} .r7 b{color:var(--c7);}
+.r8{background:rgba(63,185,80,.07);  border-color:var(--c8);} .r8 b{color:var(--c8);}
+.r9{background:rgba(255,123,114,.07);border-color:var(--c9);} .r9 b{color:var(--c9);}
+.ra{background:rgba(210,168,255,.07);border-color:var(--ca);} .ra b{color:var(--ca);}
+.rb{background:rgba(121,192,255,.07);border-color:var(--cb);} .rb b{color:var(--cb);}
+
+/* mobile */
+#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:99;}
+@media(max-width:700px){
+  #menu-btn{display:block;}
+  #sidebar{position:fixed;left:0;top:0;height:100%;transform:translateX(-100%);}
+  #sidebar.open{transform:translateX(0);}
+  #overlay.show{display:block;}
+  #content{padding:22px 16px 60px;}
+}
+</style>
+</head>
+<body>
+<div id="overlay" onclick="closeSidebar()"></div>
+
+<!-- ══ SIDEBAR ══ -->
+<div id="sidebar">
+  <div class="sb-head">
+    <h2>📚 Aryan's Grammar & Vocab Book</h2>
+    <p>Grammar · SSC Vocabulary · Daily Reading</p>
+  </div>
+  <div class="sb-search">
+    <input type="text" id="searchBox" placeholder="🔍 Search chapters..." oninput="filterChapters(this.value)">
+  </div>
+  <div class="sb-tree" id="sbTree"></div>
+</div>
+
+<!-- ══ MAIN ══ -->
+<div id="main">
+  <div id="topbar">
+    <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+    <div id="breadcrumb">
+      <span id="bc-sec">Home</span>
+      <span class="bc-sep" id="bc-sep" style="display:none">›</span>
+      <span class="bc-sub" id="bc-sub" style="display:none"></span>
+      <span class="bc-sep" id="bc-sep2" style="display:none">›</span>
+      <span class="bc-chapter" id="bc-chap"></span>
+    </div>
+    <div id="nav-btns">
+      <button class="nav-btn" id="prevBtn" onclick="navigate(-1)" disabled>← Prev</button>
+      <button class="nav-btn" id="nextBtn" onclick="navigate(1)">Next →</button>
+    </div>
+  </div>
+  <div id="content"></div>
+</div>
+
+<script>
+// ╔══════════════════════════════════════════════════════════════════╗
+// ║  BOOK DATA                                                       ║
+// ║                                                                  ║
+// ║  GRAMMAR chapter fields:                                         ║
+// ║    type:"grammar", id, title, subtitle, tag, tagClass,           ║
+// ║    desc, ruleCard:{cls,html}, chips:{cls,words[]},               ║
+// ║    notes:[], paras:[{n,text}]                                    ║
+// ║                                                                  ║
+// ║  VOCAB chapter fields:                                           ║
+// ║    type:"vocab", id, title, subtitle, tag, tagClass:"tv",        ║
+// ║    notes:[], words:[{w,pos,hindi,meaning,example}],              ║
+// ║    paras:[{n,text}]  ← use <vw id="word"> in text               ║
+// ║                                                                  ║
+// ║  Naya VOCAB BATCH add karna:                                     ║
+// ║    BOOK ke "vocab" folder mein subfolders[] mein push karo       ║
+// ║    { id, label, chapters:[] }                                    ║
+// ╚══════════════════════════════════════════════════════════════════╝
+
+const BOOK = [
+  // ════════════════════════════════════
+  // GRAMMAR FOLDER
+  // ════════════════════════════════════
+  {
+    id:"grammar", label:"Grammar", color:"#e8c07d", dot:"t1", type:"flat",
+    chapters:[
+      {
+        type:"grammar", id:"how-to-v1", title:"how to + V1", subtitle:'"The Boy Who Wanted to Change His Life"',
+        tag:"Section 1", tagClass:"t1",
+        desc:`Words like <b>know, explain, learn, discover, teach, ask, show, wonder, remember, forget</b> — always followed by <b class="h1">how to + V1</b>.`,
+        ruleCard:{cls:"r1", html:`<b>RULE:</b> know / explain / learn / discover / teach / ask / show / wonder / remember / forget → <b>how to + V1</b><br>✅ She <b>taught him how to speak</b> &nbsp;|&nbsp; He <b>forgot how to write</b>`},
+        chips:{cls:"t1", words:["know","explain","learn","discover","teach","ask","show","wonder","remember","forget"]},
+        notes:["Yeh words 'method' ya 'tarika' batate hain — isliye 'how to' aata hai inke baad.","SSC mein yeh words tense errors mein bhi aate hain — dhyan rakho."],
+        paras:[
+          {n:"¶ 1", text:`Aryan was a young man from a small town. He did not <span class="h1">know how to speak</span> English confidently. One day, his teacher <span class="h1">explained how to construct</span> sentences properly, and Aryan finally felt a spark inside him.`},
+          {n:"¶ 2", text:`He went to the library and began to <span class="h1">learn how to use</span> grammar books on his own. There, he <span class="h1">discovered how to find</span> patterns in the language — something no one had shown him before.`},
+          {n:"¶ 3", text:`His elder sister Meera <span class="h1">taught him how to read</span> English newspapers every morning. He <span class="h1">asked her how to pronounce</span> difficult words, and she <span class="h1">showed him how to break</span> words into syllables.`},
+          {n:"¶ 4", text:`Some nights Aryan lay awake and <span class="h1">wondered how to become</span> truly fluent. He always <span class="h1">remembered how to start</span> — with small steps. But in stress, he would <span class="h1">forget how to apply</span> the rules he had studied. Still, he never stopped.`},
+        ]
+      },
+      {
+        type:"grammar", id:"to-v1", title:"to + V1", subtitle:'"The Decision"',
+        tag:"Section 2", tagClass:"t2",
+        desc:`Words like <b>attempt, afford, want, try, decide, agree, refuse, prefer, manage, wish, dare…</b> — followed by a simple <b class="h2">to + V1</b>.`,
+        ruleCard:{cls:"r2", html:`<b>RULE:</b> attempt/afford/begin/want/try/decide/refuse/agree/prefer/manage/wish/dare/love/like/need/intend/continue/endeavor/hesitate/mean/offer/prepare/pretend/neglect/proceed/consent/bother/beg/choose/care/desire → <b>to + V1</b><br>✅ He <b>decided to join</b> &nbsp;|&nbsp; She <b>refused to admit</b>`},
+        chips:{cls:"t2", words:["attempt","afford","begin","bother","beg","choose","care","consent","dare","continue","endeavor","intend","hesitate","love","like","wish","want","manage","mean","offer","need","prefer","prepare","pretend","neglect","try","proceed","refuse","agree","decide","desire"]},
+        notes:["In sabke baad direct 'to+V1' aata hai — beech mein koi object nahi hota.","'want to go' ✅ — 'want going' ❌"],
+        paras:[
+          {n:"¶ 5", text:`The next morning, Aryan <span class="h2">decided to join</span> a spoken English class in the city. He could not <span class="h2">afford to waste</span> more time, and he <span class="h2">began to prepare</span> his bag the night before. He <span class="h2">wanted to change</span> his life, and he <span class="h2">intended to do</span> it seriously this time.`},
+          {n:"¶ 6", text:`On the first day, he <span class="h2">attempted to speak</span> in front of the class. His voice shook. He <span class="h2">tried to stay</span> calm, but his hands trembled. He had <span class="h2">chosen to face</span> his fear, and he was not going to run.`},
+          {n:"¶ 7", text:`The teacher smiled. She <span class="h2">offered to help</span> him after class. Aryan <span class="h2">agreed to stay</span> back. He <span class="h2">begged her to give</span> him extra practice sentences. She <span class="h2">consented to spend</span> thirty extra minutes with him every day.`},
+          {n:"¶ 8", text:`Some classmates <span class="h2">pretended to be</span> better than they were. They <span class="h2">refused to admit</span> their mistakes. But Aryan <span class="h2">cared to improve</span> genuinely — he never <span class="h2">hesitated to ask</span> even the simplest questions. He <span class="h2">preferred to learn</span> slowly and correctly.`},
+          {n:"¶ 9", text:`He <span class="h2">continued to practice</span> every night. He <span class="h2">endeavored to read</span> at least one article daily. He <span class="h2">managed to finish</span> an entire English novel in three weeks. He had <span class="h2">neglected to celebrate</span> small wins before — now he did.`},
+          {n:"¶ 10", text:`He <span class="h2">wished to speak</span> at a public event someday. He <span class="h2">desired to inspire</span> other students from small towns. He <span class="h2">dared to dream</span> big, and he <span class="h2">needed to believe</span> in himself first.`},
+        ]
+      },
+      {
+        type:"grammar", id:"obj-to-v1", title:"Object + to + V1", subtitle:'"People Who Shaped Him"',
+        tag:"Section 3", tagClass:"t3",
+        desc:`Words like <b>allow, advise, warn, tell, encourage, forbid, persuade, instruct, urge…</b> — zaroor ek <b>object</b> chahiye, phir <b class="h3">to + V1</b>.`,
+        ruleCard:{cls:"r3", html:`<b>RULE:</b> allow/advise/compel/encourage/expect/forbid/instruct/invite/oblige/order/permit/persuade/request/tell/warn/teach/tempt/urge/show/remind → <b>Object + to + V1</b><br>✅ She <b>told him to trust</b> &nbsp;|&nbsp; They <b>warned him not to waste</b>`},
+        chips:{cls:"t3", words:["allow","advise","compel","encourage","expect","forbid","instruct","invite","oblige","order","permit","persuade","request","tell","warn","teach","tempt","urge","show","remind"]},
+        notes:["Object hamesha hona chahiye — 'She told to go' ❌ — 'She told him to go' ✅","SSC error spotting mein yeh rule bahut aata hai."],
+        paras:[
+          {n:"¶ 11", text:`The teacher <span class="h3">encouraged Aryan to speak</span> louder. She <span class="h3">advised him to record</span> his voice. She <span class="h3">instructed the class to practice</span> in pairs. She <span class="h3">reminded Aryan to submit</span> his assignment on time.`},
+          {n:"¶ 12", text:`His principal <span class="h3">invited Aryan to represent</span> the school. His mother <span class="h3">urged him to accept</span> the opportunity. His father <span class="h3">warned him not to waste</span> this chance. Everyone <span class="h3">expected him to do</span> well.`},
+          {n:"¶ 13", text:`Meera <span class="h3">taught him to stay</span> confident. She <span class="h3">told him to trust</span> his preparation. She <span class="h3">persuaded him to wear</span> his formal shirt. The rules <span class="h3">forbade participants to use</span> notes on stage.`},
+          {n:"¶ 14", text:`The lights <span class="h3">tempted him to close</span> his eyes. The audience's silence <span class="h3">obliged him to begin</span>. The judge <span class="h3">wanted him to continue</span> — she was impressed. She <span class="h3">urged him to never stop</span> reading.`},
+        ]
+      },
+      {
+        type:"grammar", id:"bare-inf", title:"Bare Infinitive", subtitle:'"The Day He Won"',
+        tag:"Section 4", tagClass:"t4",
+        desc:`Words like <b>make, let, hear, see, watch, feel, notice, bid, have, help</b> — inke baad verb bina "to" ke aata hai.`,
+        ruleCard:{cls:"r4", html:`<b>RULE:</b> make/help/feel/see/notice/watch/hear/let/bid/have → <b>Bare Infinitive (no "to")</b><br>✅ He <b>heard him speak</b> &nbsp;|&nbsp; She <b>let him choose</b> &nbsp;|&nbsp; They <b>made him promise</b>`},
+        chips:{cls:"t4", words:["make","help","feel","see","notice","watch","hear","let","bid","have"]},
+        notes:["Passive voice mein 'to' wapas aa jaata hai — 'He was made to promise' ✅","'bid' ka matlab hota hai — order karna (formal/literary English)."],
+        paras:[
+          {n:"¶ 15", text:`Aryan won second place. The whole hall <span class="h4">heard him speak</span> with genuine emotion. His teacher <span class="h4">watched him walk</span> onto the stage. She could <span class="h4">see his hands tremble</span> slightly, but his voice was strong.`},
+          {n:"¶ 16", text:`His mother <span class="h4">felt her eyes fill</span> with tears. His father <span class="h4">noticed him smile</span> — a real, full smile — for the first time in months.`},
+          {n:"¶ 17", text:`That night, Meera <span class="h4">let him choose</span> the movie. His success <span class="h4">made everyone feel</span> proud. At the farewell, the principal <span class="h4">bid everyone rise</span>. He could <span class="h4">hear his own heart beat</span> with joy.`},
+        ]
+      },
+      {
+        type:"grammar", id:"gerund", title:"Gerund (V+ing)", subtitle:'"A New College, A New Aryan"',
+        tag:"Section 5", tagClass:"t5",
+        desc:`Yeh words <b>hamesha V+ing</b> lete hain apne baad — admit, enjoy, risk, stop, miss, fancy, regret, suggest, consider, imagine, hate, love, like, prefer, mind, finish, escape, endure, contemplate, appreciate, detest, resist, delay, deny, forgive, mention, postpone, start, defer, propose, practice, anticipate, pardon, excuse, resent.`,
+        ruleCard:{cls:"r5", html:`<b>RULE:</b> admit/like/dislike/mind/love/appreciate/detest/resist/delay/deny/forgive/mention/enjoy/postpone/stop/start/defer/prefer/finish/risk/propose/escape/suggest/consider/practice/imagine/anticipate/hate/regret/endure/contemplate/fancy/miss/pardon/excuse/resent → <b>V+ing</b><br>✅ He <b>enjoyed reading</b> &nbsp;|&nbsp; She <b>suggested going</b>`},
+        chips:{cls:"t5", words:["admit","like","dislike","mind","love","appreciate","detest","resist","delay","deny","forgive","mention","enjoy","postpone","stop","start","defer","prefer","finish","risk","propose","escape","suggest","consider","practice","imagine","anticipate","hate","regret","endure","contemplate","fancy","miss","pardon","excuse","resent"]},
+        notes:["'stop' ke baad gerund aata hai — 'He stopped smoking' (cigarette chhodna)","'stop' ke baad infinitive bhi aa sakta hai — 'He stopped to smoke' (ruka taaki smoke kare) — meaning alag hogi!"],
+        paras:[
+          {n:"¶ 18", text:`Aryan <span class="h5">admitted feeling</span> nervous. He had always <span class="h5">disliked speaking</span> in crowds, but he <span class="h5">started practicing</span> every morning. Sahil <span class="h5">suggested going</span> to the debate club.`},
+          {n:"¶ 19", text:`Aryan <span class="h5">considered joining</span> but <span class="h5">postponed deciding</span> for a week. He could not <span class="h5">imagine standing</span> before fifty students. He <span class="h5">anticipated feeling</span> embarrassed.`},
+          {n:"¶ 20", text:`He <span class="h5">regretted not joining</span> the club earlier. He <span class="h5">hated wasting</span> time. He <span class="h5">detested making</span> excuses. But today he <span class="h5">stopped blaming</span> himself and <span class="h5">finished writing</span> his application.`},
+          {n:"¶ 21", text:`He <span class="h5">preferred competing</span> to simply watching. He <span class="h5">risked losing</span> the first round — but that was fine. He could <span class="h5">endure failing</span> once. He could not <span class="h5">escape facing</span> his fear forever.`},
+        ]
+      },
+      {
+        type:"grammar", id:"as-group", title:'"as" Group', subtitle:'"The Competition — Part 1"',
+        tag:"Section 6", tagClass:"t6",
+        desc:`Words: <b>treat, regard, view, describe, portray, perceive, recognize, refer, use, employ, depict, define, see</b> — inke baad <b class="h6">as + noun</b> aata hai.`,
+        ruleCard:{cls:"r6", html:`<b>RULE:</b> treat/define/regard/describe/respect/depict/portray/view/recognize/refer/use/employ/perceive/see → <b>as + noun</b><br>✅ They <b>regarded him as</b> a hero &nbsp;|&nbsp; She <b>described it as</b> difficult`},
+        chips:{cls:"t6", words:["treat","define","regard","describe","respect","depict","portray","view","recognize","refer","use","employ","perceive","see"]},
+        notes:["'as' hata do toh sentence galat ho jaayega — yahi SSC mein trick hoti hai."],
+        paras:[
+          {n:"¶ 22", text:`The judges <span class="h6">regarded Aryan as</span> a talented young speaker. The audience <span class="h6">perceived him as</span> confident. His teacher had always <span class="h6">treated him as</span> a serious student. Journalists <span class="h6">portrayed Aryan as</span> a rising voice.`},
+          {n:"¶ 23", text:`One reporter <span class="h6">referred to him as</span> "a student who defied all odds." Everyone <span class="h6">recognized his effort as</span> genuine. The college <span class="h6">employed him as</span> a student mentor.`},
+        ]
+      },
+      {
+        type:"grammar", id:"no-as-group", title:'NO "as" Group', subtitle:'"The Competition — Part 2"',
+        tag:"Section 7", tagClass:"t7",
+        desc:`Words: <b>elect, name, call, declare, crown, appoint, consider, make, choose, label, dub, find, think</b> — direct noun aata hai, <b class="h7">koi "as" nahi</b>.`,
+        ruleCard:{cls:"r7", html:`<b>RULE:</b> elect/name/think/consider/call/make/choose/appoint/declare/crown/proclaim/label/dub/find → <b>direct noun (no "as")</b><br>✅ They <b>elected him president</b> ❌ NOT "as president"`},
+        chips:{cls:"t7", words:["elect","name","think","consider","call","make","choose","appoint","declare","crown","proclaim","label","dub","find"]},
+        notes:["'as' dalna yahan galti hai — SSC mein yahi test hota hai — dono groups ek saath yaad karo."],
+        paras:[
+          {n:"¶ 24", text:`The panel <span class="h7">declared Aryan</span> the winner. The committee <span class="h7">elected him</span> Student Ambassador. They <span class="h7">named him</span> the best speaker under twenty-five.`},
+          {n:"¶ 25", text:`The crowd <span class="h7">called him</span> a champion. The principal <span class="h7">appointed him</span> head of the English Society. The judges <span class="h7">found him</span> exceptionally prepared. A journalist <span class="h7">dubbed him</span> "the Voice of the Valley."`},
+        ]
+      },
+      {
+        type:"grammar", id:"reflexive-req", title:"Reflexive Required", subtitle:'"After the Victory"',
+        tag:"Section 8", tagClass:"t8",
+        desc:`Words: <b>enjoy, avail, absent, pride, adjust, reconcile, acquit, amuse, resign, avenge, exert, apply, adapt</b> — jab koi aur object na ho toh <b class="h8">reflexive pronoun zaroor</b> lagega.`,
+        ruleCard:{cls:"r8", html:`<b>RULE:</b> enjoy/avail/absent/pride/adjust/reconcile/acquit/amuse/resign/avenge/exert/apply/adapt → <b>reflexive pronoun required</b><br>✅ He <b>availed himself of</b> the chance &nbsp;|&nbsp; She <b>absented herself from</b> the meeting`},
+        chips:{cls:"t8", words:["enjoy","avail","absent","pride","adjust","reconcile","acquit","amuse","resign","avenge","exert","apply","adapt"]},
+        notes:["'He enjoyed the party' ✅ (party = object already hai)","'He enjoyed' ❌ — koi object nahi toh 'He enjoyed himself' ✅"],
+        paras:[
+          {n:"¶ 26", text:`Aryan truly <span class="h8">enjoyed himself</span> at the celebration. He <span class="h8">availed himself of</span> every opportunity. He <span class="h8">applied himself to</span> learning new skills. He <span class="h8">adapted himself to</span> the demands of college life.`},
+          {n:"¶ 27", text:`He <span class="h8">prided himself on</span> never missing practice. He <span class="h8">exerted himself</span> even more when things got hard. A rival accused him unfairly — Aryan <span class="h8">acquitted himself of</span> all charges gracefully. He <span class="h8">reconciled himself to</span> the situation and moved forward.`},
+        ]
+      },
+      {
+        type:"grammar", id:"no-reflexive", title:"No Reflexive", subtitle:'"What He Never Said"',
+        tag:"Section 9", tagClass:"t9",
+        desc:`Words: <b>keep, stop, turn, qualify, bathe, move, rest, hide</b> — yeh words reflexive pronoun <b>nahi lete</b>.`,
+        ruleCard:{cls:"r9", html:`<b>RULE:</b> keep/stop/turn/qualify/bathe/move/rest/hide → <b>NO reflexive pronoun</b><br>✅ She <b>hid behind</b> the wall (NOT "hid herself") &nbsp;|&nbsp; He <b>rested on</b> the bench`},
+        chips:{cls:"t9", words:["keep","stop","turn","qualify","bathe","move","rest","hide"]},
+        notes:["'He hid himself' — yahan 'himself' galat hai, sirf 'He hid' ya 'He hid behind X' sahi hai."],
+        paras:[
+          {n:"¶ 28", text:`But notice — Aryan never said "hid himself." He simply <span class="h9">hid behind</span> his books when he needed quiet. He would <span class="h9">rest on</span> the bench near the garden. He would <span class="h9">stop at</span> the bookshop. He would <span class="h9">keep walking</span> no matter how tired he felt.`},
+        ]
+      },
+      {
+        type:"grammar", id:"no-possessive", title:"No Possessive (Rule 21)", subtitle:'"Letters and Goodbyes"',
+        tag:"Section 10", tagClass:"ta",
+        desc:`Words: <b>separation, excuse, mention, favour, pardon, leave, report, sight</b> — inse pehle possessive case <b>nahi aata</b>. "The X of" use karo.`,
+        ruleCard:{cls:"ra", html:`<b>RULE 21:</b> separation/excuse/mention/favour/pardon/leave/report/sight → <b>No possessive</b><br>✅ <b>The mention of</b> his name (NOT "his mention") &nbsp;|&nbsp; <b>The sight of</b> blood`},
+        chips:{cls:"ta", words:["separation","excuse","mention","favour","pardon","leave","report","sight"]},
+        notes:["'His mention' ❌ — 'The mention of his name' ✅","SSC fill in the blanks mein yeh rule seedha aata hai."],
+        paras:[
+          {n:"¶ 29", text:`When the semester ended, Rohan had to leave for another city. <span class="ha">The separation of</span> the two friends was difficult. At the farewell: "<span class="ha">The mention of</span> Aryan's name will always bring pride to this institution."`},
+          {n:"¶ 30", text:`The scholarship letter read: "Please do us <span class="ha">the favour of</span> attending the interview." He took <span class="ha">the leave of</span> his hostel warden. At the interview, <span class="ha">the sight of</span> the panel made him nervous for a second. But only for a second.`},
+        ]
+      },
+      {
+        type:"grammar", id:"perfect-tense", title:"Perfect Tense Triggers (Rule 29)", subtitle:'"What He Has Become"',
+        tag:"Section 11", tagClass:"tb",
+        desc:`Words: <b>ever, never, yet, already, just now, until now, always, occasionally, often, lately, recently, so far, up to now</b> — yeh words <b>hamesha Perfect Tense</b> maangते hain.`,
+        ruleCard:{cls:"rb", html:`<b>RULE 29:</b> ever/never/yet/already/just now/until now/always/occasionally/often/lately/recently/so far/up to now → <b>Perfect Tense (has/have/had + V3)</b><br>✅ He has <b>never</b> failed &nbsp;|&nbsp; Have you finished <b>yet</b>?`},
+        chips:{cls:"tb", words:["ever","never","yet","already","just now","until now","always","occasionally","often","lately","recently","so far","up to now"]},
+        notes:["In words ko dekho toh tense automatically perfect hona chahiye — yeh SSC ka sabse common tense error hai.","'He never went' ❌ (agar recent context ho) — 'He has never gone' ✅"],
+        paras:[
+          {n:"¶ 31", text:`"Have you <span class="hb">ever</span> spoken at a national event?" Aryan smiled. "Yes, I have." He had <span class="hb">never</span> felt so prepared. "Have you submitted your documents <span class="hb">yet</span>?" "I have <span class="hb">already</span> submitted them."`},
+          {n:"¶ 32", text:`"What have you achieved <span class="hb">so far</span>?" Aryan said, "<span class="hb">Up to now</span>, I have won three competitions. <span class="hb">Until now</span>, I have never taken a shortcut. I have <span class="hb">always</span> believed in doing things the right way."`},
+          {n:"¶ 33", text:`"Have you <span class="hb">recently</span> started anything new?" "Yes — I have <span class="hb">lately</span> been writing a grammar guide for rural students. I have <span class="hb">occasionally</span> conducted free workshops. I have <span class="hb">often</span> thought about how language can change lives."`},
+        ]
+      },
+    ]
+  },
+
+  // ════════════════════════════════════
+  // VOCAB FOLDER  (subfolders = batches)
+  // ════════════════════════════════════
+  {
+    id:"vocab", label:"SSC Vocabulary", color:"#b392f0", dot:"tv", type:"nested",
+    subfolders:[
+      {
+        id:"vocab-batch1", label:"Batch 1 — Words 888–916",
+        chapters:[
+          {
+            type:"vocab", id:"vocab-b1-s1", title:"The Inspector's Secret",
+            subtitle:"SSC One-Word Substitution · 888–916",
+            tag:"Vocab · Batch 1 · Story 1", tagClass:"tv",
+            notes:[
+              "Yeh saare words SSC CGL/CHSL One Word Substitution mein pooche ja chuke hain.",
+              "Har <b style='color:var(--v)'>purple word</b> pe hover karo — meaning, Hindi aur Hinglish example milega.",
+              "Story ek baar padho, phir bina hover ke try karo — kitne yaad hain!"
+            ],
+            words:[
+              {w:"Incivism",       pos:"N.",    hindi:"देशद्रोह / नागरिक कर्तव्यहीनता",  meaning:"Lack of civic-mindedness or of patriotism — apne desh aur samaj ke liye zimmedari na lena.",             example:"The politician's indifference to public welfare was a glaring example of incivism."},
+              {w:"Incognito",      pos:"Adj.",  hindi:"असली पहचान छुपाकर",                meaning:"Travelling or appearing under a false name — apni asli identity chupakar rehna ya safar karna.",           example:"The undercover agent travelled incognito to avoid being recognized by the criminals."},
+              {w:"Incoherent",     pos:"Adj.",  hindi:"असंगत / समझ से बाहर",              meaning:"Expressed in a confusing, unclear way — jo baat samajh mein na aaye.",                                     example:"His incoherent speech made it impossible to understand what he was trying to say."},
+              {w:"Incomprehensible",pos:"Adj.", hindi:"समझ से बाहर",                      meaning:"Something that is very difficult or impossible to understand — jo bilkul samajh na aaye.",                   example:"The ancient manuscript was incomprehensible to modern scholars."},
+              {w:"Incontrovertible",pos:"Adj.", hindi:"अविवादित / जिसे नकारा न जा सके",  meaning:"Impossible to deny or disprove — aisa sach jo koi bhi challenge na kar sake.",                             example:"The CCTV footage provided incontrovertible evidence of his presence at the crime scene."},
+              {w:"Incorrigible",   pos:"Adj.",  hindi:"असंशोधनीय / जो कभी न सुधरे",     meaning:"One who cannot be corrected or reformed — jo baar baar galti kare phir bhi na sudhe.",                     example:"Despite multiple arrests, he remained incorrigible, returning to crime each time."},
+              {w:"Incredible",     pos:"Adj.",  hindi:"अविश्वसनीय",                       meaning:"That which cannot be believed — jo sun ke yakeen na ho.",                                                    example:"His alibi was so incredible that even his own lawyer struggled to defend it."},
+              {w:"Indebted",       pos:"Adj.",  hindi:"ऋणी / किसी का एहसानमंद",          meaning:"Owing money or gratitude to someone — kisi ka paisa ya ehsaan chukana baaki ho.",                         example:"He was indebted to the moneylender and had no way to repay him."},
+              {w:"Indefatigable",  pos:"Adj.",  hindi:"न थकनेवाला / अथक",                meaning:"Incapable of feeling tired or being exhausted — jo kabhi na thake.",                                        example:"The indefatigable activist worked twenty hours a day for the cause he believed in."},
+              {w:"Indelible",      pos:"Adj.",  hindi:"स्थायी / मिटाया न जा सके",        meaning:"That which cannot be effaced or erased — jo kisi ke mann ya record se kabhi na miTe.",                     example:"The tragedy left an indelible mark on the survivors' memory."},
+              {w:"Indescribable",  pos:"Adj.",  hindi:"अवर्णनीय / जो बयान न हो सके",    meaning:"Extreme or so vast that it cannot be adequately described in words.",                                        example:"The devastation caused by the flood was indescribable — no words could capture it."},
+              {w:"Indigenous",     pos:"Adj.",  hindi:"स्वदेशी / मूल निवासी",            meaning:"Originating or occurring naturally in a particular place — jo kisi jagah ka mool ho.",                       example:"The indigenous tribes had lived in that forest for centuries before outsiders arrived."},
+              {w:"Indignation",    pos:"N.",    hindi:"अन्याय देखकर उचित क्रोध",         meaning:"Anger about an unfair situation — galat cheez dekh ke jo sahi gussa aata hai.",                            example:"She felt a surge of indignation when she saw the innocent man being accused falsely."},
+              {w:"Indispensable",  pos:"Adj.",  hindi:"अपरिहार्य / जिसके बिना काम न चले",meaning:"Something that is absolutely necessary or crucial — jiske bina kaam hi nahi chalega.",                      example:"A good lawyer is indispensable when facing serious criminal charges."},
+              {w:"Industrious",    pos:"Adj.",  hindi:"मेहनती / परिश्रमी",               meaning:"One who works very hard and diligently — jo kaam mein bahut mehnat karta ho.",                              example:"The industrious student studied sixteen hours a day before the exam."},
+              {w:"Inedible",       pos:"Adj.",  hindi:"अखाद्य / खाने योग्य नहीं",        meaning:"Not fit to eat — jo khaane laayak na ho.",                                                                  example:"The food left at the abandoned camp had rotted and become completely inedible."},
+              {w:"Ineffable",      pos:"Adj.",  hindi:"अवर्णनीय / जो शब्दों में न कहा जा सके", meaning:"Too great or extreme to be expressed in words — jo bolne ki koshish karo par baat na bane.",         example:"Standing at the edge of the Grand Canyon, he felt an ineffable sense of awe."},
+              {w:"Ineligible",     pos:"Adj.",  hindi:"अयोग्य / जो चुने जाने लायक न हो", meaning:"Someone not fit to be chosen for a position — jo kisi post ke liye qualify na karta ho.",                  example:"He was declared ineligible for the government job due to his criminal record."},
+              {w:"Ineptness",      pos:"N.",    hindi:"अयोग्यता / अकुशलता",              meaning:"Showing a lack of skill or ability — kisi kaam mein nakaabiliyat dikhana.",                                 example:"The team's ineptness in handling the crisis led to massive losses."},
+              {w:"Inert",          pos:"Adj.",  hindi:"अक्रिय / निष्क्रिय",              meaning:"Unable to act or move — jo koi kadam na utha sake, bilkul thama hua.",                                      example:"The government remained inert despite the growing public outrage."},
+              {w:"Inevitable",     pos:"Adj.",  hindi:"अटल / जो होना ही है",             meaning:"Something that cannot be avoided — certain to happen — jo talna mumkin hi nahi.",                           example:"After years of corruption, his downfall was inevitable."},
+              {w:"Inexorable",     pos:"Adj.",  hindi:"हठी / निर्दयी / जिसे रोका न जा सके", meaning:"Not to be moved by entreaty — relentless, impossible to stop or persuade.",                            example:"The inexorable advance of the glacier destroyed everything in its path."},
+              {w:"Inextinguishable",pos:"Adj.", hindi:"जिसे बुझाया न जा सके",            meaning:"Something that cannot be put out or suppressed — jo mitaaye na miTe.",                                      example:"Her passion for justice was inextinguishable — nothing could dampen her spirit."},
+              {w:"Infallible",     pos:"Adj.",  hindi:"अचूक / जो गलती न करे",           meaning:"One who cannot make mistakes — perfectly reliable and accurate.",                                             example:"No system is infallible — every machine can fail under extreme conditions."},
+              {w:"Infanticide",    pos:"N.",    hindi:"शिशु हत्या",                       meaning:"Murder of an infant — ek chhote bachche ki hatya.",                                                          example:"The ancient practice of infanticide was outlawed across the empire."},
+              {w:"Infinite",       pos:"Adj.",  hindi:"अनंत / असीमित",                   meaning:"Not limited by number or extent — jo khatam hi na ho.",                                                     example:"The universe is believed to be infinite in its expanse."},
+              {w:"Infirmary",      pos:"N.",    hindi:"अस्पताल / चिकित्सालय (संस्थान का)",meaning:"A place in a large institution for the care of those who are ill.",                                        example:"The school infirmary was equipped to handle minor injuries and illnesses."},
+              {w:"Inflammable",    pos:"Adj.",  hindi:"ज्वलनशील / जो आसानी से जल सके",   meaning:"That can burn or catches fire easily — jo aag jaldi pakad le.",                                            example:"The warehouse was filled with inflammable chemicals, making it extremely dangerous."},
+              {w:"Inflorescence",  pos:"N.",    hindi:"पुष्पगुच्छ / शाखा पर फूलों का गुच्छा", meaning:"A cluster of flowers on a branch — ek shaakha par phoolon ka samuh.",                               example:"The botanist photographed the rare inflorescence found deep in the jungle."},
+            ],
+            paras:[
+              {n:"¶ 1", text:`Inspector Raghav had always believed that <vw>Incivism</vw> was the greatest enemy of a nation — not war, not poverty, but the slow rot of citizens who simply stopped caring. He had seen it everywhere in his thirty years of service.`},
+              {n:"¶ 2", text:`Tonight, he was travelling <vw>Incognito</vw> — a fake beard, a worn jacket, and a train ticket booked under the name "Ramesh Sinha." No one on the train could guess that this quiet passenger was the city's most feared detective.`},
+              {n:"¶ 3", text:`At the next stop, a drunk man boarded and began shouting in a completely <vw>Incoherent</vw> manner. His words tumbled over each other — half Hindi, half English, all confusion. Nobody understood a word. Raghav, however, listened carefully.`},
+              {n:"¶ 4", text:`The man's ramblings were almost entirely <vw>Incomprehensible</vw>, yet Raghav caught one phrase buried inside the noise — "the merchant is not what he appears." That was enough.`},
+              {n:"¶ 5", text:`The merchant in question was one Vikram Sood — a man whose guilt, Raghav believed, was <vw>Incontrovertible</vw>. The evidence was clear. Yet the courts had let him walk free — twice.`},
+              {n:"¶ 6", text:`Sood was <vw>Incorrigible</vw> — a man who had cheated, bribed, and lied his entire life and showed not a single sign of wanting to change. The law had failed him. Raghav intended not to.`},
+              {n:"¶ 7", text:`The story Sood had given the police was <vw>Incredible</vw> — he claimed he had been meditating alone in the mountains with no witnesses for three full days. Raghav had laughed when he read the file.`},
+              {n:"¶ 8", text:`Raghav knew the real story — Sood was deeply <vw>Indebted</vw> to a powerful criminal gang. He hadn't chosen crime freely — he had been pulled into it by debt and desperation.`},
+              {n:"¶ 9", text:`The gang's leader, known only as "The Ghost," was <vw>Indefatigable</vw> — his men said he never slept more than two hours a night and was always three steps ahead of the police.`},
+              {n:"¶ 10", text:`The Ghost's crimes left <vw>Indelible</vw> marks — not just on paper, but on the lives of hundreds of families. The suffering he had caused was permanent in ways no court sentence could undo.`},
+              {n:"¶ 11", text:`The scale of the operation was <vw>Indescribable</vw>. Raghav had investigated hundreds of cases, but nothing had prepared him for the web this man had spun across five cities, twelve businesses, and thirty fake identities.`},
+              {n:"¶ 12", text:`The Ghost operated exclusively through <vw>Indigenous</vw> networks — local people, local routes, local contacts. No foreign connections, no digital footprint. Brilliant and terrifying in equal measure.`},
+              {n:"¶ 13", text:`When Raghav finally confronted a local contact, the man's face filled with <vw>Indignation</vw>. "How dare you accuse me!" he shouted. But Raghav had seen real anger and fake anger — and this was theatre.`},
+              {n:"¶ 14", text:`A witness was <vw>Indispensable</vw> to Raghav's case — one woman who had seen everything and was willing, finally, to speak. Without her, the Ghost would walk free again.`},
+              {n:"¶ 15", text:`She was <vw>Industrious</vw> — a schoolteacher by day, she had spent three years secretly documenting the Ghost's activities in a small green notebook. Every date. Every name. Every transaction.`},
+              {n:"¶ 16", text:`She described how the gang served food that was <vw>Inedible</vw> to the workers they trapped — barely enough to keep them alive, a cruel tool of control.`},
+              {n:"¶ 17", text:`The horror of what she described was <vw>Ineffable</vw> — she tried to put it into words, and kept stopping, eyes distant, searching for language that simply didn't exist.`},
+              {n:"¶ 18", text:`One of the Ghost's key associates had been declared <vw>Ineligible</vw> for parole three times due to repeated violations. Yet somehow, each time, he had found a way out.`},
+              {n:"¶ 19", text:`The Ghost's legal team showed remarkable <vw>Ineptness</vw> — deliberately, Raghav suspected. They filed the wrong documents, missed deadlines on purpose, creating a bureaucratic fog that slowed everything down.`},
+              {n:"¶ 20", text:`The system itself seemed to go <vw>Inert</vw> whenever this case came up — files were "lost," officials were "transferred," hearings were postponed endlessly. Something deeper was protecting the Ghost.`},
+              {n:"¶ 21", text:`A reckoning, Raghav believed, was <vw>Inevitable</vw>. A man who had wronged so many people, for so long, could not escape forever. The universe, in Raghav's experience, had a way of correcting itself.`},
+              {n:"¶ 22", text:`Raghav himself was <vw>Inexorable</vw> in his pursuit. He had been offered bribes, threatened, had his car tyres slashed twice. None of it slowed him down by even a day.`},
+              {n:"¶ 23", text:`He feared his own anger was <vw>Inextinguishable</vw> — a fire that had been burning inside him since the day he first saw what the Ghost had done to that village. He let it burn. It kept him sharp.`},
+              {n:"¶ 24", text:`No detective was <vw>Infallible</vw>, Raghav reminded himself. He had made errors in this case — trusted the wrong informant, moved too early once. But he had also learned from every one of those errors.`},
+              {n:"¶ 25", text:`The Ghost had committed what could only be described as <vw>Infanticide</vw> in the past — a charge that had been buried by corrupt officials. The teacher's notebook had the date, the village, the witness names. All of it.`},
+              {n:"¶ 26", text:`The Ghost was said to be <vw>Infinite</vw> in patience — he had waited seven years for one rival to lower his guard before making his move. Raghav would need to be equally patient.`},
+              {n:"¶ 27", text:`The witness was taken to a small <vw>Infirmary</vw> for her safety — the Ghost's men had already tried to intimidate her twice. Raghav posted two of his most trusted constables outside her room.`},
+              {n:"¶ 28", text:`The Ghost's hideout was hidden inside a warehouse stacked with <vw>Inflammable</vw> chemicals — a deliberate trap. Any attempt at a raid, and the whole place would go up. Raghav changed the plan.`},
+              {n:"¶ 29", text:`Inside the warehouse's back garden hung a long <vw>Inflorescence</vw> of wild jasmine — oddly beautiful against the grim walls of the hideout. Raghav stood there a moment, letting the plan settle in his mind.`},
+              {n:"¶ 30", text:`He called for backup. The Ghost was inside. Thirty years of chasing shadows, of watching guilty men go free, of fighting a system that often worked against him — it had all led to this moment. Raghav straightened his collar, took one breath, and walked toward the door.`},
+            ]
+          },
+          // ── ADD MORE VOCAB STORIES IN THIS BATCH HERE ──
+          // { type:"vocab", id:"vocab-b1-s2", title:"Story 2 Title", ... }
+        ]
+      },
+      // ── ADD NEW BATCH HERE ──
+      // { id:"vocab-batch2", label:"Batch 2 — Words 917–950", chapters:[ ... ] }
+    ]
+  },
+];
+
+// ═══════════════════════════════════
+// ENGINE
+// ═══════════════════════════════════
+// Flatten all chapters
+const ALL_CHAPTERS = [];
+BOOK.forEach(folder => {
+  if(folder.type === 'flat') {
+    folder.chapters.forEach(ch => ALL_CHAPTERS.push({...ch, folderLabel:folder.label, folderId:folder.id, subfolderLabel:null, subfolderId:null}));
+  } else {
+    folder.subfolders.forEach(sf => {
+      sf.chapters.forEach(ch => ALL_CHAPTERS.push({...ch, folderLabel:folder.label, folderId:folder.id, subfolderLabel:sf.label, subfolderId:sf.id}));
+    });
+  }
+});
+
+let currentIdx = -1;
+
+function buildSidebar(filter='') {
+  const tree = document.getElementById('sbTree');
+  tree.innerHTML = '';
+  const fl = filter.toLowerCase();
+
+  BOOK.forEach(folder => {
+    const fdiv = document.createElement('div');
+    fdiv.className = 'folder open';
+
+    // Folder head
+    const fhead = document.createElement('div');
+    fhead.className = 'folder-head';
+    fhead.onclick = () => fdiv.classList.toggle('open');
+
+    const totalChs = folder.type==='flat' ? folder.chapters.length : folder.subfolders.reduce((a,s)=>a+s.chapters.length,0);
+    fhead.innerHTML = `<span class="folder-arrow">▶</span><div class="folder-dot chip ${folder.dot}" style="padding:0;width:7px;height:7px;border-radius:2px;flex-shrink:0;"></div><span>${folder.label}</span><span class="folder-badge">${totalChs}</span>`;
+    fdiv.appendChild(fhead);
+
+    const fitems = document.createElement('div');
+    fitems.className = 'folder-items';
+
+    if(folder.type === 'flat') {
+      const chs = folder.chapters.filter(ch => !fl || ch.title.toLowerCase().includes(fl) || folder.label.toLowerCase().includes(fl));
+      if(fl && chs.length===0){ return; }
+      chs.forEach(ch => {
+        const idx = ALL_CHAPTERS.findIndex(c=>c.id===ch.id);
+        const item = document.createElement('div');
+        item.className = 'chap-item' + (idx===currentIdx?' active':'');
+        item.dataset.idx = idx;
+        item.innerHTML = `<span class="ci-num">${idx+1}</span><span class="ci-title">${ch.title}</span>`;
+        item.onclick = ()=>openChapter(idx);
+        fitems.appendChild(item);
+      });
+    } else {
+      folder.subfolders.forEach(sf => {
+        const sfChs = sf.chapters.filter(ch => !fl || ch.title.toLowerCase().includes(fl) || sf.label.toLowerCase().includes(fl) || folder.label.toLowerCase().includes(fl));
+        if(fl && sfChs.length===0) return;
+
+        const sfdiv = document.createElement('div');
+        sfdiv.className = 'subfolder open';
+        const sfhead = document.createElement('div');
+        sfhead.className = 'subfolder-head';
+        sfhead.onclick = () => sfdiv.classList.toggle('open');
+        sfhead.innerHTML = `<span class="subfolder-arrow">▶</span><span>${sf.label}</span><span class="folder-badge" style="margin-left:auto">${sf.chapters.length}</span>`;
+        sfdiv.appendChild(sfhead);
+
+        const sfitems = document.createElement('div');
+        sfitems.className = 'subfolder-items';
+        sfChs.forEach(ch => {
+          const idx = ALL_CHAPTERS.findIndex(c=>c.id===ch.id);
+          const item = document.createElement('div');
+          item.className = 'chap-item' + (idx===currentIdx?' active':'');
+          item.dataset.idx = idx;
+          item.innerHTML = `<span class="ci-num">${idx+1}</span><span class="ci-title">${ch.title}</span>`;
+          item.onclick = ()=>openChapter(idx);
+          sfitems.appendChild(item);
+        });
+        sfdiv.appendChild(sfitems);
+        fitems.appendChild(sfdiv);
+      });
+    }
+
+    fdiv.appendChild(fitems);
+    tree.appendChild(fdiv);
+  });
+}
+
+function openChapter(idx) {
+  currentIdx = idx;
+  buildSidebar(document.getElementById('searchBox').value);
+  renderChapter(idx);
+  if(window.innerWidth<=700) closeSidebar();
+  document.getElementById('content').scrollTop = 0;
+}
+
+function renderHome() {
+  currentIdx = -1;
+  buildSidebar();
+  document.getElementById('bc-sec').textContent = 'Home';
+  document.getElementById('bc-sep').style.display='none';
+  document.getElementById('bc-sep2').style.display='none';
+  document.getElementById('bc-sub').style.display='none';
+  document.getElementById('bc-chap').textContent='';
+  document.getElementById('prevBtn').disabled=true;
+  document.getElementById('nextBtn').disabled=false;
+
+  document.getElementById('content').innerHTML=`
+    <div class="home-screen">
+      <h1>Aryan's <em>Grammar & Vocab</em> Book</h1>
+      <p class="hs-sub">Grammar Rules · SSC One-Word Substitution · Daily Reading</p>
+      <div class="legend-grid">
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c1)"></div><span><b style="color:var(--c1)">Warm Gold</b> — how to + V1</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c2)"></div><span><b style="color:var(--c2)">Teal</b> — to + V1</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c3)"></div><span><b style="color:var(--c3)">Coral</b> — obj + to + V1</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c4)"></div><span><b style="color:var(--c4)">Mint</b> — bare infinitive</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c5)"></div><span><b style="color:var(--c5)">Gold</b> — gerund (V+ing)</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c6)"></div><span><b style="color:var(--c6)">Blue</b> — "as" group</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c7)"></div><span><b style="color:var(--c7)">Orange</b> — no "as" group</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c8)"></div><span><b style="color:var(--c8)">Green</b> — reflexive required</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--c9)"></div><span><b style="color:var(--c9)">Red</b> — no reflexive</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--ca)"></div><span><b style="color:var(--ca)">Violet</b> — no possessive</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--cb)"></div><span><b style="color:var(--cb)">Sky</b> — perfect tense</span></div>
+        <div class="lg-item"><div class="lg-dot" style="background:var(--v)"></div><span><b style="color:var(--v)">Purple</b> — SSC vocab word</span></div>
+      </div>
+      <div class="how-to">
+        <h3>📌 Naya Chapter / Batch Kaise Add Karein</h3>
+        <p><b style="color:var(--c1)">Grammar chapter:</b> <code>grammar</code> folder ke <code>chapters[]</code> mein push karo.</p>
+        <p><b style="color:var(--v)">New Vocab Batch:</b> <code>vocab</code> folder ke <code>subfolders[]</code> mein naya subfolder push karo.</p>
+        <p><b style="color:var(--v)">Vocab Story:</b> Us batch ke <code>chapters[]</code> mein push karo — bas!</p>
+        <p>Vocab story mein words use karo: <code>&lt;vw&gt;Incognito&lt;/vw&gt;</code> — tooltip auto ban jaayega.</p>
+      </div>
+    </div>`;
+}
+
+function renderChapter(idx) {
+  const ch = ALL_CHAPTERS[idx];
+  const folder = BOOK.find(f=>f.id===ch.folderId);
+
+  // breadcrumb
+  document.getElementById('bc-sec').textContent = folder.label;
+  document.getElementById('bc-sep').style.display='';
+  if(ch.subfolderLabel) {
+    document.getElementById('bc-sub').textContent = ch.subfolderLabel;
+    document.getElementById('bc-sub').style.display='';
+    document.getElementById('bc-sep2').style.display='';
+  } else {
+    document.getElementById('bc-sub').style.display='none';
+    document.getElementById('bc-sep2').style.display='none';
+  }
+  document.getElementById('bc-chap').textContent = ch.title;
+
+  document.getElementById('prevBtn').disabled = idx<=0;
+  document.getElementById('nextBtn').disabled = idx>=ALL_CHAPTERS.length-1;
+
+  if(ch.type==='grammar') renderGrammarChapter(ch, idx);
+  else renderVocabChapter(ch, idx);
+}
+
+function renderGrammarChapter(ch, idx) {
+  const chipsHtml = ch.chips.words.map(w=>`<span class="chip ${ch.chips.cls}">${w}</span>`).join('');
+  const notesHtml = ch.notes.map(n=>`<li>${n}</li>`).join('');
+  const parasHtml = ch.paras.map(p=>`<div class="stb" data-n="${p.n}"><p>${p.text}</p></div>`).join('');
+  const prevCh = idx>0?ALL_CHAPTERS[idx-1]:null;
+  const nextCh = idx<ALL_CHAPTERS.length-1?ALL_CHAPTERS[idx+1]:null;
+
+  document.getElementById('content').innerHTML=`
+    <div class="chapter-view">
+      <div style="margin-bottom:24px">
+        <span class="cv-tag ${ch.tagClass}">${ch.tag}</span>
+        <div class="cv-title">${ch.subtitle}</div>
+        <div class="cv-desc">${ch.desc}</div>
+      </div>
+      <div class="rule-card ${ch.ruleCard.cls}">${ch.ruleCard.html}</div>
+      ${notesHtml ? `<div class="note-box grammar"><b>📌 Notes:</b><ul style="margin-top:6px;padding-left:18px;line-height:1.9">${notesHtml}</ul></div>` : ''}
+      <div class="chips">${chipsHtml}</div>
+      <div class="divider"><span>✦</span></div>
+      ${parasHtml}
+      <div class="chap-nav">
+        <button class="cn-btn" onclick="navigate(-1)" ${!prevCh?'disabled':''} style="text-align:left">
+          <span class="cn-label">← Previous</span>
+          <span class="cn-name">${prevCh?prevCh.title:'—'}</span>
+        </button>
+        <button class="cn-btn" onclick="navigate(1)" ${!nextCh?'disabled':''} style="text-align:right">
+          <span class="cn-label">Next →</span>
+          <span class="cn-name">${nextCh?nextCh.title:'—'}</span>
+        </button>
+      </div>
+    </div>`;
+}
+
+function renderVocabChapter(ch, idx) {
+  // Build word map
+  const wordMap = {};
+  ch.words.forEach(w => { wordMap[w.w.toLowerCase()] = w; });
+
+  // Build chips
+  const chipsHtml = ch.words.map(w=>`<span class="chip tv">${w.w}</span>`).join('');
+
+  // Notes
+  const notesHtml = ch.notes.map(n=>`<li>${n}</li>`).join('');
+
+  // Process paras — replace <vw>Word</vw> with hover spans
+  const parasHtml = ch.paras.map(p => {
+    let text = p.text.replace(/<vw>(.*?)<\/vw>/g, (match, word) => {
+      const d = wordMap[word.toLowerCase()];
+      if(!d) return `<span class="vw">${word}</span>`;
+      return `<span class="vw" data-w="${d.w}">
+        ${word}
+        <span class="tooltip">
+          <span class="tt-word">${d.w}</span><br>
+          <span class="tt-pos">${d.pos}</span>
+          <div class="tt-hindi">${d.hindi}</div>
+          <div class="tt-meaning">${d.meaning}</div>
+          <div class="tt-ex-label">Hinglish Example</div>
+          <div class="tt-example">${d.example}</div>
+          <div class="tt-arrow"></div>
+        </span>
+      </span>`;
+    });
+    return `<div class="stb" data-n="${p.n}"><p>${text}</p></div>`;
+  }).join('');
+
+  // quick recall words
+  const recallWords = ch.words.slice(0,8).map(w=>w.w).join(' · ');
+
+  const prevCh = idx>0?ALL_CHAPTERS[idx-1]:null;
+  const nextCh = idx<ALL_CHAPTERS.length-1?ALL_CHAPTERS[idx+1]:null;
+
+  document.getElementById('content').innerHTML=`
+    <div class="chapter-view">
+      <div style="margin-bottom:22px">
+        <span class="cv-tag ${ch.tagClass}">${ch.tag}</span>
+        <div class="cv-title" style="color:var(--v)">${ch.title}</div>
+        <div class="cv-desc" style="color:var(--muted)">${ch.subtitle}</div>
+      </div>
+      <div class="note-box vocab">
+        <b>📌 Notes:</b>
+        <ul style="margin-top:6px;padding-left:18px;line-height:1.9">${notesHtml}</ul>
+      </div>
+      <div class="chips">${chipsHtml}</div>
+      <div class="divider"><span>✦</span></div>
+      ${parasHtml}
+      <div class="note-box vocab" style="margin-top:20px">
+        <b>📝 Quick Recall Test:</b> Ab bina hover kiye try karo — in words ke meanings yaad hain?<br>
+        <span style="color:var(--v);font-style:italic">${recallWords}</span>
+      </div>
+      <div class="chap-nav">
+        <button class="cn-btn" onclick="navigate(-1)" ${!prevCh?'disabled':''} style="text-align:left">
+          <span class="cn-label">← Previous</span>
+          <span class="cn-name">${prevCh?prevCh.title:'—'}</span>
+        </button>
+        <button class="cn-btn" onclick="navigate(1)" ${!nextCh?'disabled':''} style="text-align:right">
+          <span class="cn-label">Next →</span>
+          <span class="cn-name">${nextCh?nextCh.title:'—'}</span>
+        </button>
+      </div>
+    </div>`;
+
+  // tooltip click-toggle for mobile
+  document.querySelectorAll('.vw').forEach(el => {
+    el.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const wasOpen = this.classList.contains('tt-open');
+      document.querySelectorAll('.vw').forEach(v=>v.classList.remove('tt-open'));
+      if(!wasOpen) this.classList.add('tt-open');
+    });
+  });
+  document.addEventListener('click', ()=>document.querySelectorAll('.vw').forEach(v=>v.classList.remove('tt-open')), {once:false});
+}
+
+function navigate(dir) {
+  const newIdx = currentIdx + dir;
+  if(newIdx < 0) { renderHome(); return; }
+  if(newIdx >= ALL_CHAPTERS.length) return;
+  openChapter(newIdx);
+}
+
+function filterChapters(val) { buildSidebar(val); }
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('show');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('overlay').classList.remove('show');
+}
+
+renderHome();
+</script>
+</body>
+</html>
