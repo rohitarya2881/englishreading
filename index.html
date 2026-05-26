@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aryan's Grammar & Vocab Book</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-
 <!-- ╔═══════════════════════════════════════╗ -->
 <!-- ║  DATA FILES — add/edit content here  ║ -->
 <!-- ╠═══════════════════════════════════════╣ -->
@@ -16,6 +15,132 @@
 <script src="vocab-data.js"></script>
 
 <style>
+  /* MOBILE FIX */
+@media(max-width:700px){
+
+  body{
+    overflow:hidden;
+  }
+
+  #menu-btn{
+    display:block;
+  }
+
+  #sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:85%;
+    min-width:85%;
+    max-width:320px;
+    height:100%;
+    transform:translateX(-100%);
+    transition:transform .3s ease;
+    z-index:1000;
+  }
+
+  #sidebar.open{
+    transform:translateX(0);
+  }
+
+  #overlay.show{
+    display:block;
+  }
+
+  #topbar{
+    padding:0 10px;
+    gap:6px;
+    flex-wrap:nowrap;
+  }
+
+  #breadcrumb{
+    font-size:11px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+  }
+
+  #nav-btns{
+    gap:4px;
+  }
+
+  .nav-btn{
+    padding:4px 8px;
+    font-size:10px;
+  }
+
+  #content{
+    padding:18px 14px 80px;
+  }
+
+  .home-screen h1{
+    font-size:1.8rem;
+    line-height:1.2;
+  }
+
+  .legend-grid{
+    grid-template-columns:1fr;
+  }
+
+  .how-to{
+    padding:14px;
+  }
+
+  .cv-title{
+    font-size:1.35rem;
+    line-height:1.4;
+  }
+
+  .cv-desc{
+    font-size:12px;
+  }
+
+  .stb{
+    padding:16px;
+  }
+
+  .stb p{
+    font-size:14px;
+    line-height:1.8;
+  }
+
+  .chips{
+    gap:5px;
+  }
+
+  .chip{
+    font-size:11px;
+    padding:3px 10px;
+  }
+
+  .chap-nav{
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .cn-btn{
+    width:100%;
+    max-width:100%;
+  }
+
+  /* TOOLTIP FIX */
+  .tooltip{
+    width:220px;
+    left:50% !important;
+    right:auto !important;
+    transform:translateX(-50%) !important;
+  }
+
+  /* Prevent horizontal scroll */
+  *{
+    max-width:100%;
+  }
+
+  img, table, pre{
+    max-width:100%;
+    overflow:auto;
+  }
+}
 :root {
   --bg:#0d1117; --sidebar:#0d1117; --paper:#161b22; --card:#1c2128;
   --border:#30363d; --text:#e6edf3; --muted:#8b949e; --hover:#21262d;
