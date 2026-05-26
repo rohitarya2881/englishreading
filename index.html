@@ -184,6 +184,55 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 .rb{background:rgba(121,192,255,.07);border-color:var(--cb);} .rb b{color:var(--cb);}
 .rv{background:rgba(179,146,240,.07);border-color:var(--v);}  .rv b{color:var(--v);}
 
+
+/* ── PINNED CHAPTERS ── */
+.pin-btn{
+  background:none; border:none; cursor:pointer;
+  font-size:13px; padding:2px 4px; opacity:0.35;
+  transition:opacity .2s, transform .2s;
+  flex-shrink:0; line-height:1;
+}
+.pin-btn:hover{ opacity:1; transform:scale(1.2); }
+.pin-btn.pinned{ opacity:1; }
+
+.pinned-section{
+  background:var(--card); border:1px solid var(--border);
+  border-radius:8px; padding:14px 16px; margin-bottom:24px;
+}
+.pinned-section h3{
+  font-size:10px; letter-spacing:2px; text-transform:uppercase;
+  color:var(--muted); margin-bottom:10px; font-family:'Lora',serif;
+}
+.pinned-list{ display:flex; flex-direction:column; gap:5px; }
+.pinned-item{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:8px; padding:7px 10px;
+  background:var(--paper); border:1px solid var(--border);
+  border-radius:6px; cursor:pointer;
+  transition:border-color .2s;
+}
+.pinned-item:hover{ border-color:rgba(232,192,125,.3); }
+.pinned-item-left{ display:flex; align-items:center; gap:8px; flex:1; min-width:0; }
+.pinned-item-tag{
+  font-size:9px; letter-spacing:1.5px; text-transform:uppercase;
+  padding:2px 7px; border-radius:2px; font-weight:700;
+  flex-shrink:0;
+}
+.pinned-item-title{
+  font-size:13px; color:var(--text);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.pinned-unpin{
+  background:none; border:none; cursor:pointer;
+  font-size:12px; color:var(--muted); padding:2px 4px;
+  flex-shrink:0; opacity:0.5; transition:opacity .2s;
+}
+.pinned-unpin:hover{ opacity:1; color:var(--c9); }
+.pinned-empty{
+  font-size:12px; color:var(--muted); font-style:italic;
+  text-align:center; padding:8px 0;
+}
+
 /* ── OVERLAY ── */
 #overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:99;backdrop-filter:blur(2px);}
 #overlay.show{display:block;}
@@ -408,8 +457,10 @@ function buildSidebar(filter='') {
           const gi = ALL_CHAPTERS.findIndex(c => c.id === ch.id);
           const item = document.createElement('div');
           item.className = 'chap-item' + (gi === currentIdx ? ' active' : '');
-          item.innerHTML = `<span class="ci-num">${gi+1}</span><span class="ci-title">${ch.title}</span>`;
-          item.onclick = () => openChapter(gi);
+          const isPinned = getPins().includes(ch.id);
+          item.innerHTML = `<span class="ci-num">${gi+1}</span><span class="ci-title">${ch.title}</span><button class="pin-btn ${isPinned?'pinned':''}" title="${isPinned?'Unpin':'Pin to Home'}" onclick="event.stopPropagation();togglePin('${ch.id}',this)">${isPinned?'📌':'📍'}</button>`;
+          item.querySelector('.ci-title, .ci-num').addEventListener('click', () => openChapter(gi));
+          item.onclick = (e) => { if(!e.target.classList.contains('pin-btn')) openChapter(gi); };
           sfi.appendChild(item);
         });
       });
@@ -552,6 +603,67 @@ function navigate(dir){
   openChapter(n);
 }
 
+
+// ── PIN SYSTEM ──
+function getPins(){ try{ return JSON.parse(localStorage.getItem('pinnedChapters')||'[]'); }catch(e){return[];} }
+function savePins(pins){ localStorage.setItem('pinnedChapters', JSON.stringify(pins)); }
+
+function togglePin(chapterId, btn){
+  let pins = getPins();
+  if(pins.includes(chapterId)){
+    pins = pins.filter(p => p !== chapterId);
+    btn.textContent = '📍';
+    btn.classList.remove('pinned');
+    btn.title = 'Pin to Home';
+  } else {
+    pins.push(chapterId);
+    btn.textContent = '📌';
+    btn.classList.add('pinned');
+    btn.title = 'Unpin';
+  }
+  savePins(pins);
+  // Refresh home if currently on home
+  if(currentIdx === -1) renderHome();
+}
+
+function unpinChapter(chapterId){
+  const pins = getPins().filter(p => p !== chapterId);
+  savePins(pins);
+  buildSidebar(document.getElementById('searchBox').value);
+  if(currentIdx === -1) renderHome();
+}
+
+function renderPinnedSection(){
+  const pins = getPins();
+  if(pins.length === 0) return `
+    <div class="pinned-section">
+      <h3>📌 Pinned Chapters</h3>
+      <div class="pinned-list">
+        <div class="pinned-empty">Koi bhi chapter pin nahi hai — sidebar mein 📍 tap karo</div>
+      </div>
+    </div>`;
+
+  const items = pins.map(id => {
+    const ch = ALL_CHAPTERS.find(c => c.id === id);
+    if(!ch) return '';
+    const idx = ALL_CHAPTERS.findIndex(c => c.id === id);
+    return `
+      <div class="pinned-item" onclick="openChapter(${idx})">
+        <div class="pinned-item-left">
+          <span class="pinned-item-tag ${ch.tagClass}">${ch.tag}</span>
+          <span class="pinned-item-title">${ch.title}</span>
+        </div>
+        <button class="pinned-unpin" onclick="event.stopPropagation();unpinChapter('${id}')" title="Unpin">✕</button>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="pinned-section">
+      <h3>📌 Pinned Chapters</h3>
+      <div class="pinned-list">${items}</div>
+    </div>`;
+}
+
 function renderHome(){
   currentIdx = -1;
   buildSidebar();
@@ -564,6 +676,7 @@ function renderHome(){
     <div class="home-screen">
       <h1>Aryan's <em>Grammar & Vocab</em> Book</h1>
       <p class="hs-sub">Grammar · SSC Vocabulary · Daily Reading · ${ALL_CHAPTERS.length} Chapters</p>
+      ${renderPinnedSection()}
       <div class="legend-grid">
         <div class="lg-item"><div class="lg-dot" style="background:var(--c1)"></div><span><b style="color:var(--c1)">Warm Gold</b> — how to + V1</span></div>
         <div class="lg-item"><div class="lg-dot" style="background:var(--c2)"></div><span><b style="color:var(--c2)">Teal</b> — to + V1</span></div>
