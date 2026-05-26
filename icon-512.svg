@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0d1117"/>
+  <rect x="40" y="40" width="432" height="432" rx="60" fill="#161b22"/>
+  <text x="256" y="210" font-family="serif" font-size="160" fill="#e8c07d" text-anchor="middle" font-weight="bold">A</text>
+  <text x="256" y="340" font-family="serif" font-size="58" fill="#7ec8c8" text-anchor="middle">Grammar</text>
+  <text x="256" y="410" font-family="serif" font-size="48" fill="#b392f0" text-anchor="middle">&amp; Vocab</text>
+</svg>
