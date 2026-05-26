@@ -369,6 +369,7 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 <div id="main">
   <div id="topbar">
     <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+    <button onclick="renderHome()" title="Home" style="background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;padding:4px 6px;line-height:1;transition:color .2s;flex-shrink:0;" onmouseover="this.style.color='var(--c1)'" onmouseout="this.style.color='var(--muted)'">🏠</button>
     <div id="breadcrumb">
       <span id="bc-sec" style="color:var(--muted)">Home</span>
       <span class="bc-sep" id="bc-sep" style="display:none;opacity:.4"> › </span>
@@ -482,8 +483,9 @@ function buildSidebar(filter='') {
         const gi = ALL_CHAPTERS.findIndex(c => c.id === ch.id);
         const item = document.createElement('div');
         item.className = 'chap-item' + (gi === currentIdx ? ' active' : '');
-        item.innerHTML = `<span class="ci-num">${gi+1}</span><span class="ci-title">${ch.title}</span>`;
-        item.onclick = () => openChapter(gi);
+        const isPinned2 = getPins().includes(ch.id);
+        item.innerHTML = `<span class="ci-num">${gi+1}</span><span class="ci-title">${ch.title}</span><button class="pin-btn ${isPinned2?'pinned':''}" title="${isPinned2?'Unpin':'Pin to Home'}" onclick="event.stopPropagation();togglePin('${ch.id}',this)">${isPinned2?'📌':'📍'}</button>`;
+        item.onclick = (e) => { if(!e.target.classList.contains('pin-btn')) openChapter(gi); };
         fi.appendChild(item);
       });
     }
