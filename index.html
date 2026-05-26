@@ -16,129 +16,335 @@
 
 <style>
   /* MOBILE FIX */
-@media(max-width:700px){
+/* ╔══════════════════════════════════════╗
+   ║         PERFECT MOBILE FIX          ║
+   ╚══════════════════════════════════════╝ */
 
-  body{
+@media (max-width:700px){
+
+  html,body{
+    width:100%;
+    height:100%;
     overflow:hidden;
+    -webkit-text-size-adjust:100%;
   }
 
+  body{
+    position:relative;
+    font-size:14px;
+  }
+
+  /* ─────────────────────────
+     SIDEBAR
+  ───────────────────────── */
   #menu-btn{
     display:block;
+    font-size:18px;
   }
 
   #sidebar{
     position:fixed;
-    left:0;
     top:0;
+    left:0;
     width:85%;
-    min-width:85%;
     max-width:320px;
+    min-width:260px;
     height:100%;
     transform:translateX(-100%);
-    transition:transform .3s ease;
+    transition:transform .28s ease;
     z-index:1000;
+    box-shadow:4px 0 20px rgba(0,0,0,.45);
   }
 
   #sidebar.open{
     transform:translateX(0);
   }
 
+  #overlay{
+    display:none;
+  }
+
   #overlay.show{
     display:block;
   }
 
+  /* ─────────────────────────
+     TOPBAR
+  ───────────────────────── */
   #topbar{
+    height:48px;
+    min-height:48px;
     padding:0 10px;
     gap:6px;
-    flex-wrap:nowrap;
+    overflow:hidden;
   }
 
   #breadcrumb{
-    font-size:11px;
+    flex:1;
+    min-width:0;
     overflow:hidden;
     white-space:nowrap;
     text-overflow:ellipsis;
+    font-size:10.5px;
   }
 
   #nav-btns{
     gap:4px;
+    flex-shrink:0;
   }
 
   .nav-btn{
     padding:4px 8px;
     font-size:10px;
+    border-radius:5px;
   }
 
+  /* ─────────────────────────
+     CONTENT
+  ───────────────────────── */
   #content{
-    padding:18px 14px 80px;
+    padding:18px 14px 90px;
+    overflow-x:hidden;
   }
 
+  .chapter-view,
+  .home-screen{
+    width:100%;
+    max-width:100%;
+  }
+
+  /* ─────────────────────────
+     HOME PAGE
+  ───────────────────────── */
   .home-screen h1{
     font-size:1.8rem;
-    line-height:1.2;
+    line-height:1.25;
+    margin-bottom:8px;
+  }
+
+  .home-screen .hs-sub{
+    font-size:12px;
+    line-height:1.6;
   }
 
   .legend-grid{
     grid-template-columns:1fr;
+    gap:8px;
+  }
+
+  .lg-item{
+    font-size:11px;
+    padding:8px 10px;
   }
 
   .how-to{
     padding:14px;
   }
 
+  .how-to h3{
+    font-size:11px;
+  }
+
+  .how-to p{
+    font-size:12px;
+    line-height:1.7;
+  }
+
+  .how-to code{
+    font-size:10px;
+  }
+
+  /* ─────────────────────────
+     CHAPTER
+  ───────────────────────── */
+  .cv-header{
+    margin-bottom:18px;
+  }
+
   .cv-title{
     font-size:1.35rem;
-    line-height:1.4;
+    line-height:1.45;
   }
 
   .cv-desc{
     font-size:12px;
+    line-height:1.7;
+  }
+
+  .cv-tag{
+    font-size:8px;
+    letter-spacing:2px;
+    padding:3px 9px;
+  }
+
+  /* ─────────────────────────
+     CARDS
+  ───────────────────────── */
+  .note-box,
+  .rule-card{
+    padding:12px 14px;
+    font-size:12px;
+    line-height:1.75;
   }
 
   .stb{
-    padding:16px;
+    padding:15px 14px;
+    margin-bottom:10px;
+    border-radius:8px;
+  }
+
+  .stb::before{
+    font-size:8px;
+    top:-9px;
   }
 
   .stb p{
-    font-size:14px;
-    line-height:1.8;
+    font-size:13px;
+    line-height:1.85;
+    word-break:break-word;
   }
 
+  /* ─────────────────────────
+     CHIPS
+  ───────────────────────── */
   .chips{
     gap:5px;
+    margin:10px 0 16px;
   }
 
   .chip{
-    font-size:11px;
-    padding:3px 10px;
+    font-size:10px;
+    padding:3px 9px;
+    border-radius:14px;
   }
 
+  /* ─────────────────────────
+     NAVIGATION BUTTONS
+  ───────────────────────── */
   .chap-nav{
     flex-direction:column;
     gap:10px;
+    margin-top:28px;
   }
 
   .cn-btn{
     width:100%;
     max-width:100%;
+    padding:9px 12px;
   }
 
-  /* TOOLTIP FIX */
+  .cn-btn .cn-label{
+    font-size:8px;
+  }
+
+  .cn-btn .cn-name{
+    font-size:11px;
+  }
+
+  /* ─────────────────────────
+     TOOLTIP PERFECT FIX
+  ───────────────────────── */
+  .vw{
+    font-size:.95em;
+  }
+
   .tooltip{
-    width:220px;
+    width:185px;
+    padding:8px 10px;
+    border-radius:8px;
+
     left:50% !important;
     right:auto !important;
     transform:translateX(-50%) !important;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.55);
   }
 
-  /* Prevent horizontal scroll */
+  .tt-word{
+    font-size:11px;
+    margin-bottom:2px;
+  }
+
+  .tt-pos{
+    font-size:7px;
+    padding:1px 5px;
+    margin-bottom:4px;
+  }
+
+  .tt-hindi{
+    font-size:10px;
+    margin-bottom:4px;
+  }
+
+  .tt-meaning{
+    font-size:9.5px;
+    line-height:1.45;
+    margin-bottom:4px;
+    padding-bottom:4px;
+  }
+
+  .tt-example-label{
+    font-size:7px;
+    margin-bottom:2px;
+  }
+
+  .tt-example{
+    font-size:9px;
+    line-height:1.4;
+  }
+
+  .tt-arrow{
+    width:7px;
+    height:7px;
+    bottom:-4px;
+  }
+
+  /* ─────────────────────────
+     SIDEBAR ITEMS
+  ───────────────────────── */
+  .folder-head{
+    font-size:10px;
+    padding:8px 11px;
+  }
+
+  .subfolder-head{
+    font-size:10px;
+    padding:5px 12px 5px 22px;
+  }
+
+  .chap-item{
+    font-size:11px;
+    padding:6px 12px 6px 30px;
+  }
+
+  .chap-item .ci-num{
+    font-size:8px;
+    min-width:14px;
+  }
+
+  /* ─────────────────────────
+     SAFETY FIXES
+  ───────────────────────── */
   *{
     max-width:100%;
   }
 
-  img, table, pre{
+  img,
+  table,
+  iframe,
+  pre,
+  code{
     max-width:100%;
     overflow:auto;
+  }
+
+  table{
+    display:block;
+  }
+
+  pre{
+    white-space:pre-wrap;
+    word-break:break-word;
   }
 }
 :root {
