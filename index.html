@@ -372,7 +372,7 @@ function buildSidebar(filter='') {
 
   BOOK.forEach(folder => {
     const div = document.createElement('div');
-    div.className = 'folder open';
+    div.className = 'folder';
 
     if(folder.type === 'vocab-folder') {
       const matchedAny = folder.subfolders.some(sf =>
@@ -394,7 +394,7 @@ function buildSidebar(filter='') {
         const matchedChs = sf.chapters.filter(ch => !fl || ch.title.toLowerCase().includes(fl) || sf.label.toLowerCase().includes(fl) || folder.label.toLowerCase().includes(fl));
         if(fl && matchedChs.length === 0) return;
         const sfDiv = document.createElement('div');
-        sfDiv.className = 'subfolder open';
+        sfDiv.className = 'subfolder';
         sfDiv.innerHTML = `
           <div class="subfolder-head" onclick="toggleSubfolder(this)">
             <span class="subfolder-arrow">▶</span>
