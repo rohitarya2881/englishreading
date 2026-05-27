@@ -472,6 +472,95 @@ Now you are <span class="hb">of age</span>. (kanuni umra ka) ✅`},
         ]
       },
 
+
+      {
+        id:"fixed-prep-1",
+        title:"Fixed Prepositions — Batch 1",
+        subtitle:'"The Rules That Never Change"',
+        tag:"Fixed Prep 1", tagClass:"t2", type:"grammar",
+        desc:`Yeh prepositions <b>hamesha fixed rehte hain</b> — verb/adjective ke saath jo preposition aata hai woh change nahi hota. SSC mein yeh baar baar aate hain.`,
+        note:`<b>📌 Golden Rule:</b> Kuch words ke saath preposition <b>meaning ke hisaab se badalta hai</b>:<br>
+• <b>Differ from</b> = alag hona &nbsp;|&nbsp; <b>Differ with</b> = disagree karna<br>
+• <b>Agree with</b> = person se &nbsp;|&nbsp; <b>Agree to</b> = proposal se &nbsp;|&nbsp; <b>Agree on</b> = point pe<br>
+• <b>Part from</b> = person se alag hona &nbsp;|&nbsp; <b>Part with</b> = cheez chhodna<br>
+• <b>Annoyed/Angry with</b> = person se &nbsp;|&nbsp; <b>Annoyed/Angry at</b> = baat/situation se<br>
+• <b>Talk to</b> (verb) &nbsp;|&nbsp; <b>Talk with</b> (noun)<br>
+• <b>Filled with</b> (verb) &nbsp;|&nbsp; <b>Full of</b> (adjective)`,
+        ruleCard:{cls:"r2", html:`<b>FIXED PREPOSITIONS — BATCH 1 (SSC Most Asked):</b><br>
+Resort <b>to</b> &nbsp;|&nbsp; Wait <b>for</b> &nbsp;|&nbsp; Approve <b>of</b> &nbsp;|&nbsp; Deal <b>in</b> (business) / Deal <b>with</b> (handle)<br>
+Differ <b>from</b> (alag) / Differ <b>with</b> (disagree) &nbsp;|&nbsp; Depend <b>on</b><br>
+Injurious <b>to</b> &nbsp;|&nbsp; Cope <b>with</b> &nbsp;|&nbsp; Deprive <b>of</b> &nbsp;|&nbsp; Bereft <b>of</b><br>
+Superior/Inferior/Senior/Junior/Prior/Adjacent <b>to</b><br>
+Filled <b>with</b> / Full <b>of</b> &nbsp;|&nbsp; Agree <b>with</b> (person) / Agree <b>to</b> (proposal)<br>
+Annoyed/Angry <b>with</b> (person) / <b>at</b> (situation) &nbsp;|&nbsp; Abide <b>by</b> / Comply <b>with</b>`},
+        chips:{cls:"t2", words:["resort to","wait for","approve of","deal in","deal with","differ from","differ with","depend on","injurious to","part from","part with","cope with","filled with","full of","deprive of","bereft of","superior to","inferior to","senior to","junior to","prior to","talk to","talk with","listen to","agree with","agree to","avail of","annoyed with","annoyed at","angry with","angry at","adapt to","adjacent to","surprised at","amazed at","astonished at","abide by","comply with","marry ×","married to"]},
+        paras:[
+          {n:"Group 1", text:`<b class="h2">Resort / Wait / Approve / Depend:</b><br>
+He resorted <span class="h2">to</span> crime. ✅ &nbsp;|&nbsp; I waited <span class="h2">for</span> you. ✅<br>
+He approved <span class="h2">of</span> my project. ✅ &nbsp;|&nbsp; I depend <span class="h2">on</span> you. ✅<br><br>
+<b class="h2">Deal in vs Deal with:</b><br>
+He dealt <span class="h2">in</span> garments. ✅ (business karna)<br>
+He dealt <span class="h2">with</span> problems. ✅ (handle karna)<br>
+<b>Synonyms of "deal with":</b> cope with / tackle / handle`},
+          {n:"Group 2", text:`<b class="h2">Differ from vs Differ with:</b><br>
+Amphibians differ <span class="h2">from</span> reptiles. ✅ (alag hona — nature/type mein)<br>
+I differ <span class="h2">with</span> you on this matter. ✅ (disagree karna — opinion mein)<br>
+Amphibians are different <span class="h2">from</span> reptiles. ✅ (adjective form bhi "from")<br><br>
+<b class="h2">Part from vs Part with:</b><br>
+I cannot part <span class="h2">from</span> my friend. ✅ (kisi insaan se alag hona)<br>
+I cannot part <span class="h2">with</span> my belongings. ✅ (kisi cheez ko chhodna)`},
+          {n:"Group 3", text:`<b class="h2">Time Prepositions — SSC Trap:</b><br>
+<span class="h2">On</span> Monday / Tuesday / weekdays / weekends / holidays / Sunday evening ✅<br>
+<span class="h2">In</span> 2015 / May / August / summer / winter / the morning / the evening / the afternoon ✅<br>
+<span class="h2">At</span> 7 o'clock / sunrise / sunset / noon / midnight / night / bedtime ✅<br>
+<span class="h2">On</span> the 7th of November / Teachers' Day / September 5 ✅<br><br>
+<b>Special combo:</b> On Tuesday <span class="h2">afternoon</span> / On Friday <span class="h2">evening</span> ✅ (din + time = ON)`},
+          {n:"Group 4", text:`<b class="h2">Superior / Inferior / Senior / Junior / Prior / Adjacent:</b><br>
+He is superior <span class="h2">to</span> you. ✅ &nbsp;|&nbsp; This brand is inferior <span class="h2">to</span> ours. ✅<br>
+She is senior <span class="h2">to</span> me. ✅ &nbsp;|&nbsp; He is junior <span class="h2">to</span> her. ✅<br>
+The train arrived prior <span class="h2">to</span> time. ✅ (pehle)<br>
+Your house is adjacent <span class="h2">to</span> mine. ✅ (bagin mein)<br><br>
+<b>Injurious:</b> Smoking is injurious <span class="h2">to</span> health. ✅<br>
+<b>Cope:</b> I cannot cope <span class="h2">with</span> hot weather. ✅ (NOT "cope up with" ❌)`},
+          {n:"Group 5", text:`<b class="h2">Filled with vs Full of:</b><br>
+The bucket was filled <span class="h2">with</span> water. ✅ (verb — action of filling)<br>
+The bucket is full <span class="h2">of</span> water. ✅ (adjective — state of being full)<br><br>
+<b class="h2">Deprive of / Bereft of:</b><br>
+He deprived me <span class="h2">of</span> my rights. ✅<br>
+They are bereft <span class="h2">of</span> basic human rights. ✅<br><br>
+<b class="h2">Avail of:</b><br>
+I availed myself <span class="h2">of</span> the opportunity. ✅ (reflexive + of)`},
+          {n:"Group 6", text:`<b class="h2">Agree — 3 forms:</b><br>
+I agree <span class="h2">with</span> you. ✅ (person se agree)<br>
+I agree <span class="h2">to</span> your proposal. ✅ (proposal/idea se agree)<br>
+I agree <span class="h2">on</span> this point. ✅ (specific point pe agree)<br><br>
+<b class="h2">Talk to vs Talk with:</b><br>
+I will talk <span class="h2">to</span> him. ✅ (verb)<br>
+The PM had a talk <span class="h2">with</span> the CM. ✅ (noun)<br><br>
+<b class="h2">Listen to:</b><br>
+Please listen <span class="h2">to</span> me. ✅ &nbsp;|&nbsp; I listen <span class="h2">to</span> old songs. ✅<br>
+This song is worth listening <span class="h2">×</span>. ✅ (worth ke baad no preposition)`},
+          {n:"Group 7", text:`<b class="h2">Annoyed / Angry — with vs at:</b><br>
+I am annoyed <span class="h2">with</span> you. ✅ (person se)<br>
+I am annoyed <span class="h2">at</span> your idiocy. ✅ (baat/situation se)<br>
+She was angry <span class="h2">with</span> her children. ✅ (person se)<br>
+We are angry <span class="h2">at</span> the mismanagement. ✅ (situation se)<br><br>
+<b class="h2">Surprised / Amazed / Astonished — always "at":</b><br>
+I am surprised <span class="h2">at</span> the result. ✅<br>
+She is amazed <span class="h2">at</span> his audacity. ✅<br>
+He was astonished <span class="h2">at</span> her behaviour. ✅`},
+          {n:"Group 8", text:`<b class="h2">Abide by vs Comply with:</b><br>
+I abide <span class="h2">by</span> the traffic rules. ✅ (rules ka paalan karna)<br>
+Please comply <span class="h2">with</span> all the rules. ✅ (rules follow karna)<br>
+<b>Dono ka matlab same hai</b> — abide by = comply with ✅<br><br>
+<b class="h2">Adapt to:</b><br>
+We adapt ourselves <span class="h2">to</span> the environment. ✅<br><br>
+<b class="h2">Marry — Special Rule:</b><br>
+She married <span class="h2">×</span> him. ✅ (Active Voice — no preposition)<br>
+She was married <span class="h2">to</span> him. ✅ (Passive Voice — "to" aata hai)<br>
+Suggest <span class="h2">to</span> someone ✅ &nbsp;|&nbsp; Approve <span class="h2">of</span> something ✅`},
+        ]
+      },
       // ← NAYA GRAMMAR CHAPTER ADD KARO YAHAN
     ]
   },
