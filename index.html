@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -148,9 +149,12 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 /* VOCAB TOOLTIP */
 .vw{color:var(--v);font-weight:500;border-bottom:1px dashed rgba(179,146,240,.5);cursor:pointer;position:relative;display:inline;}
 .vw:hover{background:var(--v2);border-radius:3px;}
-.tooltip{display:none;position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);background:#1b1728;border:1px solid rgba(179,146,240,.35);border-radius:10px;padding:13px 15px;width:272px;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,.7);pointer-events:none;}
-.vw:hover .tooltip{display:block;}
-.tt-word{font-family:'Playfair Display',serif;font-size:14px;color:var(--v);font-weight:700;margin-bottom:3px;}
+.tooltip{display:none;position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);background:#1b1728;border:1px solid rgba(179,146,240,.35);border-radius:10px;padding:13px 15px;width:272px;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,.7);}
+.tt-speak-row{display:flex;gap:7px;margin-top:10px;}
+.tt-speak-btn{flex:1;font-size:11px;padding:5px 8px;border-radius:6px;border:1px solid rgba(179,146,240,.3);background:rgba(179,146,240,.1);color:var(--v);cursor:pointer;transition:background .2s;}
+.tt-speak-btn:hover,.tt-speak-btn:active{background:rgba(179,146,240,.25);}
+.tt-word{font-family:'Playfair Display',serif;font-size:14px;color:var(--v);font-weight:700;margin-bottom:2px;}
+.tt-phonetic{font-size:16px;color:rgba(179,146,240,.9);font-style:italic;margin-bottom:6px;letter-spacing:.5px;background:rgba(179,146,240,.08);display:inline-block;padding:1px 8px;border-radius:10px;}
 .tt-pos{display:inline-block;font-size:9.5px;background:rgba(179,146,240,.12);color:var(--v);border:1px solid rgba(179,146,240,.25);padding:1px 7px;border-radius:10px;margin-bottom:7px;letter-spacing:1px;text-transform:uppercase;font-weight:600;}
 .tt-hindi{font-size:12.5px;color:#e8c07d;font-weight:500;margin-bottom:7px;}
 .tt-meaning{font-size:12px;color:#cdd9e5;line-height:1.6;margin-bottom:7px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:7px;}
@@ -1585,15 +1589,136 @@ function renderChapter(idx){
   document.querySelectorAll('.vw').forEach(el => {
     const tt = document.createElement('div');
     tt.className = 'tooltip';
-    tt.innerHTML = `<div class="tt-word">${el.dataset.word}</div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div><div class="tt-example-label">Example</div><div class="tt-example">${el.dataset.example}</div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
+    const word = el.dataset.word || '';
+    tt.innerHTML = `<div class="tt-word">${word}</div><div class="tt-phonetic"></div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div><div class="tt-example-label">Example</div><div class="tt-example">${el.dataset.example}</div><div class="tt-speak-row"><button class="tt-speak-btn" data-rate="1">🔊 Normal</button><button class="tt-speak-btn" data-rate="0.6">🐢 Slow</button></div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
     el.appendChild(tt);
+
+    // Speak buttons — real human audio via Free Dictionary API, fallback to SpeechSynthesis
+    const audioCache = {};   // word -> { audio: url|'', phonetic: str|'' }
+
+    function speakFallback(w, rate){
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(w);
+      u.rate = rate; u.lang = 'en-US';
+      window.speechSynthesis.speak(u);
+    }
+
+    async function fetchDictData(w){
+      if(audioCache[w]) return audioCache[w];
+      audioCache[w] = { audio:'', phonetic:'' };
+      try {
+        const res = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(w.toLowerCase()));
+        if(!res.ok) return audioCache[w];
+        const data = await res.json();
+        let audioUrl='', phonetic='';
+        for(const entry of data){
+          for(const ph of (entry.phonetics||[])){
+            if(ph.audio && !audioUrl) audioUrl = ph.audio;
+            if(ph.text && !phonetic) phonetic = ph.text;
+          }
+          if(!phonetic && entry.phonetic) phonetic = entry.phonetic;
+          if(audioUrl && phonetic) break;
+        }
+        audioCache[w] = { audio: audioUrl, phonetic };
+      } catch(e){}
+      return audioCache[w];
+    }
+
+    async function playRealAudio(w, btn){
+      const orig = btn.textContent;
+      btn.textContent = '⏳'; btn.disabled = true;
+      try {
+        const d = await fetchDictData(w);
+        if(!d.audio) throw new Error('no audio');
+        const audio = new Audio(d.audio);
+        audio.play();
+        btn.textContent = '▶️';
+        audio.onended = ()=>{ btn.textContent = orig; btn.disabled = false; };
+        audio.onerror = ()=>{ btn.textContent = orig; btn.disabled = false; speakFallback(w,1); };
+      } catch(err){
+        btn.textContent = orig; btn.disabled = false;
+        speakFallback(w, 1);
+      }
+    }
+
+    function simpleSyllables(w){
+      // Simple syllable splitter for English — good enough for SSC words
+      return w.toLowerCase()
+        .replace(/([aeiou]{2,})/g, m => m[0]+'·'+m.slice(1))
+        .replace(/([aeiou])([^aeiou·]{2,})([aeiou])/g, (_,a,c,e)=>a+c[0]+'·'+c.slice(1)+e)
+        .replace(/([aeiou])([^aeiou·]+)$/g, (_,a,c)=>a+'·'+c)
+        .replace(/·+/g,'·').replace(/^·|·$/g,'');
+    }
+
+    async function onTooltipOpen(){
+      const phoneticEl = tt.querySelector('.tt-phonetic');
+      // Show syllable breakdown immediately
+      phoneticEl.textContent = simpleSyllables(word);
+      // Then try to get real IPA from API (overrides if successful)
+      const d = await fetchDictData(word);
+      if(d.phonetic) phoneticEl.textContent = d.phonetic;
+    }
+
+    tt.querySelectorAll('.tt-speak-btn').forEach(btn => {
+      btn.addEventListener('click', function(e){
+        e.stopPropagation();
+        const rate = parseFloat(this.dataset.rate);
+        if(rate < 1){
+          speakFallback(word, rate);   // Slow — SpeechSynthesis
+        } else {
+          playRealAudio(word, this);   // Normal — real human audio
+        }
+      });
+    });
+
     const isMobile=()=>window.innerWidth<=700;
-    el.addEventListener('mouseenter',function(){ if(isMobile())return; const t=this.querySelector('.tooltip'); t.style.cssText=''; t.style.display='block'; const r=t.getBoundingClientRect(); if(r.left<8){t.style.left='0';t.style.transform='none';}else if(r.right>window.innerWidth-8){t.style.left='auto';t.style.right='0';t.style.transform='none';} });
-    el.addEventListener('mouseleave',function(){ if(isMobile())return; const t=this.querySelector('.tooltip'); if(t)t.style.display='none'; });
-    el.addEventListener('click',function(e){ if(!isMobile())return; e.stopPropagation(); document.querySelectorAll('.tooltip').forEach(o=>{ if(o!==this.querySelector('.tooltip'))o.style.display='none'; }); const t=this.querySelector('.tooltip'); t.style.display=t.style.display==='block'?'none':'block'; });
+    let leaveTimer=null;
+
+    function positionTooltip(t, anchor){
+      const aw = anchor.getBoundingClientRect();
+      const TW = 272, GAP = 10, MARGIN = 8;
+      const vw = window.innerWidth, vh = window.innerHeight;
+      t.style.cssText = 'display:block;position:fixed;visibility:hidden;width:'+TW+'px;';
+      const th = t.offsetHeight;
+      t.style.visibility = '';
+      let left = aw.left + aw.width/2 - TW/2;
+      left = Math.max(MARGIN, Math.min(left, vw - TW - MARGIN));
+      let top = (aw.top - th - GAP >= MARGIN) ? aw.top - th - GAP : aw.bottom + GAP;
+      top = Math.max(MARGIN, Math.min(top, vh - th - MARGIN));
+      t.style.cssText = 'display:block;position:fixed;left:'+left+'px;top:'+top+'px;width:'+TW+'px;bottom:auto;transform:none;';
+    }
+
+    el.addEventListener('mouseenter',function(){
+      if(isMobile())return;
+      clearTimeout(leaveTimer);
+      document.querySelectorAll('.tooltip').forEach(o=>{ if(o!==this.querySelector('.tooltip'))o.style.display='none'; });
+      positionTooltip(this.querySelector('.tooltip'), this);
+      onTooltipOpen();
+    });
+    el.addEventListener('mouseleave',function(){
+      if(isMobile())return;
+      const t=this.querySelector('.tooltip');
+      leaveTimer=setTimeout(()=>{ if(t)t.style.display='none'; }, 300);
+    });
+    tt.addEventListener('mouseenter',function(){ clearTimeout(leaveTimer); });
+    tt.addEventListener('mouseleave',function(){
+      leaveTimer=setTimeout(()=>{ tt.style.display='none'; }, 300);
+    });
+
+    el.addEventListener('click',function(e){
+      if(!isMobile())return;
+      e.stopPropagation();
+      document.querySelectorAll('.tooltip').forEach(o=>{ if(o!==this.querySelector('.tooltip'))o.style.display='none'; });
+      const t=this.querySelector('.tooltip');
+      if(t.style.display==='block'){ t.style.display='none'; }
+      else { t.style.display='block'; onTooltipOpen(); }
+    });
   });
 }
-document.addEventListener('click',function(){ if(window.innerWidth<=700) document.querySelectorAll('.tooltip').forEach(t=>t.style.display='none'); });
+document.addEventListener('click',function(e){
+  if(window.innerWidth<=700 && !e.target.closest('.tooltip') && !e.target.closest('.vw'))
+    document.querySelectorAll('.tooltip').forEach(t=>t.style.display='none');
+});
 
 function navigate(dir){
   const n=currentIdx+dir;
