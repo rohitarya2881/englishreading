@@ -293,6 +293,9 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
   #content{padding:16px 12px 90px;}
   .legend-grid{grid-template-columns:1fr;}
 }
+  .tt-synanto-row{font-size:11.5px;color:#cdd9e5;line-height:1.6;margin-bottom:5px;}
+.tt-syno-label{color:#3fb950;font-weight:700;margin-right:4px;}
+.tt-anto-label{color:#ff7b72;font-weight:700;margin-right:4px;}
 </style>
 </head>
 <body>
@@ -2131,7 +2134,11 @@ function attachVocabTooltips(){
     const tt = document.createElement('div');
     tt.className = 'tooltip';
     const word = el.dataset.word || '';
-    tt.innerHTML = `<div class="tt-word">${word}</div><div class="tt-phonetic"></div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div><div class="tt-example-label">Example</div><div class="tt-example">${el.dataset.example}</div><div class="tt-speak-row"><button class="tt-speak-btn" data-rate="1">🔊 Normal</button><button class="tt-speak-btn" data-rate="0.6">🐢 Slow</button></div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
+    
+const synoHtml = el.dataset.syno ? `<div class="tt-synanto-row"><span class="tt-syno-label">🟢 Syn:</span> ${el.dataset.syno}</div>` : '';
+const antoHtml = el.dataset.anto ? `<div class="tt-synanto-row"><span class="tt-anto-label">🔴 Ant:</span> ${el.dataset.anto}</div>` : '';
+ 
+tt.innerHTML = `<div class="tt-word">${word}</div><div class="tt-phonetic"></div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div>${synoHtml}${antoHtml}<div class="tt-example-label">Example</div><div class="tt-example">${el.dataset.example}</div><div class="tt-speak-row"><button class="tt-speak-btn" data-rate="1">🔊 Normal</button><button class="tt-speak-btn" data-rate="0.6">🐢 Slow</button></div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
     el.appendChild(tt);
 
     // Speak buttons — real human audio via Free Dictionary API, fallback to SpeechSynthesis
