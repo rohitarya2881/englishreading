@@ -185,6 +185,17 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 .name-setup button{background:rgba(255,111,168,.15);border:1px solid rgba(255,111,168,.35);color:var(--st);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-family:'Lora',serif;font-weight:600;}
 .name-setup button:hover{background:rgba(255,111,168,.28);}
 .name-setup label{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px;}
+
+/* QUIZ — tap to reveal answer + explanation */
+.quiz-item{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.06);}
+.quiz-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0;}
+.quiz-q{margin-bottom:7px;line-height:1.7;}
+.quiz-toggle{display:inline-block;font-size:11px;color:var(--st);cursor:pointer;padding:3px 11px;border:1px solid rgba(255,111,168,.3);border-radius:12px;background:rgba(255,111,168,.08);user-select:none;transition:background .2s;}
+.quiz-toggle:hover{background:rgba(255,111,168,.18);}
+.quiz-answer{display:none;margin-top:9px;padding:10px 13px;background:rgba(63,185,80,.07);border:1px solid rgba(63,185,80,.2);border-left:3px solid var(--c8);border-radius:0 6px 6px 0;font-size:12.5px;line-height:1.75;}
+.quiz-answer.show{display:block;}
+.quiz-answer b{color:var(--c8);}
+.quiz-explain{color:var(--muted);display:block;margin-top:4px;}
 .tooltip{display:none;position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);background:#1b1728;border:1px solid rgba(179,146,240,.35);border-radius:10px;padding:13px 15px;width:272px;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,.7);}
 .tt-speak-row{display:flex;gap:7px;margin-top:10px;}
 .tt-speak-btn{flex:1;font-size:11px;padding:5px 8px;border-radius:6px;border:1px solid rgba(179,146,240,.3);background:rgba(179,146,240,.1);color:var(--v);cursor:pointer;transition:background .2s;}
@@ -1833,8 +1844,9 @@ const VOCAB_DATA = [
 //      { "type":"present", "text":"(Chhota present-day suspense flash — italic scene)" }
 //    ],
 //    "quiz": [
-//      "Correct the error: If you would have called me, I would have come.",
-//      "Fill: If she ___ (study) harder, she ___ (pass) the exam."
+//      { "q":"Correct the error: If you would have called me, I would have come.",
+//        "answer":"If you had called me, I would have come.",
+//        "explain":"Third Conditional me 'if' clause me hamesha 'had + V3' aata hai, 'would have' sirf main clause me." }
 //    ]
 //  }
 //
@@ -2237,7 +2249,16 @@ async function loadStoryChapter(ch){
     }).join('');
 
     const quizHtml = Array.isArray(data.quiz) && data.quiz.length
-      ? `<div class="note-box" style="margin-top:16px"><b>📝 Tumne kya seekha — try karo:</b><ol style="margin:8px 0 0 18px;padding:0;">${data.quiz.map(q=>`<li style="margin-bottom:6px;">${q}</li>`).join('')}</ol></div>`
+      ? `<div class="note-box" style="margin-top:16px"><b>📝 Tumne kya seekha — try karo:</b><div style="margin-top:10px;">${data.quiz.map((q,i)=>{
+          if(typeof q === 'string'){
+            return `<div class="quiz-item"><div class="quiz-q">${i+1}. ${q}</div></div>`;
+          }
+          return `<div class="quiz-item">
+            <div class="quiz-q">${i+1}. ${q.q||''}</div>
+            <div class="quiz-toggle" onclick="const a=this.nextElementSibling;a.classList.toggle('show');this.textContent=a.classList.contains('show')?'▲ Answer chhupao':'▼ Answer dekho'">▼ Answer dekho</div>
+            <div class="quiz-answer"><b>✅ ${q.answer||''}</b><span class="quiz-explain">${q.explain||''}</span></div>
+          </div>`;
+        }).join('')}</div></div>`
       : '';
 
     bodyEl.innerHTML = `${nameSetupHtml()}${paraHtml}${quizHtml}`;
