@@ -1,0 +1,17 @@
+{
+  "paras": [
+    { "type":"narration", "text":"Library ke corridor me bheed thi. {{A}} apni assignment ki file sambhaalte hue jaldi me tha, tabhi kisi se takra gaya — files bikhar gayi." },
+    { "type":"dialogue", "speaker":"B", "text":"<i>(gusse me)</i> Dekh ke nahi chal sakte kya?" },
+    { "type":"dialogue", "speaker":"A", "text":"Sorry sorry! Actually main... <i>(files uthate hue)</i> ...I <span class=\"vw gw\" data-word=\"Should Have\" data-pos=\"Grammar Rule\" data-hindi=\"Chahiye tha par nahi kiya — ek pachtawa (regret)\" data-meaning=\"Subject + should have + V3 — past me jo karna chahiye tha par nahi kiya.\" data-example=\"Casual: Tujhe pehle bata dena chahiye tha → You should have told me earlier.\\nFormal: The management should have informed employees about the change.\\nFunny: Itni mirchi nahi daalni chahiye thi → You shouldn't have added so much chili!\">should have watched</span> my way, main soch raha tha assignment ke baare me." },
+    { "type":"dialogue", "speaker":"B", "text":"<i>(files uthate hue, thodi shant hoke)</i> Arre wah — tumne 'should have' use kiya! Pata hai bahut log ye galat bolte hain, tum to nikle chhupe rustom." },
+    { "type":"present", "text":"Ek interview hall ke bahar wahi ladki file sambhaale khadi thi, jaise wahi purana din yaad aa raha ho..." },
+    { "type":"dialogue", "speaker":"A", "text":"Waise tumhara naam?" },
+    { "type":"dialogue", "speaker":"B", "text":"{{B}}. Aur tumhara?" },
+    { "type":"dialogue", "speaker":"A", "text":"{{A}}. Kal fir library me miloge?" }
+  ],
+  "quiz": [
+    "Correct the error: 'If you would have called me, I would have come.'",
+    "Fill: If she ___ (study) harder, she ___ (pass) the exam.",
+    "Choose the correct sentence — a) If I would have known, I would have helped. b) If I had known, I would have helped."
+  ]
+}
