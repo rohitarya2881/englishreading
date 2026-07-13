@@ -1855,7 +1855,7 @@ const VOCAB_DATA = [
 //  grammar rule: class="vw gw" (gold tooltip) — same data-word/pos/hindi/meaning/example fields
 // ═══════════════════════════════════════════════════════
 const STORY_VOLUMES = [
-  { n:1, label:"Volume 1 — Pehli Takkar", sub:"Modals Advanced (could/would/should have) + Conditionals shuru" },
+  { n:1, label:"Volume 1 — Pehli Takkar", sub:"Modals (past+present), Question Tags, Superfluous errors + Conditionals", chapters:7 },
   { n:2, label:"Volume 2 — Doori Aur Yaadein", sub:"Conditionals Type 3, Mixed Conditionals, Direct-Indirect Speech" },
   { n:3, label:"Volume 3 — Galatfehmi", sub:"Active-Passive advanced, Subjunctive (I wish / If only)" },
   { n:4, label:"Volume 4 — Akela Safar", sub:"Error Spotting, Idioms, One Word Substitution, Sentence Improvement" },
@@ -1867,7 +1867,7 @@ const STORY_DATA = [
     id:"english-story", label:"English Story", color:"#ff6fa8", dot:"st", type:"story-folder",
     subfolders: STORY_VOLUMES.map(v => ({
       id:"story-vol"+v.n, label:v.label,
-      chapters: Array.from({length:10}, (_,i)=>{
+      chapters: Array.from({length:v.chapters||10}, (_,i)=>{
         const chNum = i+1;
         return {
           id:"story-vol"+v.n+"-ch"+chNum,
