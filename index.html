@@ -1814,7 +1814,7 @@ const VOCAB_DATA = [
 ];
 
 // ═══════════════════════════════════════════════════════
-//  ENGLISH STORY DATA — "Rohit × Princy" journey
+//  ENGLISH STORY DATA — "Rohit × Ichchha" journey
 //  ────────────────────────────────────────────────────
 //  Har chapter GitHub se lazy-load hota hai, bilkul Blackbook jaisa —
 //  bas 'story-data/' folder me sahi naam ki JSON file daal do, chapter
@@ -1823,7 +1823,7 @@ const VOCAB_DATA = [
 //  User apna aur apne friend/partner ka naam Home page pe "Save Names"
 //  se set karta hai. Story JSON files ke andar {{A}} aur {{B}} tokens
 //  use karo — wahi tokens render hote waqt user ke diye naam se replace
-//  ho jaate hain (default: Rohit / Princy).
+//  ho jaate hain (default: Rohit / Ichchha).
 //
 //  JSON FILE FORMAT (story-data/volX-chY.json):
 //  {
@@ -2181,8 +2181,8 @@ function renderChapter(idx){
 function getStoryNames(){
   try {
     const saved = JSON.parse(localStorage.getItem('storyNames')||'{}');
-    return { a: (saved.a||'').trim() || 'Rohit', b: (saved.b||'').trim() || 'Princy' };
-  } catch(e){ return { a:'Rohit', b:'Princy' }; }
+    return { a: (saved.a||'').trim() || 'Rohit', b: (saved.b||'').trim() || 'Ichchha' };
+  } catch(e){ return { a:'Rohit', b:'Ichchha' }; }
 }
 function saveStoryNames(a,b){
   localStorage.setItem('storyNames', JSON.stringify({ a:(a||'').trim(), b:(b||'').trim() }));
@@ -2205,7 +2205,7 @@ function nameSetupHtml(idPrefix){
   return `<div class="name-setup">
     <label>👫 Story ke characters ka naam set karo (kahin bhi save karo, hamesha yahi use hoga):</label>
     <input type="text" id="storyNameA" placeholder="Character A (jaise: Rohit)" value="${escAttr(names.a)}">
-    <input type="text" id="storyNameB" placeholder="Character B (jaise: Princy)" value="${escAttr(names.b)}">
+    <input type="text" id="storyNameB" placeholder="Character B (jaise: Ichchha)" value="${escAttr(names.b)}">
     <button onclick="applyStoryNameForm()">Save Names</button>
     <span id="storyNameMsg" style="display:none;color:var(--c8);font-size:11px;">✓ Saved</span>
   </div>`;
