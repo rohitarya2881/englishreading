@@ -15,6 +15,7 @@
   --c1:#e8c07d;--c2:#7ec8c8;--c3:#f28b6e;--c4:#a8d8a8;
   --c5:#c9a84c;--c6:#58a6ff;--c7:#f0883e;--c8:#3fb950;
   --c9:#ff7b72;--ca:#d2a8ff;--cb:#79c0ff;--v:#b392f0;--v2:rgba(179,146,240,0.12);
+  --st:#ff6fa8;--st2:rgba(255,111,168,0.12);
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;font-size:16px;line-height:1.9;display:flex;height:100vh;overflow:hidden;}
@@ -84,6 +85,7 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 .home-container{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.02),transparent 40%),var(--card);border:1px solid var(--border);border-left:3px solid var(--accent,var(--border));border-radius:10px;padding:18px 20px;margin-bottom:18px;box-shadow:0 4px 18px rgba(0,0,0,.18);}
 .home-container.grammar{--accent:var(--c6);}
 .home-container.vocab{--accent:var(--v);}
+.home-container.story{--accent:var(--st);}
 .home-container-title{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;margin-bottom:3px;display:flex;align-items:center;gap:8px;color:var(--accent,var(--text));}
 .home-container-sub{font-size:11.5px;color:var(--muted);font-style:italic;margin-bottom:16px;}
 .hc-group{margin-bottom:16px;}
@@ -159,6 +161,30 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 /* VOCAB TOOLTIP */
 .vw{color:var(--v);font-weight:500;border-bottom:1px dashed rgba(179,146,240,.5);cursor:pointer;position:relative;display:inline;}
 .vw:hover{background:var(--v2);border-radius:3px;}
+/* Grammar rule words inside story chapters reuse the exact same tap-tooltip
+   mechanic as vocab words (.vw) — .gw only re-themes it gold instead of purple. */
+.vw.gw{color:var(--c1);border-bottom:1px dashed rgba(232,192,125,.55);}
+.vw.gw:hover{background:rgba(232,192,125,.12);}
+.vw.gw .tooltip{border-color:rgba(232,192,125,.35);}
+.vw.gw .tt-word{color:var(--c1);}
+.vw.gw .tt-pos{background:rgba(232,192,125,.12);color:var(--c1);border-color:rgba(232,192,125,.25);}
+.vw.gw .tt-arrow{border-color:rgba(232,192,125,.35);}
+.vw.gw .tt-speak-btn{border-color:rgba(232,192,125,.3);background:rgba(232,192,125,.1);color:var(--c1);}
+.vw.gw .tt-speak-btn:hover,.vw.gw .tt-speak-btn:active{background:rgba(232,192,125,.25);}
+
+/* STORY chapter — dialogue / narration layout */
+.story-narration{color:var(--muted);font-style:italic;line-height:1.85;margin-bottom:14px;}
+.story-line{margin-bottom:14px;line-height:1.85;}
+.story-speaker{font-weight:700;color:var(--st);margin-right:5px;}
+.story-present{border-left:3px solid var(--border);padding:8px 14px;margin:16px 0;color:var(--muted);font-style:italic;font-size:13px;background:rgba(255,255,255,.02);border-radius:0 6px 6px 0;}
+
+/* Name customization box (home + chapter) */
+.name-setup{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:16px;}
+.name-setup input{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:6px 10px;color:var(--text);font-size:12.5px;font-family:'Lora',serif;outline:none;width:150px;}
+.name-setup input:focus{border-color:var(--st);}
+.name-setup button{background:rgba(255,111,168,.15);border:1px solid rgba(255,111,168,.35);color:var(--st);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-family:'Lora',serif;font-weight:600;}
+.name-setup button:hover{background:rgba(255,111,168,.28);}
+.name-setup label{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px;}
 .tooltip{display:none;position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);background:#1b1728;border:1px solid rgba(179,146,240,.35);border-radius:10px;padding:13px 15px;width:272px;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,.7);}
 .tt-speak-row{display:flex;gap:7px;margin-top:10px;}
 .tt-speak-btn{flex:1;font-size:11px;padding:5px 8px;border-radius:6px;border:1px solid rgba(179,146,240,.3);background:rgba(179,146,240,.1);color:var(--v);cursor:pointer;transition:background .2s;}
@@ -186,6 +212,7 @@ body{background:var(--bg);color:var(--text);font-family:'Lora',Georgia,serif;fon
 .ta{background:rgba(210,168,255,.1);color:var(--ca);border:1px solid rgba(210,168,255,.25);}
 .tb{background:rgba(121,192,255,.1);color:var(--cb);border:1px solid rgba(121,192,255,.25);}
 .tv{background:var(--v2);color:var(--v);border:1px solid rgba(179,146,240,.25);}
+.st{background:var(--st2);color:var(--st);border:1px solid rgba(255,111,168,.28);}
 .r1{background:rgba(232,192,125,.07);border-color:var(--c1);}.r1 b{color:var(--c1);}
 .r2{background:rgba(126,200,200,.07);border-color:var(--c2);}.r2 b{color:var(--c2);}
 .r3{background:rgba(242,139,110,.07);border-color:var(--c3);}.r3 b{color:var(--c3);}
@@ -1786,6 +1813,63 @@ const VOCAB_DATA = [
 
 ];
 
+// ═══════════════════════════════════════════════════════
+//  ENGLISH STORY DATA — "Rohit × Princy" journey
+//  ────────────────────────────────────────────────────
+//  Har chapter GitHub se lazy-load hota hai, bilkul Blackbook jaisa —
+//  bas 'story-data/' folder me sahi naam ki JSON file daal do, chapter
+//  turant site pe live ho jayega. Koi code change nahi karna padega.
+//
+//  User apna aur apne friend/partner ka naam Home page pe "Save Names"
+//  se set karta hai. Story JSON files ke andar {{A}} aur {{B}} tokens
+//  use karo — wahi tokens render hote waqt user ke diye naam se replace
+//  ho jaate hain (default: Rohit / Princy).
+//
+//  JSON FILE FORMAT (story-data/volX-chY.json):
+//  {
+//    "paras": [
+//      { "type":"narration", "text":"Library ke corridor me bheed thi..." },
+//      { "type":"dialogue", "speaker":"A", "text":"Sorry sorry! ...I <span class=\"vw gw\" data-word=\"Should Have\" data-pos=\"Grammar Rule\" data-hindi=\"Chahiye tha par nahi kiya — pachtawa\" data-meaning=\"Subject + should have + V3\" data-example=\"Casual: Tu bata deta → You should have told me.\\nFormal: The team should have informed employees earlier.\">should have watched</span> my way." },
+//      { "type":"present", "text":"(Chhota present-day suspense flash — italic scene)" }
+//    ],
+//    "quiz": [
+//      "Correct the error: If you would have called me, I would have come.",
+//      "Fill: If she ___ (study) harder, she ___ (pass) the exam."
+//    ]
+//  }
+//
+//  Grammar/vocab dono ek hi tap-tooltip system use karte hain —
+//  vocab word: class="vw"      (purple tooltip)
+//  grammar rule: class="vw gw" (gold tooltip) — same data-word/pos/hindi/meaning/example fields
+// ═══════════════════════════════════════════════════════
+const STORY_VOLUMES = [
+  { n:1, label:"Volume 1 — Pehli Takkar", sub:"Modals Advanced (could/would/should have) + Conditionals shuru" },
+  { n:2, label:"Volume 2 — Doori Aur Yaadein", sub:"Conditionals Type 3, Mixed Conditionals, Direct-Indirect Speech" },
+  { n:3, label:"Volume 3 — Galatfehmi", sub:"Active-Passive advanced, Subjunctive (I wish / If only)" },
+  { n:4, label:"Volume 4 — Akela Safar", sub:"Error Spotting, Idioms, One Word Substitution, Sentence Improvement" },
+  { n:5, label:"Volume 5 — Wapsi", sub:"Formal Letter/Email, Reading Comprehension, full mixed SSC practice" }
+];
+
+const STORY_DATA = [
+  {
+    id:"english-story", label:"English Story", color:"#ff6fa8", dot:"st", type:"story-folder",
+    subfolders: STORY_VOLUMES.map(v => ({
+      id:"story-vol"+v.n, label:v.label,
+      chapters: Array.from({length:10}, (_,i)=>{
+        const chNum = i+1;
+        return {
+          id:"story-vol"+v.n+"-ch"+chNum,
+          title:"Chapter "+chNum,
+          subtitle:v.label+" · Chapter "+chNum,
+          tag:"Story · Vol "+v.n+" · Ch "+chNum, tagClass:"st", type:"story",
+          desc:v.sub+". Highlighted purple words = vocab, gold words = grammar rule — tap karo.",
+          dataUrl:"story-data/vol"+v.n+"-ch"+chNum+".json"
+        };
+      })
+    }))
+  }
+];
+
 </script>
 <script>
 // Top-level vars — declared first to prevent TDZ errors
@@ -1874,13 +1958,13 @@ function dbClear(){
 // ═══════════════════════════════════════════════════════
 //  BOOK DATA — merge static + IndexedDB
 // ═══════════════════════════════════════════════════════
-const BOOK = [...GRAMMAR_DATA, ...VOCAB_DATA];
+const BOOK = [...GRAMMAR_DATA, ...VOCAB_DATA, ...STORY_DATA];
 
 function rebuildAllChapters(){
   ALL_CHAPTERS.length = 0;
   // Static chapters
   BOOK.forEach(folder => {
-    if(folder.type === 'vocab-folder'){
+    if(folder.type === 'vocab-folder' || folder.type === 'story-folder'){
       folder.subfolders.forEach(sf => {
         sf.chapters.forEach(ch => {
           ALL_CHAPTERS.push({...ch, folderLabel:folder.label, folderId:folder.id, subfolderId:sf.id, subfolderLabel:sf.label, fromDB:false});
@@ -1960,11 +2044,11 @@ function buildSidebar(filter=''){
   BOOK.forEach(folder => {
     const div = document.createElement('div');
     div.className = 'folder';
-    if(folder.type === 'vocab-folder'){
+    if(folder.type === 'vocab-folder' || folder.type === 'story-folder'){
       const total = folder.subfolders.reduce((a,s)=>a+s.chapters.length,0);
       const matchAny = folder.subfolders.some(sf=>sf.chapters.some(ch=>!fl||ch.title.toLowerCase().includes(fl)||sf.label.toLowerCase().includes(fl)||folder.label.toLowerCase().includes(fl)));
       if(fl && !matchAny) return;
-      div.innerHTML = `<div class="folder-head" onclick="toggleFolder(this)"><span class="folder-arrow">▶</span><div style="width:7px;height:7px;border-radius:2px;background:var(--v);flex-shrink:0;"></div><span>${folder.label}</span><span class="folder-badge">${total}</span></div><div class="folder-items"></div>`;
+      div.innerHTML = `<div class="folder-head" onclick="toggleFolder(this)"><span class="folder-arrow">▶</span><div style="width:7px;height:7px;border-radius:2px;background:${folder.color||'var(--v)'};flex-shrink:0;"></div><span>${folder.label}</span><span class="folder-badge">${total}</span></div><div class="folder-items"></div>`;
       tree.appendChild(div);
       const fi = div.querySelector('.folder-items');
       folder.subfolders.forEach(sf => {
@@ -2048,7 +2132,7 @@ function renderChapter(idx){
   const ruleHtml  = ch.ruleCard ? `<div class="rule-card ${ch.ruleCard.cls}">${ch.ruleCard.html}</div>` : '';
   // GitHub-fed chapters (Blackbook) load their words lazily via ch.dataUrl.
   // Older chapters keep their inline paras[] story format.
-  const bodyHtml  = ch.dataUrl ? `<div class="word-grid-loading">⏳ Words load ho rahe hain…</div>` : (ch.paras||[]).map(p=>`<div class="stb" data-n="${p.n}"><p>${p.text}</p></div>`).join('');
+  const bodyHtml  = ch.dataUrl ? `<div class="word-grid-loading">⏳ ${ch.type==='story'?'Kahani load ho rahi hai':'Words load ho rahe hain'}…</div>` : (ch.paras||[]).map(p=>`<div class="stb" data-n="${p.n}"><p>${p.text}</p></div>`).join('');
   const recallHtml= ch.recallTest ? `<div class="note-box" style="margin-top:16px"><b>📝 Quick Recall:</b> Bina hover kiye try karo —<br><span style="color:var(--v)">${ch.recallTest}</span></div>` : '';
   const prevCh = idx>0?ALL_CHAPTERS[idx-1]:null;
   const nextCh = idx<ALL_CHAPTERS.length-1?ALL_CHAPTERS[idx+1]:null;
@@ -2082,10 +2166,84 @@ function renderChapter(idx){
       </div>
     </div>`;
 
-  if(ch.dataUrl){
+  if(ch.type==='story' && ch.dataUrl){
+    loadStoryChapter(ch);
+  } else if(ch.dataUrl){
     loadWordChapter(ch);
   } else {
     attachVocabTooltips();
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  STORY NAMES — user-set character names, persisted locally
+// ═══════════════════════════════════════════════════════
+function getStoryNames(){
+  try {
+    const saved = JSON.parse(localStorage.getItem('storyNames')||'{}');
+    return { a: (saved.a||'').trim() || 'Rohit', b: (saved.b||'').trim() || 'Princy' };
+  } catch(e){ return { a:'Rohit', b:'Princy' }; }
+}
+function saveStoryNames(a,b){
+  localStorage.setItem('storyNames', JSON.stringify({ a:(a||'').trim(), b:(b||'').trim() }));
+}
+function applyStoryNameForm(){
+  const aEl = document.getElementById('storyNameA');
+  const bEl = document.getElementById('storyNameB');
+  saveStoryNames(aEl?aEl.value:'', bEl?bEl.value:'');
+  const msg = document.getElementById('storyNameMsg');
+  if(msg){ msg.style.display='inline'; setTimeout(()=>{ msg.style.display='none'; }, 2000); }
+  // Live refresh whatever's on screen so the new names show immediately
+  if(currentIdx>-1 && ALL_CHAPTERS[currentIdx] && ALL_CHAPTERS[currentIdx].type==='story'){
+    renderChapter(currentIdx);
+  } else if(currentIdx===-1){
+    renderHome();
+  }
+}
+function nameSetupHtml(idPrefix){
+  const names = getStoryNames();
+  return `<div class="name-setup">
+    <label>👫 Story ke characters ka naam set karo (kahin bhi save karo, hamesha yahi use hoga):</label>
+    <input type="text" id="storyNameA" placeholder="Character A (jaise: Rohit)" value="${escAttr(names.a)}">
+    <input type="text" id="storyNameB" placeholder="Character B (jaise: Princy)" value="${escAttr(names.b)}">
+    <button onclick="applyStoryNameForm()">Save Names</button>
+    <span id="storyNameMsg" style="display:none;color:var(--c8);font-size:11px;">✓ Saved</span>
+  </div>`;
+}
+
+// Fetches a Story chapter's JSON from GitHub (story-data/*.json), swaps the
+// {{A}}/{{B}} name tokens for the user's saved character names, and renders
+// dialogue/narration. Reuses attachVocabTooltips() for both vocab (.vw) and
+// grammar (.vw.gw) tap-tooltips inside the story text.
+async function loadStoryChapter(ch){
+  const bodyEl = document.getElementById('chapterBody');
+  try {
+    const res = await fetch(ch.dataUrl);
+    if(!res.ok) throw new Error('not found');
+    let raw = await res.text();
+    const names = getStoryNames();
+    raw = raw.split('{{A}}').join(names.a).split('{{B}}').join(names.b);
+    const data = JSON.parse(raw);
+
+    const paraHtml = (data.paras||[]).map(p=>{
+      if(p.type==='dialogue'){
+        const speakerName = p.speaker==='A' ? names.a : (p.speaker==='B' ? names.b : (p.speaker||''));
+        return `<div class="story-line"><span class="story-speaker">${escAttr(speakerName)}:</span><span class="story-text">${p.text}</span></div>`;
+      }
+      if(p.type==='present'){
+        return `<div class="story-present">${p.text}</div>`;
+      }
+      return `<div class="story-narration">${p.text}</div>`;
+    }).join('');
+
+    const quizHtml = Array.isArray(data.quiz) && data.quiz.length
+      ? `<div class="note-box" style="margin-top:16px"><b>📝 Tumne kya seekha — try karo:</b><ol style="margin:8px 0 0 18px;padding:0;">${data.quiz.map(q=>`<li style="margin-bottom:6px;">${q}</li>`).join('')}</ol></div>`
+      : '';
+
+    bodyEl.innerHTML = `${nameSetupHtml()}${paraHtml}${quizHtml}`;
+    attachVocabTooltips();
+  } catch(e){
+    bodyEl.innerHTML = `${nameSetupHtml()}<div class="word-grid-empty">⏳ Is chapter ki story abhi GitHub pe upload nahi hui hai.<br>Jaise hi <code>${escAttr(ch.dataUrl)}</code> file upload hogi, yahan turant dikhne lagegi — koi code change nahi karna padega.</div>`;
   }
 }
 
@@ -2318,6 +2476,7 @@ function renderHome(){
 
   const grammarCount = ALL_CHAPTERS.filter(c=>c.type==='grammar').length;
   const vocabCount = ALL_CHAPTERS.filter(c=>c.type==='vocab').length;
+  const storyCount = ALL_CHAPTERS.filter(c=>c.type==='story').length;
 
   document.getElementById('content').innerHTML=`
     <div class="home-screen">
@@ -2333,6 +2492,13 @@ function renderHome(){
         <div class="home-container-title">📖 Vocabulary</div>
         <div class="home-container-sub">${vocabCount} chapters — kisi bhi chapter pe direct click karo</div>
         ${renderGroupedChapters('vocab')}
+      </div>
+
+      <div class="home-container story">
+        <div class="home-container-title">📗 English Story</div>
+        <div class="home-container-sub">${storyCount} chapters — grammar aur vocab, ek real jindagi ki kahani ke through. Purple word = vocab, gold word = grammar rule, tap karke dekho.</div>
+        ${nameSetupHtml()}
+        ${renderGroupedChapters('story')}
       </div>
     </div>`;
 }
