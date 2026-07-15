@@ -12,82 +12,418 @@
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Sorry sorry! Actually main... <i>(files uthate hue)</i> ...I <span class='vw gw' data-word='Should Have' data-pos='Grammar Rule' data-hindi='Chahiye tha par nahi kiya — ek pachtawa (regret) past ki kisi baat ka.' data-meaning='Subject + should have + V3 (past me jo karna chahiye tha par nahi kiya)' data-example='Casual: Tujhe pehle bata dena chahiye tha &rarr; You should have told me earlier.\\nFormal: The management should have informed employees about the change.'>should have watched</span> my way, main soch raha tha assignment ke baare me."
+      "text": "Sorry sorry! Actually main... <i>(files uthate hue)</i> ...I <span class='vw gw' data-word='Should Have / Shouldn&#39;t Have' data-pos='Grammar Rule' data-hindi='Chahiye tha par nahi kiya — ek pachtawa (regret) past ki kisi baat ka.' data-meaning='Subject + should have + V3 (past me jo karna chahiye tha par nahi kiya)' data-example='Casual: Tujhe pehle bata dena chahiye tha &rarr; You should have told me earlier.\\nFormal: The management should have informed employees about the change.\\nFunny: Itni mirchi nahi daalni chahiye thi &rarr; You shouldn't have added so much chili!'>should have watched</span> my way, main soch raha tha assignment ke baare me."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(files uthate hue, thodi shant hoke)</i> Arre wah — tumne 'should have' use kiya! Bahut log ye galat bolte hain. Waise sun, kal jo geography trip thi, tum aaye kyu nahi?"
+      "text": "<i>(files uthate hue, thodi shant hoke)</i> Arre wah — tumne 'should have' use kiya! Pata hai bahut log ye galat bolte hain, tum to nikle chhupe rustom."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Yaar main <span class='vw gw' data-word='Could Have' data-pos='Grammar Rule' data-hindi='Past me kuch karna possible tha, but end me nahi hua — ek missed opportunity/ability' data-meaning='Subject + could have + V3 (past me ability/possibility thi, par kaam nahi hua)' data-example='Casual: Main aa sakta tha agar tune time pe bataya hota &rarr; I could have come if you had told me on time.\\nFormal: The company could have expanded earlier if funding was available.'>could have come</span>, but ghar pe kaam tha."
+      "text": "<i>(sharmate hue)</i> Bas aise hi... but sahi bola na maine?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha ye batao, us din wali lecture samajh aayi jo tum miss kar gaye the?"
+      "text": "Sahi bola, buddhu, but samajhte ho iska matlab kya hota hai asal me? <i>(uski file usko thamate hue, thoda closer aa ke)</i> 'I should have watched my way' ka matlab hai — 'Mujhe dhyan se chalna chahiye tha' — ek pachtawa, ki tumne wo kaam nahi kiya jo karna chahiye tha, aur ab uska result bhi bhugat rahe ho — jaise ye bechari files zameen pe padi hain."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Nahi yaar, bilkul samajh nahi aati agar tumhari notes na milti. <span class='vw gw' data-word='Couldn&#39;t Have' data-pos='Grammar Rule' data-hindi='Past me kuch samajhna/karna possible hi nahi tha, bina kisi help ke' data-meaning='Subject + couldn&#39;t have + V3 (past me wo kaam possible hi nahi tha)' data-example='Casual: Tumhari notes ke bina main wo topic kabhi samajh hi nahi sakta tha &rarr; I couldn't have understood that topic without your notes.\\nFormal: The team couldn't have finished the project without extra resources.'>I couldn&#39;t have understood it without your notes</span> Thank god tumne share kiye."
+      "text": "<i>(hass ke, file dusri taraf se pakadte hue)</i> Achha, madam grammar teacher, to ye 'chahiye tha par nahi kiya' wala matter hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue)</i> Waise kal maine tumhe teen missed call diye the, baarish ho rahi thi, umbrella nahi thi."
+      "text": "Bilkul sahi, dekho tum seekh bhi rahe ho already! Ek example doon tumhe — jaise tumhari maa bolti hongi kabhi, 'Tujhe pehle hi bata dena chahiye tha' — English me wahi hoga 'You should have told me earlier.' Ab dhyan se suno fark — agar tum bologe 'You should tell me earlier' to matlab future ki baat hui — 'abhi se bata dena'. Par 'should have told' ka matlab hai — baat already ho chuki, ab pachtawa ho raha hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(sharminda)</i> Sorry yaar, phone silent pe tha! Agar maine call sun li hoti, <span class='vw gw' data-word='Would Have' data-pos='Grammar Rule' data-hindi='Ek imaginary past condition ka result — agar X hota, to Y hota (par X nahi hua)' data-meaning='Subject + would have + V3 (kisi imagined past condition ka natural result)' data-example='Casual: Agar tune bataya hota, main aa jaata &rarr; If you had told me, I would have come.\\nFormal: If the flight had not been delayed, we would have reached on time.'>I would have come to pick you up</span> turant."
+      "text": "<i>(hairan si nazar se dekhte hue)</i> Tumhe ye sab itni asaani se kaise pata chal jaata hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Koi baat nahi, socha shayad busy ho. <span class='vw gw' data-word='Might Have' data-pos='Grammar Rule' data-hindi='Past ki ek uncertain/possible baat — pakka pata nahi, bas guess hai' data-meaning='Subject + might have / may have + V3 (past ke baare me anumaan, uncertain)' data-example='Casual: Shayad usne message dekha ho &rarr; He might have seen the message.\\nFormal: The delay may have been caused by heavy traffic.'>You might have been in some class</span>, waise bhi tum hamesha headphones laga ke ghoomte ho."
+      "text": "<i>(ek aankh dabate hue)</i> Kyunki main hoon hi aisi, sab kuch jaldi samajh aa jaata hai. Ek aur example suno — maan lo tumhara dost party me bahut zyada kha leta hai aur pet dard hone lagta hai, to uska dost bolega — 'Tumhe itna nahi khana chahiye tha!' &rarr; 'You shouldn't have eaten so much!' Ye hua ulta wala — jo nahi karna chahiye tha, wo kar diya."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Sahi pakda! Waise ek cheez bata — mera tiffin aaj gayab tha, dhoondh dhoondh ke thak gaya."
+      "text": "<i>(hasm ke)</i> Meri ammi bhi yahi bolti hai jab main zyada mirchi khaata hoon! Achha ek aur example do, roz ki zindagi wala, jaise exam ke baad wala."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue, table ke neeche jhaank ke)</i> Arre wah, koi to bahut bhookha tha — <span class='vw gw' data-word='Must Have' data-pos='Grammar Rule' data-hindi='Ek strong deduction/anumaan — evidence dekh kar lagbhag pakka lagna' data-meaning='Subject + must have + V3 (strong logical guess based on evidence)' data-example='Casual: Tera bag khula tha, kisi ne le liya hoga &rarr; Someone must have taken it.\\nFormal: The witness must have seen something important.'>someone must have taken it</span> jab tum idhar udhar the!"
+      "text": "Chalo suno — maan lo exam khatam hone ke baad tumhe realize hota hai ki tumne ek chapter revise hi nahi kiya, aur usi se sabse zyada questions aaye. Tab tum khud se bologe — 'Mujhe wo chapter zaroor revise karna chahiye tha' &rarr; 'I should have revised that chapter.' Dekho, ye bhi ek exam-hall ka classic regret hai, SSC ke bahut students ye feel karte hain."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Waise sach batau, kal raat 2 baje tak jaaga, kyunki <span class='vw gw' data-word='Had To' data-pos='Grammar Rule' data-hindi='Past me ek zaroori majboori/obligation, jo poori karni hi padi — koi choice nahi tha' data-meaning='Subject + had to + V1 (base form) — past me karna zaroori tha, koi option nahi tha' data-example='Casual: Deadline aaj thi, isliye raat ko jaagna pada &rarr; I had to stay up late to finish it.\\nFormal: Employees had to submit their reports before the meeting.'>I had to finish that assignment</span>, warna marks kat jaate."
+      "text": "<i>(muskurate hue)</i> Bilkul sahi bola, mere saath bhi aisa hota hai! Achha baba, seekh lunga — tum sikhaogi na?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hairan)</i> Kya?! Wo to open-book quiz tha, teacher ne class me bola tha! <span class='vw gw' data-word='Needn&#39;t Have' data-pos='Grammar Rule' data-hindi='Tumne ek kaam kiya jo karne ki zarurat hi nahi thi (kiya, par bekaar mehnat)' data-meaning='Subject + needn&#39;t have + V3 (kaam kiya, but wo zaroori nahi tha — bekaar mehnat)' data-example='Casual: Itni mehnat ki zarurat nahi thi, kitaab kholke likh sakte the &rarr; You needn't have prepared so much.\\nFormal: You needn't have submitted the form again; the first one was accepted.'>You needn&#39;t have prepared so much</span>!"
+      "text": "<i>(chalte-chalte peeche mud ke)</i> Dekhna hai tumhe kitna dhyan se seekhna hai... waise pagal, files uthane me bhi tumhe mera dhanyavaad karna chahiye tha, ek 'thank you' to banta hai!"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(sar pakadte hue)</i> Mujhe pata hi nahi tha! Ek min... itni der se main tumse baat kar raha hoon aur socho zara — is poore conversation me kitne alag-alag 'past modals' aa gaye!"
+      "text": "<i>(peeche se chillate hue)</i> Thank you, {{B}}!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(taali maarte hue)</i> Wah, dekha! 'should have' regret ke liye, 'could have' missed ability, 'couldn't have' impossible past, 'would have' imagined result, 'might have' uncertain guess, 'must have' strong deduction, 'had to' real obligation, 'needn't have' bekaar mehnat — sab ek hi din me use kar liye tumne, bas pata nahi tha!"
+      "text": "<i>(door se muskurate hue, bina peeche mude)</i> 'You should have said that earlier' — dekha, phir wahi baat!"
+    },
+    {
+      "type": "narration",
+      "text": "Agle din, canteen me. {{A}} akela baitha coffee pee raha tha, tabhi {{B}} tray leke uske saamne baith gayi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Kal jo class trip thi geography wali — tum aaye kyu nahi? Sabse zyada maza tumhare bina hi aaya, bata doon."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(muskurate hue)</i> To matlab ye sab roz ki zindagi me already use ho rahe the, bas naam nahi pata tha kisi ka?"
+      "text": "Yaar main aa sakta tha, but ghar pe kaam tha. Ek min, isko English me kaise bolenge? Hindi me hum bolte hain 'main aa sakta tha' — matlab possibility thi jaane ki, par gaya nahi."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Bilkul! Bas ek trick yaad rakho — jab 'pachtawa/regret' ho: should have. Jab 'possible tha par nahi kiya': could have. Jab 'possible hi nahi tha': couldn't have. Jab 'imagined result': would have. Jab 'guess/uncertain': might/may have. Jab 'evidence-based pakka guess': must have. Jab 'real majboori': had to. Jab 'bekaar mehnat ki': needn't have."
+      "text": "Bilkul sahi pakda — jab Hindi me 'kar sakta tha (par nahi kiya)' bolte ho, English me uska exact translation hota hai <span class='vw gw' data-word='Could Have' data-pos='Grammar Rule' data-hindi='Past me kuch karna possible tha, but end me nahi hua — ek missed opportunity/ability' data-meaning='Subject + could have + V3 (past me ability/possibility thi, par kaam nahi hua)' data-example='Casual: Main aa sakta tha agar tune time pe bataya hota &rarr; I could have come if you had told me on time.\\nFormal: The company could have expanded earlier if funding was available.'>could have</span> + V3. Jaise 'I could have come, but I had some work at home.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ye batao, us din jo lecture miss hui thi tumhari, wo samajh aayi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Nahi yaar, bilkul samajh nahi aayi. Sochke dekho — Hindi me hum bolenge 'main kabhi samajh hi nahi paata agar tumhari notes na milti' — matlab ye possible hi nahi tha, chahe koshish kar leta."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Uske liye alag phrase hoga na? Kyunki pehle wala 'possible tha' aur ye 'possible hi nahi tha' — dono alag baatein hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi observation! Jab 'possible hi nahi tha' bolna ho, tab use hota hai <span class='vw gw' data-word='Couldn&#39;t Have' data-pos='Grammar Rule' data-hindi='Past me kuch samajhna/karna possible hi nahi tha, bina kisi help ke' data-meaning='Subject + couldn&#39;t have + V3 (past me wo kaam possible hi nahi tha)' data-example='Casual: Tumhari notes ke bina main wo topic kabhi samajh hi nahi sakta tha &rarr; I couldn't have understood that topic without your notes.\\nFormal: The team couldn't have finished the project without extra resources.'>couldn&#39;t have</span> — 'I couldn't have understood it without your notes.' Thank god tumne share kiye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Ohh, matlab fark ye hai — 'could have' me chance tha but nahi liya, 'couldn't have' me chance hi nahi tha, kitni bhi koshish kar lete. Ek aur example do na, taaki dono ka fark pakka clear ho jaaye ek sath."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, side by side dekhte hain — 'I could have won the race, but I twisted my ankle' (jeetne ka chance tha, injury ki wajah se nahi jeeta). Aur 'I couldn't have won the race even if I had tried' (koi chance hi nahi tha, competitor bahut strong tha). Dekho, pehle wale me ek external reason ne rok diya, doosre me khud hi possible nahi tha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye bahut helpful example hai, ab pakka fark samajh gaya. Ek trick sawaal — agar main kal tumse coffee ke liye poochti, tum aate?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> Haan, definitely. Main aa sakta tha — 'I could have come.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue, uthte hue)</i> Achha, to agli baar poochungi. Waise tumhari coffee thandi ho gayi hai — dekh lo, isse pehle piyi hoti to garam milti!"
+    },
+    {
+      "type": "narration",
+      "text": "Shaam ko achanak baarish shuru ho gayi. {{A}} apna phone dekh raha tha — teen missed calls, sab {{B}} ke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(call back karte hue)</i> Sorry yaar, phone silent pe tha! Kya hua, sab theek?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan sab theek hai, bas main bata rahi thi ki main library ke bahar bheeg rahi thi, umbrella nahi thi. Socho zara — agar tumne call sun li hoti to kya hota?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "To main turant aa jaata tumhe leke!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi soch rahe ho, bas ab isko ek pura sentence banao — 'Agar maine call sun li hoti, main aa jaata' — English me ye hoga: 'If I had heard the call, <span class='vw gw' data-word='Would Have' data-pos='Grammar Rule' data-hindi='Ek imaginary past condition ka result — agar X hota, to Y hota (par X nahi hua)' data-meaning='Subject + would have + V3 (kisi imagined past condition ka natural result)' data-example='Casual: Agar tune bataya hota, main aa jaata &rarr; If you had told me, I would have come.\\nFormal: If the flight had not been delayed, we would have reached on time.'>I would have come</span> to pick you up.' Ye 'would have' hai — jab ek imaginary condition ka natural result batana ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Samajh gaya — matlab pehle 'agar X hota' bolo, phir 'to Y hota' — dono milke ek pura sentence. Ek aur example do na, thoda alag situation ka."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ek formal wala — imagine karo ek company ki flight late ho gayi thi, aur isliye woh important meeting miss ho gayi. Report me likhenge — 'If the flight had not been delayed, we would have reached the meeting on time.' Dekho, ye office/formal English me bhi bahut common pattern hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur kabhi kabhi to bas guess karna hota hai na, pakka pata nahi hota — jaise abhi socha tum busy hogi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi yaad rakha! Jab kisi past baat ke baare me sirf guess ho, pakka pata na ho, tab use karte hain <span class='vw gw' data-word='Might Have / May Have' data-pos='Grammar Rule' data-hindi='Past ki ek uncertain/possible baat — pakka pata nahi, bas guess hai' data-meaning='Subject + might have / may have + V3 (past ke baare me anumaan, uncertain)' data-example='Casual: Shayad usne message dekha ho &rarr; He might have seen the message.\\nFormal: The delay may have been caused by heavy traffic.'>might have / may have</span> — 'You might have been in some class.' Dono me fark bahut chhota hai, 'might have' thoda kam confident hota hai 'may have' se, but exam me dono chalte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(halka sa hasm ke)</i> Nahi yaar, main bas gaana sun raha tha headphones laga ke. Ek aur example do na 'might have' ka, taaki roz ki zindagi me bhi use kar sakoon."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, maan lo tumhara dost office nahi aaya aaj, aur tumhe exact reason nahi pata. Tum guess karoge — 'He might have caught a cold' (shayad usko zukam ho gaya), ya 'He may have missed the bus' (shayad bus miss ho gayi). Dono me tumhe pakka nahi pata, sirf anumaan laga rahe ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ye batao, 'would have' aur 'might have' me main kaise pehchanu ki kaunsa use karu?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Simple trick yaad rakho — 'would have' tab jab tumhe result pata hai, ek clear 'agar-to' wali baat hai (jaise humne abhi banaya). 'Might have' tab jab tumhe khud pata nahi, bas anumaan laga rahe ho ki kya hua hoga, bina kisi 'agar' ke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Samajh gaya! Chalo ab agli baar main phone silent pe nahi rakhunga, promise."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Dekhte hain — agar tumne aisa kiya, to mera vishwas thoda badhega tum par!"
+    },
+    {
+      "type": "narration",
+      "text": "Lunch break me hungama macha hua tha — {{A}} ka tiffin gayab tha. Wo apni bag khangaal raha tha, {{B}} paas aa gayi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Kya dhundh rahe ho itni pareshani se?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Mera tiffin! Maine yahin table pe rakha tha, ab gayab hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, table ke neeche jhaank ke)</i> Arre wah, koi to bahut bhookha tha. Dekho, ye ek strong guess hai based on evidence — plate nahi hai, koodedaan me kuch nahi, matlab koi le gaya hoga. Iske liye Hindi me hum bolte hain 'kisi ne le liya hoga' — pakka to nahi pata, but evidence dekh ke lag raha hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Uske liye kya use hoga? 'Might have' se alag lagta hai ye, kyunki isme thoda zyada confidence hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Jab evidence ke basis pe ek strong, lagbhag-pakka guess ho, tab use hota hai <span class='vw gw' data-word='Must Have' data-pos='Grammar Rule' data-hindi='Ek strong deduction/anumaan — evidence dekh kar lagbhag pakka lagna' data-meaning='Subject + must have + V3 (strong logical guess based on evidence)' data-example='Casual: Tera bag khula tha, kisi ne le liya hoga &rarr; Someone must have taken it.\\nFormal: The witness must have seen something important.'>must have</span> — 'Someone must have taken it.' Fark yaad rakho — 'might have' me confidence kam hoti hai, 'must have' me evidence dekh kar bahut zyada confidence hoti hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Ek aur example chahiye 'must have' ka, jisme evidence bhi clearly dikhe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — maan lo tum apne kamre me aate ho aur dekhte ho tumhari kitab zameen pe padi hai, khidki khuli hai, aur bahar tez hawa chal rahi hai. Tum bologe — 'The wind must have knocked the book down' (hawa ne kitab girayi hogi) — evidence (khuli khidki, tez hawa) dekh kar ye ek bahut strong, logical guess hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sar pakadte hue)</i> Yaar subah itni jaldi thi, maine sahi se bag close bhi nahi kiya tha. Waise sun, kal wo assignment jama karna tha na — tumne kiya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan yaar, raat ko 2 baje tak jaaga, kyunki deadline aaj thi, koi option hi nahi tha, karna hi padta. Isko English me kaise bolenge, socho zara — Hindi me 'karna hi pada' bolte hain, koi choice nahi thi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Isme to obligation wali baat hai, matlab majboori — 'must have' se alag lagta hai, kyunki ye guess nahi hai, ye ek fact hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi pakda! Jab ek real, confirmed majboori ho past me — guess nahi, fact ho — tab use karte hain <span class='vw gw' data-word='Had To' data-pos='Grammar Rule' data-hindi='Past me ek zaroori majboori/obligation, jo poori karni hi padi — koi choice nahi tha' data-meaning='Subject + had to + V1 (base form) — past me karna zaroori tha, koi option nahi tha' data-example='Casual: Deadline aaj thi, isliye raat ko jaagna pada &rarr; I had to stay up late to finish it.\\nFormal: Employees had to submit their reports before the meeting.'>had to</span> — 'I had to finish it, otherwise marks would be cut.' Bilkul saaf fark hai — 'must have' hamara anumaan hai, 'had to' ek confirmed obligation hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek aur example chahiye 'had to' ka, thoda alag scene se, taaki pakka yaad rahe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, socho — jab hum chhote the, school ke rules bahut strict the na? Jaise 'humein roz uniform pehnna padta tha' — 'We had to wear the uniform every day.' Ye ek fixed rule tha, koi option nahi tha na pehenne ka. Dekho, ye bhi ek real, confirmed obligation hai, jaise assignment wala."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan, ab ekdum clear ho gaya! Waise ab bhookh lagi hai, chalo canteen chalte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke, uthte hue)</i> Chalo, aaj ka tiffin mera treat — but agli baar bag band karna, warna phir 'someone must have taken it' hi sunna padega!"
+    },
+    {
+      "type": "narration",
+      "text": "Ek chhota surprise quiz tha class me. {{A}} raat bhar jaag kar poori kitaab ratt kar aaya tha, chehra thaka hua tha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Arre, itni neend bhari aankhein kyu hain? Kal so nahi paaye kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Nahi yaar, poori raat quiz ki tayari ki, poora chapter ratt liya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke)</i> Are pagal, quiz to open-book tha! Teacher ne bola tha na class me? Socho zara Hindi me kya bolenge — 'itni mehnat karne ki zarurat hi nahi thi'. Ye baat past ki hai, aur ek pachtawa jaisa lag raha hai, but ye 'should have' se alag hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kaise alag hai? Dono me to regret hi hai na?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Fark ye hai — 'should have' me tumne wo kaam NAHI kiya jo karna chahiye tha. Yahan tumne ek kaam KIYA jo karne ki zarurat hi nahi thi — bekaar mehnat. Iske liye use hota hai <span class='vw gw' data-word='Needn&#39;t Have' data-pos='Grammar Rule' data-hindi='Tumne ek kaam kiya jo karne ki zarurat hi nahi thi (kiya, par bekaar mehnat)' data-meaning='Subject + needn&#39;t have + V3 (kaam kiya, but wo zaroori nahi tha — bekaar mehnat)' data-example='Casual: Itni mehnat ki zarurat nahi thi, kitaab kholke likh sakte the &rarr; You needn't have prepared so much.\\nFormal: You needn't have submitted the form again; the first one was accepted.'>needn&#39;t have</span> — 'You needn't have prepared so much.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hairan)</i> Kya?! Mujhe pata hi nahi tha! Kaash tumne subah bata diya hota. Ek aur example do na 'needn't have' ka, taaki mujhe pakka fark yaad rahe 'should have' se."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ek achha example — maan lo tum ghar se do umbrella lekar nikle, kyunki tumhe laga baarish hogi. But baarish hui hi nahi. Tum bologe — 'I needn't have carried two umbrellas' (do umbrella lane ki zarurat hi nahi thi) — kaam kiya (umbrella liye), but bekaar tha, kyunki baarish hi nahi hui. Dekho ye 'should have' se bilkul alag hai, jahan tumne kuch NAHI kiya hota."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ek doubt hai — agar pehle se hi pata hota ki zarurat nahi hai, aur maine kiya hi nahi hota, tab kya bolte?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha sawaal! Tab thoda alag phrase use hota — 'I didn't need to prepare, because I already knew it was open-book.' Iska matlab — pehle se pata tha zarurat nahi hai, isliye kiya hi nahi. Jabki 'needn't have' me tumne kaam kiya, baad me pata chala zarurat nahi thi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, ab samajh aaya poora fark — 'needn't have' matlab kiya, par bekaar. 'Didn't need to' matlab pehle se pata tha, isliye kiya hi nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Chalo ab ek mazaa wala practice round karte hain — main tumhe paanch Hindi sentences dungi, tum turant bologe kaunsa modal fit hoga."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon, lao suru karo!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Pehla — 'Ghar ki light off hai, sab so gaye honge.' (evidence-based guess about present-connected past)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Must have' — 'They must have gone to sleep.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi! Doosra — 'Bus nahi thi, isliye humein paidal jaana pada.' (real majboori, no choice)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Had to' — 'We had to walk because there was no bus.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Teesra — 'Kaash maine wo movie dekhi hoti, sab log tareef kar rahe hain.' (regret, kaam nahi kiya)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Should have' — 'I should have watched that movie.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Chautha — 'Shayad usne mera message padha ho, pakka nahi pata.' (uncertain guess)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Might have' ya 'may have' — 'He might have read my message.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Aakhri — 'Itni jaldi pahunchne ki zarurat nahi thi, event to late shuru hua.' (kaam kiya, par bekaar)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Needn't have' — 'I needn't have arrived so early.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect score! Dekha, ek hafte me kitna kuch seekh liya tumne — should have, could have, couldn't have, would have, might/may have, must have, had to, needn't have... sab bilkul pakka ho gaya!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Haan madam teacher, sab yaad hai — bas ek trick batao, sab yaad rakhne ka?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Simple hai — jab 'pachtawa/regret' ho ki kuch nahi kiya: should have. Jab 'possible tha par nahi kiya': could have. Jab 'possible hi nahi tha': couldn't have. Jab ek 'agar-to' wale imaginary result ki baat ho: would have. Jab sirf 'guess/uncertain' ho: might/may have. Jab evidence-based 'pakka guess' ho: must have. Jab real majboori ho, guess na ho: had to. Jab kaam kiya par bekaar tha: needn't have."
     },
     {
       "type": "dialogue",
@@ -97,7 +433,7 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hasm ke, uthte hue)</i> Dekha, khud hi seekh gaye! Chalo ab canteen chalte hain, aaj ka tiffin mera treat — but agli baar bag band karna, warna phir 'someone must have taken it' hi sunna padega!"
+      "text": "<i>(hasm ke, uthte hue)</i> Dekha, khud hi seekh gaye! Ab kal se ek naya topic — present ke modals, matlab abhi ya future ki baat karne wale."
     }
   ],
   "quiz": [
@@ -109,7 +445,7 @@
     {
       "q": "Correct the error: 'I can attend the meeting yesterday but I was busy.'",
       "answer": "I could have attended the meeting yesterday but I was busy.",
-      "explain": "Past ki ability jo use nahi hui, uske liye 'could have + V3' chahiye, sirf 'can' nahi."
+      "explain": "Past ki ability jo use nahi hui, uske liye 'could have + V3' chahiye, sirf 'can' nahi (jo present/future ke liye hota hai)."
     },
     {
       "q": "Fill: Without your help, I ___ (not/finish) this project on time.",
@@ -119,7 +455,7 @@
     {
       "q": "Correct the error: 'If she had studied harder, she will pass the exam.'",
       "answer": "If she had studied harder, she would have passed the exam.",
-      "explain": "Imagined past condition ka result batane ke liye main clause me 'would have + V3' aata hai."
+      "explain": "Imagined past condition ka result batane ke liye main clause me 'would have + V3' aata hai, 'will pass' nahi."
     },
     {
       "q": "Fill (uncertain guess about the past): He isn't answering calls. He ___ (be) asleep.",
@@ -142,14 +478,24 @@
       "explain": "Kaam kiya gaya, par baad me pata chala zarurat nahi thi — isliye 'needn't have + V3'."
     },
     {
-      "q": "Mixed — 'I ___ (regret, past) told him the truth, but I was scared.' Which modal fits — should have / could have / needn't have?",
-      "answer": "should have — I should have told him the truth, but I was scared.",
-      "explain": "Ye ek pachtawa (regret) hai kisi zaroori kaam ko na karne ka, isliye 'should have + V3' sabse sahi fit hai."
+      "q": "Difference check: 'She needn't have called the doctor' vs 'She didn't need to call the doctor' — which one means she called the doctor unnecessarily?",
+      "answer": "'She needn't have called the doctor' — she DID call, but it turned out to be unnecessary.",
+      "explain": "'Needn't have + V3' = kaam kiya gaya, par bekaar tha. 'Didn't need to' = pehle se pata tha zarurat nahi, isliye kiya hi nahi."
     },
     {
-      "q": "Mixed — Match the meaning: 'must have' vs 'had to'. Which one is a GUESS and which one is a FACT/obligation?",
+      "q": "Mixed — Match: 'must have' vs 'had to'. Which one is a GUESS and which one is a FACT/obligation?",
       "answer": "'Must have' = guess/deduction based on evidence. 'Had to' = real fact/obligation, no guessing involved.",
       "explain": "Dono past ki baat karte hain, but 'must have' pakka certain nahi hota (sirf strong anumaan), jabki 'had to' ek real, confirmed majboori hoti hai."
+    },
+    {
+      "q": "Difference check: 'I could have won the race' vs 'I couldn't have won the race' — which one means winning was NOT possible at all?",
+      "answer": "'I couldn't have won the race' — means winning was not possible under any circumstance.",
+      "explain": "'Could have' = chance/ability thi, par nahi hua. 'Couldn't have' = koi chance hi nahi tha, chahe kuch bhi kar lete."
+    },
+    {
+      "q": "Fill (regret about a specific past action, not a general trait): 'I ___ (study) that chapter — half the questions came from it.'",
+      "answer": "should have studied",
+      "explain": "Ye ek specific pachtawa hai kisi kaam ko na karne ka — 'should have + V3' pattern fit baithta hai."
     }
   ]
 }
