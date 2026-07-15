@@ -42,22 +42,52 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Haan, matlab same hai, but style alag hai. <span class='vw gw' data-word='Since / As (Expected Reason — formal)' data-pos='Grammar Rule' data-hindi=''Because' jaisa hi matlab, but zyada formal, aur sentence ke shuru me bhi aa sakta hai' data-meaning='Since/As + Clause1, Clause2. (Sentence shuru me bhi chal sakta hai, jo 'because' ke saath thoda kam common hai)' data-example='Formal: Since I was unwell, I could not attend school.\\nFormal: As the weather was bad, the match was cancelled.'>Since / As</span> zyada formal likhawat me use hote hain, aur inhe sentence ke SHURU me bhi laga sakte ho — jaise 'Since I was unwell, I could not attend school.' 'Because' ko shuru me lagana thoda kam common hai, though galat nahi."
+      "text": "Ruko ruko, yahan ek bahut IMPORTANT baat batani hai tumhe pehle, warna aage confusion hoga. 'Since' aur 'for' — ye dono words sabse zyada TIME ke liye use hote hain, present perfect tense ke saath. Jaise 'I have lived here since 2015' ya 'I have known her for five years.' Reason wala matlab to bahut kam, sirf formal writing me aata hai — dono matlab bilkul alag hain, dhyan se pehchanna padega."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha, aur 'for' wala? Wo to preposition lagta hai mujhe."
+      "text": "<i>(confuse hoke)</i> Ohh, to kaise pata chalega konsa matlab hai — time wala ya reason wala?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Yahi sabse tricky wala hai! <span class='vw gw' data-word='For (Expected Reason — literary/formal, comma zaroori)' data-pos='Grammar Rule' data-hindi='Bahut formal/literary reason, hamesha comma ke baad aata hai, aur sentence shuru me kabhi nahi aata' data-meaning='Clause1, for + Clause2. (Comma zaroori hai 'for' se pehle, aur 'for' kabhi bhi sentence shuru nahi kar sakta)' data-example='Formal/literary: He did not go out, for it was raining heavily.\\nSSC trap: 'For it was raining, he stayed home' — YE GALAT HAI, 'for' sentence shuru nahi kar sakta.'>for</span> reason ke matlab me sirf bahut formal ya literary writing me use hota hai, aur EK bahut important rule — 'for' kabhi bhi sentence SHURU nahi kar sakta, hamesha comma ke baad aata hai."
+      "text": "Simple trick — agar 'since/for' ke baad ek DATE, YEAR, ya TIME PERIOD (jaise '5 years', '2020', 'Monday') aa raha hai, to wo TIME wala matlab hai. Agar uske baad ek POORA CLAUSE (subject + verb wala sentence) aa raha hai jo REASON bata raha hai, to wo REASON wala matlab hai. Dekho fark — 'I have not seen him since Monday' (TIME — Monday ek time point hai) vs 'Since he was busy, he could not come' (REASON — 'he was busy' ek poora reason clause hai)."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(notebook me likhte hue)</i> Ye important hai — 'because/since/as' shuru me bhi chal sakte hain, but 'for' sirf beech me, comma ke baad. Achha ab agla group batao."
+      "text": "<i>(notebook me pakka likhte hue)</i> Ohh ye bahut zaroori tha batana, main to bhool hi jaata shayad. Ek aur example do dono matlab ka 'for' ka bhi, taaki pakka clear ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — TIME wala 'for': 'She has been studying for three hours' (three hours ek duration hai). REASON wala 'for': 'He did not go out, for it was raining heavily' (yahan 'it was raining heavily' ek poora reason clause hai). Dekho, TIME wale me hamesha koi number/duration hota hai baad me, REASON wale me poora sentence hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ab samajh gaya, chalo REASON wale 'since/as' pe wapas aate hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<span class='vw gw' data-word='Since / As (Expected Reason — formal, NOT the time meaning)' data-pos='Grammar Rule' data-hindi=''Because' jaisa hi matlab, but zyada formal, aur sentence ke shuru me bhi aa sakta hai — TIME wale 'since' se alag hai, wahan baad me date/duration aata hai, yahan baad me poora reason-clause aata hai' data-meaning='Since/As + Clause1 (reason clause, subject+verb), Clause2. (Sentence shuru me bhi chal sakta hai)' data-example='Formal: Since I was unwell, I could not attend school. (REASON — 'I was unwell' poora clause hai)\\nFormal: As the weather was bad, the match was cancelled. (REASON)\\nCompare — TIME meaning: I have not spoken to him since Monday. (time point, not reason)'>Since / As</span> zyada formal likhawat me use hote hain, aur inhe sentence ke SHURU me bhi laga sakte ho — jaise 'Since I was unwell, I could not attend school.' 'Because' ko shuru me lagana thoda kam common hai, though galat nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur 'for' wala reason ka use, wo to preposition lagta hai mujhe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Yahi sabse tricky wala hai! <span class='vw gw' data-word='For (Expected Reason — literary/formal, comma zaroori, NOT the time meaning)' data-pos='Grammar Rule' data-hindi='Bahut formal/literary reason, hamesha comma ke baad aata hai, aur sentence shuru me kabhi nahi aata — TIME wale 'for' (duration) se bilkul alag use hai' data-meaning='Clause1, for + Clause2 (reason clause, poora sentence). Comma zaroori hai 'for' se pehle, aur 'for' kabhi bhi sentence shuru nahi kar sakta.' data-example='Formal/literary: He did not go out, for it was raining heavily. (REASON)\\nCompare — TIME meaning: He has lived here for ten years. (duration, not reason)\\nSSC trap: 'For it was raining, he stayed home' — YE GALAT HAI, 'for' sentence shuru nahi kar sakta.'>for</span> reason ke matlab me sirf bahut formal ya literary writing me use hota hai, aur EK bahut important rule — 'for' kabhi bhi sentence SHURU nahi kar sakta, hamesha comma ke baad aata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye important hai — 'because/since/as' shuru me bhi chal sakte hain, but 'for' sirf beech me, comma ke baad. Aur 'since/for' ka matlab pehchanne ke liye — agar time/date hai to TIME, agar poora reason-clause hai to REASON. Achha ab agla group batao."
     },
     {
       "type": "dialogue",
@@ -92,7 +122,12 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue)</i> Bilkul sahi! Dekha, kitna professional lag raha hai ab. Chalo ab teesra group — OPPOSITE REASON. Jab kuch aisa ho jo expectation ke ulta ho, jaise Hindi me bolte hain 'bimar hone ke bawajood bhi'."
+      "text": "<i>(muskurate hue)</i> Bilkul sahi! Dekha, kitna professional lag raha hai ab. Waise dhyan diya — us sentence me 'for three days' bhi hai, wo TIME wala 'for' hai (duration), reason wala nahi. Ek hi sentence me dono use ho sakte hain, bas alag kaam kar rahe hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hairan)</i> Arre sahi mein! Wah, ab main khud pehchan sakta hoon. Chalo ab teesra group — OPPOSITE REASON. Jab kuch aisa ho jo expectation ke ulta ho, jaise Hindi me bolte hain 'bimar hone ke bawajood bhi'."
     },
     {
       "type": "dialogue",
@@ -102,7 +137,7 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Sabse common hai <span class='vw gw' data-word='Though / Although (Opposite Reason)' data-pos='Grammar Rule' data-hindi=''Bawajood/halanki' — dono ek matlab, 'although' thoda zyada formal hai' data-meaning='Though/Although + Clause1, Clause2. (Sentence shuru me ya beech me, dono chalta hai, koi comma-before-quote rule nahi jaisa 'for' me)' data-example='Casual: Though he was sick, he came to school.\\nFormal: Although the weather was bad, the match continued.'>though / although</span> — 'Though he was sick, he came to school.' Dono words 'though' aur 'although' same matlab, bas 'although' thoda formal lagta hai."
+      "text": "Sabse common hai <span class='vw gw' data-word='Though / Although (Opposite Reason)' data-pos='Grammar Rule' data-hindi=''Bawajood/halanki' — dono ek matlab, 'although' thoda zyada formal hai' data-meaning='Though/Although + Clause1, Clause2. (Sentence shuru me ya beech me, dono chalta hai)' data-example='Casual: Though he was sick, he came to school.\\nFormal: Although the weather was bad, the match continued.'>though / although</span> — 'Though he was sick, he came to school.' Dono words 'though' aur 'although' same matlab, bas 'although' thoda formal lagta hai."
     },
     {
       "type": "dialogue",
@@ -117,22 +152,32 @@
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Ohh achha fark hai — 'though' me ek hi vyakti/cheez ke baare me hai jo expectation se ulta karta hai, but 'while/whereas' me DO alag cheezein compare ho rahi hain."
+      "text": "Ohh achha fark hai — 'though' me ek hi vyakti/cheez ke baare me hai jo expectation se ulta karta hai, but 'while/whereas' me DO alag cheezein compare ho rahi hain. Ek aur example do na dono ka, taaki pakka clear ho jaaye."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ekdum sahi pakda! Ab sabse tricky wala — 'however'. Ye bhi 'phir bhi/lekin' jaisa lagta hai, but iska use bilkul alag hai."
+      "text": "Chalo — 'though' wala: 'Though he failed twice, he did not give up.' (ek hi vyakti, expectation ke ulta). 'whereas' wala: 'Boys usually like action movies, whereas girls often prefer drama.' (do alag groups compare ho rahe hain)."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Kaise alag?"
+      "text": "Ekdum clear hai ab. Ab sabse tricky wala — 'however'. Ye bhi 'phir bhi/lekin' jaisa lagta hai, but iska use bilkul alag hai."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<span class='vw gw' data-word='However (Opposite Reason/Result — needs new sentence)' data-pos='Grammar Rule' data-hindi=''Phir bhi/lekin' jaisa matlab, but ye EK CLAUSE ko doosre se comma se NAHI jod sakta — hamesha naya sentence ya semicolon chahiye' data-meaning='...Clause1. However, Clause2. (NEVER: Clause1, however Clause2. — ye SSC ka bahut bada trap hai!)' data-example='Correct: He was tired. However, he finished the race.\\nWRONG (common SSC error): He was tired, however he finished the race. — isse comma splice error kehte hain!'>however</span> — is word ko kabhi bhi comma se do sentences jodne ke liye use nahi kar sakte! Hamesha naya sentence shuru karna padta hai, ya semicolon lagana padta hai. 'He was tired, however he finished the race' — YE GALAT HAI, exam me isko error maana jaata hai."
+      "text": "Kaise alag?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Ruko wo tumhe bolna hai mujhe, main to seekh raha hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke)</i> Achha sorry, chalo main hi batati hoon — <span class='vw gw' data-word='However (Opposite Reason/Result — needs new sentence)' data-pos='Grammar Rule' data-hindi=''Phir bhi/lekin' jaisa matlab, but ye EK CLAUSE ko doosre se comma se NAHI jod sakta — hamesha naya sentence ya semicolon chahiye' data-meaning='...Clause1. However, Clause2. (NEVER: Clause1, however Clause2. — ye SSC ka bahut bada trap hai!)' data-example='Correct: He was tired. However, he finished the race.\\nWRONG (common SSC error): He was tired, however he finished the race. — isse comma splice error kehte hain!'>however</span> — is word ko kabhi bhi comma se do sentences jodne ke liye use nahi kar sakte! Hamesha naya sentence shuru karna padta hai, ya semicolon lagana padta hai. 'He was tired, however he finished the race' — YE GALAT HAI, exam me isko error maana jaata hai."
     },
     {
       "type": "dialogue",
@@ -142,7 +187,7 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Bahut log yahi galti karte hain, isliye SSC me ye favorite error-spotting question hai. Sahi hoga — 'He was tired. However, he finished the race.' Do alag sentences, 'however' ke baad comma."
+      "text": "Bahut log yahi galti karte hain, isliye SSC me ye favorite error-spotting question hai. Sahi hoga — 'He was tired. However, he finished the race.' Do alag sentences, 'however' ke baad comma. Ek aur example — 'The company faced huge losses. However, it managed to recover within a year.'"
     },
     {
       "type": "dialogue",
@@ -192,7 +237,77 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(taali maarte hue)</i> Wah! Bilkul perfect chart bana diya. Bas ek trick aur yaad rakho jo humne baar baar dekha — 'however' aur 'nevertheless' kabhi bhi comma se pehle wale clause ko seedha nahi jod sakte, hamesha naya sentence chahiye. Ye SSC ka number one trap hai."
+      "text": "<i>(taali maarte hue)</i> Wah! Bilkul perfect chart bana diya. Chalo ab isse test karte hain — main incomplete sentences dungi, tum sahi word bharoge, aur bataoge kaunsa group hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Pehla — 'The exam was postponed ___ the principal was unwell.' (seedha reason, casual/common word)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'because' — Expected Reason. 'The exam was postponed because the principal was unwell.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi! Doosra — 'He practiced every single day, ___ he could not win the final match.' (strong, surprising contrast)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'yet' — Opposite Result. 'He practiced every single day, yet he could not win the final match.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Teesra — 'The bridge was old and weak. ___, the villagers used it every day.' (naya sentence chahiye, formal opposite)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'However' — Opposite Reason/Result group. 'The bridge was old and weak. However, the villagers used it every day.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Chautha — 'Ramesh scored the highest marks in Math, ___ his brother struggled with the subject.' (comparing two different people)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'whereas' ya 'while' — Opposite Reason group, comparison wala. 'Ramesh scored the highest marks in Math, whereas his brother struggled with the subject.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Paanchwa — 'I have not met him ___ last month.' (TIME meaning, not reason — dhyan se!)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Ruko, 'last month' ek time point hai, koi poora reason-clause nahi — to ye TIME wala 'since' hai, reason wala nahi! 'I have not met him since last month.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect catch! Bilkul sahi pakda tumne fark. Aakhri — 'The report was very late; ___, the client cancelled the contract.' (formal result, naya sentence ke baad)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Hence' ya 'Therefore' — Expected Result, formal group. 'The report was very late; hence, the client cancelled the contract.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Perfect score! Bas ek trick aur yaad rakho jo humne baar baar dekha — 'however' aur 'nevertheless' kabhi bhi comma se seedha clause nahi jod sakte, naya sentence chahiye. Aur 'since/for' pehle check karo — time hai ya poora reason clause hai."
     },
     {
       "type": "dialogue",
@@ -232,6 +347,11 @@
       "explain": "'For' kabhi bhi sentence shuru nahi kar sakta — hamesha comma ke baad, doosre clause ke roop me aata hai."
     },
     {
+      "q": "TIME or REASON? 'She has worked at this school since 2018.' Which meaning of 'since' is this?",
+      "answer": "TIME — 'since 2018' is a starting point in time, not a reason.",
+      "explain": "'Since' ke baad agar date/year/time-point aaye (jaise '2018'), to wo TIME wala matlab hai. REASON wala 'since' ke baad ek poora clause (subject+verb) aata hai, jaise 'Since he was late, he missed the bus.'"
+    },
+    {
       "q": "Which word is most appropriate for a FORMAL application to show expected result — 'so', 'hence', or 'that's why'?",
       "answer": "hence (or therefore)",
       "explain": "'So' casual hai, 'that's why' bahut spoken/informal hai — formal writing (application, letter, essay) ke liye 'hence' ya 'therefore' sabse sahi hai."
@@ -242,19 +362,24 @@
       "explain": "'Nevertheless' bhi 'however' jaisa hi rule follow karta hai — comma se pehle clause ko seedha nahi jod sakta, naya sentence chahiye."
     },
     {
-      "q": "Choose the correct word: 'She practiced every day, ___ she couldn't win the competition.' (strong, surprising contrast)",
-      "answer": "yet",
-      "explain": "'Yet' 'but' se zyada strong/surprising contrast dikhata hai — is sentence me practice ke bawajood na jeetna ek surprising outcome hai."
+      "q": "Fill (formal reason, can start the sentence — REASON meaning, not time): '___ the weather was extremely bad, the flight was delayed.'",
+      "answer": "Since / As",
+      "explain": "Yahan baad me ek poora clause hai ('the weather was extremely bad'), koi date/time-point nahi — isliye ye REASON wala 'since' hai, aur sentence shuru me bhi chal sakta hai."
     },
     {
-      "q": "Fill (formal reason, can start the sentence): '___ the weather was extremely bad, the flight was delayed.'",
-      "answer": "Since / As",
-      "explain": "'Since' aur 'As' formal reason dikhate hain aur sentence ke shuru me bhi use ho sakte hain, jabki 'for' kabhi shuru me nahi aa sakta."
+      "q": "Fill (correct word, strong/surprising contrast): 'She had no training at all, ___ she won first prize.'",
+      "answer": "yet",
+      "explain": "'Yet' 'but' se zyada strong/surprising contrast dikhata hai — bina training ke jeetna ek surprising outcome hai."
     },
     {
       "q": "Explain the key difference between 'though' and 'while/whereas' in one line.",
       "answer": "'Though/although' ek hi subject/situation ke andar ka 'bawajood bhi' wala contrast dikhata hai; 'while/whereas' do alag cheezon/logon ko compare karta hai jo ek dusre se ulti hain.",
       "explain": "Dono 'opposite reason' group me hain but function alag hai — ek concession dikhata hai, doosra comparison."
+    },
+    {
+      "q": "Fill correctly, choosing TIME or REASON meaning of 'for': 'They have been friends ___ ten years.'",
+      "answer": "for (TIME meaning — duration)",
+      "explain": "'Ten years' ek duration hai, isliye ye TIME wala 'for' hai. REASON wala 'for' ke baad poora clause aata hai, jaise 'He stayed home, for he was unwell.'"
     }
   ]
 }
