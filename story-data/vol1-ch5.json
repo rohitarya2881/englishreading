@@ -2,7 +2,7 @@
   "paras": [
     {
       "type": "narration",
-      "text": "Notice board pe ek naya announcement laga tha — group project competition, jama karne ki last date Friday thi. {{A}} aur {{B}} usi ke saamne khade the."
+      "text": "Notice board pe ek naya announcement laga tha — group project competition, jama karne ki last date Friday thi. {{A}} aur {{B}} usi ke saamne khade the, bheed thodi kam hote hi paas se padhne laga."
     },
     {
       "type": "dialogue",
@@ -12,54 +12,169 @@
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Sahi keh rahi ho, but Friday tak time bahut kam hai."
+      "text": "Sahi keh rahi ho, but Friday tak time bahut kam hai. Waise ek cheez poochni hai — jab hum Hindi me bolte hain 'agar aisa karenge, to aisa hoga' — jaise 'agar hum time pe kaam karenge, to jeet jayenge' — English me isko kaise banayenge?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Tension mat lo. <span class='vw gw' data-word='Conditional Type 1' data-pos='Grammar Rule' data-hindi='Real/future possibility — jo sach me ho sakta hai, ek reasonable condition ke sath' data-meaning='If + Present Simple, Subject + will + V1 (real future condition, jiske hone ka pura chance hai)' data-example='Casual: Agar tune time pe kaam kiya, hum jeet jayenge &rarr; If you work on time, we will win.\\nFormal: If the team submits the report by Friday, the client will approve the budget.'>If we finish this by Friday, we will present first</span>."
+      "text": "Ye ek bahut common pattern hai, isko kehte hain Conditional Sentence — matlab 'agar-to' wala sentence. Iske alag alag types hote hain, based on ki condition kitni REAL ya POSSIBLE hai. Jo tumne abhi bola — 'agar hum time pe kaam karenge, jeet jayenge' — ye ek REAL, POSSIBLE future condition hai, koi imaginary baat nahi. Iske liye use hota hai Type 1 Conditional."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha, aur agar hum time pe nahi kar paaye to?"
+      "text": "Real matlab? Kaise pehchanenge ki ye 'real' hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Phir 'If we don't finish on time, we will lose our chance' — dekho, dono sentences me structure same hai — 'If' ke saath Present Simple, aur doosre part me 'will'. Ye hoti hai Type 1 Conditional — jab condition real aur possible ho."
+      "text": "Simple — jab condition ho sakti hai, sach me possible hai future me, tab wo real/possible category me aati hai. Jaise 'agar baarish hui, hum ghar rahenge' — baarish hona bilkul possible hai, koi impossible ya sirf-sapna wali baat nahi. Isliye Type 1."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Samajh gaya! Matlab jab baat future ki ho aur ho sakti ho, tab ye wala use hota hai?"
+      "text": "Achha, ab structure batao — kaise banta hai poora sentence?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Bilkul sahi! Chalo ab practical karte hain — agar main tumhe part likhne ko doon, tum kab tak karoge?"
+      "text": "<span class='vw gw' data-word='Conditional Type 1 — Structure' data-pos='Grammar Rule' data-hindi='Real/future possibility — jo sach me ho sakta hai, ek reasonable condition ke sath' data-meaning='If + Present Simple, Subject + will + V1 (real future condition, jiske hone ka pura chance hai)' data-example='Casual: Agar tune time pe kaam kiya, hum jeet jayenge &rarr; If you work on time, we will win.\\nFormal: If the team submits the report by Friday, the client will approve the budget.\\nGeneral truth: If you heat water to 100 degrees, it boils.'>If we finish this by Friday, we will present first</span> — dekho, 'If' clause me PRESENT SIMPLE aata hai ('finish'), aur doosre part me 'WILL' aata hai ('will present'). Yaad rakhna — 'if' ke andar 'will' kabhi mat lagana, bahut common galti hai ye."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Agar tum mujhe aaj hi notes de doगी, main kal tak likh dunga."
+      "text": "Ruko, ek doubt — agar 'if' ke andar 'will' nahi laga sakte, to future ki baat kaise ho rahi hai present simple se?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue, notes badhate hue)</i> Lo, ab kal koi bahana nahi chalega, Mr. 'If I get time.'"
+      "text": "Achha sawaal! Dekho, English ka rule hai — 'if' clause (condition wala part) hamesha present simple leta hai, chahe baat future ki ho rahi ho. Sirf main clause (result wala part) me 'will' aata hai future dikhane ke liye. Isko bas rule ki tarah yaad karna padega, logic dhundne ki koshish mat karo, bas practice se aadat pad jayegi."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Nahi nahi, is baar promise — agar tumne mujhpe bharosa kiya, main tumhe nirash nahi karunga."
+      "text": "Theek hai, chalo aur examples do, taaki pakka samajh aaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo General Truth wala dekhte hain pehle — jab koi hamesha sach hone wali baat ho, science jaisi. Jaise Hindi me 'agar paani ko 100 degree tak garam karo, to wo ubalta hai' — 'If you heat water to 100 degrees, it boils.' Yahan bhi 'if' ke saath present simple, aur result me bhi present simple, kyunki ye hamesha sach hai, sirf future ki baat nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab result part me kabhi kabhi 'will' ki jagah present simple bhi aa sakta hai, agar wo hamesha-sach wali baat ho?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi pakda! Ye ek chhota sa variation hai Type 1 ka — 'General Truth' wala. Normal Type 1 me 'will' aata hai kyunki ek specific future event ki baat ho rahi hai, but jab universal fact ho, present simple hi rehta hai dono taraf."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, ab ek practical example karte hain — hum apne project ke baare me hi banayein sentences."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo try karo tum — 'Agar hum aaj raat late tak kaam karenge, kal tak poora ho jayega' — isko English me banao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> 'If we work late tonight, it will be complete by tomorrow.' Sahi hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect! Bilkul sahi structure — 'if' ke saath present simple ('work'), aur result me 'will' ('will be'). Ek aur try karo — negative wala. 'Agar hum time pe nahi kar paaye, hum apna chance kho denge.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'If we don't finish on time, we will lose our chance.' Isme bhi 'if' ke saath present simple, bas negative ('don't finish')."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Dekho, negative sentence me bhi wahi rule follow hota hai — 'if' clause present simple (chahe positive ho ya negative), aur main clause 'will' (positive ya negative, 'will lose' ya 'will not lose')."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ek aur cheez poochni hai — kya 'if' hamesha sentence ke shuru me hi aata hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Nahi, 'if' clause sentence ke shuru me bhi aa sakta hai aur beech me bhi — bas ek chhota punctuation rule hai. Jab 'if' clause SHURU me ho, to comma lagta hai beech me — 'If we finish on time, we will win.' Jab 'if' clause BAAD me ho, comma ki zarurat nahi — 'We will win if we finish on time.' Dono ka matlab bilkul same hai, bas order aur comma alag."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye important hai — shuru me if to comma chahiye, baad me if to comma nahi. Achha ab ek aur variation batao — kya 'will' ki jagah kuch aur bhi aa sakta hai result wale part me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha sawaal! Haan, 'will' ke alawa modals bhi aa sakte hain jab result me sirf possibility ya suggestion honi ho, pakka future nahi. Jaise 'If it rains, we might cancel the trip' — yahan 'will' ki jagah 'might' use kiya, kyunki cancel karna pakka nahi hai, sirf possibility hai. Ya 'If you finish early, you can go home' — yahan 'can' use kiya, permission jaisa lag raha hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab 'will' sabse common hai but 'can', 'might', 'should' bhi result part me chal sakte hain, depend karta hai matlab pe?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Bas 'if' clause ka rule fix rehta hai — hamesha present simple, chahe result me kuch bhi ho. Chalo ab ek aur practical exercise karte hain — main ek Hindi sentence bolungi, tum poora Type 1 Conditional banao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'Agar teacher extra marks denge, hum extra hard kaam karenge.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'If the teacher gives extra marks, we will work extra hard.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Ek aur — 'Agar mujhe part likhne ko doge, main kal tak likh dunga.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'If you give me the part to write, I will finish it by tomorrow.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, notes badhate hue)</i> Wah, ekdum expert ho gaye! Lo, ab kal koi bahana nahi chalega, Mr. 'If I get time.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Nahi nahi, is baar promise — agar tumne mujhpe bharosa kiya, main tumhe nirash nahi karunga. Dekha, maine bhi ek Type 1 conditional bana diya bina soche!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hairan)</i> Arre sahi mein! Dekha, ab ye tumhare bolne me bhi aane laga hai, natural tareeke se — yehi to seekhne ka sabse acha sign hai."
     }
   ],
   "quiz": [
     {
       "q": "Correct the error: 'If it will rain, we will cancel the trip.'",
       "answer": "If it rains, we will cancel the trip.",
-      "explain": "Type 1 Conditional ke 'if' clause me Present Simple aata hai, 'will' nahi — 'will' sirf main clause me aata hai."
+      "explain": "Type 1 Conditional ke 'if' clause me Present Simple aata hai, 'will' nahi — 'will' sirf main clause me aata hai, kabhi bhi 'if' ke andar mat lagao."
     },
     {
       "q": "Fill: If you ___ (study) hard, you ___ (pass) the exam.",
@@ -70,6 +185,26 @@
       "q": "Which is correct Type 1 Conditional — a) If she will come, I will leave. b) If she comes, I will leave.",
       "answer": "b) If she comes, I will leave.",
       "explain": "'If' clause me hamesha Present Simple use hota hai real/future condition ke liye, 'will' nahi laga sakte 'if' ke andar."
+    },
+    {
+      "q": "Fill (General Truth — always true, not just future): 'If you ___ (heat) ice, it ___ (melt).'",
+      "answer": "heat, melts",
+      "explain": "Jab ek universal/always-true fact ho, dono clauses me Present Simple aata hai, sirf 'if' clause me nahi — ye Type 1 ka General Truth variation hai."
+    },
+    {
+      "q": "Correct the punctuation: 'If we finish on time we will win the competition.'",
+      "answer": "If we finish on time, we will win the competition.",
+      "explain": "Jab 'if' clause sentence ke SHURU me ho, uske baad comma lagana zaroori hai. Agar 'if' clause baad me hota (We will win if we finish on time), to comma ki zarurat nahi hoti."
+    },
+    {
+      "q": "Fill using a modal other than 'will' (only a possibility, not certain): 'If it rains, we ___ (might/will definitely) cancel the trip.' Which fits better if the result isn't 100% certain?",
+      "answer": "might cancel",
+      "explain": "Jab result sirf ek possibility ho, pakka nahi, tab 'will' ki jagah 'might', 'can', ya 'should' bhi use ho sakta hai main clause me — 'if' clause ka rule (present simple) fir bhi wahi rahega."
+    },
+    {
+      "q": "Translate to English (Type 1): 'Agar tum mujhe notes doge, main kal tak revision kar lunga.'",
+      "answer": "If you give me the notes, I will finish the revision by tomorrow.",
+      "explain": "'If' clause me present simple ('give'), main clause me 'will' ('will finish') — standard Type 1 structure."
     }
   ]
 }
