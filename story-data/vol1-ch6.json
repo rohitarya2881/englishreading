@@ -1,0 +1,65 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Project submit karne ke baad, dono canteen me baithe thak ke chai pee rahe the."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Yaar tumhe kabhi laga hai ki hum dono milke kuch bada karein? Jaise ek YouTube channel jahan English sikhaye jaaye?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(aankhein chamkate hue)</i> Wow, ye idea to mast hai! Socho — <span class='vw gw' data-word='Conditional Type 2' data-pos='Grammar Rule' data-hindi='Ek imaginary/hypothetical situation present ya future ki — jo abhi sach nahi hai, sirf soch hai' data-meaning='If + Past Simple, Subject + would + V1 (unreal/hypothetical present ya future condition)' data-example='Casual: Agar mere paas paise hote, main duniya ghoomta &rarr; If I had money, I would travel the world.\\nFormal: If the government reduced taxes, businesses would invest more.'>if we started a channel, we would help thousands of students</span>!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan na! But abhi to bas ek sapna hai, hai na?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Filhaal to haan, isliye hum 'would' use kar rahe hain — kyunki ye real nahi hai abhi, sirf imagine kar rahe hain. Agar ye real hota, hum 'will' use karte, jaise humne Type 1 me kiya tha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab jab kuch imaginary ho, sach me possible na ho abhi, tab 'If + past, would' use hota hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Ek aur example suno — 'Agar main teacher hoti, main sabko free me sikhati' &rarr; 'If I were a teacher, I would teach everyone for free.' Dekha 'was' nahi, 'were' use hota hai sab subjects ke saath is type me, chahe I/he/she ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ye interesting hai — to agar main abhi teacher hota, tumhe kabhi daant nahi padti grammar ki galtiyon pe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke)</i> Sapno me raho tum, reality me main hi tumhari teacher hoon!"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'If I was rich, I will buy a big house.'",
+      "answer": "If I were rich, I would buy a big house.",
+      "explain": "Type 2 Conditional me 'if' clause me Past Simple (aur 'be' verb ke liye hamesha 'were') aata hai, aur main clause me 'would', 'will' nahi."
+    },
+    {
+      "q": "Fill (hypothetical/unreal present): If she ___ (know) the answer, she ___ (tell) us.",
+      "answer": "knew, would tell",
+      "explain": "Unreal present situation — If + Past Simple, Subject + would + V1."
+    },
+    {
+      "q": "Type 1 vs Type 2 — Which sentence shows something purely imaginary, not really possible right now? a) If it rains, I will stay home. b) If I had wings, I would fly.",
+      "answer": "b) If I had wings, I would fly.",
+      "explain": "Pankh hona ek impossible/hypothetical baat hai, isliye Type 2 (If + past, would) fit baithta hai; option a) ek real future possibility hai (Type 1)."
+    }
+  ]
+}

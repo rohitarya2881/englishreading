@@ -1,0 +1,140 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Assignment check karte waqt, {{B}} ne {{A}} ki copy me ek line pe pen se gol nishaan laga diya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kya hua, kya galat likh diya maine?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ye dekho — tumne likha hai 'He can able to solve this problem.' Ye galat hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(confuse hoke)</i> Kyu galat hai? Maine to socha 'can' aur 'able to' dono milke aur strong ho jaayenge, jaise Hindi me hum extra zor dene ke liye do baar bolte hain kabhi kabhi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Yahi sabse common galti hai SSC me! Dekho, 'can' aur 'is able to' — dono ka matlab EXACT SAME hai, dono 'ability' dikhate hain. Jab do words same kaam kar rahe hon ek sentence me, to unhe sath nahi laga sakte — isko kehte hain Superfluous ya Double Modal error."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab dono zaroorat se zyada ho gaye, ek hi kaafi tha?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Isliye sahi sentence hoga — <span class='vw gw' data-word='Superfluous / Double Modal Error' data-pos='Grammar Rule' data-hindi='Do modal ya modal-jaisi cheezein ek sentence me sath-sath lagana galat hai — sirf ek use karo' data-meaning='Kabhi bhi 'can' + 'able to' ek sath mat lagao; 'must' + 'have to' ek sath mat lagao; ye SSC ka classic error-spotting trap hai' data-example='Wrong: He can able to sing well. Right: He is able to sing well. / He can sing well.\\nWrong: You must have to submit it today. Right: You must submit it today. / You have to submit it today.\\nWrong: She should ought to apologize. Right: She should apologize. / She ought to apologize.'>He can able to solve this problem — WRONG. Correct: He is able to solve this problem, OR He can solve this problem.</span> — ya to 'He can solve this problem' bolo, ya 'He is able to solve this problem' bolo, dono sath nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ek aur example do, taaki dimag me pakka baith jaaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo suno — kabhi socha hai log kya galti karte hain jab bahut zyada zor dena chahte hain kisi majboori pe? Jaise 'tumhe ye karna hi padega, koi option nahi' ko English me overdo kar dete hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Hmm, jaise 'you must have to submit it today'? Ye bhi galat hoga na, kyunki 'must' aur 'have to' dono obligation dikhate hain?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Wah, tumne khud pakad liya! Bilkul sahi — 'must' aur 'have to' dono ka matlab hai 'karna zaroori hai', isliye dono sath nahi. Sahi hoga — 'You must submit it today' YA 'You have to submit it today', dono me se koi ek."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ye pattern to samajh aa gaya — jab bhi do words same matlab de rahe hon, ek hata do. Aur kaunse combinations bahut common hain SSC me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Teen sabse common traps yaad rakho — pehla 'can' + 'able to' jo abhi dekha. Doosra 'must' + 'have to'. Aur teesra hai jab advice do baar di jaati hai — jaise 'She should ought to apologize.' Dono 'should' aur 'ought to' advice dikhate hain, isliye dono sath galat hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab jaise humne pichli baar seekha tha 'should' aur 'ought to' same kaam karte hain — isliye unhe bhi sath nahi laga sakte, kyunki wahi superfluous wali galti ho jaayegi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi connect kiya tumne! Ek aur tarika hai isse pehchanne ka — jab bhi tumhe lage sentence me 'zyada zor' dene ke liye do modal jaise words dikh rahe hain sath me, ruk jao aur check karo — kya dono same matlab de rahe hain? Agar haan, to ek hata do."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek practical example do na, jaisa exam me aayega — poora sentence, aur main galti dhundhu."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo try karo — 'The students must have to complete the assignment before Monday.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> 'must have to' — dono obligation, isliye galat! Sahi hoga — 'The students must complete the assignment before Monday' ya 'The students have to complete the assignment before Monday.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect, ekdum sahi pakda! Dekha, ab tum khud error-spotting kar sakte ho. Ye topic exam me bahut marks dilata hai, kyunki bahut log confuse ho jaate hain aur double modal likh dete hain bina soche."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(copy band karte hue)</i> Thank you {{B}}, ab pakka yaad rahega — jab bhi do modal jaise words ek sath dikhein, samajh jaunga kuch gadbad hai!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Yehi to seekhne ka sahi tareeka hai — galti khud pakadna, na ki sirf ratt lena."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'He can able to finish the race first.'",
+      "answer": "He is able to finish the race first. (or) He can finish the race first.",
+      "explain": "'Can' aur 'able to' dono same ability dikhate hain — dono ek sath sentence me nahi laga sakte, superfluous error hai."
+    },
+    {
+      "q": "Correct the error: 'You must have to wear a helmet while riding.'",
+      "answer": "You must wear a helmet while riding. (or) You have to wear a helmet while riding.",
+      "explain": "'Must' aur 'have to' dono obligation dikhate hain — dono ek sath use karna redundant/superfluous error hai."
+    },
+    {
+      "q": "Correct the error: 'She should ought to say sorry to him.'",
+      "answer": "She should say sorry to him. (or) She ought to say sorry to him.",
+      "explain": "'Should' aur 'ought to' dono advice dikhate hain — dono sath use karna superfluous error hai, sirf ek kaafi hai."
+    },
+    {
+      "q": "Correct the error: 'The students must have to complete the assignment before Monday.'",
+      "answer": "The students must complete the assignment before Monday. (or) The students have to complete the assignment before Monday.",
+      "explain": "'Must' + 'have to' dono obligation ka matlab dete hain — ek sentence me dono ka use galat hai."
+    },
+    {
+      "q": "Why is 'He can able to sing' considered a 'superfluous' error rather than just a random mistake?",
+      "answer": "Kyunki 'can' aur 'able to' dono khud hi complete 'ability' ka matlab dete hain — dono sath lagana zaroorat se zyada (superfluous/redundant) hai, matlab badalta nahi bas galat structure ban jaata hai.",
+      "explain": "Superfluous error tab hota hai jab do words/phrases same grammatical kaam kar rahe hon ek sentence me — ek extra/unnecessary ho jaata hai."
+    },
+    {
+      "q": "Spot and correct the error: 'I must have to leave early today because of the meeting.'",
+      "answer": "I must leave early today because of the meeting. (or) I have to leave early today because of the meeting.",
+      "explain": "Classic 'must' + 'have to' double-modal error — dono obligation dikhate hain, sirf ek use karo."
+    }
+  ]
+}

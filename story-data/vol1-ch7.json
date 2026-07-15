@@ -1,0 +1,64 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Class presentation ka din tha. Teacher ne achanak {{B}} ka naam bol diya stage pe bolne ke liye, bina poochhe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(class ke baad, halke gusse me)</i> Tumne teacher ko mera naam kyu diya presentation ke liye? Tumhe pata hai mujhe stage pe bolna kitna mushkil lagta hai!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(ghabra ke)</i> Sorry yaar, mujhe laga tumhe pasand aayega, tum hamesha itni confident lagti ho baaton me..."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Baaton me aur stage pe bolne me bahut fark hai. <span class='vw gw' data-word='Conditional Type 3' data-pos='Grammar Rule' data-hindi='Past ki ek unreal situation — jo asal me nahi hui, ek pachtawa (regret) ke sath' data-meaning='If + had + V3, Subject + would/could/should + have + V3 (past unreal situation)' data-example='Casual: Kaash tune bataya hota, main aa jaata &rarr; If you had told me, I would have come.\\nFormal: If the manager had reviewed the report earlier, the error would have been avoided.'>If you had asked me first, I would not have panicked in front of everyone</span>."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sar jhukate hue)</i> Sach me sorry {{B}}. Maine sirf achha karne ki koshish ki thi, galat soch liya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(thodi der chup rehke, phir narmi se)</i> Pata hai mujhe tumne bura nahi socha, but agli baar please pehle poochh lena, theek hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Promise. Waise... agar main tumse pehle poochhta, tum haan bolti kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(halki si muskurahat, but aankhon me thodi doori)</i> Shayad. Pata nahi. Abhi chalte hain, class late ho rahi hai."
+    },
+    {
+      "type": "present",
+      "text": "Interview hall ke bahar, us din ki yaad aate hi uska chehra thoda udaas ho gaya — kaash us din kuch aur hota..."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'If I would have known about the meeting, I would have come.'",
+      "answer": "If I had known about the meeting, I would have come.",
+      "explain": "'If' clause me 'would have' nahi aata — hamesha 'had + V3' aata hai Type 3 Conditional me; 'would have' sirf main clause me."
+    },
+    {
+      "q": "Fill (past regret): If she ___ (study) harder, she ___ (pass) the exam last year.",
+      "answer": "had studied, would have passed",
+      "explain": "Past ki ek unreal situation ka pachtawa — If + had + V3, Subject + would have + V3."
+    },
+    {
+      "q": "Which sentence correctly expresses a past regret — a) If you had told me, I would have helped. b) If you told me, I will help.",
+      "answer": "a) If you had told me, I would have helped.",
+      "explain": "Ye Type 3 Conditional hai jo past ki ek unreal situation aur uska regret dikhata hai; option b) galat structure hai."
+    }
+  ]
+}

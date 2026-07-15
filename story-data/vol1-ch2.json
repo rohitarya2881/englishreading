@@ -1,0 +1,175 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Agle hafte, ek group study session plan ho raha tha. {{A}} apni copy me plan likh raha tha, {{B}} uske paas aa gayi apni water bottle leke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Meri kal chhutti thi, notes chahiye — Hindi me poochoongi to bolungi 'kya main tumhara notes le sakti hoon?' Isko English me kaise poochun, casual tareeke se?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Casual me bolo — <span class='vw gw' data-word='Can (Ability / Casual Permission)' data-pos='Grammar Rule' data-hindi='Kisi kaam ki ability batana ya casually permission maangna' data-meaning='Subject + can + V1' data-example='Ability: I can solve this equation.\\nPermission (casual): Can I use your pen?'>Can I borrow your notes for today&#39;s class?</span> — bas 'Can I...' laga do shuru me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, aur agar kisi teacher se ya bade se poochna ho, tab bhi 'can' hi chalega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalega to, but sunne me thoda casual lagega. Jab kisi respect wale insaan se poochna ho, tab Hindi me hum 'kya main andar aa sakta hoon' ko zyada politely bolte hain, waise hi English me use hota hai <span class='vw gw' data-word='May (Formal Permission / Possibility)' data-pos='Grammar Rule' data-hindi='Zyada polite/formal permission maangna, ya kisi cheez ki possibility batana' data-meaning='Subject + may + V1' data-example='Formal permission: May I come in, sir?\\nPossibility: It may rain today.'>May I use your pen, sir?</span> — teacher, boss, ya kisi bade se baat karte waqt."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, aur 'may' ka ek aur matlab bhi hota hai na — possibility wala?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan bilkul! Jaise Hindi me bolte hain 'shayad baarish ho' — English me 'It may rain today.' Same word 'may' — bas context se pata chalta hai permission hai ya possibility."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ohh samajh gayi. Achha ab suno — kal humari extra class hai, aur teacher ne strictly bola hai, koi excuse nahi chalega. Isko kaise bolun — bahut hi zaroori, koi option nahi hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Jab itna strict/zaroori ho ki chhodna hi nahi hai, tab use hota hai <span class='vw gw' data-word='Must (Strong Obligation / Present Deduction)' data-pos='Grammar Rule' data-hindi='Ek zaroori, bahut strong obligation — jaise koi rule ho, chhodna nahi hai' data-meaning='Subject + must + V1' data-example='Strong obligation: We must submit the form by tomorrow.\\nPresent deduction: He is not answering — he must be busy.'>we must attend it</span> — 'We must attend it.' Ye 'must' bahut strong hota hai, jaise koi rule tod hi nahi sakte."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Aur agar sirf ek guess hi karni ho abhi ke baare me, jaise 'wo phone nahi utha raha, busy hoga shayad' — kya wahan bhi 'must' chalega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul chalega! 'Must' ka ek aur use hai — jab evidence dekh kar present ke baare me strong guess karna ho. 'He is not answering — he must be busy.' Dhyan do yahan 'must' ke baad seedha V1 nahi, 'be' laga, kyunki ye ek state describe kar raha hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, ab ek aur cheez — mujhe lagta hai tumhe apna presentation thoda aur practice karna chahiye, but ye majboori nahi hai, sirf ek suggestion hai mera. Isko kaise bolun?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Jab sirf ek halki advice deni ho, koi majboori nahi, bas 'behtar hoga agar karo' wali baat ho, tab use hota hai <span class='vw gw' data-word='Should / Ought To (Advice)' data-pos='Grammar Rule' data-hindi='Halki advice ya suggestion, majboori nahi — bas behtar hoga agar karo' data-meaning='Subject + should/ought to + V1' data-example='Advice: You should rehearse before the presentation.\\nSame meaning, slightly formal: You ought to rehearse before the presentation.'>you should rehearse it once more</span> — 'You should rehearse it once more.' Fark 'must' se — 'must' me majboori hai, 'should' me sirf advice."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha suno, maine kahin 'ought to' bhi padha tha, wo bhi same hai kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul same matlab, bas 'ought to' thoda zyada formal/written English me use hota hai, jaise essay ya letter me. Baaki dono advice ke liye hi hote hain, exam me dono chalenge."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, ek aur poochna hai — jab hum kisi ko formally suggest karte hain kuch shuru karne ke liye, jaise 'chalo shuru karein?' — isko kaise bolenge?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Jab polite suggestion deni ho 'I' ya 'we' ke saath, tab use hota hai <span class='vw gw' data-word='Shall (Suggestion / Formal Future)' data-pos='Grammar Rule' data-hindi='Suggestion dena ya formal future ('I/We' ke sath) — polite tareeka' data-meaning='Shall + I/we + V1 (suggestion), ya I/We + shall (formal future)' data-example='Suggestion: Shall we begin the meeting?\\nFormal future: I shall complete the report by evening.'>shall we start now, or wait for the others?</span> — 'Shall we start now?' Ye bahut polite aur official English me use hota hai, especially meetings me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Thoda wait kar lete hain sabke aane tak. Waise agar sab aa gaye, tumse politely poochna ho ki 'kya tum pehle present karna chahoge' — kaise poochun?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Jab kisi ko politely offer/request karna ho, tab use hota hai <span class='vw gw' data-word='Would (Polite Request / Habit)' data-pos='Grammar Rule' data-hindi='Polite tareeke se kuch poochna, ya past ki habit batana' data-meaning='Would you like + V1-ing/noun (polite offer/request); Subject + would + V1 (past habit)' data-example='Polite request: Would you like some tea?\\nPast habit: When I was a kid, I would visit my grandma every summer.'>would you like to present first?</span> — 'Would you like to present first?' Isse zyada polite tareeka nahi hota kisi cheez ko offer karne ka."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha 'would' ka ek aur use bhi suna tha maine, jab purani habit ki baat ho, bachpan wali?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan sahi suna! Jaise Hindi me bolte hain 'bachpan me main roz apni nani se milne jaata tha' — English me 'When I was a kid, I would visit my grandma every summer.' Ye 'would' repeated past habit dikhata hai, 'used to' jaisa hi matlab hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Wah, ek hi word 'would' ke do kaam! Achha ab last wala — mujhe aaj hi ye chapter poora khatam karna hai, but 'must' jitna strict nahi hai, halka sa zaroori hai bas."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Uske liye use hota hai <span class='vw gw' data-word='Need (Necessity)' data-pos='Grammar Rule' data-hindi='Kisi kaam ki zarurat batana — halka obligation, 'must' se kam strong' data-meaning='Subject + need to + V1 (necessity, without heavy formality)' data-example='Necessity: I need to submit this by tonight.\\nQuestion form: Do you need to leave now?'>I need to finish it before tonight</span> — 'I need to finish it before tonight.' Ye 'must' se thoda halka lagta hai, roz-marra ki baat-cheet me zyada use hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Achha ab main try karti hoon sabko yaad rakhne ka trick banana — 'can' aur 'may' permission/ability ke liye, 'must' strong obligation ya guess ke liye, 'should/ought to' halki advice, 'shall' polite suggestion, 'would' polite request ya purani habit, 'need' halki necessity. Sahi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Ekdum perfect! Tumne to khud hi poora chapter summarize kar diya. Ab bata, in sabme se kaunsa sabse zyada use karti ho roz?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Shayad 'should' — kyunki tumhe roz kuch na kuch advice deni padti hai!"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Fill with the correct present modal (formal permission): '___ I come in, sir?'",
+      "answer": "May",
+      "explain": "Formal permission maangne ke liye 'May' use hota hai; 'Can' bhi chalta hai but casual context me."
+    },
+    {
+      "q": "Fill with the correct present modal (advice, not obligation): 'You ___ drink more water in summer.'",
+      "answer": "should (or ought to)",
+      "explain": "Ye ek advice/suggestion hai, majboori nahi — isliye 'should' ya 'ought to' fit hote hain, 'must' bahut strong ho jaayega."
+    },
+    {
+      "q": "Which sentence correctly uses 'must' for present deduction (a guess based on evidence)? a) He must goes to office daily. b) He is not picking up — he must be in a meeting.",
+      "answer": "b) He is not picking up — he must be in a meeting.",
+      "explain": "'Must + V1' evidence-based ek strong guess ke liye use hota hai present me; option a) me 'goes' galat hai, modal ke baad hamesha base form (V1) aata hai."
+    },
+    {
+      "q": "Fill (polite offer): '___ you like some tea?'",
+      "answer": "Would",
+      "explain": "'Would you like...' polite offer/request ka standard pattern hai."
+    },
+    {
+      "q": "Fill (past repeated habit): 'When I was young, I ___ play cricket every evening.'",
+      "answer": "would",
+      "explain": "'Would' past ki repeated habit dikhane ke liye use hota hai, jaise 'used to' — dono ka matlab lagbhag same hai."
+    },
+    {
+      "q": "Choose the more formal/polite option to suggest starting a meeting: a) Can we start? b) Shall we start?",
+      "answer": "b) Shall we start?",
+      "explain": "'Shall we...' zyada polite aur formal suggestion hai, especially meetings/official context me use hota hai."
+    },
+    {
+      "q": "Fill (necessity, less strict than 'must'): 'I ___ to submit this form by tonight.'",
+      "answer": "need",
+      "explain": "'Need to' halki necessity dikhata hai, roz-marra ki baat-cheet me common hai, 'must' jitna strict/formal nahi."
+    },
+    {
+      "q": "What's the difference between 'must' (obligation) and 'must' (deduction)? Give one example of each.",
+      "answer": "Obligation: 'We must submit the form by tomorrow' (rule/majboori). Deduction: 'He must be busy' (guess based on evidence).",
+      "explain": "Same word 'must' do alag kaam karta hai — context se pata chalta hai ki ye ek rule/majboori hai ya ek guess."
+    }
+  ]
+}

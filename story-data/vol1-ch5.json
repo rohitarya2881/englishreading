@@ -1,0 +1,75 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Notice board pe ek naya announcement laga tha — group project competition, jama karne ki last date Friday thi. {{A}} aur {{B}} usi ke saamne khade the."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Dekho, agar hum dono ek team bana lein, jeetne ka pura chance hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Sahi keh rahi ho, but Friday tak time bahut kam hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Tension mat lo. <span class='vw gw' data-word='Conditional Type 1' data-pos='Grammar Rule' data-hindi='Real/future possibility — jo sach me ho sakta hai, ek reasonable condition ke sath' data-meaning='If + Present Simple, Subject + will + V1 (real future condition, jiske hone ka pura chance hai)' data-example='Casual: Agar tune time pe kaam kiya, hum jeet jayenge &rarr; If you work on time, we will win.\\nFormal: If the team submits the report by Friday, the client will approve the budget.'>If we finish this by Friday, we will present first</span>."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur agar hum time pe nahi kar paaye to?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Phir 'If we don't finish on time, we will lose our chance' — dekho, dono sentences me structure same hai — 'If' ke saath Present Simple, aur doosre part me 'will'. Ye hoti hai Type 1 Conditional — jab condition real aur possible ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Samajh gaya! Matlab jab baat future ki ho aur ho sakti ho, tab ye wala use hota hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Chalo ab practical karte hain — agar main tumhe part likhne ko doon, tum kab tak karoge?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Agar tum mujhe aaj hi notes de doगी, main kal tak likh dunga."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, notes badhate hue)</i> Lo, ab kal koi bahana nahi chalega, Mr. 'If I get time.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Nahi nahi, is baar promise — agar tumne mujhpe bharosa kiya, main tumhe nirash nahi karunga."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'If it will rain, we will cancel the trip.'",
+      "answer": "If it rains, we will cancel the trip.",
+      "explain": "Type 1 Conditional ke 'if' clause me Present Simple aata hai, 'will' nahi — 'will' sirf main clause me aata hai."
+    },
+    {
+      "q": "Fill: If you ___ (study) hard, you ___ (pass) the exam.",
+      "answer": "study, will pass",
+      "explain": "Real future possibility ke liye — If + Present Simple, Subject + will + V1."
+    },
+    {
+      "q": "Which is correct Type 1 Conditional — a) If she will come, I will leave. b) If she comes, I will leave.",
+      "answer": "b) If she comes, I will leave.",
+      "explain": "'If' clause me hamesha Present Simple use hota hai real/future condition ke liye, 'will' nahi laga sakte 'if' ke andar."
+    }
+  ]
+}

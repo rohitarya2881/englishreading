@@ -1,0 +1,65 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Kuch din beet gaye. Baat thodi normal ho chuki thi, but {{A}} ko wo doori abhi bhi khatakti thi. Ek shaam, library band hone se pehle, dono akele reh gaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "{{B}}, ek baat kahoon? Us din ke baad se lagta hai kuch badal gaya hai humare beech."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(kitab band karte hue)</i> Nahi aisi koi baat nahi... bas thoda time laga."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Sach kahoon, <span class='vw gw' data-word='Mixed Conditional' data-pos='Grammar Rule' data-hindi='Past ki ek action ka result abhi present me dikh raha hai — do alag time zones mix hote hain ek hi sentence me' data-meaning='If + had + V3 (past), Subject + would + V1 (present result) — past ka effect abhi tak chal raha hai' data-example='Casual: Agar maine wo class join na ki hoti, aaj tumhe jaanta hi nahi &rarr; If I hadn't joined that class, I wouldn't know you today.\\nFormal: If she had not studied abroad, she wouldn't have this global perspective now.'>if I hadn&#39;t joined this project, I wouldn&#39;t know you so well now</span>. Us project ne humein itna close kar diya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, thodi narm hoke)</i> Wah, naya grammar point bhi seekh liya emotional moment me! Ye hai na jab past ka ek kaam, abhi tak effect daal raha ho present me — 'Mixed Conditional' kehte hain isse."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan! Pehle wala 'if had' past ke liye, but doosra part 'would' — present ke liye, na ki 'would have'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi pakda! Aur sach kahoon, mujhe bhi lagta hai — agar us din tumne mera naam na diya hota, hum itni gehri baat kabhi na kar paate jitni ab kar paate hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(halki si rahat ke saath muskurate hue)</i> To sab theek hai humare beech?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sab theek hai, pagal. Chalo ab ghar chalte hain, kal se phir naya topic — poora mixed practice."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'If I had studied medicine, I would have been a doctor now.'",
+      "answer": "If I had studied medicine, I would be a doctor now.",
+      "explain": "Mixed Conditional (past cause, present result) me main clause 'would + V1' hota hai kyunki result abhi present me hai, 'would have' nahi (jo poora past ke liye hota hai)."
+    },
+    {
+      "q": "Fill (past action, present result): If she ___ (not/miss) that flight, she ___ (be) here with us today.",
+      "answer": "had not missed, would be",
+      "explain": "'If' clause past unreal (had + V3), main clause present result (would + V1) — classic Mixed Conditional structure."
+    },
+    {
+      "q": "Which is a Mixed Conditional — a) If I had left earlier, I would have caught the train. b) If I hadn't taken that job, I wouldn't be living here now.",
+      "answer": "b) If I hadn't taken that job, I wouldn't be living here now.",
+      "explain": "Option b) me past ka decision (taking the job) ka effect abhi present me dikh raha hai ('wouldn't be living now') — ye hi Mixed Conditional ki pehchaan hai. Option a) pura Type 3 hai (dono clause past)."
+    }
+  ]
+}

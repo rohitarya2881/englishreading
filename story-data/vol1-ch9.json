@@ -1,0 +1,260 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "English teacher ne ek formal application likhne ka homework diya tha — 'leave application' school ke principal ko. {{A}} aur {{B}} library me baithe iske upar kaam kar rahe the."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Yaar mera application bahut choppy lag raha hai — chhote chhote sentences hain, koi flow hi nahi. Jaise 'I was sick. I could not come to school. I request leave.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(copy dekhte hue)</i> Haan, isliye formal writing me 'Linking Words' use karte hain — chhote sentences ko jodne wale words, jo batate hain do baaton ka aapas me kya relation hai. Chalo, char group me sikhate hain tumhe, kyunki har group ka apna kaam hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Char group? Itne saare?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan, but simple hai — sochne ka tareeka hai bas. Do baatein hoti hain kisi bhi sentence me jodne ke liye: ek 'REASON' wali (kyunki), aur ek 'RESULT' wali (isliye). Aur har ek ya to 'expected' (jaisa sochte ho waisa hi hota hai) ya 'opposite' (ulta hota hai jo socha tha) ho sakta hai. Ye char combinations hi hain groups."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab Reason-Expected, Reason-Opposite, Result-Expected, Result-Opposite?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Chalo pehle EXPECTED REASON wale dekhte hain — jab seedhi seedhi 'kyunki' wali baat honi ho, koi twist nahi. Hindi me bologe 'main bimar tha, isliye school nahi aaya' — 'kyunki' wala part. Sabse simple word hai <span class='vw gw' data-word='Because (Expected Reason)' data-pos='Grammar Rule' data-hindi='Sabse common aur direct reason batane wala word — 'kyunki'' data-meaning='Clause1 + because + Clause2 (reason). Mid-sentence me aata hai, comma ki zarurat nahi.' data-example='Casual: I was late because the bus didn't come.\\nFormal: The match was postponed because of heavy rain.'>because</span> — 'I could not come to school because I was sick.' Ye seedha, sabse common reason word hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur baaki teen — for, since, as — inka kya kaam hai, ye bhi 'kyunki' hi hote hain na?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan, matlab same hai, but style alag hai. <span class='vw gw' data-word='Since / As (Expected Reason — formal)' data-pos='Grammar Rule' data-hindi=''Because' jaisa hi matlab, but zyada formal, aur sentence ke shuru me bhi aa sakta hai' data-meaning='Since/As + Clause1, Clause2. (Sentence shuru me bhi chal sakta hai, jo 'because' ke saath thoda kam common hai)' data-example='Formal: Since I was unwell, I could not attend school.\\nFormal: As the weather was bad, the match was cancelled.'>Since / As</span> zyada formal likhawat me use hote hain, aur inhe sentence ke SHURU me bhi laga sakte ho — jaise 'Since I was unwell, I could not attend school.' 'Because' ko shuru me lagana thoda kam common hai, though galat nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur 'for' wala? Wo to preposition lagta hai mujhe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Yahi sabse tricky wala hai! <span class='vw gw' data-word='For (Expected Reason — literary/formal, comma zaroori)' data-pos='Grammar Rule' data-hindi='Bahut formal/literary reason, hamesha comma ke baad aata hai, aur sentence shuru me kabhi nahi aata' data-meaning='Clause1, for + Clause2. (Comma zaroori hai 'for' se pehle, aur 'for' kabhi bhi sentence shuru nahi kar sakta)' data-example='Formal/literary: He did not go out, for it was raining heavily.\\nSSC trap: 'For it was raining, he stayed home' — YE GALAT HAI, 'for' sentence shuru nahi kar sakta.'>for</span> reason ke matlab me sirf bahut formal ya literary writing me use hota hai, aur EK bahut important rule — 'for' kabhi bhi sentence SHURU nahi kar sakta, hamesha comma ke baad aata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye important hai — 'because/since/as' shuru me bhi chal sakte hain, but 'for' sirf beech me, comma ke baad. Achha ab agla group batao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ab EXPECTED RESULT dekhte hain — jab 'isliye' wali seedhi baat honi ho. Jaise 'Main bimar tha, isliye maine leave li.' Sabse common hai <span class='vw gw' data-word='So (Expected Result — casual)' data-pos='Grammar Rule' data-hindi='Sabse common 'isliye' wala word, casual aur formal dono me chalta hai' data-meaning='Clause1, so + Clause2. Mid-sentence me comma ke baad aata hai.' data-example='Casual: I was sick, so I took a leave.\\nFormal: The road was blocked, so we took another route.'>so</span> — 'I was sick, so I took a leave.' Simple, dono jagah chalta hai casual aur thoda formal me bhi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur 'hence', 'therefore', 'that's why' — ye teeno bhi 'isliye' hi hain na? Application me kaunsa best lagega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi socha, application ke liye ye teeno better hain 'so' se, kyunki formal hai. <span class='vw gw' data-word='Hence / Therefore (Expected Result — formal)' data-pos='Grammar Rule' data-hindi='Bahut formal 'isliye', aksar naya sentence shuru karte hain ya semicolon ke baad' data-meaning='Naya sentence: ...Clause1. Hence/Therefore, Clause2. (Comma inke turant baad lagta hai)' data-example='Formal application: I was unwell for three days. Therefore, I request you to grant me leave.\\nFormal report: Sales dropped sharply. Hence, the company revised its strategy.'>Hence / Therefore</span> — dono almost same hain, aur inhe naya SENTENCE start karne ke liye use karte hain, comma unke turant baad lagta hai. Jaise 'I was unwell for three days. Therefore, I request leave.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur 'that's why'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Wo bhi same matlab, but <span class='vw gw' data-word='That&#39;s Why (Expected Result — casual/spoken)' data-pos='Grammar Rule' data-hindi=''Isliye' ka sabse casual/spoken version, formal writing me avoid karo' data-meaning='Naya sentence: ...Clause1. That's why Clause2. (Casual tone, bina comma ke seedha)' data-example='Casual/spoken: I forgot my umbrella. That's why I got wet.\\nAvoid in formal application/essay — use 'therefore' or 'hence' instead.'>that&#39;s why</span> sirf baat-cheet ya casual likhne me use karo, formal application/letter me nahi — wahan 'therefore' ya 'hence' zyada acha lagega."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(seedha likhte hue)</i> Perfect, to mera application ka ek sentence ban gaya — 'I was unwell for three days. Therefore, I could not attend school and I request you to kindly grant me leave.' Sahi hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Bilkul sahi! Dekha, kitna professional lag raha hai ab. Chalo ab teesra group — OPPOSITE REASON. Jab kuch aisa ho jo expectation ke ulta ho, jaise Hindi me bolte hain 'bimar hone ke bawajood bhi'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Matlab jaise 'bimar tha, phir bhi aaya'? Iske liye kya use hota hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sabse common hai <span class='vw gw' data-word='Though / Although (Opposite Reason)' data-pos='Grammar Rule' data-hindi=''Bawajood/halanki' — dono ek matlab, 'although' thoda zyada formal hai' data-meaning='Though/Although + Clause1, Clause2. (Sentence shuru me ya beech me, dono chalta hai, koi comma-before-quote rule nahi jaisa 'for' me)' data-example='Casual: Though he was sick, he came to school.\\nFormal: Although the weather was bad, the match continued.'>though / although</span> — 'Though he was sick, he came to school.' Dono words 'though' aur 'although' same matlab, bas 'although' thoda formal lagta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur 'while' aur 'whereas'? Ye bhi opposite hote hain na?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan, but inka kaam thoda alag hai — ye 'though/although' jaisa 'despite karke bhi' nahi dikhate, balki DO cheezon ko COMPARE karte hain jo ek dusre se ulti hain. <span class='vw gw' data-word='While / Whereas (Opposite Reason — comparison)' data-pos='Grammar Rule' data-hindi='Do alag cheezon ko compare karna jo ek dusre se ulti hain — 'jabki'' data-meaning='Clause1, while/whereas + Clause2. (Do parallel cheezon ka comparison, 'despite' wala matlab nahi)' data-example='Comparison: Rohit likes tea, while Ichchha prefers coffee.\\nFormal: Some students performed well, whereas others struggled.'>while / whereas</span> — 'Rohit likes tea, while Ichchha prefers coffee.' Dekho, ye dono cheezein compare ho rahi hain, koi 'bawajood' wali baat nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh achha fark hai — 'though' me ek hi vyakti/cheez ke baare me hai jo expectation se ulta karta hai, but 'while/whereas' me DO alag cheezein compare ho rahi hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi pakda! Ab sabse tricky wala — 'however'. Ye bhi 'phir bhi/lekin' jaisa lagta hai, but iska use bilkul alag hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kaise alag?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<span class='vw gw' data-word='However (Opposite Reason/Result — needs new sentence)' data-pos='Grammar Rule' data-hindi=''Phir bhi/lekin' jaisa matlab, but ye EK CLAUSE ko doosre se comma se NAHI jod sakta — hamesha naya sentence ya semicolon chahiye' data-meaning='...Clause1. However, Clause2. (NEVER: Clause1, however Clause2. — ye SSC ka bahut bada trap hai!)' data-example='Correct: He was tired. However, he finished the race.\\nWRONG (common SSC error): He was tired, however he finished the race. — isse comma splice error kehte hain!'>however</span> — is word ko kabhi bhi comma se do sentences jodne ke liye use nahi kar sakte! Hamesha naya sentence shuru karna padta hai, ya semicolon lagana padta hai. 'He was tired, however he finished the race' — YE GALAT HAI, exam me isko error maana jaata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hairan)</i> Sach me?! Maine to hamesha comma laga ke hi likha hai!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut log yahi galti karte hain, isliye SSC me ye favorite error-spotting question hai. Sahi hoga — 'He was tired. However, he finished the race.' Do alag sentences, 'however' ke baad comma."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(pakka note karte hue)</i> Achha, ab aakhri group bacha — OPPOSITE RESULT. Ye kaise alag hai 'opposite reason' se?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha sawaal! 'Opposite reason' wale (though/while/whereas/however) ek hi complex sentence ke ANDAR ka contrast dikhate hain. 'Opposite result' wale (yet/but/still/nevertheless) usually ek result batate hain jo expectation se ulta nikla. Chalo dekhte hain — sabse common hai <span class='vw gw' data-word='But (Opposite Result — most common)' data-pos='Grammar Rule' data-hindi='Sabse simple aur common 'lekin', do clauses jodta hai ek sentence me' data-meaning='Clause1, but + Clause2. Mid-sentence me comma ke baad aata hai.' data-example='Casual: I was tired, but I finished the race.\\nFormal: The plan was good, but it failed due to poor execution.'>but</span> — 'I was tired, but I finished the race.' Simple, roz-marra ki English me sabse zyada use hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur 'yet'? Wo bhi 'but' jaisa hi lagta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul same kaam karta hai, bas thoda zyada STRONG contrast dikhata hai. <span class='vw gw' data-word='Yet (Opposite Result — stronger contrast than but)' data-pos='Grammar Rule' data-hindi=''But' jaisa hi, but zyada strong/surprising contrast dikhata hai' data-meaning='Clause1, yet + Clause2. (But se replace kar sakte ho jab contrast bahut surprising ho)' data-example='Strong contrast: She was exhausted, yet she smiled through the entire ceremony.\\nFormal: The team lost every match, yet they never lost hope.'>yet</span> — 'She was exhausted, yet she smiled through the entire ceremony.' Yahan 'yet' use karne se surprise wala feel aata hai, 'but' se thoda strong."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur 'still'? Ye to alag category ka lagta hai mujhe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi socha, 'still' ek ADVERB hai, conjunction nahi — matlab ye poore sentence ko comma se seedha nahi jod sakta jaise 'but/yet' karte hain. <span class='vw gw' data-word='Still (Opposite Result — adverb, flexible position)' data-pos='Grammar Rule' data-hindi=''Phir bhi', but ye adverb hai — sentence ke beech ya end me flexible position pe aa sakta hai' data-meaning='...Clause1. Clause2 + still + rest. (Adverb hai, 'but/yet' jaisa strict comma-rule nahi, position flexible)' data-example='Flexible: He failed twice. He still didn't give up.\\nAlso: Despite the rain, they still played the match.'>still</span> — 'He failed twice. He still didn't give up.' Dekho, ye ek naya sentence me bhi aa sakta hai, aur 'still' sentence ke beech me bhi ghoom sakta hai — adverb hone ki wajah se flexible hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur last wala, 'nevertheless'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ye 'however' jaisa hi behave karta hai — bahut formal, aur usi 'however' wale rule ko follow karta hai. <span class='vw gw' data-word='Nevertheless (Opposite Result — formal, needs new sentence)' data-pos='Grammar Rule' data-hindi='Bahut formal 'phir bhi', 'however' jaisa hi rule — naya sentence ya semicolon chahiye' data-meaning='...Clause1. Nevertheless, Clause2. (however jaisa hi — comma se seedha clause nahi jod sakta)' data-example='Formal: The company faced huge losses. Nevertheless, it continued its operations.\\nWrong: The company faced losses, nevertheless it continued. (comma splice error)'>nevertheless</span> — formal reports, essays me use hota hai, aur 'however' jaisa hi, isse pehle full stop ya semicolon chahiye, comma nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(poora chart bana ke dikhate hue)</i> Dekho maine kya banaya — char columns, har group ka apna set! Reason-expected: because, since, as, for. Reason-opposite: though, although, while, whereas, however. Result-expected: so, hence, therefore, that's why. Result-opposite: but, yet, still, nevertheless."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Wah! Bilkul perfect chart bana diya. Bas ek trick aur yaad rakho jo humne baar baar dekha — 'however' aur 'nevertheless' kabhi bhi comma se pehle wale clause ko seedha nahi jod sakte, hamesha naya sentence chahiye. Ye SSC ka number one trap hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Pakka yaad rahega ab. Chalo apna application finish karte hain, ab to expert ban gaye hum!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Ban gaye ho — but practice bhi karni padegi, warna 'though you learned it today, however you might forget it tomorrow' — dekha, dono galat use kiye maine jaan-boojh ke, pakdo dono galtiyan!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Pehla theek hai, 'though' sentence shuru me chal sakta hai. Doosra galat hai — 'however' comma ke baad seedha nahi aa sakta, naya sentence chahiye tha!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Perfect student ban gaye ho tum!"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Correct the error: 'He was very tired, however he continued walking.'",
+      "answer": "He was very tired. However, he continued walking.",
+      "explain": "'However' comma se pehle wale clause ko seedha nahi jod sakta — hamesha naya sentence (full stop) ya semicolon chahiye, phir 'however' ke baad comma."
+    },
+    {
+      "q": "Fill (opposite reason, comparison between two things): 'Rohit is very talkative, ___ his sister is quite shy.'",
+      "answer": "while / whereas",
+      "explain": "Yahan do alag logon ko compare kiya ja raha hai jo ek dusre se ulte hain — 'while/whereas' fit hota hai, 'though' nahi (jo ek hi subject ke andar ka contrast dikhata hai)."
+    },
+    {
+      "q": "Correct the error: 'For it was raining heavily, the match was postponed.'",
+      "answer": "The match was postponed, for it was raining heavily. (or simply use 'because': The match was postponed because it was raining heavily.)",
+      "explain": "'For' kabhi bhi sentence shuru nahi kar sakta — hamesha comma ke baad, doosre clause ke roop me aata hai."
+    },
+    {
+      "q": "Which word is most appropriate for a FORMAL application to show expected result — 'so', 'hence', or 'that's why'?",
+      "answer": "hence (or therefore)",
+      "explain": "'So' casual hai, 'that's why' bahut spoken/informal hai — formal writing (application, letter, essay) ke liye 'hence' ya 'therefore' sabse sahi hai."
+    },
+    {
+      "q": "Correct the error: 'The team lost the match, nevertheless they celebrated their effort.'",
+      "answer": "The team lost the match. Nevertheless, they celebrated their effort.",
+      "explain": "'Nevertheless' bhi 'however' jaisa hi rule follow karta hai — comma se pehle clause ko seedha nahi jod sakta, naya sentence chahiye."
+    },
+    {
+      "q": "Choose the correct word: 'She practiced every day, ___ she couldn't win the competition.' (strong, surprising contrast)",
+      "answer": "yet",
+      "explain": "'Yet' 'but' se zyada strong/surprising contrast dikhata hai — is sentence me practice ke bawajood na jeetna ek surprising outcome hai."
+    },
+    {
+      "q": "Fill (formal reason, can start the sentence): '___ the weather was extremely bad, the flight was delayed.'",
+      "answer": "Since / As",
+      "explain": "'Since' aur 'As' formal reason dikhate hain aur sentence ke shuru me bhi use ho sakte hain, jabki 'for' kabhi shuru me nahi aa sakta."
+    },
+    {
+      "q": "Explain the key difference between 'though' and 'while/whereas' in one line.",
+      "answer": "'Though/although' ek hi subject/situation ke andar ka 'bawajood bhi' wala contrast dikhata hai; 'while/whereas' do alag cheezon/logon ko compare karta hai jo ek dusre se ulti hain.",
+      "explain": "Dono 'opposite reason' group me hain but function alag hai — ek concession dikhata hai, doosra comparison."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Semester ka aakhri hafta tha. Dono apni final revision kar rahe the college ke garden me baithe, notes bikhre pade the."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo ek game khelte hain — main sentence bologi, tum bataoge kaunsa grammar point hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'You <span class='vw gw' data-word='Should Have' data-pos='Grammar Rule' data-hindi='Past ki kisi zaroori baat ko na karne ka pachtawa' data-meaning='Subject + should have + V3' data-example='Revision: 'You should have submitted the form earlier' &rarr; ek regret past kaam na karne ka.'>should have submitted</span> the form earlier.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aasan hai — 'Should have', past ka pachtawa!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi! Ab ye suno — '<span class='vw gw' data-word='Mixed Conditional' data-pos='Grammar Rule' data-hindi='Past ki ek action ka result abhi present me dikh raha hai' data-meaning='If + had + V3 (past), Subject + would + V1 (present result)' data-example='Revision: past ke kisi kaam ka effect abhi present me — Mixed Conditional.'>If we hadn&#39;t met in that library, we wouldn&#39;t be sitting here today</span>.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Mixed Conditional — past cause, present result. Aur ye sentence bhi sach hai, waise."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sharmate hue, jaldi topic badalte hue)</i> Achha next — 'The teacher <span class='vw gw' data-word='Must Have' data-pos='Grammar Rule' data-hindi='Evidence dekh kar strong deduction/anumaan' data-meaning='Subject + must have + V3' data-example='Revision: kisi cheez ka strong guess based on evidence — Must Have.'>must have forgotten</span> about the extra class.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Must have — deduction, guess based on evidence! Ek aur do, ekdum last wala."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Theek hai, aakhri — '<span class='vw gw' data-word='Conditional Type 1' data-pos='Grammar Rule' data-hindi='Real/future possibility' data-meaning='If + Present Simple, Subject + will + V1' data-example='Revision: real future condition — Type 1 Conditional.'>If I get the scholarship, I will study abroad next year</span>.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Type 1, real future condition. <i>(ruk ke)</i> Ruko... ye sentence tumne bas revision ke liye banaya, ya sach me..."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notes band karte hue, seedha aankhon me dekhe bina)</i> Actually {{A}}... mujhne scholarship ke liye apply kiya tha, kal hi result aaya. Selected ho gayi hoon. Doosre shehar ke college me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(chup, kuch der ke liye kuch nahi bol paata)</i> ...kab jaana hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Agle mahine se naya session shuru ho jayega wahan. <i>(halki si udaasi ke sath muskurate hue)</i> Pata nahi ab hum roz aise baithke grammar kaise seekhenge."
+    },
+    {
+      "type": "present",
+      "text": "Interview hall ke bahar khadi ladki ne file kaska pakda, jaise us din ki yaad abhi bhi taaza thi — jab pehli baar doori ka ehsaas hua tha..."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Mixed Recap — Correct the error: 'If she would have called earlier, we could have planned better.'",
+      "answer": "If she had called earlier, we could have planned better.",
+      "explain": "Type 3 Conditional me 'if' clause hamesha 'had + V3' leta hai, 'would have' sirf main clause me aata hai."
+    },
+    {
+      "q": "Mixed Recap — Fill: He is not picking up the phone. He ___ (be) busy right now. (guess, uncertain)",
+      "answer": "might be / may be",
+      "explain": "Present ke baare me uncertain guess ke liye 'might/may + V1' use hota hai; agar past ke baare me hota to 'might have + V3'."
+    },
+    {
+      "q": "Mixed Recap — Which type of conditional is this: 'If I hadn't taken this course, I wouldn't have met such a good friend'?",
+      "answer": "Mixed Conditional (past cause → present result)",
+      "explain": "'If' clause past unreal hai (hadn't taken), lekin result abhi present me hai (wouldn't have met describes a present state of friendship) — ye classic Mixed Conditional pattern hai."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Evening walk pe college ground ke paas, {{A}} aur {{B}} slow chal rahe the, revision karte hue."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek cheez bahut confuse karti hai mujhe — jab sentence ke end me chhota sa sawaal jodte hain, jaise Hindi me 'hai na?' ya 'nahi kya?' — English me use kya kehte hain?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Usko bolte hain Question Tag. Jaise tum bologe 'Tum aa rahe ho, na?' — English me 'You are coming, aren't you?' Ye chhota sa tag confirm karne ke liye lagate hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, but rule kya hai? Kabhi 'aren't', kabhi 'don't', kabhi kuch aur — kaise decide karu?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Simple rule yaad rakho — agar sentence positive hai, to tag NEGATIVE hoga. Aur agar sentence negative hai, to tag POSITIVE hoga. Ab modals ke saath dekhte hain — modal wahi rahega, bas 'not' jodna ya hatana hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek example do na modal ke saath."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo suno — <span class='vw gw' data-word='Question Tag with Modals' data-pos='Grammar Rule' data-hindi='Sentence ke end me chhota confirm karne wala sawaal — positive statement pe negative tag, negative statement pe positive tag' data-meaning='Positive + modal &rarr; , modal + not + subject? | Negative + modal not &rarr; , modal + subject?' data-example='Positive: You can swim, can't you?\\nNegative: She won't come, will she?\\nSpecial: I am right, aren't I? (I ke saath 'am' ka tag hamesha 'aren't I' hota hai)'>You can swim, can&#39;t you?</span> — dekho, sentence positive hai ('you can swim'), isliye tag negative hai ('can't you'). Modal 'can' wahi raha, bas 'not' jod diya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Aur agar sentence pehle se hi negative ho, jaise 'wo nahi aayegi'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Tab tag positive hoga — 'She won't come, will she?' Dekho, 'won't' me already 'not' hai, isliye sentence negative hai, aur tag me 'not' nahi lagaya, sirf 'will she?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab jab main confuse hoon ki tag kya lagega, bas ye dekhna hai sentence me 'not' hai ya nahi, aur uska ulta karna hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Chalo aur practice karte hain — 'She must leave now' — iska tag kya hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Sentence positive hai ('must leave'), to tag negative chahiye — 'mustn't she?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Ek aur try karo — 'They shouldn't worry about it.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ye to already negative hai ('shouldn't'), to tag positive hoga — 'should they?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Dekha, ek baar rule samajh aaya to bahut easy hai. Ab ek tricky wala sunao — Hindi me bologe 'main sahi hoon na?' — isko English me kaise banaoge?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Hmm, 'I am right' — to tag 'am I not?' hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Yahi sabse bada trap hai SSC me! Sunne me 'am I not' sahi lagta hai, but kabhi bhi normal baat-cheet me aisa nahi bolte, bahut ajeeb/formal lagta hai. Iske liye ek special exception hai — 'I am' ka tag hamesha hota hai <span class='vw gw' data-word='Special Question Tag (I am &rarr; aren&#39;t I)' data-pos='Grammar Rule' data-hindi=''I am' ke saath tag hamesha 'aren't I' hota hai, 'am I not' bolna bahut formal/odd lagta hai' data-meaning='I am + adjective/noun, aren&#39;t I? (SSC me bahut common trick question)' data-example='I am late, aren't I?\\nI am your friend, aren't I?'>I am right, aren&#39;t I?</span> — 'I am right, aren't I?' Ye ek exception hai, ratt lo bas."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Achha, matlab 'I am' ke saath hamesha 'aren't I' — koi aur logic nahi lagana, bas yaad rakhna. Aur ek doubt — agar sentence me koi modal na ho, sirf normal verb ho, jaise 'You like coffee' — tab tag kaise banega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha sawaal! Jab koi modal na ho, tab helping verb 'do/does/did' use hota hai tag me. Jaise — 'You like coffee, don't you?' Yahan koi modal nahi tha, isliye 'do' use kiya negative tag ke liye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab agar modal already hai sentence me (can, will, must, should, etc), to wahi modal tag me bhi jaayega. Aur agar modal nahi hai, to do/does/did use hoga based on tense?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Chalo ek last practice — 'He has finished his homework' — iska tag kya hoga? Dhyan rakhna, ye 'has' modal nahi hai, but helping verb hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Hmm, 'has' khud hi helping verb hai to... 'hasn't he?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Bilkul perfect! Jab helping verb already sentence me ho (has/have/is/are/was/were), wahi use ho jaata hai tag me, 'do/does/did' ki zarurat nahi padti. Dekha, tumne to poora pattern samajh liya!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Sab tumhari wajah se — tum sikhaogi na aise hi aage bhi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sikhaungi na, waise bolo — 'You'll always remember this, won't you?'"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct question tag: 'She should apologize, ___?'",
+      "answer": "shouldn't she?",
+      "explain": "Positive statement (should) pe negative tag aata hai (shouldn't), aur subject 'she' pronoun me convert hota hai."
+    },
+    {
+      "q": "Choose the correct question tag: 'I am your best friend, ___?'",
+      "answer": "aren't I?",
+      "explain": "'I am' ke sath special rule hai — tag hamesha 'aren't I' hota hai, 'am I not' formal/odd lagta hai casual context me."
+    },
+    {
+      "q": "Choose the correct question tag: 'They won't come to the party, ___?'",
+      "answer": "will they?",
+      "explain": "Sentence already negative hai ('won't'), isliye tag positive hoga — sirf 'will they?', 'not' nahi jodna."
+    },
+    {
+      "q": "Choose the correct question tag: 'He has completed the project, ___?'",
+      "answer": "hasn't he?",
+      "explain": "Jab helping verb (has/have/is/are) already sentence me ho, wahi tag me use hota hai, alag se do/does/did nahi lagate."
+    },
+    {
+      "q": "Choose the correct question tag: 'You like ice cream, ___?' (no modal or helping verb in the sentence)",
+      "answer": "don't you?",
+      "explain": "Jab koi modal ya helping verb sentence me na ho, tab tense ke hisab se do/does/did use hota hai tag banane ke liye."
+    },
+    {
+      "q": "Correct the error: 'She must leave now, mustn't he?'",
+      "answer": "She must leave now, mustn't she?",
+      "explain": "Tag ka subject sentence ke subject se match karna chahiye — 'she' ke liye 'she' hi aayega tag me, 'he' nahi."
+    },
+    {
+      "q": "Choose the correct question tag: 'We shall win this match, ___?'",
+      "answer": "shan't we? (or informally: won't we?)",
+      "explain": "'Shall' ke saath formal tag 'shan't we' hota hai, though roz ki baat-cheet me 'won't we' bhi chalta hai."
+    }
+  ]
+}
