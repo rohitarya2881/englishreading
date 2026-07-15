@@ -17,27 +17,137 @@
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Sach kahoon, <span class='vw gw' data-word='Mixed Conditional' data-pos='Grammar Rule' data-hindi='Past ki ek action ka result abhi present me dikh raha hai — do alag time zones mix hote hain ek hi sentence me' data-meaning='If + had + V3 (past), Subject + would + V1 (present result) — past ka effect abhi tak chal raha hai' data-example='Casual: Agar maine wo class join na ki hoti, aaj tumhe jaanta hi nahi &rarr; If I hadn't joined that class, I wouldn't know you today.\\nFormal: If she had not studied abroad, she wouldn't have this global perspective now.'>if I hadn&#39;t joined this project, I wouldn&#39;t know you so well now</span>. Us project ne humein itna close kar diya."
+      "text": "Sach kahoon, agar maine ye project join na kiya hota, aaj tumhe itni achhi tarah jaanta hi nahi. Iske liye grammar me kya use hoga? Type 3 jaisa lag raha hai, kyunki 'join na kiya hota' past ki baat hai."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue, thodi narm hoke)</i> Wah, naya grammar point bhi seekh liya emotional moment me! Ye hai na jab past ka ek kaam, abhi tak effect daal raha ho present me — 'Mixed Conditional' kehte hain isse."
+      "text": "<i>(muskurate hue, thodi narm hoke)</i> Achha observation, but poori tarah Type 3 nahi hai — dhyan do, doosra part 'jaanta hi nahi' — ye to ABHI, PRESENT ki baat hai, past ki nahi! Jab ek sentence me DO ALAG time zones mix hote hain — ek part past ka, ek part present ka — usko kehte hain Mixed Conditional."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Haan! Pehle wala 'if had' past ke liye, but doosra part 'would' — present ke liye, na ki 'would have'."
+      "text": "Ohh, matlab 'if' clause past ka, but result present ka? Ye kaise likhenge poora sentence?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ekdum sahi pakda! Aur sach kahoon, mujhe bhi lagta hai — agar us din tumne mera naam na diya hota, hum itni gehri baat kabhi na kar paate jitni ab kar paate hain."
+      "text": "<span class='vw gw' data-word='Mixed Conditional — Type A (Past cause &rarr; Present result)' data-pos='Grammar Rule' data-hindi='Past ki ek action ka result abhi present me dikh raha hai — do alag time zones mix hote hain ek hi sentence me' data-meaning='If + had/hadn&#39;t + V3 (past), Subject + would/wouldn&#39;t + V1 (present result) — past ka effect abhi tak chal raha hai' data-example='Casual: Agar maine wo class join na ki hoti, aaj tumhe jaanta hi nahi &rarr; If I hadn't joined that class, I wouldn't know you today.\\nFormal: If she had not studied abroad, she wouldn't have this global perspective now.\\nRegret: If I hadn't quit that job, I would be earning much more now.'>If I hadn&#39;t joined this project, I wouldn&#39;t know you so well now</span> — dekho, 'if' clause me 'HAD/HADN'T + V3' hai (past), but main clause me sirf 'WOULD/WOULDN'T + V1' hai, 'would have' nahi — kyunki result ABHI present me hai, poora past me nahi."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(halki si rahat ke saath muskurate hue)</i> To sab theek hai humare beech?"
+      "text": "<i>(dhyan se sunte hue)</i> Achha, matlab agar 'would have' laga dete, to galat ho jaata?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul galat ho jaata! Agar tum bologe 'I wouldn't have known you' — ye pure Type 3 ban jaayega, matlab poori baat past me hi khatam ho gayi, present se koi connection nahi. But hum to abhi bhi ek dusre ko jaante hain — ye abhi tak chal raha hai, isliye 'wouldn't know' (present), 'wouldn't have known' nahi (pure past)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Samajh gaya! Ek aur example do na, isi type ka, taaki pakka clear ho jaaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ek achha example — 'Agar usne foreign me padhai na ki hoti, uske paas ye vishwa-drishti (global perspective) nahi hoti.' Dekho, 'padhai na ki hoti' past hai, 'nahi hoti' present hai — 'If she hadn't studied abroad, she wouldn't have this global perspective.' Ye bhi Mixed Conditional hai, same pattern."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ab ek doosra type bhi hoga na Mixed Conditional ka? Ya sirf ye ek hi variation hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha sawaal! Haan, ek doosra variation bhi hai — bilkul ULTA. Jab ek PRESENT/GENERAL fact ke basis pe hum PAST ke baare me guess ya conclusion nikalte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Matlab? Ek example do na, samajh nahi aaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo dekho — maan lo tumhe pata hai ki main hamesha exams me bahut serious rehti hoon, ye ek present/general fact hai mere baare me. Ab agar maine kal ek test miss kar diya, to tum bolte — 'Agar wo itni serious nahi hoti (present fact), usne kal test miss nahi kiya hota (past result).'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, to isko English me kaise banayenge?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<span class='vw gw' data-word='Mixed Conditional — Type B (Present/General cause &rarr; Past result)' data-pos='Grammar Rule' data-hindi='Present/general fact ke basis pe past ke kisi result ka reasoning — ulta wala Mixed Conditional' data-meaning='If + Past Simple/were (present/general fact), Subject + would/wouldn&#39;t + have + V3 (past result)' data-example='General trait: If he weren't so lazy, he wouldn't have failed the exam last year.\\nCharacter-based: If she didn't care about people, she wouldn't have helped that stranger yesterday.'>If she weren&#39;t so serious about exams, she wouldn&#39;t have missed that test by mistake — actually, being so serious, she must have had a strong reason.</span> — dekho is baar 'if' clause me PRESENT/GENERAL fact hai ('weren't so serious' — present trait), but main clause me PAST result hai ('wouldn't have missed' — kyunki wo kaam past me hua)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Ruko, ye to pehle wale se ulta structure hai — pehle wale me 'if' clause past tha, result present tha. Isme 'if' clause present hai, result past hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi pakda! Yehi Mixed Conditional ke do variations hain — Type A: PAST cause, PRESENT result (jaisa humare project wala example tha). Type B: PRESENT/GENERAL cause, PAST result (jaisa exam-serious wala example). Dono me time-zones mix hote hain, bas direction ulta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ye thoda tricky hai, ek aur simple example do Type B ka, roz ki zindagi se."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ekdum simple — 'Agar wo itna lazy nahi hota (uska general trait/nature — present), usne pichle saal exam fail nahi kiya hota (past result).' — 'If he weren't so lazy, he wouldn't have failed the exam last year.' Dekho, 'lazy hona' uska hamesha ka nature hai (present/general), but 'exam fail karna' ek specific past event hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Achha, ab dono types clear ho gaye. Bas ek confusion hai — kaise pehchanenge ki konsa type use karna hai, jab exam me sentence diya ho?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Simple trick — dono clauses padho, aur socho har ek KIS TIME ki baat kar raha hai. Agar 'if' clause PAST ki baat kare aur result ABHI/PRESENT ka ho — Type A, structure hoga 'had/hadn't + V3' phir 'would/wouldn't + V1'. Agar 'if' clause PRESENT/GENERAL trait ki baat kare aur result PAST ka ho — Type B, structure hoga 'were/wasn't/general past-simple' phir 'would/wouldn't + have + V3'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ab practice karte hain — main ek Hindi sentence bolta hoon, tum bologi konsa type hai aur poora banao. 'Agar maine tumhare saath itna time nahi bitaya hota, aaj mujhe English itni achhi nahi aati.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'bitaya hota' — past. 'aati' — present. To ye Type A hoga — 'If I hadn't spent so much time with you, I wouldn't be so good at English now.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Ab mera ek try karo — 'Agar wo itni ambitious nahi hoti (uska nature), usne wo bada scholarship apply hi nahi kiya hota.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'ambitious hona' — present/general nature. 'apply kiya hota' — past. To ye Type B hoga — 'If she weren't so ambitious, she wouldn't have applied for that big scholarship.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Bilkul sahi! Dekho, hum dono ne mil ke ek tough topic bhi kitni asaani se seekh liya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(halki si rahat ke saath muskurate hue)</i> Sach kahoon, mujhe bhi lagta hai — agar us din tumne mera naam na diya hota, hum itni gehri baat kabhi na kar paate jitni ab kar paate hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> To sab theek hai humare beech?"
     },
     {
       "type": "dialogue",
@@ -49,17 +159,32 @@
     {
       "q": "Correct the error: 'If I had studied medicine, I would have been a doctor now.'",
       "answer": "If I had studied medicine, I would be a doctor now.",
-      "explain": "Mixed Conditional (past cause, present result) me main clause 'would + V1' hota hai kyunki result abhi present me hai, 'would have' nahi (jo poora past ke liye hota hai)."
+      "explain": "Mixed Conditional Type A (past cause, present result) me main clause 'would + V1' hota hai kyunki result abhi present me hai, 'would have' nahi (jo poora past ke liye hota hai)."
     },
     {
-      "q": "Fill (past action, present result): If she ___ (not/miss) that flight, she ___ (be) here with us today.",
+      "q": "Fill (Type A — past cause, present result): If she ___ (not/miss) that flight, she ___ (be) here with us today.",
       "answer": "had not missed, would be",
-      "explain": "'If' clause past unreal (had + V3), main clause present result (would + V1) — classic Mixed Conditional structure."
+      "explain": "'If' clause past unreal (had + V3), main clause present result (would + V1) — classic Mixed Conditional Type A."
     },
     {
       "q": "Which is a Mixed Conditional — a) If I had left earlier, I would have caught the train. b) If I hadn't taken that job, I wouldn't be living here now.",
       "answer": "b) If I hadn't taken that job, I wouldn't be living here now.",
       "explain": "Option b) me past ka decision (taking the job) ka effect abhi present me dikh raha hai ('wouldn't be living now') — ye hi Mixed Conditional ki pehchaan hai. Option a) pura Type 3 hai (dono clause past)."
+    },
+    {
+      "q": "Identify the type: 'If he weren't so careless, he wouldn't have lost his phone yesterday.' Is 'if' clause about the present or past?",
+      "answer": "Present/general trait ('he is careless' — his nature) causing a past result ('lost his phone yesterday') — this is Mixed Conditional Type B.",
+      "explain": "'Weren't careless' describes his general nature (present), while 'wouldn't have lost' describes a specific past event — the two time zones mix in the opposite direction from Type A."
+    },
+    {
+      "q": "Fill (Type B — present/general cause, past result): If she ___ (not/be) so kind, she ___ (not/help) that stranger yesterday.",
+      "answer": "weren't, wouldn't have helped",
+      "explain": "'If' clause describes a general/present character trait ('weren't so kind'), and main clause describes a specific past action ('wouldn't have helped ... yesterday') — Type B pattern."
+    },
+    {
+      "q": "Translate to English (choose Type A or Type B correctly): 'Agar tum itne mehnati nahi hote (tumhara swabhav), tumhe wo scholarship pichle saal nahi milta.'",
+      "answer": "If you weren't so hardworking, you wouldn't have got that scholarship last year.",
+      "explain": "'Mehnati hona' ek general trait hai (present), 'scholarship milna' ek specific past event hai — Type B ka pattern: If + were/general present, Subject + wouldn't have + V3."
     }
   ]
 }
