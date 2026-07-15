@@ -17,27 +17,167 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Baaton me aur stage pe bolne me bahut fark hai. <span class='vw gw' data-word='Conditional Type 3' data-pos='Grammar Rule' data-hindi='Past ki ek unreal situation — jo asal me nahi hui, ek pachtawa (regret) ke sath' data-meaning='If + had + V3, Subject + would/could/should + have + V3 (past unreal situation)' data-example='Casual: Kaash tune bataya hota, main aa jaata &rarr; If you had told me, I would have come.\\nFormal: If the manager had reviewed the report earlier, the error would have been avoided.'>If you had asked me first, I would not have panicked in front of everyone</span>."
+      "text": "Baaton me aur stage pe bolne me bahut fark hai. Socho zara — agar tumne mujhse pehle poocha hota, kya hota?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(sar jhukate hue)</i> Sach me sorry {{B}}. Maine sirf achha karne ki koshish ki thi, galat soch liya."
+      "text": "To main tumhara naam nahi deta, aur tumhe itna panic nahi hota stage pe."
     },
     {
       "type": "dialogue",
       "speaker": "B",
+      "text": "Ekdum sahi, ab isi baat ko ek poora grammar sentence banate hain. Dekho ye baat PAST ki hai — jo ho chuka, aur ab uska pachtawa (regret) ho raha hai ki kaash aisa na hota. Iske liye alag hi structure hai — pehle wale Type 1 aur Type 2 se bilkul alag."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kaise alag? Pehle to samjhao fark kya hai in teeno me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Simple tareeka yaad rakho — Type 1 REAL future ki baat karta hai. Type 2 IMAGINARY present/future ki baat karta hai. Aur ab jo naya seekhenge, Type 3, wo IMAGINARY PAST ki baat karta hai — jo already ho chuka hai, aur ab badal nahi sakta, bas uska regret ya alternative soch rahe hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab Type 3 hamesha kisi cheez ke PAST me regret ke baare me hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi! Ab structure dekho — <span class='vw gw' data-word='Conditional Type 3 — Structure' data-pos='Grammar Rule' data-hindi='Past ki ek unreal situation — jo asal me nahi hui, ek pachtawa (regret) ke sath' data-meaning='If + had + V3, Subject + would/could/should + have + V3 (past unreal situation)' data-example='Casual: Kaash tune bataya hota, main aa jaata &rarr; If you had told me, I would have come.\\nFormal: If the manager had reviewed the report earlier, the error would have been avoided.\\nBlame: If you had listened to me, this would not have happened.'>If you had asked me first, I would not have panicked in front of everyone</span> — dekho, 'if' clause me 'HAD + V3' aata hai ('had asked'), aur main clause me 'WOULD/COULD/SHOULD + HAVE + V3' aata hai ('would not have panicked')."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sar jhukate hue)</i> Sach me sorry {{B}}. Maine sirf achha karne ki koshish ki thi, galat soch liya. Waise ye 'had' wala part thoda confuse kar raha hai — Type 2 me bhi kabhi kabhi 'had' aata hai kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha observation! Nahi, Type 2 me 'if' clause me sirf simple past aata hai (jaise 'had' agar noun ke saath ho — 'if I had money' — but wahan 'had' ek normal past tense verb hai, 'have' ka past form). Type 3 me 'had' ek DIFFERENT role play karta hai — ye 'PAST PERFECT' banata hai (had + V3), jo dikhata hai ki ye baat past se bhi pehle ki, ek completed unreal action hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(thoda confuse)</i> Ye thoda mushkil lag raha hai, ek aur example do na simple sa."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo bilkul simple se shuru karte hain. Hindi me bolo — 'Agar maine padhai ki hoti, main pass ho jaata.' Ye poori baat PAST ki hai — exam ho chuka, result aa chuka, ab sirf regret hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "To English me hoga — 'If I had studied, I would have passed.' Sahi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect! Dekho kitni achhi tarah bana liya. 'If' + 'had studied' (past perfect), aur 'would have passed' (would + have + V3). Ab bata, is sentence ka real matlab kya hai — kya wo pass hua tha ya fail?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Fail hua hoga, kyunki 'agar padhai ki hoti' ka matlab hai padhai nahi ki thi asal me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Yehi Type 3 ki sabse important baat hai — jo bhi 'if' clause me likha hai, uska OPPOSITE hi sach me hua tha. 'If I had studied' matlab asal me NAHI padha tha. 'I would have passed' matlab asal me FAIL hua tha. Dono clauses ka opposite hi reality hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hairan)</i> Wow, ye to interesting hai — matlab poora sentence hi 'opposite reality' bata raha hai! Chalo mera wala sentence bhi check karte hain — 'If you had asked me first, I would not have panicked.' Iska matlab asal me kya hua?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha, khud try karo pehle."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Hmm... 'if' clause opposite matlab — tumse ASAL ME nahi poocha tha maine. Aur main clause opposite matlab — tum ASAL ME panic hui thi. Sahi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Bilkul sahi! Dekha, ab tum khud reality nikaal sakte ho kisi bhi Type 3 sentence se — bas dono clauses ka opposite socho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
       "text": "<i>(thodi der chup rehke, phir narmi se)</i> Pata hai mujhe tumne bura nahi socha, but agli baar please pehle poochh lena, theek hai?"
     },
     {
       "type": "dialogue",
+      "speaker": "B",
+      "text": "Promise. Waise ek aur cheez batao — kya main clause me 'would have' ki jagah kuch aur bhi aa sakta hai, jaise Type 1 aur Type 2 me tha?"
+    },
+    {
+      "type": "dialogue",
       "speaker": "A",
-      "text": "Promise. Waise... agar main tumse pehle poochhta, tum haan bolti kya?"
+      "text": "Haan yaad hai, 'could' aur 'might' bhi aate the. Yahan bhi aayenge kya?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(halki si muskurahat, but aankhon me thodi doori)</i> Shayad. Pata nahi. Abhi chalte hain, class late ho rahi hai."
+      "text": "Bilkul aayenge, same tareeke se! 'Could have' jab ability/possibility ki baat ho — 'If I had studied, I could have passed' (ability thi pass hone ki). 'Might have' jab kam confident possibility ho — 'If I had studied, I might have passed' (shayad pass hota, pakka nahi). Aur 'should have' jab advice/expectation ki baat ho past ke baare me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab teeno modals (would/could/might/should) + have + V3 sab chalte hain main clause me, bas matlab thoda alag-alag hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Chalo ab ek aur practical example karte hain, humari khud ki life se. Waise tumhe yaad hai jab humari pehli mulaqat hui thi library me, jab tum files leke mujhse takraye the?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan yaad hai, main to bhool hi nahi sakta! Achha uspe bhi ek Type 3 sentence banau kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Try karo!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> 'If I had watched my way that day, we would not have met.' Sahi hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, thodi udaas bhi)</i> Grammar to bilkul sahi hai... but sach kahoon, achha hua tum nahi dekh paaye apna raasta us din."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sharmate hue)</i> Sach me? Waise ek common galti bhi bata do jo log karte hain is Type me, taaki main na karu."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sabse common galti hai — log 'if' clause me bhi 'would have' laga dete hain, jaise 'If you would have told me, I would have come' — YE GALAT HAI. 'If' clause me hamesha 'had + V3' aata hai, 'would have' sirf main clause me. Ye SSC me bahut common error-spotting question hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me pakka likhte hue)</i> Samajh gaya — 'if' clause = had + V3, main clause = would/could/might/should + have + V3. Kabhi bhi 'if' ke andar 'would have' nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(halki si muskurahat, but aankhon me thodi doori)</i> Perfect. Abhi chalte hain, class late ho rahi hai."
     },
     {
       "type": "present",
@@ -59,6 +199,26 @@
       "q": "Which sentence correctly expresses a past regret — a) If you had told me, I would have helped. b) If you told me, I will help.",
       "answer": "a) If you had told me, I would have helped.",
       "explain": "Ye Type 3 Conditional hai jo past ki ek unreal situation aur uska regret dikhata hai; option b) galat structure hai."
+    },
+    {
+      "q": "Find the real/opposite meaning: 'If he had left early, he would not have missed the train.' What actually happened?",
+      "answer": "He left LATE (not early), and he DID miss the train.",
+      "explain": "Type 3 Conditional me jo bhi 'if' clause aur main clause me likha hai, uska OPPOSITE hi reality hai — 'had left early' ka matlab asal me late nikla, aur 'would not have missed' ka matlab asal me miss ki thi."
+    },
+    {
+      "q": "Fill with the correct modal showing LESS certainty than 'would have': 'If I had practiced more, I ___ have won the competition.' (possible, but not definite)",
+      "answer": "might have",
+      "explain": "'Would have' definite/confident result dikhata hai, 'could have' ability dikhata hai, aur 'might have' sabse kam confident possibility dikhata hai past ke baare me."
+    },
+    {
+      "q": "Translate to English (Type 3): 'Agar tumne mujhe bataya hota, main madad kar deta.'",
+      "answer": "If you had told me, I would have helped.",
+      "explain": "Standard Type 3 pattern — If + had + V3 (had told), Subject + would have + V3 (would have helped) — past regret dikhata hai."
+    },
+    {
+      "q": "Correct the error: 'If she had more time, she would have finished the project.'",
+      "answer": "If she had had more time, she would have finished the project.",
+      "explain": "Jab 'have' khud hi main verb ho (possession ke matlab me), Type 3 me use hota hai 'had had' — pehla 'had' Type 3 ka structure marker hai, doosra 'had' actual verb hai. Casual English me kabhi simplify kar dete hain, but SSC/formal me 'had had' hi sahi hai."
     }
   ]
 }
