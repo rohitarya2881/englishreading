@@ -2317,7 +2317,7 @@ function attachVocabTooltips(){
 const synoHtml = el.dataset.syno ? `<div class="tt-synanto-row"><span class="tt-syno-label">🟢 Syn:</span> ${el.dataset.syno}</div>` : '';
 const antoHtml = el.dataset.anto ? `<div class="tt-synanto-row"><span class="tt-anto-label">🔴 Ant:</span> ${el.dataset.anto}</div>` : '';
  
-tt.innerHTML = `<div class="tt-word">${word}</div><div class="tt-phonetic"></div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div>${synoHtml}${antoHtml}<div class="tt-example-label">Example</div><div class="tt-example">${el.dataset.example}</div><div class="tt-speak-row"><button class="tt-speak-btn" data-rate="1">🔊 Normal</button><button class="tt-speak-btn" data-rate="0.6">🐢 Slow</button></div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
+tt.innerHTML = `<div class="tt-word">${word}</div><div class="tt-phonetic"></div><div class="tt-pos">${el.dataset.pos}</div><div class="tt-hindi">${el.dataset.hindi}</div><div class="tt-meaning">${el.dataset.meaning}</div>${synoHtml}${antoHtml}<div class="tt-example-label">Example</div><div class="tt-example">${(el.dataset.example||'').replace(/\\n/g,'<br>')}</div><div class="tt-speak-row"><button class="tt-speak-btn" data-rate="1">🔊 Normal</button><button class="tt-speak-btn" data-rate="0.6">🐢 Slow</button></div><div class="tt-close" onclick="this.closest('.tooltip').style.display='none'">✕ Tap to close</div><div class="tt-arrow"></div>`;
     el.appendChild(tt);
 
     // Speak buttons — real human audio via Free Dictionary API, fallback to SpeechSynthesis
