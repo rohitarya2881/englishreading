@@ -12,37 +12,151 @@
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(aankhein chamkate hue)</i> Wow, ye idea to mast hai! Socho — <span class='vw gw' data-word='Conditional Type 2' data-pos='Grammar Rule' data-hindi='Ek imaginary/hypothetical situation present ya future ki — jo abhi sach nahi hai, sirf soch hai' data-meaning='If + Past Simple, Subject + would + V1 (unreal/hypothetical present ya future condition)' data-example='Casual: Agar mere paas paise hote, main duniya ghoomta &rarr; If I had money, I would travel the world.\\nFormal: If the government reduced taxes, businesses would invest more.'>if we started a channel, we would help thousands of students</span>!"
+      "text": "<i>(aankhein chamkate hue)</i> Wow, ye idea to mast hai! Socho zara — agar hum channel shuru karein, hazaaron students ki madad ho sakti hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Haan na! But abhi to bas ek sapna hai, hai na?"
+      "text": "Haan na! But abhi to bas ek sapna hai, hai na? Isko English me kaise bolenge — jab kuch abhi real nahi hai, sirf imagination hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Filhaal to haan, isliye hum 'would' use kar rahe hain — kyunki ye real nahi hai abhi, sirf imagine kar rahe hain. Agar ye real hota, hum 'will' use karte, jaise humne Type 1 me kiya tha."
+      "text": "Bilkul sahi pakda tumne, ye alag category hai — Type 1 se alag. Type 1 me humne 'real, possible' baatein ki thi, jaise 'agar hum time pe kaam karenge, jeetenge' — wo ho sakta hai easily. But 'agar hum channel shuru karein' — abhi to koi plan hi nahi hai, bas sapna hai. Iske liye use hota hai <span class='vw gw' data-word='Conditional Type 2 — Structure' data-pos='Grammar Rule' data-hindi='Ek imaginary/hypothetical situation present ya future ki — jo abhi sach nahi hai, sirf soch hai' data-meaning='If + Past Simple, Subject + would + V1 (unreal/hypothetical present ya future condition)' data-example='Casual: Agar mere paas paise hote, main duniya ghoomta &rarr; If I had money, I would travel the world.\\nFormal: If the government reduced taxes, businesses would invest more.\\nAdvice-giving: If I were you, I would apologize first.'>If we started a channel, we would help thousands of students</span>!"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Ohh, matlab jab kuch imaginary ho, sach me possible na ho abhi, tab 'If + past, would' use hota hai?"
+      "text": "Achha, structure kya hai iska? Type 1 se kaise alag hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ekdum sahi! Ek aur example suno — 'Agar main teacher hoti, main sabko free me sikhati' &rarr; 'If I were a teacher, I would teach everyone for free.' Dekha 'was' nahi, 'were' use hota hai sab subjects ke saath is type me, chahe I/he/she ho."
+      "text": "Dekho fark — Type 1 me 'if' clause me PRESENT simple tha, yahan 'if' clause me PAST simple aata hai — 'If we started...' Aur main clause me 'will' ki jagah 'would' aata hai — 'we would help...' Bas structure ka pattern ek step peeche shift ho jaata hai, isse hi pata chalta hai ki ye hypothetical/imaginary hai, real nahi."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha ye interesting hai — to agar main abhi teacher hota, tumhe kabhi daant nahi padti grammar ki galtiyon pe."
+      "text": "Ruko, confuse ho gaya — 'started' to past tense hai na? Matlab past ki baat ho rahi hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hasm ke)</i> Sapno me raho tum, reality me main hi tumhari teacher hoon!"
+      "text": "Yahi sabse bada confusion hota hai sabko! Nahi, yahan 'started' PAST TENSE ki baat nahi kar raha — ye sirf GRAMMAR ka form hai jo dikhata hai ki baat UNREAL/IMAGINARY hai, chahe wo present ya future ki hi baat kyun na ho. Time abhi bhi present/future hi hai, bas form badal gaya hai ye batane ke liye ki ye sirf socha ja raha hai, real nahi hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab past tense yahan 'distance' dikhata hai reality se, time ki baat nahi kar raha?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi samjhe! Ye ek achha tareeka hai yaad rakhne ka — 'past form = distance from reality', chahe time koi bhi ho. Chalo aur examples dekhte hain taaki pakka clear ho jaaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan bolo, main sun raha hoon."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ek classic example — 'Agar mere paas bahut paise hote, main duniya ghoomta.' Ye kabhi ho sakta hai future me, but ABHI ke liye sirf ek sapna/wish hai, isliye Type 2 — 'If I had a lot of money, I would travel the world.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur agar bilkul hi impossible baat ho, jaise 'agar mere pankh hote'? Wo bhi Type 2 hi hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan bilkul, wo bhi Type 2 hi hai — 'If I had wings, I would fly.' Bas dhyan rakho, Type 2 dono cover karta hai — jo THEORETICALLY possible hai but abhi real nahi (jaise paise wala example), aur jo COMPLETELY impossible hai (jaise pankh wala example). Dono ek hi structure use karte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ek cheez poochni hai — maine kahin suna tha 'was' ki jagah 'were' use karte hain is type me, sach hai kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan, bahut important rule hai ye! Jab 'be' verb use karna ho Type 2 me, to sab subjects ke saath — I, he, she, it — hamesha 'WERE' use hota hai, 'was' nahi. Jaise 'Agar main teacher hoti, main sabko free me sikhati' — 'If I WERE a teacher, I would teach everyone for free.' 'I was' nahi, 'I were' — bas isi jagah exception hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye bahut important lag raha hai, note kar liya — Type 2 me 'were' hamesha, chahe subject koi bhi ho. Aur bahut famous phrase bhi hai na 'if I were you'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul! 'If I were you, I would apologize first' — advice dene ka bahut common tareeka hai ye, jaise Hindi me bolte hain 'main tumhari jagah hota to pehle sorry bol deta.' Bahut useful phrase hai roz ki English me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, waise main to abhi teacher nahi hoon, but agar hota, tumhe kabhi daant nahi padti grammar ki galtiyon pe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke)</i> Sapno me raho tum, reality me main hi tumhari teacher hoon! Waise dekho, tumne khud hi Type 2 use kar liya sentence me — 'agar tum teacher hote' — perfect practice."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Sach me? Chalo ab main try karta hoon khud se banane ka — 'Agar humara channel successful hota, hum college chhod dete.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hasm ke)</i> Arey itni jaldi college chhodne ki baat mat karo! But grammar sahi hai — 'If our channel were successful, we would leave college.' Bas thoda practical socho pehle."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Achha theek hai, ek aur try karta hoon, thoda realistic wala — 'Agar hum roz ek video banayein, hum jaldi grow karenge.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Hmm, ruko — ye to Type 1 jaisa lag raha hai, kyunki roz video banana ekdum possible hai, koi imaginary baat nahi! Isko 'If we make a video daily, we will grow quickly' bolenge — Type 1, present simple aur will."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh! Matlab mujhe pehle decide karna padega ki baat REALLY possible hai (Type 1) ya sirf IMAGINARY/hypothetical hai (Type 2), tabhi sahi structure choose kar paunga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Yahi sabse important skill hai conditionals me — pehle socho 'kya ye sach me ho sakta hai easily (Type 1), ya sirf ek sapna/hypothetical baat hai (Type 2)?' Uske baad hi structure decide karo."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ek last cheez — kya main clause me 'would' ki jagah kuch aur bhi aa sakta hai, jaise Type 1 me 'might/can' aaya tha?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan bilkul, same tarike se — 'could' aata hai jab ability/possibility ki baat ho, aur 'might' aata hai jab thoda kam confident possibility ho. Jaise 'If I had more time, I could help you' (ability), ya 'If it were sunny, we might go for a walk' (kam confident possibility)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Achha, matlab 'would' sabse strong/confident hai, 'could' ability dikhata hai, aur 'might' sabse kam confident hai — teeno alag shades hain same imaginary situation ke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect summary! Dekha, kitna kuch seekh liya ek chai peete peete."
+    },
+    {
+      "type": "present",
+      "text": "Interview hall ke bahar, saalon baad, wahi ladki soch rahi thi — kya sach me wo channel wala sapna kabhi pura hoga?"
     }
   ],
   "quiz": [
@@ -60,6 +174,26 @@
       "q": "Type 1 vs Type 2 — Which sentence shows something purely imaginary, not really possible right now? a) If it rains, I will stay home. b) If I had wings, I would fly.",
       "answer": "b) If I had wings, I would fly.",
       "explain": "Pankh hona ek impossible/hypothetical baat hai, isliye Type 2 (If + past, would) fit baithta hai; option a) ek real future possibility hai (Type 1)."
+    },
+    {
+      "q": "Fill using the special 'be' verb rule: 'If I ___ you, I would think twice before deciding.'",
+      "answer": "were",
+      "explain": "Type 2 Conditional me 'be' verb ke liye sab subjects (I/he/she/it included) ke saath hamesha 'were' use hota hai, 'was' nahi — ye ek fixed exception hai."
+    },
+    {
+      "q": "Decide Type 1 or Type 2: 'Agar kal baarish hui, hum picnic cancel kar denge.' (This is a realistic possibility for tomorrow.)",
+      "answer": "Type 1 — If it rains tomorrow, we will cancel the picnic.",
+      "explain": "Kal baarish hona ek real, possible future event hai — koi imaginary/hypothetical baat nahi, isliye Type 1 (present simple + will) sahi hai, Type 2 nahi."
+    },
+    {
+      "q": "Fill with the right modal for a less-confident possibility: 'If the weather were nice, we ___ (might/would definitely) go for a walk.' Which shows LESS certainty?",
+      "answer": "might go",
+      "explain": "'Would' sabse confident/definite result dikhata hai, 'could' ability dikhata hai, aur 'might' sabse kam confident possibility dikhata hai — teeno Type 2 ke main clause me use ho sakte hain, matlab thoda alag hota hai."
+    },
+    {
+      "q": "Translate to English (Type 2): 'Agar main uski jagah hota, main pehle sorry bolta.'",
+      "answer": "If I were in his place, I would apologize first. (or: If I were him, I would apologize first.)",
+      "explain": "Hypothetical advice/imagination dene ka classic Type 2 pattern — 'If I were...' bahut common phrase hai advice dete waqt."
     }
   ]
 }
