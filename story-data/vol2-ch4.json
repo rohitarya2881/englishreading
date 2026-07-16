@@ -2,518 +2,294 @@
   "paras": [
     {
       "type": "narration",
-      "text": "Raat ke gyarah baje, {{A}} apni chhat pe akela baitha tha, phone haath me, {{B}} ka last message dobara padh raha tha — 'Aaj bahut mushkil din tha.' Usne call laga diya."
+      "text": "College ke notice board pe ek naya notice chipka tha, itni ajeeb formal language me likha tha ki {{A}} aur {{B}} dono ruk gaye padhne ke liye."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Kya hua, sab theek hai? Tumhara message padha, pareshan lagi."
+      "text": "<i>(zor se padhte hue, mazak udate hue)</i> 'It is imperative that every student BE present in the auditorium by 9 AM sharp.' Ye 'BE' kya hai yahan? 'is' kyu nahi likha?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(thaki awaaz me)</i> Bas thoda mushkil din tha, exam ka pressure. Kaash tum yahan hote, sab kuch itna behtar lagta tumhare saath."
+      "text": "<i>(hasm ke)</i> Arre ye galti nahi hai, ye ek KHAAS grammar form hai — Present Subjunctive kehte hain isko! Bahut official/formal notices, rules, aur demands me use hota hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Mujhe bhi wahi feel ho raha hai. Waise ye 'kaash' wali baat — English me isko bahut khaas tarike se bolte hain, tumhe pata hai?"
+      "text": "Present Subjunctive? Naam se hi darr lag raha hai. Samjhao na, kya scene hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Haan, 'I wish' na? Bas kaise use karte hain thik se, kabhi confuse ho jaati hoon."
+      "text": "Bilkul simple hai, dekhte hi dekhte samajh aa jayega! Jab kisi cheez ko bahut ZAROORI, DEMAND, ya FORMAL SUGGESTION ki tarah bola jaata hai, tab uske 'that' clause ke andar wala verb hamesha BASE FORM me rehta hai — chahe subject 'he/she/it' ho, chahe sentence present ho ya past, koi fark nahi padta.<span class='vw gw' data-word='Present Subjunctive — Core Rule' data-pos='Grammar Rule' data-hindi='Formal zaroorat/demand/suggestion batane ke liye, that-clause ka verb hamesha BASE FORM (V1) rehta hai — 's' kabhi nahi lagta, tense bhi change nahi hoti' data-meaning='It is + adjective (imperative/essential/necessary) + that + Subject + V1 (base form, NO 's', NO tense change)' data-example='Notice board: It is imperative that every student be present by 9 AM.\\nOffice memo: It is essential that all employees submit their reports today.\\nCollege rule: It is necessary that every candidate carry an admit card.'>It is imperative that every student be present in the auditorium by 9 AM</span> Dekho — 'every student' third-person singular hai, normal grammar me 'is' aata, but yahan 'BE' hi rehta hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo aaj isi pe baat karte hain, kyunki tumhari yehi feeling hai abhi. Pehle samjho — Subjunctive Mood ek special grammar form hai jo wishes, imaginary situations, aur formal suggestions ke liye use hoti hai — normal 'reality' wale rules yahan nahi chalte."
+      "text": "<i>(hairan)</i> Ye to bilkul ulta lagta hai jo humne pehle seekha tha! To ye sirf notice-board wali cheez hai, ya roz ki English me bhi hota hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, to 'I wish you were here' — ye sahi hai na? Maine kahin suna tha."
+      "text": "Roz ki spoken English me kam hota hai, but FORMAL writing — notices, rules, official letters, meeting minutes, exam answers — inme bahut common hai. Aur SSC me to ye favorite error-spotting topic hai, kyunki 90% log 'is/was/are' likh dete hain galti se."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<span class='vw gw' data-word='I Wish / If Only — Present Wish (unreal present)' data-pos='Grammar Rule' data-hindi='Abhi ki kisi situation ke baare me wish/afsos, jo sach nahi hai' data-meaning='I wish / If only + Subject + Past Simple (were for 'be', sab subjects ke sath)' data-example='Casual: Kaash tum yahan hote &rarr; I wish you were here.\\nFormal: I wish I had more free time.\\nIf only version: If only you were here with me right now.'>I wish you were here</span> — bilkul sahi! Ye PRESENT wish hai, matlab abhi ki situation ke baare me afsos, jo sach nahi hai. Structure hai — 'I wish' + Past Simple, aur 'be' verb ke liye hamesha 'WERE', chahe subject koi bhi ho. 'I wish you were here' ka matlab — tum abhi yahan nahi ho, aur mujhe uska afsos hai."
+      "text": "Achha, chalo poora samjhao — kaunse words ke baad ye BASE FORM wala rule lagta hai? Poori list chahiye mujhe."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, ye to Conditional Type 2 jaisa lag raha hai, jo humne pehle seekha tha — 'were' wala rule same hai!"
+      "text": "Chalo, do groups me yaad rakho. Pehla group — ADJECTIVES, jo 'It is + adjective + that' pattern me aate hain: essential, necessary, important, imperative, vital, crucial, desirable, urgent, obligatory, advisable. Doosra group — VERBS jo seedhe use hote hain: suggest, recommend, demand, insist, propose, require, urge, request, order, move, desire, prefer."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(khush hoke)</i> Bilkul sahi connect kiya! Dono me similar logic hai — past form use karke 'unreal/imaginary' present dikhaya jaata hai. Chalo ek aur example dete hain, thoda alag context ka."
+      "text": "<i>(notebook nikaal ke)</i> Itni lambi list yaad kaise rahegi?! Chalo ek-ek karke maza wala example do, taaki yaad reh jaaye."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Haan bolo."
+      "text": "Perfect idea, chalo masti karte hain isi notice board se! Dekho agla notice — 'It is essential that all bikes be parked outside the gate.' Isko funny bana ke socho — jaise principal khud bike lekar andar ghusne wale students ko pakadta hoga."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo — 'Kaash mere paas zyada free time hota' &rarr; 'I wish I had more free time.' Ya 'Kaash mujhe uska number pata hota' &rarr; 'I wish I knew his number.' Dekho, dono me Past Simple use hua, present ki hi baat ho rahi hai, bas unreal/wish wali."
+      "text": "<i>(hasm ke)</i> Haha, achha imagine kar liya! Ab ek aur do, 'imperative' wala."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(notebook nikaal ke)</i> Achha, ab batao — agar past ki kisi baat ka afsos ho, jaise 'kaash maine wo kiya hota' — wo bhi 'I wish' se hi banega?"
+      "text": "Chalo — imagine karo hostel warden itni strict hai ki roz chillati hai — 'It is imperative that everyone return before 9 PM!' Har ek student darr ke maare bhaagta hoga gate band hone se pehle."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul, bas structure thoda alag hoga — PAST wish ke liye.<span class='vw gw' data-word='I Wish / If Only — Past Wish (unreal past, regret)' data-pos='Grammar Rule' data-hindi='Past ki kisi baat ka afsos/pachtawa, Type 3 Conditional jaisa structure' data-meaning='I wish / If only + Subject + had + V3 (past perfect)' data-example='Casual: Kaash maine us exam ke liye zyada padhai ki hoti &rarr; I wish I had studied harder for that exam.\\nFormal: I wish I had visited my grandmother before she passed away.\\nIf only version: If only I had listened to your advice.'>I wish I had studied harder for that exam</span> — dekho, 'had + V3' use hua, bilkul Type 3 Conditional jaisa structure. 'I wish I had studied harder' ka matlab — maine nahi padha tha, aur ab uska pachtawa hai."
+      "text": "<i>(hasm ke)</i> Bilkul apni warden jaisi lag rahi hai! Ab 'vital' wala do."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ohh, matlab PRESENT wish me 'Past Simple' (were included), aur PAST wish me 'had + V3' — bilkul Conditional Type 2 aur Type 3 jaisa hi pattern hai!"
+      "text": "Chalo — cricket coach bol raha hai team se match se pehle — 'It is vital that every player arrive at the ground by 6 AM, or you're benched!' Socho, coach ka gussa waala face."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Ekdum sahi socha! Ye connection yaad rakhoge to kabhi confuse nahi hoge. Chalo ab ek TEESRA type bhi hai 'I wish' ka, jo thoda alag hai — jab kisi ki HABIT ya BEHAVIOUR se annoyance ho, complaint karni ho."
+      "text": "<i>(muskurate hue)</i> Ye to bilkul movie scene jaisa lag raha hai! 'Crucial' wala bhi do."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Matlab? Ek example do na."
+      "text": "Chalo — exam ke time principal announcement karti hai — 'It is crucial that every candidate carry their admit card, or they will be denied entry!' Imagine karo ek bechara student gate pe rota hua khada hai, admit card ghar bhool aaya."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo socho — maan lo tumhara roommate hamesha deer se aata hai raat ko, aur tumhe disturb karta hai. Tum bologi — 'Kaash wo itni der se na aaya kare' — matlab ek complaint, wish nahi sirf, thoda irritation bhi hai.<span class='vw gw' data-word='I Wish + Would — Annoyance/Complaint about behaviour' data-pos='Grammar Rule' data-hindi='Kisi ki habit/behaviour se irritation, complaint karna — sirf doosron ke liye use hota hai, khud ke liye nahi' data-meaning='I wish + Subject (not 'I') + would/wouldn&#39;t + V1' data-example='Casual: Kaash tum itna shor na machaya karo &rarr; I wish you wouldn't make so much noise.\\nFormal: I wish he would arrive on time for meetings.\\nNote: 'I wish I would...' nahi bolte apne liye, sirf doosron ke behaviour pe complain karne ke liye.'>I wish you wouldn&#39;t make so much noise</span> — dekho, is type me 'would/wouldn't' use hota hai, aur ye SIRF doosron ke liye use hota hai, khud ke liye nahi — 'I wish I would...' nahi bolte."
+      "text": "<i>(hasm ke)</i> Bechara! Achha ab 'desirable' aur 'urgent' bhi karo — inme kya fark hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hasm ke)</i> Achha, to teeno type clear ho gaye — Present wish (were/past simple), Past wish (had+V3), aur Annoyance wish (would/wouldn't, sirf doosron ke liye). Ye teeno me fark dekhne ka koi trick hai?"
+      "text": "'Desirable' thoda soft hota hai, matlab 'better hoga agar' — 'It is desirable that students wear the uniform on Mondays.' (halki suggestion, majboori itni strict nahi). 'Urgent' matlab bahut jaldi zaroori — 'It is urgent that the injured player receive medical help immediately!' (turant, koi delay nahi)."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul — teen sawaal khud se poochho: (1) Kya ye ABHI ki baat hai jo sach nahi? Present wish. (2) Kya ye PAST ki baat hai jiska pachtawa hai? Past wish. (3) Kya ye kisi ke BEHAVIOUR se complaint hai? Annoyance wish, 'would' wala."
+      "text": "<i>(notebook me likhte hue)</i> Achha, fark clear ho gaya — 'desirable' soft advice, 'urgent' turant zaroori. Ab last adjective wala bhi karo — 'obligatory'."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(pakka likhte hue)</i> Achha, ab 'If only' ka kya scene hai? Wo bhi same hai kya 'I wish' jaisa?"
+      "text": "'Obligatory' matlab koi choice hi nahi, rule hai — jaise 'It is obligatory that every citizen carry a valid ID during elections.' Government wale notices me bahut common hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul same structure, bas 'If only' thoda zyada EMOTIONAL/STRONG lagta hai 'I wish' se. Jaise — 'If only I had known earlier!' — ye sunne me zyada intense lagta hai 'I wish I had known earlier' se, though matlab same hai."
+      "text": "Achha ab VERBS wala group karte hain — sabse pehle 'suggest' aur 'recommend', ye dono kaafi same lagte hain."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, to main abhi bol sakti hoon — 'If only you were here right now.'"
+      "text": "Haan, dono halke advice jaise hain. Chalo funny example — imagine karo, tumhari mummy bol rahi hai doctor ko — 'I suggest that my son EAT more vegetables!' Aur doctor turant bolta hai — 'I recommend that he EXERCISE daily too!' Dono me base form — 'eat', 'exercise', 's' nahi laga."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(narmi se muskurate hue)</i> Perfect sentence, aur sach bhi. Chalo ab ek naya cheez seekhte hain, thoda related — 'As if' aur 'As though'. Ye bhi Subjunctive family ka hi hai."
+      "text": "<i>(hasm ke)</i> Bilkul meri mummy jaisi lag rahi hai! Ab 'demand' aur 'insist' — ye to bahut strong lagte hain."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ye kaise use hota hai?"
+      "text": "Bilkul strong hain! Imagine karo — angry customer restaurant me chilla raha hai — 'I demand that the manager REFUND my money right now!' Aur manager darr ke bolta hai — 'I insist that you TAKE a complimentary dessert instead, sir!'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<span class='vw gw' data-word='As If / As Though — Unreal Comparison' data-pos='Grammar Rule' data-hindi='Kisi cheez ko aisa dikhana jaise wo sach ho, jabki sach nahi hai — ek unreal comparison' data-meaning='Subject + verb + as if/as though + Past Simple (were for 'be')' data-example='Casual: Wo aise baat karta hai jaise wo ameer ho (par nahi hai) &rarr; He talks as if he were rich.\\nFormal: She behaves as though she owns the place.\\nPast version: He looked as if he had seen a ghost.'>He talks as if he were rich</span> — dekho, jab kisi ki HARKAT ko compare karte ho ek IMAGINARY/unreal situation se, tab 'as if/as though' use karte hain, aur usi 'were' wala rule follow hota hai."
+      "text": "<i>(zor se hasm ke)</i> Ye scene to bilkul real lag raha hai, maine dekha hai aisa kabhi restaurant me! Ab 'propose' aur 'require' bhi karo."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ek Hindi example do na, jisse main relate kar sakoon."
+      "text": "Chalo — school ke meeting me teacher bol rahi hai — 'I propose that the annual function BE held in December this year.' Aur rule book bolta hai — 'The exam rules require that every student SIGN the attendance sheet.'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo — 'Wo aise baat karta hai jaise use sab kuch pata ho' &rarr; 'He talks as if he knew everything.' Ya 'Wo aise react kar rahi thi jaise usne bhoot dekh liya ho' &rarr; 'She reacted as if she had seen a ghost.' Dekho, doosre wale me 'had + V3' use hua, kyunki ye PAST ki comparison hai."
+      "text": "Achha, ab 'urge', 'request', aur 'order' bhi karo — ye teeno me kya fark hai?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(notebook me likhte hue)</i> Achha, matlab yahan bhi present aur past dono versions hain, jaise 'I wish' me the. Ab batao, isme aur 'as if/as though' me koi fark hai?"
+      "text": "Teeno me STRENGTH ka fark hai — 'urge' matlab bahut zor de ke kehna (jaise doctor bimaar patient se) — 'The doctor urged that the patient REST for a week.' 'request' matlab politely poochna — 'She requested that the deadline BE extended by two days.' 'order' matlab seedha hukum, authority wala — 'The general ordered that the troops MOVE immediately.'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul same matlab, bas 'as though' thoda zyada literary/formal lagta hai, roz ki baat-cheet me 'as if' zyada common hai. Dono chalenge exam me."
+      "text": "<i>(notebook me sab likhte hue)</i> Achha aakhri do bache hain — 'desire' aur 'prefer', aur wo 'wants that' wala jo roz sunte hain."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, ab kuch aur bacha hai kya Subjunctive me? Ye topic to bahut interesting lag raha hai."
+      "text": "Chalo, formal wale pehle — 'desire' aur 'prefer' bahut formal writing me aate hain, jaise official documents — 'The company desires that all employees ARRIVE by 9 AM.' 'The board prefers that the meeting BE held online.' Aur roz ki spoken English wala, jo bahut common hai — 'The boss wants that everybody COME on time.'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Haan, ek aakhri important part bacha hai — FORMAL Subjunctive. Ye thoda alag hai, official/formal English me use hota hai, jab koi ZAROORI suggestion, demand, ya requirement batani ho."
+      "text": "<i>(hairan)</i> Arre ye to maine kal hi bola tha apni team se, bina jaane subjunctive use kar liya!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ye kaise banta hai?"
+      "text": "<i>(hasm ke)</i> Dekha! Ye sab tumhare roz ki zindagi me already ghumti hai, bas naam nahi pata tha. Waise ek zaroori baat — 'wants THAT' pattern bhi chalta hai but 'wants everyone TO come' (infinitive wala) zyada common/casual hai roz ki baat-cheet me. Exam me dono type aa sakte hain."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<span class='vw gw' data-word='Formal Subjunctive — with essential/necessary/important/suggest/recommend/demand/insist' data-pos='Grammar Rule' data-hindi='Formal zaroorat/suggestion/demand batane ke liye, verb hamesha BASE FORM (V1) rehta hai, chahe subject koi bhi ho, chahe past ho ya present' data-meaning='It is essential/necessary/important that + Subject + V1 (base form, NO 's', NO tense change). Same rule: suggest/recommend/demand/insist + that + Subject + V1.' data-example='Formal: It is necessary that every student submit the form by Friday. (not 'submits')\\nFormal: The teacher suggested that he be more careful. (not 'is' or 'was')\\nFormal: The manager insisted that she complete the report today. (not 'completes')'>It is essential that he be present at the meeting</span> — dekho, sabse important rule — verb hamesha BASE FORM me rehta hai, 'he be' hai, 'he is' ya 'he was' nahi — chahe subject third-person singular ho, chahe sentence past me ho, phir bhi base form."
+      "text": "Achha ek doubt hai — agar sentence PAST me shuru ho, jaise 'The teacher suggested...' — tab bhi base form hi rahega, past nahi hoga?"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hairan)</i> Kya?! 'He be' sunne me to galat lagta hai! Ye pakka sahi hai?"
+      "text": "Bahut achha sawaal, ye sabse zyada log galat karte hain! Haan, chahe reporting verb PAST me ho ('suggested', 'demanded', 'insisted'), that-clause ka verb PHIR BHI base form hi rahega — kabhi past nahi hota subjunctive me. 'The teacher suggested that he BE more careful' — 'was' ya 'is' nahi, hamesha 'be'."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Haan, ye SSC ka bahut common trap hai, kyunki sunne me ajeeb lagta hai, log turant 'he is' ya 'he was' likh dete hain, jo galat hai formal subjunctive me. Ye rule kaam karta hai in words ke saath — 'essential', 'necessary', 'important', 'suggest', 'recommend', 'demand', 'insist', 'propose'."
+      "text": "<i>(pakka likhte hue)</i> Ye bahut important hai, kyunki natural instinct to past lagane ka hi hota hai jab sentence past me ho."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ek aur example do na, taaki pakka yaad ho jaaye."
+      "text": "Ekdum sahi, yehi to SSC ka trap hai! Chalo ab poora masti wala practice round karte hain — main tumhe funny scenarios dunga, tum subjunctive sentence banao."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo — 'The doctor recommended that he TAKE rest.' (na ki 'takes' ya 'took'). Aur — 'The manager demanded that the report BE submitted immediately.' (na ki 'is submitted' ya 'was submitted'). Dekho har jagah base form, chahe sentence ka baaki hissa present ho ya past."
+      "text": "Chalo, ready hoon, laao!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, ye 'essential/suggest/recommend/demand' to samajh gaya, but aur bhi words honge na jo isi tarah base-form maangte hain? Poori list do na, taaki exam me koi bhi word aaye, pehchan sakoon."
+      "text": "Pehla — imagine karo tumhari class teacher bahut gussa hai kyunki koi roz late aata hai. Wo notice lagati hai — use 'imperative' word se banao."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul, ye bahut achha sawaal hai — Present Subjunctive DO tarah ke trigger words se aata hai. Pehla group — VERBS: suggest, recommend, demand, insist, propose, request, require, urge, order, move (formal meeting me), desire, prefer, ask. Doosra group — 'It is + ADJECTIVE + that': essential, necessary, important, imperative, vital, crucial, desirable, urgent, obligatory. In sab ke baad, that-clause me verb hamesha BASE FORM."
+      "text": "<i>(sochte hue, hasm ke)</i> 'It is imperative that every student arrive before the bell rings!'"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(pakka likhte hue)</i> Itni lambi list! Ek-ek karke example do na sabka, warna yaad nahi rahega."
+      "text": "<i>(taali maarte hue)</i> Perfect! Doosra — imagine ek pizza shop me, waiter bahut slow hai, angry customer bol raha hai — 'demand' word se banao."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo, VERBS wale group se shuru karte hain — 'insist': 'She insisted that he APOLOGIZE immediately.' (na ki 'apologizes'). 'propose': 'I propose that the meeting BE postponed.' (na ki 'is postponed'). 'require': 'The rule requires that every member SIGN the form.' (na ki 'signs')."
+      "text": "'I demand that the manager serve my order immediately!'"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, ye 'require' wala interesting hai, roz ki English me bhi use hota hoga shayad."
+      "text": "Haha ekdum sahi feel aaya! Teesra — coach team se bol raha hai match se pehle, 'insist' word se."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Bilkul, office/college notices me bahut common hai. Ek aur suno — 'urge': 'The doctor urged that the patient REST completely.' Aur roz ki baat-cheet wala, thoda casual — jaise tum apne boss ke baare me bologi, 'The boss wants that everybody COME on time.' Dekho, 'wants that' bhi isi pattern me aata hai, 'comes' nahi, 'come' hi."
+      "text": "'The coach insisted that every player practice for two extra hours.'"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hairan)</i> Sach me?! Maine to hamesha 'wants everyone to come' bola hai, 'wants that' wala pattern kabhi socha nahi tha subjunctive hoga!"
+      "text": "Perfect! Chautha — tumhare papa ka favorite dialogue, 'necessary' word se, tumhari padhai ke baare me."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Haan, dono sahi hain — 'The boss wants everyone to come on time' (infinitive wala, casual/common) aur 'The boss wants that everybody COME on time' (that-clause wala, formal/subjunctive). Exam me dono type ke sentence aa sakte hain, isliye 'wants that + base form' bhi pehchanna zaroori hai."
+      "text": "<i>(hasm ke)</i> 'It is necessary that I study for at least four hours every day!' Bilkul mere papa ki awaaz me suna maine ye!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Achha, ab ADJECTIVE wala group batao — 'essential' to dekh chuke, baaki kaise use hote hain?"
+      "text": "<i>(zor se hasm ke)</i> Perfect, full marks! Ab tum sach me expert ho gaye ho — kisi bhi trigger word (adjective ya verb) ko dekhte hi turant pehchan sakte ho ki base form aayega."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo, sabse important wala pehle — IMPERATIVE. 'It is imperative that everybody COME on time.' Ye SSC me bahut common hai, 'imperative' ka matlab hota hai 'bahut zaroori/anivarya', aur pattern wahi hai — base form."
+      "text": "<i>(muskurate hue)</i> Sach me, ab wo notice board bhi mujhe funny lagega, har baar 'be/come/attend' dekhoonga to yaad aayega humari ye masti bhari class."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(likhte hue)</i> 'It is imperative that...' — ye to bahut formal official notices me dikhta hai, ab samajh aaya kyu."
+      "text": "<i>(muskurate hue)</i> Bas ek promise karo — 'It is essential that you revise this topic before the exam!' — dekha, main bhi khud subjunctive use kar rahi hoon tumpe order chalane ke liye!"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Ekdum sahi! Ab baaki adjectives ke example dekho — 'vital': 'It is vital that she ATTEND the interview.' 'crucial': 'It is crucial that the team FINISH the project on time.' 'desirable': 'It is desirable that all members BE present.' 'urgent': 'It is urgent that he CONTACT the office immediately.' 'obligatory': 'It is obligatory that every citizen CARRY an ID card.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(sar pakadte hue, hasm ke)</i> Itne saare! But pattern same hai sabme — 'It is + adjective + that + subject + BASE FORM', chahe adjective koi bhi ho."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Ekdum sahi pakda — yehi to sabse achhi baat hai, PATTERN hamesha same rehta hai, sirf trigger word badalta hai. Chalo ab isko test karte hain — main tumhe alag alag trigger words dunga, tum poora sentence banao base-form ke sath."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Chalo, ready hoon!"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Pehla — 'imperative' — 'sab students exam hall me time pe pahunchein' isko banao."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(sochte hue)</i> 'It is imperative that all students REACH the exam hall on time.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Perfect! Doosra — 'insist' — 'teacher ne zor diya ki har student apna homework jama kare'."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'The teacher insisted that every student SUBMIT their homework.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Sahi! Teesra, wahi casual wala style — 'boss chahta hai ki sab meeting me time pe aayein' — 'wants that' use karke banao."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'The boss wants that everybody COME to the meeting on time.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(taali maarte hue)</i> Perfect! Aakhri — 'vital' — 'ye zaroori hai ki hum jaldi decision lein'."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'It is vital that we TAKE a quick decision.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(muskurate hue)</i> Full marks, phir se! Dekho, ab tumhe koi bhi trigger word (suggest/recommend/demand/insist/propose/require/urge/wants that, ya essential/necessary/important/imperative/vital/crucial/desirable/urgent/obligatory) dikhe, turant pata chal jaayega — base form aayega, 's' ya tense change nahi."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(pakka likhte hue)</i> Ye bahut tricky hai but ab samajh aa gaya — in specific words ('essential/suggest/recommend/demand/insist/propose') ke baad verb hamesha base form."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Achha ek cheez pooch loon — exam paper me kabhi kabhi seedha likha hota hai 'identify the Present Subjunctive' ya 'Past Subjunctive' — ye exact terms kya hain? Humne jo abhi seekha unme se kaunsa kya hai?"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Bahut zaroori sawaal, ye clear karna chahiye! In dono ke official (grammar-book) naam hote hain, chalo match karte hain — jo humne abhi 'Formal Subjunctive' bola (essential/suggest/recommend/demand + BASE FORM verb, jaise 'he BE', 'she TAKE'), uska official naam hai PRESENT SUBJUNCTIVE. Naam 'present' hai, but ismein tense se koi lena-dena nahi, bas hamesha base form use hota hai."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Achha, aur PAST SUBJUNCTIVE?"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "PAST SUBJUNCTIVE wahi 'WERE' wala rule hai jo humne 'I wish', 'if only', aur 'as if/as though' me dekha — jaise 'I wish I were rich' ya 'as if he were a king' ya 'If I were you'. Isko 'past' isliye kehte hain kyunki grammatically 'were' ek past-form hai, chahe baat PRESENT ki hi ho rahi ho — naam thoda confusing hai, but yaad rakhna: 'were' wala hamesha PAST Subjunctive."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(pakka likhte hue)</i> Ohh, ab bilkul clear hai — PRESENT Subjunctive = base form (essential/suggest/recommend wala), PAST Subjunctive = 'were' (wish/as if/conditional Type 2 wala). Naam se confuse nahi hona, tense ka matlab nahi hai in naamon me."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Ekdum sahi! Ye exam me directly poocha jaata hai kabhi kabhi — 'Which sentence uses the Past Subjunctive?' — to ab tumhe pata hai dhoondhna hai 'were' (unreal wish/comparison me), 'Present Subjunctive' ke liye dhoondhna hai base-form verb (essential/suggest/demand ke baad)."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Ekdum sahi! Ek chhota bonus bhi bata deta hoon — kuch FIXED expressions bhi hain jo subjunctive se bante hain, jinhe tum roz sunte ho, bina pehchane. Jaise 'God bless you!', 'Long live the King!', 'Heaven forbid!' — in sab me subjunctive form hai, base verb use hota hai, normal 's' nahi lagta."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(hairan)</i> Sach me?! Maine kabhi socha nahi tha 'God bless you' subjunctive hai! Normal hota to 'God blesses you' hota na, third person singular rule se?"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Ekdum sahi pakda! Yehi to interesting hai — ye ek prayer/wish hai, isliye subjunctive base form use hui, 'blesses' nahi. Similarly 'Long live the King' — normal grammar se 'lives' hona chahiye tha, but ye ek wish/prayer hai, isliye base form 'live' hi rehta hai."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(khush hoke)</i> Wow, ye sab ab tak roz sunte the, kabhi socha nahi ye grammar ka naam kya hai! Chalo ab poora practice karte hain, sab mix karke."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Chalo, main paanch sentences dunga."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Ready hoon!"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Pehla — 'Kaash mere paas ek car hoti.' (present wish)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'I wish I had a car.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Sahi! Doosra — 'Kaash maine tumhari baat suni hoti.' (past wish, regret)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'I wish I had listened to you.' ya 'If only I had listened to you.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Perfect! Teesra — 'Wo aise chal raha hai jaise usko koi jaldi ho.' (as if, present)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'He is walking as if he were in a hurry.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Ekdum sahi! Chautha — 'Principal ne suggest kiya ki har student time pe aaye.' (formal subjunctive)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(sochte hue)</i> 'The Principal suggested that every student BE punctual.' ya 'that every student ARRIVE on time' — base form use kiya."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(taali maarte hue)</i> Perfect! Aakhri — 'Kaash tum itni jaldi gussa na hua karo.' (annoyance, would wala)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "'I wish you wouldn't get angry so quickly.'"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(muskurate hue)</i> Full marks! Dekho, itna emotional topic tha aaj, aur tumne itni achhi tarah seekh liya."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<i>(narmi se)</i> Sach kahoon, isliye achha laga kyunki jo bhi seekha, wahi feel bhi kar rahi thi — 'I wish you were here' sach me mera dil se nikla tha."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(dhime se)</i> Mera bhi. Bas kuch mahine aur — phir 'I wish' nahi, 'I am' bologe."
-    },
-    {
-      "type": "present",
-      "text": "Interview hall ke bahar, wahi purani wish yaad aa rahi thi — sach me kabhi 'I wish' se 'I am' bana tha kya, ya wo bhi ek adhoora sapna reh gaya..."
+      "text": "<i>(salute karte hue, hasm ke)</i> Yes madam, it is obligatory that I obey!"
     }
   ],
   "quiz": [
     {
-      "q": "Fill (present wish): 'I wish I ___ (know) the answer to this question right now.'",
-      "answer": "knew",
-      "explain": "Present wish ke liye 'I wish' + Past Simple use hota hai — 'knew', 'know' nahi."
-    },
-    {
-      "q": "Fill (past wish, regret): 'I wish I ___ (study) harder before the exam.'",
-      "answer": "had studied",
-      "explain": "Past wish/regret ke liye 'I wish' + had + V3 (past perfect) use hota hai."
-    },
-    {
-      "q": "Correct the error: 'I wish I would have a bigger house.' (talking about NOW, present wish)",
-      "answer": "I wish I had a bigger house.",
-      "explain": "'I wish + would' sirf doosron ke behaviour/annoyance ke liye use hota hai, khud ke present wish ke liye nahi — wahan sirf Past Simple aata hai ('had')."
-    },
-    {
-      "q": "Fill (as if, present unreal): 'She speaks English as if she ___ (be) a native speaker.'",
-      "answer": "were",
-      "explain": "'As if/as though' me 'be' verb ke liye hamesha 'were' aata hai, sab subjects ke saath, jaise Conditional Type 2 me."
-    },
-    {
-      "q": "Correct the error: 'It is important that he attends the meeting.'",
-      "answer": "It is important that he attend the meeting.",
-      "explain": "Formal subjunctive me ('essential/important/necessary' ke baad) verb hamesha BASE FORM rehta hai, 's' nahi lagta chahe subject third-person singular ho."
-    },
-    {
-      "q": "Fill (formal subjunctive with 'suggest'): 'The doctor suggested that she ___ (rest) for a few days.'",
-      "answer": "rest",
-      "explain": "'Suggest' ke baad bhi base form aata hai — 'rest', 'rests' ya 'rested' nahi, chahe sentence past me ho."
-    },
-    {
-      "q": "Fill (annoyance/complaint about someone else's habit): 'I wish he ___ (not/interrupt) me while I'm speaking.'",
-      "answer": "wouldn't interrupt",
-      "explain": "Doosron ke irritating behaviour pe complain karne ke liye 'I wish' + would/wouldn't use hota hai."
-    },
-    {
-      "q": "Why is 'God bless you' grammatically unusual — what would the 'normal' (non-subjunctive) form be?",
-      "answer": "Normal third-person singular form would be 'God blesses you' — but as a fixed subjunctive expression (a wish/prayer), it stays in the base form 'bless'.",
-      "explain": "Fixed subjunctive expressions like 'God bless you', 'Long live the King' use the base verb form because they express a wish/prayer, not a factual statement."
-    },
-    {
-      "q": "Which type of Subjunctive is used in 'It is necessary that she attend the meeting'?",
-      "answer": "Present Subjunctive",
-      "explain": "Present Subjunctive uses the BASE FORM of the verb after words like essential/necessary/important/suggest/recommend/demand — despite the name 'present', it has no connection to tense."
-    },
-    {
-      "q": "Which type of Subjunctive is used in 'I wish I were taller'?",
-      "answer": "Past Subjunctive",
-      "explain": "Past Subjunctive is the 'were' form used in unreal wishes, 'as if/as though', and Type 2 Conditionals — called 'past' because 'were' is grammatically a past form, even though the sentence is about the present."
-    },
-    {
       "q": "Correct the error: 'It is imperative that everybody comes on time.'",
       "answer": "It is imperative that everybody come on time.",
-      "explain": "'Imperative' is an adjective trigger for the Present Subjunctive — the verb after 'that' stays in base form ('come'), never takes 's' even with 'everybody' (which feels singular)."
+      "explain": "'Imperative' triggers the Present Subjunctive — the verb after 'that' stays in base form ('come'), never takes 's', even with a word like 'everybody' that feels singular."
     },
     {
       "q": "Correct the error: 'The boss wants that everybody comes on time.'",
       "answer": "The boss wants that everybody come on time.",
-      "explain": "'Wants that' is a less common but valid Present Subjunctive trigger — same rule applies, base form after 'that', no 's'."
+      "explain": "'Wants that' is a valid (though less formal) Present Subjunctive trigger — same rule applies: base form after 'that', no 's'."
     },
     {
-      "q": "Fill (adjective trigger): 'It is ___ that she attend the interview tomorrow.' (choose an adjective meaning 'very important')",
+      "q": "Fill (adjective trigger, meaning 'very important'): 'It is ___ that she attend the interview tomorrow.'",
       "answer": "vital / crucial / essential / important / imperative (any of these fit)",
-      "explain": "All these adjectives trigger the Present Subjunctive pattern: It is + adjective + that + subject + base form."
+      "explain": "All these adjectives trigger the same pattern: It is + adjective + that + subject + base form."
     },
     {
       "q": "Correct the error: 'The rule requires that every member signs the form.'",
       "answer": "The rule requires that every member sign the form.",
-      "explain": "'Require' is a verb trigger for Present Subjunctive — base form 'sign', not 'signs', even though 'every member' is singular."
+      "explain": "'Require' is a verb trigger for the Present Subjunctive — base form 'sign', not 'signs', even though 'every member' is singular."
+    },
+    {
+      "q": "Correct the error: 'The teacher suggested that he was more careful in future.'",
+      "answer": "The teacher suggested that he be more careful in future.",
+      "explain": "Even when the reporting verb ('suggested') is in the past tense, the that-clause verb STAYS in base form — it never becomes past tense in the Present Subjunctive."
+    },
+    {
+      "q": "Fill (verb trigger, strong demand): 'The angry customer ___ that the manager refund his money.'",
+      "answer": "demanded",
+      "explain": "'Demand/demanded' is a classic Present Subjunctive trigger verb — the following clause takes base form ('refund'), regardless of the tense of 'demand' itself."
+    },
+    {
+      "q": "Correct the error: 'It is necessary that the report is submitted by Friday.'",
+      "answer": "It is necessary that the report be submitted by Friday.",
+      "explain": "'Necessary' triggers Present Subjunctive — passive voice inside the that-clause also uses base form 'be' (not 'is'), so 'be submitted' is correct."
+    },
+    {
+      "q": "Which word does NOT trigger the Present Subjunctive pattern: suggest / recommend / believe / insist?",
+      "answer": "believe",
+      "explain": "'Believe' reports an opinion/fact, not a demand or formal suggestion — it doesn't trigger the subjunctive. Suggest/recommend/insist all do."
     }
   ]
 }
