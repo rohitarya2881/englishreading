@@ -1,0 +1,245 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Kuch din baad, video call pe {{A}} aur {{B}} apna weekend plan discuss kar rahe the."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Waise ek doubt tha mujhe — humne pichli baar 'will' 'would' banta hai seekha tha, but baaki modals ka kya hota hai? Jaise 'can', 'may', 'must' — sab same tarike se badalte hain kya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha sawaal! Nahi, sab modals same tarike se nahi badalte — kuch backshift hote hain, kuch bilkul WAISE hi rehte hain. Chalo poora chart banate hain, ek-ek karke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo bolo, main note kar leta hoon."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Modal Verbs (complete chart)' data-pos='Grammar Rule' data-hindi='Kuch modals backshift hote hain (will/can/may/shall), kuch WAISE hi rehte hain (would/could/might/should/ought to/used to/need not)' data-meaning='BACKSHIFT: will&rarr;would, can&rarr;could, may&rarr;might, shall&rarr;should (suggestion wale). NO CHANGE: would, could, might, should, ought to, used to, need not — ye already 'past-ish' hain.' data-example='Backshift: He said, \\\"I will help.\\\" &rarr; He said he would help.\\nNo change: She said, \\\"I would like some tea.\\\" &rarr; She said she would like some tea. (would already past-form hai, badalta nahi)\\nMust: He said, \\\"I must leave now.\\\" &rarr; He said he had to leave then. (obligation wala 'must' 'had to' banta hai)'>will &rarr; would, can &rarr; could, may &rarr; might, shall &rarr; should, must &rarr; had to / must (stays)</span> — dekho, do groups hain. Group 1: 'will/can/may/shall' — ye BACKSHIFT hote hain (would/could/might/should). Group 2: 'would/could/might/should/ought to/used to/need not' — ye already 'past jaisa form' hain, isliye WAISE HI rehte hain, aage nahi badalte."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ohh, matlab 'would' khud hi kabhi past se aur peeche nahi jaata? Ek example do na isko."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — 'She said, \"I would like some tea.\"' Ye pehle se hi 'would' hai (polite request), Indirect me bhi wahi rahega — 'She said she would like some tea.' Agar ye 'will' hota, to 'would' banta, but ye pehle se hi 'would' hai, to koi further change nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, aur 'must' ka kya scene hai? Wo group 1 me tha ya group 2 me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'Must' ek special case hai — ye do tarike se behave karta hai, depend karta hai matlab pe. Agar 'must' OBLIGATION dikha raha ho (majboori), to usually 'had to' ban jaata hai. Agar 'must' DEDUCTION/guess dikha raha ho (jaise 'he must be tired'), to WAISA hi rehta hai, 'must' hi rehta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek example do dono ka, taaki fark clear ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — Obligation wala: 'He said, \"I must leave now.\"' Indirect — 'He said he had to leave then.' Deduction wala: 'She said, \"He must be very tired.\"' Indirect — 'She said he must be very tired.' Dekho, dusre wale me 'must' bilkul nahi badla, kyunki wo ek guess/deduction tha, obligation nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(pakka likhte hue)</i> Achha, ye important hai. Waise ek aur cheez pata karni thi — kabhi 'said' aur kabhi 'said to' dikhta hai, inme kya fark hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha doubt! Ye ek common confusion hai. 'SAID' tab use hota hai jab tum sirf ye bata rahe ho ki kya bola gaya, bina bataye kisko bola gaya. 'SAID TO' tab use hota hai jab tum specifically batate ho KISKO bola gaya tha — but Indirect Speech me banate waqt 'said to' hamesha 'TOLD' ban jaata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek example do na, dono ka."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — 'He said, \"I am busy.\"' (kisko bola, clear nahi) — Indirect: 'He said (that) he was busy.' Ab dusra — 'He said to me, \"I am busy.\"' (mujhe bola, clear hai) — Indirect: 'He TOLD me (that) he was busy.' Dekho, 'said to me' 'told me' ban gaya — 'said to' kabhi bhi Indirect me nahi rehta, hamesha 'told' banta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me likhte hue)</i> Ye important rule hai — 'said to' hamesha 'told' banta hai. Achha ek aur cheez — jab log 'Let's go somewhere' bolte hain, wo suggestion hota hai na? Uska kya hota hai Indirect me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut achha sawaal, ye ek special case hai! <span class='vw gw' data-word='Indirect Speech — Suggestions (Let&#39;s...)' data-pos='Grammar Rule' data-hindi=''Let's' wale suggestion sentences ke liye do tarike se convert kar sakte hain' data-meaning='Direct: He said, \\\"Let's go to the beach.\\\" Indirect (Option 1): He suggested going to the beach. (verb+ing) OR (Option 2): He suggested that we should go to the beach.' data-example='Option 1: She said, \\\"Let's watch a movie.\\\" &rarr; She suggested watching a movie.\\nOption 2: She said, \\\"Let's watch a movie.\\\" &rarr; She suggested that we should watch a movie.'>He suggested going to the beach. / He suggested that we should go to the beach.</span> — dekho, DO tarike se bana sakte ho — pehla, 'suggested' + verb-ING ('suggested going'). Doosra, 'suggested that...should' ('suggested that we should go'). Dono sahi hain, bas style alag hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, dono me se kaunsa zyada common/formal hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'Suggested + V-ing' zyada common aur natural lagta hai roz ki English me. 'Suggested that...should' thoda zyada formal/written English me use hota hai, especially official letters ya reports me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha ab ek aakhri tricky cheez batao — agar Direct Speech me khud ek CONDITIONAL sentence ho (jaise 'if' wala), tab kya hota hai backshift ka?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ye sach me tricky hai, achha socha tumne! Yahan Conditional Type se depend karta hai. Type 1 conditionals NORMAL backshift follow karte hain, jaise koi bhi statement. But Type 2 aur Type 3 conditionals — jo already 'unreal/hypothetical' hote hain — unme koi further backshift NAHI hoti, kyunki wo already apni 'sabse door' form me hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek example do dono ka."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — Type 1 wala: 'He said, \"If it rains, I will stay home.\"' Indirect — 'He said that if it rained, he would stay home.' Dekho, normal backshift hui (rains→rained, will→would). Ab Type 2 wala: 'She said, \"If I were rich, I would travel.\"' Indirect — 'She said that if she were rich, she would travel.' Dekho, KUCH nahi badla! Kyunki Type 2 already 'past form' use karta hai apni unreal-ness dikhane ke liye, use aur peeche nahi le ja sakte."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(dhyan se sunte hue)</i> Ohh, matlab jo already 'sabse door' hai reality se (Type 2/3), wo aur door nahi ja sakta, isliye same rehta hai. Bahut logical hai ye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul sahi samjhe! Chalo ab poora practice karte hain, sab kuch mix karke jo aaj seekha — main paanch sentences dunga."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Pehla — 'She said, \"I can solve this problem.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'can' backshift hota hai 'could' me — 'She said (that) she could solve that problem.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi! Doosra — 'He said to his friend, \"You must submit the form today.\"' (obligation wala must)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'said to' 'told' banega, 'must' (obligation) 'had to' banega — 'He told his friend that he had to submit the form that day.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Teesra — 'She said, \"Let's start the meeting.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'She suggested starting the meeting.' ya 'She suggested that they should start the meeting.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Dono sahi! Chautha — 'He said, \"She may be right.\"' (deduction wala may)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'may' backshift hota hai 'might' me, ye deduction hi hai to bhi backshift hoga kyunki 'may' group 1 me tha — 'He said (that) she might be right.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi! Aakhri, tricky wala — 'She said, \"If I had more time, I would help you.\"' (Type 2 conditional)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Ye Type 2 hai, to koi further backshift nahi hogi — 'She said that if she had more time, she would help me.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Perfect score, full marks! Ab tum sach me Indirect Speech ki poori master ban gaye ho — statements, questions, imperative, exclamatory, optative, modals, sab kuch."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(khush hoke)</i> Sach mein, itna kuch seekh liya tumhare saath. Kabhi socha nahi tha grammar itni interesting ho sakti hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue, thodi door se)</i> Waise sach kahoon, ye sab seekhate waqt lagta hai jaise hum abhi bhi library me hi baithe hain, us pehle din jitna hi close."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(narmi se)</i> Hum hamesha utne hi close rahenge, doori chahe kitni bhi ho."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Convert to Indirect Speech: He said, \"I can finish this by tomorrow.\"",
+      "answer": "He said (that) he could finish that by the next day.",
+      "explain": "'Can' backshift hoke 'could' banta hai (Group 1 modal), aur 'tomorrow' bhi time-word shift hota hai."
+    },
+    {
+      "q": "Convert to Indirect Speech: She said, \"I would love to visit Paris someday.\"",
+      "answer": "She said (that) she would love to visit Paris someday.",
+      "explain": "'Would' already ek 'past-ish' modal hai (Group 2), isliye ye bilkul nahi badalta, waisa hi rehta hai."
+    },
+    {
+      "q": "Convert to Indirect Speech (obligation): He said, \"I must complete this report today.\"",
+      "answer": "He said (that) he had to complete that report that day.",
+      "explain": "Obligation wala 'must' 'had to' ban jaata hai indirect speech me."
+    },
+    {
+      "q": "Convert to Indirect Speech (deduction, not obligation): She said, \"He must be at home now.\"",
+      "answer": "She said (that) he must be at home then.",
+      "explain": "Deduction/guess wala 'must' NAHI badalta, waisa hi rehta hai — sirf time-word 'now' 'then' banta hai."
+    },
+    {
+      "q": "Correct the error: 'He said to me that he was tired.' Is this correct, or should it use 'told'?",
+      "answer": "He told me that he was tired.",
+      "explain": "'Said to [person]' Indirect Speech me hamesha 'told [person]' ban jaata hai — 'said to me' kabhi Indirect me nahi rehta."
+    },
+    {
+      "q": "Convert to Indirect Speech: She said, \"Let's order pizza tonight.\"",
+      "answer": "She suggested ordering pizza that night. (or: She suggested that they should order pizza that night.)",
+      "explain": "'Let's' wale suggestion sentences 'suggested + V-ing' ya 'suggested that...should' ban jaate hain — dono sahi hain."
+    },
+    {
+      "q": "Convert to Indirect Speech (Type 2 Conditional — dhyan rakhna, backshift hogi ya nahi?): She said, \"If I were you, I would apologize.\"",
+      "answer": "She said that if she were me, she would apologize.",
+      "explain": "Type 2 Conditional already apni 'sabse door' unreal form me hoti hai — isliye koi further backshift nahi hoti, structure waisa hi rehta hai."
+    },
+    {
+      "q": "Convert to Indirect Speech (Type 1 Conditional — is baar backshift hogi): He said, \"If she calls, I will tell her.\"",
+      "answer": "He said that if she called, he would tell her.",
+      "explain": "Type 1 Conditional NORMAL statement ki tarah backshift follow karta hai — 'calls' 'called' banta hai, 'will' 'would' banta hai."
+    }
+  ]
+}
