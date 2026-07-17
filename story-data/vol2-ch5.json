@@ -1,0 +1,275 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Video call pe dono ka syllabus chart khula tha. {{B}} ne ek topic pe ungli rakhi jo abhi tak chhoड़ rakha tha — Active aur Passive Voice."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ye topic sabse zyada confuse karta hai mujhe — kab 'by' lagana hai, kab verb badalna hai, sab gadbad ho jaata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo aaj isi pe poora focus karte hain, shuru se. Pehle basic samjho — ACTIVE voice me SUBJECT khud kaam karta hai — 'Ram wrote a letter' (Ram ne likha). PASSIVE voice me OBJECT subject ban jaata hai, aur kaam USPE hua dikhaya jaata hai — 'A letter was written by Ram' (letter likha gaya)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, matlab focus badal jaata hai — kaam karne wale se, kaam hone wali cheez pe?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Ab formula yaad karo — <span class='vw gw' data-word='Active to Passive — Core Formula' data-pos='Grammar Rule' data-hindi='Object subject banta hai, verb 'be + V3' banta hai, original subject 'by' ke sath aata hai (ya hata bhi sakte ho agar zaroori na ho)' data-meaning='Object (naya subject) + BE (tense ke hisab se) + V3 + by + original subject' data-example='Active: Ram wrote a letter.\\nPassive: A letter was written by Ram.\\n(Object 'a letter' subject bana, 'wrote' 'was written' bana — V3 form)'>A letter was written by Ram</span> — teen steps: (1) OBJECT ko subject banao, (2) verb ko 'BE + V3' banao (BE ka form tense ke hisaab se badlega), (3) original subject 'by' ke saath end me lagao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, 'BE' ka form kaise decide karenge? Wahi sabse confusing part hai mere liye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Yehi sabse important cheez hai — chalo TENSE-WISE poora chart banate hain, ek-ek karke, taaki koi confusion na rahe."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, shuru karo Present Simple se."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Present Simple: Active — 'He writes a letter.' Passive — 'A letter IS written by him.' BE-form: is/am/are (subject ke hisaab se). Ab Present Continuous: Active — 'He is writing a letter.' Passive — 'A letter IS BEING written by him.' Yahan 'is being' use hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Achha, 'is being' — ye naya laga. Aage batao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Present Perfect: Active — 'He has written a letter.' Passive — 'A letter HAS BEEN written by him.' Yahan 'has been' aata hai. Ab Past Simple: Active — 'He wrote a letter.' Passive — 'A letter WAS written by him.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Present wale me 'is' tha, past wale me 'was' — matlab BE ka form time ke hisaab se badal raha hai, baaki pattern same?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul sahi observation! Chalo aage — Past Continuous: Active — 'He was writing a letter.' Passive — 'A letter WAS BEING written by him.' Past Perfect: Active — 'He had written a letter.' Passive — 'A letter HAD BEEN written by him.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, matlab Present Perfect me 'has been' tha, Past Perfect me 'had been' — same pattern, bas 'has' 'had' ban gaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Ab Future Simple: Active — 'He will write a letter.' Passive — 'A letter WILL BE written by him.' Aur Future Perfect: Active — 'He will have written a letter.' Passive — 'A letter WILL HAVE BEEN written by him.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(poora chart likhte hue)</i> Ye sab yaad rakhne ka koi shortcut hai? Itne saare forms!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan, ek trick hai — dhyan do, HAMESHA aakhri me 'V3' (past participle) hi aata hai, bas 'BE' se pehle wala hissa tense ke hisaab se badalta hai. Present Simple = is/are + V3. Past Simple = was/were + V3. Present Continuous = is/are BEING + V3. Past Continuous = was/were BEING + V3. Present Perfect = has/have BEEN + V3. Past Perfect = had BEEN + V3. Future Simple = will BE + V3."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha ek cheez — kya SAB tenses ka passive banta hai? Jaise Future Continuous ka bhi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha sawaal! Future Continuous aur Future Perfect Continuous ka passive practically bahut awkward lagta hai, isliye SSC me usually nahi poochha jaata, baaki saare tenses (jo maine bataye) common hain exam me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha ab practice karte hain — main Active dungi, tum Passive banao, sab tenses mix karke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Pehla — 'The chef is cooking dinner.' (Present Continuous)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'Dinner is being cooked by the chef.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Sahi! Doosra — 'She has completed the project.' (Present Perfect)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'The project has been completed by her.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Perfect! Teesra — 'They will announce the results tomorrow.' (Future Simple)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "'The results will be announced tomorrow by them.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Perfect score! Waise, tumne 'by them' lagaya, but kya hamesha 'by + subject' lagana zaroori hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Nahi, ye achha point hai — agar 'by' wala subject GENERIC ya UNIMPORTANT ho (jaise 'people', 'someone', 'they' generically), to usko HATA sakte hain. Jaise 'They speak English in Australia' — Passive: 'English is spoken in Australia.' (by them/by people nahi lagaya, kyunki obvious/unimportant hai)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka likhte hue)</i> Achha ye useful hai, formal writing me shayad zyada clean lagega bina 'by' ke agar zarurat na ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul sahi! Ab ek naya, thoda tricky topic — DITRANSITIVE VERBS, matlab jin verbs ke DO objects hote hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Do objects? Matlab? Example do na."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — 'Ram gave Sita a book.' Yahan 'Sita' INDIRECT object hai (kisko diya), aur 'a book' DIRECT object hai (kya diya). Aise verbs — give, tell, teach, send, offer, show, buy, bring — inke DO objects hote hain, isliye TWO tarike se passive bana sakte ho!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Do tarike se? Dono dikhao na."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Ditransitive Verbs — Two Objects, Two Passive Forms' data-pos='Grammar Rule' data-hindi='Jab verb ke DO objects hon (indirect + direct), dono me se koi bhi object subject bankar passive bana sakta hai' data-meaning='Option 1: Indirect Object &rarr; subject: Sita was given a book by Ram.\\nOption 2: Direct Object &rarr; subject: A book was given to Sita by Ram. ('to' add karna padta hai)' data-example='Active: The teacher taught the students grammar.\\nPassive 1: The students were taught grammar by the teacher.\\nPassive 2: Grammar was taught to the students by the teacher.'>Sita was given a book by Ram. / A book was given to Sita by Ram.</span> — Option 1: INDIRECT object ('Sita') ko subject banao — 'Sita was given a book by Ram.' Option 2: DIRECT object ('a book') ko subject banao — 'A book was given TO Sita by Ram' — dekho, is doosre wale me 'to' lagana padta hai Sita se pehle."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> Achha, dono sahi hain? Konsa zyada common hai exam me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Dono sahi hain grammatically, but PEHLA wala (indirect object subject bane) zyada NATURAL/common lagta hai roz ki English me — 'Sita was given a book' sunne me zyada normal lagta hai 'A book was given to Sita' se, though dono use hote hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ek aur example do na isi type ka, practice ke liye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — 'The manager sent the client an email.' Do passives — 'The client was sent an email by the manager.' (indirect object subject) ya 'An email was sent to the client by the manager.' (direct object subject)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Achha, ye 'to' wala rule kaise pata chalega kab lagana hai kab nahi?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Simple — agar tum DIRECT object ko subject bana rahe ho (matlab 'kya diya gaya' wala part), to INDIRECT object (kisko diya) ke pehle 'to' lagta hai. Kuch verbs me 'for' bhi lagta hai, jaise 'buy' — 'A gift was bought for her by him.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, 'to' aur 'for' dono ho sakte hain depend karta hai verb pe?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi — 'give/send/tell/show/offer/teach' jaise verbs 'TO' lete hain, aur 'buy/make/cook/find' jaise verbs 'FOR' lete hain jab direct object subject banta hai. Chalo isko bhi practice karte hain — 'She bought her friend a gift.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'Her friend was bought a gift by her.' ya 'A gift was bought FOR her friend by her.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Dekho, ab tumhe Assertive sentences ka poora passive-conversion pata hai — saare tenses, aur ditransitive verbs ke dono forms bhi. Agli baar Questions, Commands, Exclamations, aur Wishes ka passive dekhenge — aur ye bhi ki KAUNSE sentences ka passive banta hi nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(khush hoke)</i> Bilkul, aaj to bahut kuch clear ho gaya. Pehle sochti thi ye topic bahut mushkil hai, ab lag raha hai bas ek pattern follow karna hai."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Convert to Passive (Present Simple): 'The company manufactures cars.'",
+      "answer": "Cars are manufactured by the company.",
+      "explain": "Present Simple passive = is/are + V3."
+    },
+    {
+      "q": "Convert to Passive (Present Continuous): 'The workers are building a bridge.'",
+      "answer": "A bridge is being built by the workers.",
+      "explain": "Present Continuous passive = is/are BEING + V3."
+    },
+    {
+      "q": "Convert to Passive (Present Perfect): 'She has painted the wall.'",
+      "answer": "The wall has been painted by her.",
+      "explain": "Present Perfect passive = has/have BEEN + V3."
+    },
+    {
+      "q": "Convert to Passive (Past Perfect): 'He had finished the work before noon.'",
+      "answer": "The work had been finished by him before noon.",
+      "explain": "Past Perfect passive = had BEEN + V3."
+    },
+    {
+      "q": "Convert to Passive (Future Simple): 'The teacher will explain the topic tomorrow.'",
+      "answer": "The topic will be explained by the teacher tomorrow.",
+      "explain": "Future Simple passive = will BE + V3."
+    },
+    {
+      "q": "Convert to Passive, giving BOTH forms (ditransitive verb): 'The company offered him a job.'",
+      "answer": "He was offered a job by the company. / A job was offered to him by the company.",
+      "explain": "Ditransitive verbs (offer/give/tell/send etc.) allow two passive forms — indirect object as subject, or direct object as subject (with 'to' added)."
+    },
+    {
+      "q": "Fill in the correct preposition (direct object as subject): 'A birthday cake was made ___ her by her mother.'",
+      "answer": "for",
+      "explain": "'Make/buy/cook/find' type verbs take 'for' (not 'to') when the direct object becomes the subject in passive voice."
+    },
+    {
+      "q": "Correct the error: 'English is speaking in many countries.'",
+      "answer": "English is spoken in many countries.",
+      "explain": "Passive voice needs 'be + V3' (past participle), not 'be + V-ing' — 'spoken', not 'speaking'."
+    }
+  ]
+}
