@@ -37,6 +37,91 @@
     {
       "type": "dialogue",
       "speaker": "A",
+      "text": "Achha ek cheez samajh nahi aayi — 'It is necessary that everyone DOES his work efficiently' — ye galat kyu hai? Sunne me to sahi lagta hai, 'everyone' ke saath 'does' hi to aata hai normally!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bahut hi important sawaal, isi se poora subjunctive samajh aata hai! Dhyan se socho — 'everyone DOES his work efficiently' ka matlab kya hoga agar ye sach me sahi hota? Iska matlab hoga — ye ek FACT hai, ki sabhi log ALREADY apna kaam efficiently karte hain, ye unka roz ka habit/reality hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(sochte hue)</i> Haan, matlab wahi jo ho raha hai already."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Bilkul! Ab socho, agar sach me sab efficiently kaam kar hi rahe hain, to 'It is necessary that...' bolne ki zarurat hi kya hai? Jo pehle se ho raha hai, uske liye 'zaroori hai' bolna hi ajeeb hai! Yehi to point hai — 'It is necessary' ka matlab hai ye abhi NAHI ho raha, ya pakka nahi hai ki hoga, isliye hum ye DEMAND/REQUIREMENT bata rahe hain ki ye HONA CHAHIYE — jo abhi reality nahi hai, ek expectation hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(aankhein badi karte hue)</i> Ohhh! Ab samajh aaya — 'DOES' se lagta hai ye already sach hai, 'FACT' hai. But hum to REQUIREMENT bata rahe hain, kuch jo HONA CHAHIYE, abhi guaranteed nahi hai. Isliye 'does' galat hai, 'DO' (base form) sahi hai, kyunki wo requirement/wish dikhata hai, fact nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(taali maarte hue)</i> Ekdum perfect samjhe tumne! Yehi hai subjunctive ka asli logic — BASE FORM use karke hum batate hain 'ye abhi sach nahi hai, but ye HONA CHAHIYE/ZAROORI hai.' Agar hum 'is/does/are' jaisa NORMAL (Indicative Mood) form use karte, to matlab hota 'ye already sach hai' — jo sense hi nahi banata jab tum 'necessary/essential/demand' jaisa word use kar rahe ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ek aur example do na isi tarah, taaki pakka clear ho jaaye ye logic."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — socho 'It is necessary that he TAKES rest' vs 'It is necessary that he TAKE rest'. Pehla wala ('takes') ka matlab — 'wo already rest leta hai' (fact/habit) — to phir 'necessary' bolne ka koi matlab nahi, jo already ho raha hai! Doosra wala ('take', base form) ka matlab — 'abhi rest nahi le raha, but usko lena CHAHIYE' — yehi sahi sense hai jab hum 'necessary' bol rahe hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(pakka likhte hue)</i> Wah, ab ye trick hamesha yaad rahegi — jab bhi 'necessary/essential/suggest/demand' jaisa word dikhe, sochna hai 'ye abhi TRUE nahi hai, sirf ek REQUIREMENT/WISH hai' — isliye BASE FORM, normal 's' wala fact-form nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi trick! Ek aur cheez batani hai isi ke sath related — jab that-clause PASSIVE VOICE me ho, tab kya hota hai? Kabhi socha hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Passive matlab jaise 'kaam kiya jaata hai' wala? Nahi socha, samjhao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<span class='vw gw' data-word='Present Subjunctive — Passive Voice (be + V3)' data-pos='Grammar Rule' data-hindi='Jab that-clause passive voice me ho, tab base-form 'BE' + V3 (past participle) use hota hai, 'is done' ya 'was done' nahi' data-meaning='It is + adjective/verb-trigger + that + Subject + BE + V3 (passive base form)' data-example='Notice: It is necessary that the work be done efficiently. (not 'is done')\\nFormal: It is essential that the report be submitted by Friday. (not 'is submitted')\\nRule: The committee demanded that the case be reopened. (not 'was reopened')'>It is necessary that the work be done efficiently</span> — dekho, passive me bhi wahi logic hai — 'BE' base form hai (jaise 'is' ka base form 'be' hota hai), phir V3 (past participle) aata hai. 'is done' ya 'was done' kabhi nahi, hamesha 'BE done', 'BE submitted', 'BE reopened'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha, matlab active wale me base-form verb ('take', 'come', 'sign'), aur passive wale me 'BE + V3' ('be done', 'be submitted') — dono me ROOT logic same hai, bas passive me ek extra 'BE' aata hai V3 ke pehle?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ekdum sahi samjhe! Chalo isi original example ko active aur passive dono me bana ke dikhata hoon, taaki fark bilkul clear ho jaaye. Active: 'It is necessary that everyone DO his work efficiently.' (subject khud kaam kar raha hai) Passive: 'It is necessary that the work BE DONE efficiently (by everyone).' (kaam pe focus hai, kisne kiya uspe nahi)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(notebook me dono side-by-side likhte hue)</i> Ab bilkul clear hai — active me base-form verb seedha, passive me 'be' + V3. Ek aur passive example do na, kisi doosre trigger word ke sath."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo — 'demand' ke sath: 'The workers demanded that their salary BE INCREASED.' (na ki 'is increased' ya 'was increased'). Aur 'insist' ke sath: 'The teacher insisted that the mistake BE CORRECTED immediately.' (na ki 'is corrected')."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Perfect, ab poora logic aur passive dono clear ho gaye. Isse mujhe SSC ke error-spotting me bahut help milegi, kyunki ab main sirf ratt nahi raha, samajh raha hoon KYU 's' nahi lagta."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
       "text": "Achha, chalo poora samjhao — kaunse words ke baad ye BASE FORM wala rule lagta hai? Poori list chahiye mujhe."
     },
     {
@@ -290,6 +375,26 @@
       "q": "Which word does NOT trigger the Present Subjunctive pattern: suggest / recommend / believe / insist?",
       "answer": "believe",
       "explain": "'Believe' reports an opinion/fact, not a demand or formal suggestion — it doesn't trigger the subjunctive. Suggest/recommend/insist all do."
+    },
+    {
+      "q": "Explain in one line: why is 'It is necessary that everyone does his work efficiently' WRONG?",
+      "answer": "'Does' (Indicative) states this is already happening as a fact/habit — but 'It is necessary' means it's NOT guaranteed yet, it's a requirement. The correct form is base form 'do', which expresses a requirement, not a fact.",
+      "explain": "Subjunctive base form signals 'this should happen, not that it already does' — using the normal 's' form contradicts the very meaning of 'necessary/essential/demand'."
+    },
+    {
+      "q": "Correct the error: 'It is necessary that the work is done efficiently.'",
+      "answer": "It is necessary that the work be done efficiently.",
+      "explain": "Passive Present Subjunctive uses 'BE + V3' (base form 'be', not 'is'), following the same base-form logic as the active voice."
+    },
+    {
+      "q": "Correct the error: 'The workers demanded that their salary is increased.'",
+      "answer": "The workers demanded that their salary be increased.",
+      "explain": "'Demand' triggers Present Subjunctive — in passive voice, this becomes 'be + V3' ('be increased'), never 'is/was increased'."
+    },
+    {
+      "q": "Fill (passive subjunctive): 'The committee insisted that the decision ___ (reconsider) before the vote.'",
+      "answer": "be reconsidered",
+      "explain": "Passive subjunctive pattern: base form 'be' + V3 ('reconsidered') — 'is reconsidered' or 'was reconsidered' would be incorrect here."
     }
   ]
 }
