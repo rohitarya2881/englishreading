@@ -1,0 +1,295 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Agle din, {{A}} ka phone baja — ye {{B}} ki roommate thi, kisi wajah se pareshan lag rahi thi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(phone pe, thodi confuse)</i> Yaar, meri roommate ne kal mujhse kaha 'kya tum mera laptop use kar sakti ho' — maine use bola 'nahi mujhe zarurat nahi', but aaj wo naraz hai, bol rahi hai maine uske baare me kuch aur bola tha kisi aur ko!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Lगता hai koi galat 'report' hui hai beech me — jaise Chinese whispers! Chalo, ye ek achha mauka hai — humne pichli baar sirf STATEMENTS ka indirect speech seekha tha, ab baaki sab types bhi seekh lete hain, taaki aisi galatfehmi kabhi na ho tumhare saath."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan please, ye bahut zaroori lag raha hai ab. Pehle QUESTIONS wala batao — jaisa maine abhi bola, 'kya tum laptop use kar sakti ho' — usko report kaise karte hain?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Questions do type ke hote hain — YES/NO questions (jinka jawab sirf haan/na me ho sakta hai), aur WH-questions (what/where/when/why/how wale). Dono ka rule thoda alag hai. Pehle YES/NO wala dekhte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo bolo."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Yes/No Questions' data-pos='Grammar Rule' data-hindi='Jab question ka jawab sirf haan/na ho sakta ho, to reporting verb 'said' ki jagah 'asked' hota hai, aur 'if' ya 'whether' use karke joड़te hain' data-meaning='Direct: She said, \\\"Can I use your laptop?\\\" Indirect: She asked if/whether she could use my laptop. (question mark hata do, word order normal statement jaisa ho jaata hai)' data-example='Direct: He said, \\\"Are you coming?\\\" Indirect: He asked if I was coming.\\nDirect: She said, \\\"Do you like tea?\\\" Indirect: She asked whether I liked tea.'>She asked (me) if/whether I could use her laptop.</span> — dekho TEEN cheezein badli: (1) 'said' ki jagah 'asked' aaya, (2) 'if' ya 'whether' use kiya joड़ne ke liye, (3) question mark hata diya aur word order NORMAL statement jaisa ban gaya — 'could I use' nahi, 'I could use'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hairan)</i> Ohh, matlab jo galti meri roommate ki baat report karne me hui, wahi thi — maine shayad word order galat rakha ya 'if/whether' nahi use kiya, isliye matlab hi badal gaya!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul ho sakta hai! Ye bahut common mistake hai. Chalo ab WH-questions dekhte hain, jo thoda alag hote hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan bolo, fark kya hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Wh-Questions' data-pos='Grammar Rule' data-hindi='Jab question 'what/where/when/why/how/who' se shuru ho, to 'if/whether' ki zarurat nahi — wahi question-word use hota hai joड़ne ke liye' data-meaning='Direct: He said, \\\"Where are you going?\\\" Indirect: He asked me where I was going. (question-word khud hi connector ban jaata hai, if/whether nahi lagta)' data-example='Direct: She said, \\\"What is your name?\\\" Indirect: She asked me what my name was.\\nDirect: He said, \\\"Why did you leave early?\\\" Indirect: He asked why I had left early.'>He asked me where I was going.</span> — dekho, yahan 'if/whether' ki zarurat nahi padi, kyunki 'where' khud hi connector ban gaya. Baaki rule same hai — 'said' 'asked' banta hai, word order normal statement jaisa, question mark hata do."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Achha, matlab YES/NO me 'if/whether' lagta hai, WH-questions me khud question-word hi kaafi hai. Word order dono me normal ho jaata hai. Ek practice do na."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — 'She said, \"What time does the class start?\"' Isko convert karo."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'said' 'asked' banega, 'what time' wahi rahega connector ke roop me, word order normal — 'She asked what time the class started.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Ab agla type — IMPERATIVE sentences, matlab commands, requests, advice. Jaise jab koi kisi ko order deta hai ya request karta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, jaise 'Close the door' jaisa sentence?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum, chalo dekhte hain iska rule — <span class='vw gw' data-word='Indirect Speech — Imperative (Commands/Requests)' data-pos='Grammar Rule' data-hindi='Command/request ko report karne ke liye reporting verb badalta hai (ordered/requested/advised), aur poora verb 'TO + V1' (infinitive) ban jaata hai' data-meaning='Direct: She said, \\\"Close the door.\\\" Indirect: She told me to close the door. (reporting verb context ke hisab se: order = ordered/told, request = requested, advice = advised)' data-example='Order: The officer said, \\\"Stop!\\\" Indirect: The officer ordered them to stop.\\nRequest: She said, \\\"Please help me.\\\" Indirect: She requested me to help her.\\nAdvice: He said, \\\"You should exercise daily.\\\" Indirect: He advised me to exercise daily.'>The teacher told me to close the door.</span> — dekho, poora verb 'TO + base form' ban gaya ('to close'), aur reporting verb context ke hisaab se badla — order ho to 'ordered/told', request ho to 'requested', advice ho to 'advised'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, kaise pata chalega ki reporting verb 'ordered' use karna hai ya 'requested'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Tone/context dekhna padta hai. Agar 'please' ho ya politely bola gaya ho, to 'requested'. Agar koi strict order/authority wali baat ho (jaise teacher, boss, police), to 'ordered' ya 'told'. Agar suggestion/advice ho, to 'advised'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, aur agar NEGATIVE command ho, jaise 'mat karo'?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bahut achha sawaal! Negative imperative me 'NOT TO + V1' use hota hai. Jaise 'She said, \"Don't touch that.\"' Indirect me — 'She told me not to touch that.' Bas 'not' 'to' se pehle lagana hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka likhte hue)</i> Achha, ab practice karte hain isme bhi — 'He said, \"Please don't be late.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ye tum khud try karo, main sirf hint dunga — 'please' hai, matlab request, aur 'don't' hai, matlab negative."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> To hoga — 'He requested me not to be late.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Ab do aur types bache hain, thode kam common but exam me aa sakte hain — EXCLAMATORY aur OPTATIVE sentences."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Exclamatory matlab 'Wow!' jaisi baatein? Aur Optative?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul, Exclamatory matlab joy/surprise/sorrow dikhane wale sentences — 'What a beautiful place!' jaise. Optative matlab wish/prayer wale sentences — 'May you succeed!' jaise. Chalo Exclamatory pehle dekhte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Exclamatory Sentences' data-pos='Grammar Rule' data-hindi='Joy/surprise/sorrow dikhane wala sentence — 'What/How' wala exclamation hata ke 'very' jaisa normal statement banta hai' data-meaning='Direct: She said, \\\"What a beautiful place!\\\" Indirect: She exclaimed with joy/wonder that it was a very beautiful place. (reporting verb: exclaimed with joy/sorrow/surprise, exclamation mark hata do)' data-example='Direct: He said, \\\"Alas! I have failed.\\\" Indirect: He exclaimed with sorrow that he had failed.\\nDirect: She said, \\\"How clever you are!\\\" Indirect: She exclaimed that I was very clever.'>She exclaimed with joy that it was a beautiful place.</span> — dekho, 'said' ki jagah 'exclaimed with joy/sorrow/surprise' (feeling ke hisaab se) aaya, aur 'What a beautiful place!' normal statement ban gaya — 'it was a (very) beautiful place', exclamation mark bhi hata diya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, kaise pata chalega feeling kya thi — joy, sorrow, ya surprise?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Context aur words se pata chalta hai — agar 'Alas!' ya koi sad baat hai, to 'sorrow'. Agar 'Hurray!' ya khushi wali baat hai, to 'joy'. Agar bahut shocking/unexpected baat hai, to 'surprise' ya 'wonder'."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha ab last wala, Optative — wish/prayer?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Optative Sentences (Wish/Prayer)' data-pos='Grammar Rule' data-hindi='Wish ya prayer wala sentence — reporting verb 'wished/prayed' banta hai, aur 'may' 'might' me badal jaata hai' data-meaning='Direct: She said, \\\"May you succeed in life!\\\" Indirect: She prayed/wished that I might succeed in life. (reporting verb: wished/prayed, 'may' becomes 'might')' data-example='Direct: He said, \\\"May God bless you!\\\" Indirect: He prayed that God might bless me.\\nDirect: She said, \\\"May you live long!\\\" Indirect: She wished that I might live long.'>She prayed that I might succeed in life.</span> — dekho, 'said' 'prayed' ya 'wished' ban gaya, aur 'may' 'might' ban gaya, baaki normal statement jaisa structure."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(poora chart bana ke)</i> Chalo ab main poora summary banata hoon — Statement: tense/pronoun/time-place shift, 'said' wahi rehta hai. Yes/No Question: 'asked' + if/whether + normal word order. Wh-Question: 'asked' + question-word + normal word order. Imperative: 'told/ordered/requested/advised' + to+V1 (ya not to+V1 for negative). Exclamatory: 'exclaimed with joy/sorrow' + normal statement, exclamation hata do. Optative: 'wished/prayed' + 'might' (may ki jagah)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Wah, bilkul perfect summary! Ab chalo poora practice karte hain, sab types mix karke — main paanch sentences dunga."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Pehla — 'She said, \"Do you have my book?\"' (Yes/No Question)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'She asked if/whether I had her book.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Sahi! Doosra — 'The doctor said, \"Take rest for two days.\"' (Imperative — advice)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'The doctor advised me to take rest for two days.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Perfect! Teesra — 'He said, \"Alas! I have lost my job.\"' (Exclamatory — sorrow)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'He exclaimed with sorrow that he had lost his job.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Chautha — 'She said, \"Why are you crying?\"' (Wh-Question)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'She asked me why I was crying.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Perfect! Aakhri — 'The old man said, \"May you be happy always!\"' (Optative)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'The old man prayed/wished that I might be happy always.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Full marks! Dekho, ab tum poori Indirect Speech ki master ban gayi ho — statements, questions, commands, exclamations, wishes, sab kuch."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(khush hoke)</i> Thank you! Ab main apni roommate ko sahi se poora explain kar sakti hoon ki galatfehmi kaise hui. Waise iske liye bhi tumhara shukriya karna chahiye — should I say it in indirect speech?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Try karo!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> 'I told him that he was the best teacher I could have asked for.' Dekha, maine khud bana liya, bina soche!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(thoda sharma ke)</i> Perfect sentence... aur perfect student."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Convert to Indirect Speech: She said, \"Are you feeling well?\"",
+      "answer": "She asked if/whether I was feeling well.",
+      "explain": "Yes/No question — 'said' becomes 'asked', 'if/whether' joड़ता hai, word order normal statement jaisa ho jaata hai (question mark hata do)."
+    },
+    {
+      "q": "Convert to Indirect Speech: He said, \"Where do you live?\"",
+      "answer": "He asked where I lived.",
+      "explain": "Wh-question — question-word ('where') khud hi connector hai, 'if/whether' ki zarurat nahi. Word order normal statement jaisa."
+    },
+    {
+      "q": "Convert to Indirect Speech: The teacher said, \"Submit your assignments by Friday.\"",
+      "answer": "The teacher told/ordered us to submit our assignments by Friday.",
+      "explain": "Imperative (command) — poora verb 'to + V1' ban jaata hai, reporting verb 'told' ya 'ordered' (authority context)."
+    },
+    {
+      "q": "Convert to Indirect Speech: She said, \"Please don't disturb me.\"",
+      "answer": "She requested me not to disturb her.",
+      "explain": "Negative imperative + request — 'not to + V1' use hota hai, aur 'please' ki wajah se reporting verb 'requested' hai."
+    },
+    {
+      "q": "Convert to Indirect Speech: He said, \"Hurray! We have won the match.\"",
+      "answer": "He exclaimed with joy that they had won the match.",
+      "explain": "Exclamatory (joy) — 'said' 'exclaimed with joy' banta hai, exclamation hata ke normal statement, tense bhi backshift hoti hai (have won → had won)."
+    },
+    {
+      "q": "Convert to Indirect Speech: The mother said, \"May you have a long and happy life!\"",
+      "answer": "The mother prayed/wished that I/he/she might have a long and happy life.",
+      "explain": "Optative (prayer/wish) — 'said' 'prayed/wished' banta hai, 'may' 'might' ban jaata hai."
+    },
+    {
+      "q": "Correct the error: 'She asked that did I have her book.'",
+      "answer": "She asked if/whether I had her book.",
+      "explain": "Yes/No question me 'that' nahi, 'if/whether' use hota hai, aur word order normal statement jaisa hona chahiye ('did I have' galat, 'I had' sahi)."
+    },
+    {
+      "q": "Mixed — Which reporting verb fits: request, order, or advice? 'You should drink more water.'",
+      "answer": "Advice — 'He advised me to drink more water.'",
+      "explain": "'Should' suggestion/advice dikhata hai, isliye reporting verb 'advised' fit hota hai, 'ordered' ya 'requested' nahi."
+    }
+  ]
+}
