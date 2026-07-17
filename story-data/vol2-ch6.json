@@ -1,0 +1,290 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Agle din phir video call, syllabus chart abhi bhi khula tha. {{A}} ne pen uthaya, ready tha aage ke liye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kal humne Assertive sentences ka passive seekha, aaj baaki types karte hain — Questions, Commands, Exclamations, aur Wishes. Chalo QUESTIONS se shuru karte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, Questions ka passive kaise banega? Wahi normal rule follow hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Thoda alag hai, kyunki question mein word-order already ulta hota hai. Pehle YES/NO questions dekhte hain — <span class='vw gw' data-word='Passive — Yes/No Questions' data-pos='Grammar Rule' data-hindi='Question ka structure: helping verb (Did/Does/Do) hata ke uski jagah BE-form use hota hai, object subject banta hai' data-meaning='Active: Did Ram write a letter? Passive: Was a letter written by Ram? (Did &rarr; Was, object 'a letter' subject bana)' data-example='Active: Does she clean the room? Passive: Is the room cleaned by her?\\nActive: Will they finish the project? Passive: Will the project be finished by them?'>Was a letter written by Ram?</span> — dekho, 'Did' (jo Ram ke saath tha) hat gaya, uski jagah 'Was' (BE-form) aaya, aur 'a letter' subject ban gaya, question-mark wahi raha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, matlab pehle 'Did/Does/Do' dhoondo, wahi 'is/was/are' me convert hota hai, baaki normal object-subject wala rule same rehta hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Ek aur example — 'Does she clean the room?' Passive — 'Is the room cleaned by her?' 'Does' 'Is' bana. Ab WH-questions dekhte hain, thoda alag hote hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan bolo."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Passive — Wh-Questions' data-pos='Grammar Rule' data-hindi='Question-word (what/where/why) shuru me hi rehta hai, uske baad wahi 'BE + V3' pattern follow hota hai' data-meaning='Wh-word + BE + Object(new subject) + V3 + by + agent?' data-example='Active: What is she cooking? Passive: What is being cooked by her?\\nActive: Why did he cancel the meeting? Passive: Why was the meeting cancelled by him?\\nActive: Who wrote this letter? Passive: By whom was this letter written?'>What is being cooked by her?</span> — dekho, question-word ('what') shuru me hi rehta hai, uske baad same 'BE + V3' pattern chalta hai jo humne pehle dekha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, 'who' wala interesting lag raha hai — 'By whom was this letter written?' — ye thoda ajeeb structure hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Haan, jab active sentence me subject khud 'WHO' ho (jaise 'Who wrote this letter?'), to passive me 'who' 'by whom' ban jaata hai aur sentence shuru me aata hai. Ye ek special exception hai, thoda ratt lena padega."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Achha, ab practice karte hain isme bhi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, tum banao — 'Where did they find the treasure?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'did' 'was' banega, 'treasure' subject banega, 'where' shuru me rahega — 'Where was the treasure found (by them)?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Ab agla type — IMPERATIVE, matlab commands/requests. Ye sabse zyada interesting hai, kyunki structure bilkul alag hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, kaise? Example do na pehle."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Passive — Imperative (Commands/Requests)' data-pos='Grammar Rule' data-hindi='Command/request ka passive banane ke liye 'LET' se shuru karte hain, phir object, phir 'BE + V3'' data-meaning='LET + Object + BE + V3 (order/command). Request ke liye: You are requested to + V1 (thoda alag pattern)' data-example='Order: Open the door. &rarr; Let the door be opened.\\nOrder: Close the window. &rarr; Let the window be closed.\\nRequest: Please help me. &rarr; I am requested to be helped. (or more natural: Help is requested.)'>Let the door be opened.</span> — dekho, 'LET' se shuru hota hai, phir object ('the door'), phir 'BE + V3' ('be opened'). Ye ekdum alag pattern hai baaki sabse."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(hairan)</i> 'Let' kyu? Ye 'let' to permission jaisa lagta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha observation, but yahan 'let' sirf ek FIXED marker hai imperative-passive banane ke liye, permission wala matlab nahi hai. Bas rule ki tarah yaad karo — order/command ka passive hamesha 'Let + object + be + V3' se shuru hota hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ek aur example do na, taaki pakka ho jaaye."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — 'Close the window.' Passive — 'Let the window be closed.' Aur negative command — 'Don't waste water.' Passive — 'Let water not be wasted.' Dekho, 'not' 'be' se pehle aata hai negative wale me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka likhte hue)</i> Achha, ab EXCLAMATORY aur OPTATIVE bhi karte hain, jo abhi bache hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, EXCLAMATORY pehle — jab strong feeling/emotion wala sentence ho.<span class='vw gw' data-word='Passive — Exclamatory Sentences' data-pos='Grammar Rule' data-hindi='Exclamatory sentence ka passive banane ke liye, sirf object-subject aur verb wahi 'BE + V3' pattern follow hota hai, 'What a...!' structure wahi rehta hai' data-meaning='What + a/an + noun + BE + V3 + by + agent!' data-example='Active: What a beautiful picture he painted! Passive: What a beautiful picture was painted by him!\\nActive: How well she sang the song! Passive: How well the song was sung by her!'>What a beautiful picture was painted by him!</span> — dekho, 'What a beautiful picture' structure wahi raha, bas verb 'painted' se 'was painted' bana, aur object 'he' se 'by him' end me gaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, matlab exclamatory me bhi wahi basic object-subject-BE+V3 rule chalta hai, bas 'What a...!' ya 'How...!' wala shuru wala part touch nahi hota?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Chalo ek aur — 'How well she sang the song!' Passive — 'How well the song was sung by her!' Same logic. Ab aakhri type — OPTATIVE, matlab wishes/prayers."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Jaise 'May God bless you'? Iska passive kaisa dikhega, ye to interesting hoga!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Passive — Optative Sentences (Wish/Prayer)' data-pos='Grammar Rule' data-hindi=''May' wale wish/prayer sentence ka passive — object subject banta hai, 'be' + V3 use hota hai, 'May' shuru me hi rehta hai' data-meaning='May + Object(new subject) + BE + V3 + by + agent.' data-example='Active: May God bless you! Passive: May you be blessed by God!\\nActive: May God give you happiness! Passive: May you be given happiness by God! (or: May happiness be given to you by God!)'>May you be blessed by God.</span> — dekho, 'May' shuru me hi rehta hai, object ('you') subject ban gaya, aur 'bless' 'be blessed' ban gaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Wow, itna common prayer hai ye, kabhi socha nahi tha passive me kaisa dikhega!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo ab sabse IMPORTANT cheez — jo sentences PASSIVE nahi ban sakte. Ye samajhna utna hi zaroori hai jitna banana."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, kaunse sentences passive nahi ban sakte?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Sentences That CANNOT Be Passive — Intransitive Verbs' data-pos='Grammar Rule' data-hindi='Jin verbs ke baad koi OBJECT nahi hota (Intransitive Verb), unka passive nahi ban sakta, kyunki passive banane ke liye ek object chahiye jo naya subject bane' data-meaning='Rule: Passive banane ke liye sentence me ek TRANSITIVE verb + OBJECT hona zaroori hai. Agar object hi nahi hai, to passive banega hi nahi.' data-example='Cannot passivize: He sleeps. (no object) / Birds fly. (no object) / She laughed loudly. (no object)\\nCAN passivize (has object): He wrote a letter. &rarr; A letter was written by him.'>He sleeps. / The baby cried. / Birds fly. — these CANNOT become passive</span> — dekho, 'He sleeps' me koi OBJECT nahi hai, 'sleeps' ek INTRANSITIVE verb hai (bina object ke complete hota hai). Passive banane ke liye ek object CHAHIYE jo naya subject ban sake — agar object hi nahi, to passive impossible hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> Ohh, matlab jab tak verb ke baad koi 'kya/kisko' wala object na ho, tab tak passive nahi ban sakta? Kaise pehchanenge kaunsa verb transitive hai kaunsa intransitive?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Simple trick — verb ke baad khud se poocho 'KYA?' ya 'KISKO?'. Agar jawab mil jaaye (object), to TRANSITIVE hai, passive ban sakta hai. Agar jawab na mile, to INTRANSITIVE hai, passive nahi banega. Jaise 'He sleeps' — sleeps KYA? Koi jawab nahi, isliye intransitive. 'He wrote A LETTER' — wrote KYA? 'a letter' — jawab mil gaya, isliye transitive."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka likhte hue)</i> Achha ye trick bahut helpful hai. Ek aur example do na intransitive verbs ka, common wale jo exam me confuse kar sakte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, common intransitive verbs — sleep, cry, laugh, arrive, die, happen, fall, go, come, sit, stand, rise. Ye sab bina object ke complete sentence bante hain — 'The baby cried', 'The sun rises', 'He arrived late' — inme koi object nahi, isliye passive nahi ban sakta."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, aur agar same verb kabhi transitive kabhi intransitive dono ho sakta hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bahut achha sawaal! Kuch verbs dono ho sakte hain, context pe depend karta hai. Jaise 'grow' — 'He grows.' (intransitive, no object, passive nahi banega) vs 'He grows vegetables.' (transitive, object hai 'vegetables', passive banega — 'Vegetables are grown by him')."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook me likhte hue)</i> Ohh, matlab hamesha sentence ko dhyan se dekhna padega, verb ka fixed label nahi hota, context pe depend karta hai kabhi kabhi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Chalo ab poora practice round karte hain, sab types mix karke, aur ye bhi test karenge ki tum pehchan sakte ho kaunsa passive ban sakta hai kaunsa nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Pehla — 'Please submit the form.' (Imperative)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'Let the form be submitted.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Sahi! Doosra — 'Who broke the window?' (Wh-question, tricky wala)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'By whom was the window broken?'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Perfect! Teesra — 'The old man died peacefully.' (Passive ban sakta hai ya nahi?)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'died' ke baad koi object nahi, 'died KYA?' koi jawab nahi — ye intransitive hai, isliye PASSIVE NAHI BAN SAKTA."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect catch! Chautha — 'What a wonderful surprise she gave me!' (Exclamatory)"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'What a wonderful surprise was given to me by her!'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Full marks phir se! Dekho, ab tumhe poora Active-Passive Voice aata hai — assertive, ditransitive, questions, commands, exclamatory, optative, aur ye bhi pata hai kaunse sentences passive banate hi nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(khush hoke)</i> Sach mein, itna bada topic tha, but tumne itni asaani se samjha diya, step by step. Ab exam me confidence hai is topic pe."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Convert to Passive: 'Did she lock the door?'",
+      "answer": "Was the door locked by her?",
+      "explain": "Yes/No question passive: 'Did' becomes 'Was', object becomes subject, question mark stays."
+    },
+    {
+      "q": "Convert to Passive: 'Who is cooking dinner?'",
+      "answer": "By whom is dinner being cooked?",
+      "explain": "When 'who' is the subject in the active question, it becomes 'by whom' and moves to the start of the passive question."
+    },
+    {
+      "q": "Convert to Passive: 'Finish your homework before dinner.'",
+      "answer": "Let your homework be finished before dinner.",
+      "explain": "Imperative (command) passive always starts with 'Let' + object + be + V3."
+    },
+    {
+      "q": "Convert to Passive: 'How beautifully she decorated the room!'",
+      "answer": "How beautifully the room was decorated by her!",
+      "explain": "Exclamatory passive keeps the 'How...!' structure, but follows the standard object-subject + BE + V3 pattern for the rest."
+    },
+    {
+      "q": "Convert to Passive: 'May you achieve great success!'",
+      "answer": "May great success be achieved by you!",
+      "explain": "Optative (wish) passive keeps 'May' at the start, then follows the object-subject + BE + V3 pattern."
+    },
+    {
+      "q": "Can this sentence be converted to Passive? Why or why not: 'The flowers bloomed beautifully.'",
+      "answer": "No — 'bloomed' is an intransitive verb (no object: 'bloomed WHAT?' has no answer), so this sentence cannot be converted to passive voice.",
+      "explain": "Passive voice requires a transitive verb with an object that can become the new subject. Intransitive verbs like bloom, sleep, arrive, die, fall have no object."
+    },
+    {
+      "q": "Convert to Passive (ditransitive, give both forms): 'The librarian gave me two books.'",
+      "answer": "I was given two books by the librarian. / Two books were given to me by the librarian.",
+      "explain": "Ditransitive verbs allow two passive forms — indirect object ('me') or direct object ('two books') can become the subject."
+    },
+    {
+      "q": "Correct the error: 'The letter was write by him yesterday.'",
+      "answer": "The letter was written by him yesterday.",
+      "explain": "Passive voice needs 'be + V3' (past participle) — 'written', not the base form 'write'."
+    }
+  ]
+}
