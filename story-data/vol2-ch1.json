@@ -1,0 +1,274 @@
+{
+  "paras": [
+    {
+      "type": "narration",
+      "text": "Naya shehar, nayi hostel room. {{B}} apna saaman abhi tak poora unpack nahi kar payi thi, tabhi phone pe {{A}} ka call aaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Kaisi hai wahan? Room mil gaya, sab set ho gaya?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Haan yaar, bas thoda ajeeb lag raha hai abhi. Waise mummy se baat hui kal, unhone bola tha 'main tumhe agle hafte milne aaungi.' Ab main ye baat tumhe kaise bataun, apne words me?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Jab tum kisi ki kahi hui baat KHUD ke words me doosre ko batate ho, usko kehte hain Indirect Speech (ya Reported Speech). Jab EXACT wahi words bolte ho jo unhone bole the, quotation marks ke sath, usko Direct Speech kehte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, to Direct hoga — 'Mummy said, \"I will come to meet you next week.\"' Aur Indirect kaise banega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Yahi sabse important cheez seekhni hai — jab Direct se Indirect banate hain, TEENO cheezein badal sakti hain: (1) Tense peeche shift hota hai, (2) Pronouns badalte hain (I/you/we according to context), (3) Time aur place words badalte hain (jaise 'next week' 'the following week' ban jaata hai). Chalo ek ek karke dekhte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, pehle Tense wala samjhao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<span class='vw gw' data-word='Indirect Speech — Tense Backshift' data-pos='Grammar Rule' data-hindi='Jab reporting verb (said/told) PAST tense me ho, to andar wali tense bhi ek step PEECHE chali jaati hai' data-meaning='Present Simple &rarr; Past Simple | Present Continuous &rarr; Past Continuous | Present Perfect &rarr; Past Perfect | will &rarr; would | can &rarr; could | Past Simple &rarr; Past Perfect' data-example='Direct: She said, \\\"I am tired.\\\" Indirect: She said she was tired.\\nDirect: He said, \\\"I will help you.\\\" Indirect: He said he would help me.\\nDirect: They said, \\\"We have finished.\\\" Indirect: They said they had finished.'>Mummy said (that) she would come to meet me the following week.</span> — dekho, Direct me 'will come' tha, Indirect me 'would come' ho gaya. Isko 'Backshift' kehte hain — jab reporting verb ('said') PAST me hoti hai, to andar wali tense bhi ek step PEECHE chali jaati hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(notebook nikaal ke likhte hue)</i> Ek pura chart chahiye mujhe — kaunsi tense kis me badalti hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo, main bata deta hoon poora pattern — Present Simple ('I am/I go') Past Simple ban jaata hai ('she was/she went'). Present Continuous ('I am going') Past Continuous ban jaata hai ('she was going'). Present Perfect ('I have done') Past Perfect ban jaata hai ('she had done'). Aur Past Simple khud Past Perfect ban jaata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, aur modals ka kya hota hai? 'will' to 'would' ban gaya humare example me."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bilkul sahi observe kiya! Modals bhi shift hote hain — 'will' 'would' ban jaata hai, 'can' 'could' ban jaata hai, 'may' 'might' ban jaata hai, 'must' kabhi kabhi 'had to' ban jaata hai. Bas 'would', 'could', 'might', 'should' — ye already 'past-ish' modals hain, ye NAHI badalte, waise hi rehte hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka likhte hue)</i> Achha, ab dusra part batao — Pronouns wala."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Pronouns ka rule simple hai — jo bhi bol raha hai uske hisaab se badalte hain. Jaise humare example me, Mummy ne bola 'I will come' — 'I' matlab Mummy khud. Jab tum ye baat REPORT karogi, to 'I' 'she' ban jaayega, kyunki tum Mummy ke baare me baat kar rahi ho, khud ke baare me nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, matlab pronoun hamesha us insaan ke perspective se dekhna padega jo REPORT kar raha hai, na ki jisne originally bola tha?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Ek aur example dekhte hain isko pakka karne ke liye — maan lo tum mujhse bologi 'I miss you' seedhe. Agar main kisi teesre ko batau, to kya hoga?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Hmm... 'I' to tum ban jaaoge, aur 'you' main ban jaaungi? Kyunki ab tum report kar rahe ho."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Bilkul sahi! 'She said, \"I miss you\"' se ban jaayega 'She said (that) she missed me.' Dekho, 'I' 'she' ban gaya (jisne bola), aur 'you' 'me' ban gaya (jisse bola, matlab main)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ye thoda confuse karne wala hai but samajh aa raha hai. Chalo ab teesra part — time aur place wale words."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ye bhi important hai. Jab tum REPORT kar rahe ho, to time already beet chuka hota hai (kyunki ab baat karne ka time alag hai), isliye time/place words bhi shift hote hain. Humare example me 'next week' 'the following week' ban gaya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Aur kaunse kaunse words badalte hain aise?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Poora chart hai — 'today' 'that day' ban jaata hai. 'tomorrow' 'the next day' ya 'the following day' ban jaata hai. 'yesterday' 'the day before' ban jaata hai. 'now' 'then' ban jaata hai. 'here' 'there' ban jaata hai. 'this' 'that' ban jaata hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pura chart notebook me copy karte hue)</i> Ye bahut sara badalna hai! Ek example do na poora, sab teeno cheezein use karke."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — maan lo tum mujhe bologi, 'I am feeling homesick today.' Agar main ye baat apne dost ko batau baad me, to hoga — 'She said (that) she was feeling homesick that day.' Dekho — 'am feeling' 'was feeling' ban gaya (tense backshift), 'I' 'she' ban gaya (pronoun), 'today' 'that day' ban gaya (time word)."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(dhyan se sunte hue)</i> Wow, teeno ek sath! Achha ek doubt hai — kya 'that' hamesha lagana padta hai reporting verb ke baad?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Nahi, 'that' optional hota hai — 'She said that she was tired' aur 'She said she was tired' dono sahi hain, matlab same hai. Formal writing me 'that' lagana thoda better lagta hai, but spoken English me log usually chhod dete hain."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Achha, ek aur cheez — kya HAMESHA tense backshift hoti hai? Kabhi exception bhi hoga na?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Bahut achha sawaal! Haan, do important exceptions hain. Pehla — jab koi UNIVERSAL TRUTH ya HAMESHA-SACH baat report kar rahe ho, tense backshift NAHI hoti. Jaise 'The teacher said, \"The earth revolves around the sun.\"' Indirect me — 'The teacher said that the earth revolves around the sun.' Dekho, 'revolves' present hi raha, past nahi hua, kyunki ye hamesha sach hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ohh, matlab agar main kahoon 'Meri mummy ne kaha ki main bahut smart hoon' aur wo hamesha sach hai, to bhi present rahega?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(hasm ke)</i> Technically wo tumhari opinion hai, universal truth nahi, but agar tum universal fact bata rahi ho jaise science/geography ka, to haan present hi rahega. Doosra exception — agar reporting verb khud PRESENT tense me ho (jaise 'says' ya 'tells', na ki 'said'), to tense bilkul NAHI badalti, jaisa tha waisa hi rehta hai."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ek example do is wale ka bhi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Chalo — 'He says, \"I am busy.\"' Agar reporting verb 'says' hai (present), to Indirect hoga — 'He says (that) he is busy.' Dekho, 'am' 'is' bana (sirf pronoun ki wajah se, tense nahi badli), 'am' 'was' nahi bana."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(pakka samajh ke)</i> Achha, matlab backshift sirf tab hoti hai jab reporting verb khud PAST me ho ('said', 'told'), agar wo present me hai ('says', 'tells') to backshift ki zarurat nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Ekdum sahi! Chalo ab practice karte hain — main tumhe teen Direct Speech sentences dunga, tum Indirect banao."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Chalo, ready hoon!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Pehla — 'She said, \"I am going to the market now.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(sochte hue)</i> 'am going' 'was going' banega, 'I' 'she' banega, 'now' 'then' banega — 'She said (that) she was going to the market then.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(taali maarte hue)</i> Perfect! Doosra — 'He said, \"I will call you tomorrow.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'will call' 'would call' banega, 'I' 'he' banega, 'you' — ruko, ye tricky hai, 'you' kise refer kar raha hai?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Achha sawaal! Ye depend karta hai KISKO report kar rahe ho. Agar main hi wo insaan hoon jisse usne bola tha, to 'you' 'me' banega. Agar kisi teesre ko report kar rahe ho jo is baat-cheet me nahi tha, to 'you' us insaan ka naam ya pronoun banega jisse originally bola gaya tha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "Ohh achha, to agar maan lo usne mujhe hi bola tha 'I will call you tomorrow', aur main tumhe ye baat batati hoon, to hoga — 'He said (that) he would call me the next day.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "Perfect! Teesra aur aakhri — 'They said, \"We have already finished our homework.\"'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "'have finished' 'had finished' banega (Present Perfect Past Perfect), 'We' 'they' rahega kyunki wo already third person hai — 'They said (that) they had already finished their homework.'"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(muskurate hue)</i> Perfect score! Dekho, tumne itni jaldi seekh liya — tense, pronoun, time words sab ek sath handle kar liya."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(khush hoke)</i> Sach mein achha lag raha hai ye seekh ke. Waise ye sab humari WhatsApp baaton me bhi kaam aayega — jab main kisi ko batati hoon tumne kya bola tha."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(halke se hasm ke)</i> Bas dhyan rakhna, sahi se report karna, warna galat 'indirect speech' se koi misunderstanding na ho jaaye!"
+    },
+    {
+      "type": "present",
+      "text": "Kuch hafton baad, ek chhota sa misunderstanding hua tha — ek message ka matlab kisi aur tarike se report ho gaya tha, aur usi se ek badi galatfehmi shuru hui..."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Convert to Indirect Speech: She said, \"I am cooking dinner.\"",
+      "answer": "She said (that) she was cooking dinner.",
+      "explain": "Present Continuous ('am cooking') Past Continuous ban jaata hai ('was cooking') jab reporting verb 'said' (past) ho, aur 'I' 'she' ban jaata hai."
+    },
+    {
+      "q": "Convert to Indirect Speech: He said, \"I will finish the project tomorrow.\"",
+      "answer": "He said (that) he would finish the project the next day (or 'the following day').",
+      "explain": "'will' 'would' banta hai (modal backshift), aur 'tomorrow' 'the next day' banta hai (time word shift)."
+    },
+    {
+      "q": "Correct the error: 'The teacher said that the sun rose in the east.'",
+      "answer": "The teacher said that the sun rises in the east.",
+      "explain": "Universal truth/hamesha-sach baaton me tense backshift NAHI hoti, chahe reporting verb past me ho — 'rises' present hi rahega."
+    },
+    {
+      "q": "Convert to Indirect Speech (reporting verb is present tense): 'He says, \"I am tired.\"'",
+      "answer": "He says (that) he is tired.",
+      "explain": "Jab reporting verb khud PRESENT tense me ho ('says', na ki 'said'), tense backshift bilkul nahi hoti — sirf pronoun badalta hai."
+    },
+    {
+      "q": "Convert to Indirect Speech: They said, \"We have completed the assignment.\"",
+      "answer": "They said (that) they had completed the assignment.",
+      "explain": "Present Perfect ('have completed') Past Perfect ban jaata hai ('had completed') jab reporting verb past me ho."
+    },
+    {
+      "q": "Fill in the correct time-word shift: Direct — 'I saw him yesterday.' Indirect — 'She said she had seen him ___.'",
+      "answer": "the day before (or 'the previous day')",
+      "explain": "'Yesterday' ko indirect speech me 'the day before' ya 'the previous day' me badalte hain, kyunki reporting ke time relative reference change ho jaata hai."
+    },
+    {
+      "q": "Convert to Indirect Speech: She said, \"I will meet you here tomorrow.\"",
+      "answer": "She said (that) she would meet me there the next day.",
+      "explain": "Teeno badlaav ek sath — 'will' se 'would' (modal), 'you' se 'me' (agar report karne wala hi wo insaan hai jisse bola gaya), 'here' se 'there', aur 'tomorrow' se 'the next day'."
+    }
+  ]
+}
