@@ -67,334 +67,269 @@
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Ek aur example do na isi tarah, taaki pakka clear ho jaaye ye logic."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Chalo — socho 'It is necessary that he TAKES rest' vs 'It is necessary that he TAKE rest'. Pehla wala ('takes') ka matlab — 'wo already rest leta hai' (fact/habit) — to phir 'necessary' bolne ka koi matlab nahi, jo already ho raha hai! Doosra wala ('take', base form) ka matlab — 'abhi rest nahi le raha, but usko lena CHAHIYE' — yehi sahi sense hai jab hum 'necessary' bol rahe hain."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(pakka likhte hue)</i> Wah, ab ye trick hamesha yaad rahegi — jab bhi 'necessary/essential/suggest/demand' jaisa word dikhe, sochna hai 'ye abhi TRUE nahi hai, sirf ek REQUIREMENT/WISH hai' — isliye BASE FORM, normal 's' wala fact-form nahi."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Ekdum sahi trick! Ek aur cheez batani hai isi ke sath related — jab that-clause PASSIVE VOICE me ho, tab kya hota hai? Kabhi socha hai?"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Passive matlab jaise 'kaam kiya jaata hai' wala? Nahi socha, samjhao."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "<span class='vw gw' data-word='Present Subjunctive — Passive Voice (be + V3)' data-pos='Grammar Rule' data-hindi='Jab that-clause passive voice me ho, tab base-form 'BE' + V3 (past participle) use hota hai, 'is done' ya 'was done' nahi' data-meaning='It is + adjective/verb-trigger + that + Subject + BE + V3 (passive base form)' data-example='Notice: It is necessary that the work be done efficiently. (not 'is done')\\nFormal: It is essential that the report be submitted by Friday. (not 'is submitted')\\nRule: The committee demanded that the case be reopened. (not 'was reopened')'>It is necessary that the work be done efficiently</span> — dekho, passive me bhi wahi logic hai — 'BE' base form hai (jaise 'is' ka base form 'be' hota hai), phir V3 (past participle) aata hai. 'is done' ya 'was done' kabhi nahi, hamesha 'BE done', 'BE submitted', 'BE reopened'."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Achha, matlab active wale me base-form verb ('take', 'come', 'sign'), aur passive wale me 'BE + V3' ('be done', 'be submitted') — dono me ROOT logic same hai, bas passive me ek extra 'BE' aata hai V3 ke pehle?"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Ekdum sahi samjhe! Chalo isi original example ko active aur passive dono me bana ke dikhata hoon, taaki fark bilkul clear ho jaaye. Active: 'It is necessary that everyone DO his work efficiently.' (subject khud kaam kar raha hai) Passive: 'It is necessary that the work BE DONE efficiently (by everyone).' (kaam pe focus hai, kisne kiya uspe nahi)"
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "<i>(notebook me dono side-by-side likhte hue)</i> Ab bilkul clear hai — active me base-form verb seedha, passive me 'be' + V3. Ek aur passive example do na, kisi doosre trigger word ke sath."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "B",
-      "text": "Chalo — 'demand' ke sath: 'The workers demanded that their salary BE INCREASED.' (na ki 'is increased' ya 'was increased'). Aur 'insist' ke sath: 'The teacher insisted that the mistake BE CORRECTED immediately.' (na ki 'is corrected')."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
-      "text": "Perfect, ab poora logic aur passive dono clear ho gaye. Isse mujhe SSC ke error-spotting me bahut help milegi, kyunki ab main sirf ratt nahi raha, samajh raha hoon KYU 's' nahi lagta."
-    },
-    {
-      "type": "dialogue",
-      "speaker": "A",
       "text": "Achha, chalo poora samjhao — kaunse words ke baad ye BASE FORM wala rule lagta hai? Poori list chahiye mujhe."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo, do groups me yaad rakho. Pehla group — ADJECTIVES, jo 'It is + adjective + that' pattern me aate hain: essential, necessary, important, imperative, vital, crucial, desirable, urgent, obligatory, advisable. Doosra group — VERBS jo seedhe use hote hain: suggest, recommend, demand, insist, propose, require, urge, request, order, move, desire, prefer."
+      "text": "Chalo, do groups me yaad rakho. Pehla group — ADJECTIVES, jo 'It is + adjective + that' pattern me aate hain: essential, necessary, important, imperative, vital, crucial, desirable, urgent, obligatory. Doosra group — VERBS jo seedhe use hote hain: suggest, recommend, demand, insist, propose, require, urge, request, order, desire, prefer. In sabke baad, wahi FACT-vs-REQUIREMENT wala logic hamesha kaam karega — jo bhi word ho, matlab yehi hai ki 'ye abhi sach nahi, hona chahiye'."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(notebook nikaal ke)</i> Itni lambi list yaad kaise rahegi?! Chalo ek-ek karke maza wala example do, taaki yaad reh jaaye."
+      "text": "<i>(notebook nikaal ke)</i> Itni lambi list! Chalo ek-ek karke example do, but har baar dono versions dikhana — agar galti se present/normal form laga diya to kya WRONG meaning banega, aur base form se kya SAHI meaning banta hai."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Perfect idea, chalo masti karte hain isi notice board se! Dekho agla notice — 'It is essential that all bikes be parked outside the gate.' Isko funny bana ke socho — jaise principal khud bike lekar andar ghusne wale students ko pakadta hoga."
+      "text": "Perfect approach, chalo isi tarah karte hain, isi notice board se shuru karte hain. Agla notice dekho — 'It is essential that all bikes be parked outside the gate.' Ab socho, agar koi galti se likh de 'all bikes ARE parked outside the gate' — iska kya matlab hoga?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Haha, achha imagine kar liya! Ab ek aur do, 'imperative' wala."
+      "text": "<i>(sochte hue)</i> 'are parked' ka matlab hoga — sab bikes ALREADY bahar khadi hain, ye ek current fact hai. To phir 'it is essential' bolne ka koi matlab nahi rahega, kyunki jo maang rahe ho wo to already ho hi raha hai!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo — imagine karo hostel warden itni strict hai ki roz chillati hai — 'It is imperative that everyone return before 9 PM!' Har ek student darr ke maare bhaagta hoga gate band hone se pehle."
+      "text": "<i>(taali maarte hue)</i> Ekdum sahi! Isiliye 'be parked' (base form) sahi hai — iska matlab hai, abhi ye guaranteed nahi hai ki sab bikes bahar rakhi jaayengi, isliye ek RULE/REQUIREMENT banaya ja raha hai ki aisa HONA CHAHIYE. Agar sab already follow kar rahe hote, to notice lagane ki zarurat hi nahi padti!"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Bilkul apni warden jaisi lag rahi hai! Ab 'vital' wala do."
+      "text": "<i>(khush hoke)</i> Ab bilkul clear hai — jahan bhi 'it is essential/necessary' dikhe, wahan agar 's' wala normal form use kiya, to matlab hoga 'ye already ho raha hai', jo point hi khatam kar deta hai us sentence ka. Ek aur example do isi tarah, 'imperative' wale ka."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo — cricket coach bol raha hai team se match se pehle — 'It is vital that every player arrive at the ground by 6 AM, or you're benched!' Socho, coach ka gussa waala face."
+      "text": "Chalo — hostel warden ka notice: 'It is imperative that every student RETURN before 9 PM.' Agar koi likhe 'every student RETURNS before 9 PM' — iska matlab kya hoga?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(muskurate hue)</i> Ye to bilkul movie scene jaisa lag raha hai! 'Crucial' wala bhi do."
+      "text": "'Returns' ka matlab — sab students ALREADY 9 baje se pehle aa jaate hain, ye unki habit/fact hai. To warden ko notice lagane ki zarurat hi nahi thi agar sab pehle se hi time pe aa rahe hain!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo — exam ke time principal announcement karti hai — 'It is crucial that every candidate carry their admit card, or they will be denied entry!' Imagine karo ek bechara student gate pe rota hua khada hai, admit card ghar bhool aaya."
+      "text": "Bilkul sahi! Isiliye 'RETURN' (base form) — warden keh rahi hai 'ye HONA CHAHIYE', kyunki abhi sab time pe nahi aa rahe (tabhi to strict notice lagi hai). Agar sabhi already follow kar rahe hote, koi notice ki zarurat hi nahi hoti."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Bechara! Achha ab 'desirable' aur 'urgent' bhi karo — inme kya fark hai?"
+      "text": "<i>(hasm ke)</i> Ab samajh aa raha hai warden itni gussa kyu rehti hai — kyunki 'imperative' tabhi bolti hai jab log follow NAHI kar rahe! Ek aur do, 'vital' wala."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "'Desirable' thoda soft hota hai, matlab 'better hoga agar' — 'It is desirable that students wear the uniform on Mondays.' (halki suggestion, majboori itni strict nahi). 'Urgent' matlab bahut jaldi zaroori — 'It is urgent that the injured player receive medical help immediately!' (turant, koi delay nahi)."
+      "text": "Chalo — cricket coach: 'It is vital that every player ARRIVE at the ground by 6 AM.' Agar likhe 'every player ARRIVES at the ground by 6 AM' — matlab?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(notebook me likhte hue)</i> Achha, fark clear ho gaya — 'desirable' soft advice, 'urgent' turant zaroori. Ab last adjective wala bhi karo — 'obligatory'."
+      "text": "'Arrives' matlab — sab players ALREADY time pe pahunch jaate hain, fact hai. To coach ko itna zor dene ki zarurat hi nahi hoti agar sab pehle se punctual hain!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "'Obligatory' matlab koi choice hi nahi, rule hai — jaise 'It is obligatory that every citizen carry a valid ID during elections.' Government wale notices me bahut common hai."
+      "text": "<i>(taali maarte hue)</i> Perfect! 'ARRIVE' (base form) se pata chalta hai — abhi sab time pe nahi aa rahe (isiliye coach itna zor de raha hai), aur ye HONA CHAHIYE agli baar se. Dekha, yehi pattern har jagah kaam karta hai — jaise hi tum 'agar normal form use karein to kya matlab banega' poochhte ho, turant clear ho jaata hai base form kyu zaroori hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha ab VERBS wala group karte hain — sabse pehle 'suggest' aur 'recommend', ye dono kaafi same lagte hain."
+      "text": "<i>(notebook me likhte hue)</i> Ye trick bahut achhi hai — har trigger word ke sath ye sawaal poochna: 'agar normal/indicative form use karein, to kya iska matlab hoga ki ye already ho raha hai? Agar haan, to wo GALAT hai, kyunki 'necessary/essential/imperative' jaisa word hi keh raha hai ye abhi NAHI ho raha.' Ab VERBS wala group bhi isi tarah karo — 'suggest' aur 'recommend' se shuru karte hain."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Haan, dono halke advice jaise hain. Chalo funny example — imagine karo, tumhari mummy bol rahi hai doctor ko — 'I suggest that my son EAT more vegetables!' Aur doctor turant bolta hai — 'I recommend that he EXERCISE daily too!' Dono me base form — 'eat', 'exercise', 's' nahi laga."
+      "text": "Chalo — 'I suggest that my son EAT more vegetables.' Agar likhe 'my son EATS more vegetables' — kya matlab hoga?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> Bilkul meri mummy jaisi lag rahi hai! Ab 'demand' aur 'insist' — ye to bahut strong lagte hain."
+      "text": "'Eats' matlab — beta already zyada vegetables khaata hai, fact hai. To 'I suggest' bolne ka koi matlab nahi, kyunki jo suggest kar rahe ho wo to already ho raha hai!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Bilkul strong hain! Imagine karo — angry customer restaurant me chilla raha hai — 'I demand that the manager REFUND my money right now!' Aur manager darr ke bolta hai — 'I insist that you TAKE a complimentary dessert instead, sir!'"
+      "text": "Ekdum sahi! 'EAT' (base form) sahi hai — matlab abhi nahi kha raha, aur maa/doctor chahte hain ye HO. Same logic 'recommend' me bhi — 'I recommend that he EXERCISE daily.' Agar 'EXERCISES' likhoge, to matlab hoga wo already roz exercise karta hai, jo recommend karne ki zarurat khatam kar deta hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(zor se hasm ke)</i> Ye scene to bilkul real lag raha hai, maine dekha hai aisa kabhi restaurant me! Ab 'propose' aur 'require' bhi karo."
+      "text": "<i>(pakka samajh ke)</i> Achha, ab 'demand' aur 'insist' bhi karo isi tarah — ye to bahut strong words hain."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo — school ke meeting me teacher bol rahi hai — 'I propose that the annual function BE held in December this year.' Aur rule book bolta hai — 'The exam rules require that every student SIGN the attendance sheet.'"
+      "text": "Chalo — angry customer: 'I demand that the manager REFUND my money.' Agar 'REFUNDS' likha, matlab hoga manager already refund kar raha hai — to customer ko 'demand' karne ki zarurat hi nahi! 'REFUND' (base form) sahi hai kyunki abhi refund NAHI hua hai, customer demand kar raha hai ki ho."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha, ab 'urge', 'request', aur 'order' bhi karo — ye teeno me kya fark hai?"
+      "text": "<i>(hasm ke)</i> Haha, sahi hai, agar manager already paisa wapas kar raha hota, customer chillata hi kyu! Ab 'insist' bhi karo isi tarah."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Teeno me STRENGTH ka fark hai — 'urge' matlab bahut zor de ke kehna (jaise doctor bimaar patient se) — 'The doctor urged that the patient REST for a week.' 'request' matlab politely poochna — 'She requested that the deadline BE extended by two days.' 'order' matlab seedha hukum, authority wala — 'The general ordered that the troops MOVE immediately.'"
+      "text": "Chalo — 'The teacher insisted that he BE more careful.' Agar 'IS more careful' likha, matlab wo already careful hai — to teacher ko insist karne ki zarurat nahi hoti! 'BE' (base form) sahi hai, kyunki abhi careful nahi hai, teacher chahti hai wo careful HO."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(notebook me sab likhte hue)</i> Achha aakhri do bache hain — 'desire' aur 'prefer', aur wo 'wants that' wala jo roz sunte hain."
+      "text": "<i>(pakka likhte hue)</i> Ye pattern to ab dimag me bilkul baith gaya — kisi bhi trigger word ke baad, agar normal 's/is/was' wala form use karo, to matlab ban jaata hai 'ye already sach hai', jo point hi kaat deta hai us sentence ka. Base form batata hai 'ye abhi sach nahi, hona chahiye'."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Chalo, formal wale pehle — 'desire' aur 'prefer' bahut formal writing me aate hain, jaise official documents — 'The company desires that all employees ARRIVE by 9 AM.' 'The board prefers that the meeting BE held online.' Aur roz ki spoken English wala, jo bahut common hai — 'The boss wants that everybody COME on time.'"
+      "text": "Ekdum sahi samajh gaye! Ab do aakhri examples, roz ki zindagi se — 'require' aur wo casual 'wants that' wala. 'The exam rules require that every student SIGN the attendance sheet.' Agar 'SIGNS' likha, matlab har student already sign karta hai — to rule banane ki zarurat hi nahi!"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hairan)</i> Arre ye to maine kal hi bola tha apni team se, bina jaane subjunctive use kar liya!"
+      "text": "Aur 'wants that' wala bhi isi tarah — 'The boss wants that everybody COME on time.' Agar 'COMES' likha, matlab sab already time pe aate hain — to boss ko 'want' karne ki zarurat nahi padegi, wo pehle se ho raha hoga!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(hasm ke)</i> Dekha! Ye sab tumhare roz ki zindagi me already ghumti hai, bas naam nahi pata tha. Waise ek zaroori baat — 'wants THAT' pattern bhi chalta hai but 'wants everyone TO come' (infinitive wala) zyada common/casual hai roz ki baat-cheet me. Exam me dono type aa sakte hain."
+      "text": "<i>(taali maarte hue)</i> Perfect, bilkul khud samajh gaye pattern! Ab ek zaroori cheez — chahe reporting verb PAST me ho ('suggested', 'demanded', 'insisted'), that-clause ka verb PHIR BHI base form hi rahega, kabhi past nahi hota. Kyunki wahi FACT-vs-REQUIREMENT logic tab bhi kaam karta hai — chahe demand kal ki thi ya aaj, requirement to abhi bhi 'nahi hui hai, honi chahiye' wali hi hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Achha ek doubt hai — agar sentence PAST me shuru ho, jaise 'The teacher suggested...' — tab bhi base form hi rahega, past nahi hoga?"
+      "text": "<i>(dhyan se)</i> Ohh, matlab time badalne se bhi ye logic nahi badalta — requirement/wish hamesha 'abhi tak poora nahi hua' wali baat hoti hai, isliye base form hamesha same rehta hai chahe reporting verb kisi bhi tense me ho."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Bahut achha sawaal, ye sabse zyada log galat karte hain! Haan, chahe reporting verb PAST me ho ('suggested', 'demanded', 'insisted'), that-clause ka verb PHIR BHI base form hi rahega — kabhi past nahi hota subjunctive me. 'The teacher suggested that he BE more careful' — 'was' ya 'is' nahi, hamesha 'be'."
+      "text": "Ekdum sahi! Ab ek naya, related topic — jab that-clause PASSIVE VOICE me ho, tab kya hota hai?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(pakka likhte hue)</i> Ye bahut important hai, kyunki natural instinct to past lagane ka hi hota hai jab sentence past me ho."
+      "text": "Passive matlab jaise 'kaam kiya jaata hai' wala? Samjhao."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Ekdum sahi, yehi to SSC ka trap hai! Chalo ab poora masti wala practice round karte hain — main tumhe funny scenarios dunga, tum subjunctive sentence banao."
+      "text": "<span class='vw gw' data-word='Present Subjunctive — Passive Voice (be + V3)' data-pos='Grammar Rule' data-hindi='Jab that-clause passive voice me ho, tab base-form 'BE' + V3 (past participle) use hota hai, 'is done' ya 'was done' nahi' data-meaning='It is + adjective/verb-trigger + that + Subject + BE + V3 (passive base form)' data-example='Notice: It is necessary that the work be done efficiently. (not 'is done')\\nFormal: It is essential that the report be submitted by Friday. (not 'is submitted')\\nRule: The committee demanded that the case be reopened. (not 'was reopened')'>It is necessary that the work be done efficiently</span> — dekho, yahan bhi wahi logic hai. Agar likha 'the work IS DONE efficiently', matlab hoga kaam already efficiently ho raha hai, fact hai — to 'necessary' bolne ka matlab hi nahi. 'BE DONE' (base form) sahi hai, matlab abhi efficiently nahi ho raha, hona chahiye."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "Chalo, ready hoon, laao!"
+      "text": "<i>(notebook me dono side likhte hue)</i> Ohh, matlab passive me bhi wahi FACT-vs-REQUIREMENT wala hi test lagega — 'is done' ka matlab fact, 'be done' ka matlab requirement. Ek aur passive example do."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Pehla — imagine karo tumhari class teacher bahut gussa hai kyunki koi roz late aata hai. Wo notice lagati hai — use 'imperative' word se banao."
+      "text": "Chalo — 'The workers demanded that their salary BE INCREASED.' Agar 'IS INCREASED' likha, matlab salary already badh rahi hai — to demand karne ki zarurat nahi! 'BE INCREASED' sahi hai, kyunki abhi nahi badhi, workers chahte hain badhe."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(sochte hue, hasm ke)</i> 'It is imperative that every student arrive before the bell rings!'"
+      "text": "Perfect, ab poora logic — active ho ya passive, hamesha wahi test — 'agar normal form likhein, to kya matlab banega ki ye already sach hai? Agar haan aur sentence me necessary/demand/suggest jaisa word hai, to wo GALAT hai, base form hi sahi hai.'"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(taali maarte hue)</i> Perfect! Doosra — imagine ek pizza shop me, waiter bahut slow hai, angry customer bol raha hai — 'demand' word se banao."
+      "text": "<i>(khush hoke)</i> Bilkul perfect summary! Chalo ab isi logic se practice karte hain — main tumhe sentence dungi WITH BOTH VERSIONS, tum bataoge kaunsa sahi hai aur KYU."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "'I demand that the manager serve my order immediately!'"
+      "text": "Chalo, ready hoon!"
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Haha ekdum sahi feel aaya! Teesra — coach team se bol raha hai match se pehle, 'insist' word se."
+      "text": "Pehla — 'It is imperative that every student ARRIVES before the bell.' ya 'ARRIVE before the bell.' Kaunsa sahi, aur kyu?"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "'The coach insisted that every player practice for two extra hours.'"
+      "text": "'ARRIVE' sahi hai — kyunki 'ARRIVES' ka matlab hota sab already time pe aate hain (fact), jo 'imperative' bolne ka point khatam kar deta. 'ARRIVE' batata hai ye abhi nahi ho raha, hona chahiye."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "Perfect! Chautha — tumhare papa ka favorite dialogue, 'necessary' word se, tumhari padhai ke baare me."
+      "text": "<i>(taali maarte hue)</i> Perfect! Doosra — 'The coach insisted that every player PRACTICES for two hours.' ya 'PRACTICE for two hours.'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(hasm ke)</i> 'It is necessary that I study for at least four hours every day!' Bilkul mere papa ki awaaz me suna maine ye!"
+      "text": "'PRACTICE' sahi — 'PRACTICES' ka matlab hota sab already do ghante practice karte hain, to insist karne ki zarurat nahi hoti. 'PRACTICE' (base form) sahi hai kyunki requirement hai, fact nahi."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(zor se hasm ke)</i> Perfect, full marks! Ab tum sach me expert ho gaye ho — kisi bhi trigger word (adjective ya verb) ko dekhte hi turant pehchan sakte ho ki base form aayega."
+      "text": "Perfect! Teesra, passive wala — 'It is necessary that the report IS SUBMITTED by Friday.' ya 'BE SUBMITTED by Friday.'"
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(muskurate hue)</i> Sach me, ab wo notice board bhi mujhe funny lagega, har baar 'be/come/attend' dekhoonga to yaad aayega humari ye masti bhari class."
+      "text": "'BE SUBMITTED' sahi — 'IS SUBMITTED' ka matlab hoga report already time pe submit ho rahi hai (fact), jo 'necessary' bolne ka point kaat deta. 'BE SUBMITTED' requirement dikhata hai."
     },
     {
       "type": "dialogue",
       "speaker": "B",
-      "text": "<i>(muskurate hue)</i> Bas ek promise karo — 'It is essential that you revise this topic before the exam!' — dekha, main bhi khud subjunctive use kar rahi hoon tumpe order chalane ke liye!"
+      "text": "<i>(zor se taali maarte hue)</i> Full marks, bilkul perfect logic har baar! Ab tum sach me samajh ke seekhe ho, sirf ratt ke nahi — ye sabse achhi baat hai."
     },
     {
       "type": "dialogue",
       "speaker": "A",
-      "text": "<i>(salute karte hue, hasm ke)</i> Yes madam, it is obligatory that I obey!"
+      "text": "<i>(muskurate hue)</i> Sach me, ab wo notice board bhi mujhe alag lagega — har baar 'be/come/attend' dekhoonga to samajh jaunga ye ek unfulfilled requirement hai, fact nahi."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "B",
+      "text": "<i>(muskurate hue)</i> Bas ek promise karo — 'It is essential that you revise this topic before the exam!' — dekha, main bhi khud subjunctive use kar rahi hoon, aur ab tumhe pata bhi hai ki iska matlab hai — abhi tumne revise nahi kiya, karna chahiye!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "A",
+      "text": "<i>(salute karte hue, hasm ke)</i> Yes madam, samajh gaya — 'It is obligatory that I REVISE' (abhi nahi kiya, karna hai), na ki 'I REVISE' (jaisे already kar raha hoon)!"
     }
   ],
   "quiz": [
-    {
-      "q": "Correct the error: 'It is imperative that everybody comes on time.'",
-      "answer": "It is imperative that everybody come on time.",
-      "explain": "'Imperative' triggers the Present Subjunctive — the verb after 'that' stays in base form ('come'), never takes 's', even with a word like 'everybody' that feels singular."
-    },
-    {
-      "q": "Correct the error: 'The boss wants that everybody comes on time.'",
-      "answer": "The boss wants that everybody come on time.",
-      "explain": "'Wants that' is a valid (though less formal) Present Subjunctive trigger — same rule applies: base form after 'that', no 's'."
-    },
-    {
-      "q": "Fill (adjective trigger, meaning 'very important'): 'It is ___ that she attend the interview tomorrow.'",
-      "answer": "vital / crucial / essential / important / imperative (any of these fit)",
-      "explain": "All these adjectives trigger the same pattern: It is + adjective + that + subject + base form."
-    },
-    {
-      "q": "Correct the error: 'The rule requires that every member signs the form.'",
-      "answer": "The rule requires that every member sign the form.",
-      "explain": "'Require' is a verb trigger for the Present Subjunctive — base form 'sign', not 'signs', even though 'every member' is singular."
-    },
-    {
-      "q": "Correct the error: 'The teacher suggested that he was more careful in future.'",
-      "answer": "The teacher suggested that he be more careful in future.",
-      "explain": "Even when the reporting verb ('suggested') is in the past tense, the that-clause verb STAYS in base form — it never becomes past tense in the Present Subjunctive."
-    },
-    {
-      "q": "Fill (verb trigger, strong demand): 'The angry customer ___ that the manager refund his money.'",
-      "answer": "demanded",
-      "explain": "'Demand/demanded' is a classic Present Subjunctive trigger verb — the following clause takes base form ('refund'), regardless of the tense of 'demand' itself."
-    },
-    {
-      "q": "Correct the error: 'It is necessary that the report is submitted by Friday.'",
-      "answer": "It is necessary that the report be submitted by Friday.",
-      "explain": "'Necessary' triggers Present Subjunctive — passive voice inside the that-clause also uses base form 'be' (not 'is'), so 'be submitted' is correct."
-    },
-    {
-      "q": "Which word does NOT trigger the Present Subjunctive pattern: suggest / recommend / believe / insist?",
-      "answer": "believe",
-      "explain": "'Believe' reports an opinion/fact, not a demand or formal suggestion — it doesn't trigger the subjunctive. Suggest/recommend/insist all do."
-    },
     {
       "q": "Explain in one line: why is 'It is necessary that everyone does his work efficiently' WRONG?",
       "answer": "'Does' (Indicative) states this is already happening as a fact/habit — but 'It is necessary' means it's NOT guaranteed yet, it's a requirement. The correct form is base form 'do', which expresses a requirement, not a fact.",
       "explain": "Subjunctive base form signals 'this should happen, not that it already does' — using the normal 's' form contradicts the very meaning of 'necessary/essential/demand'."
     },
     {
+      "q": "Correct the error: 'It is imperative that everybody comes on time.'",
+      "answer": "It is imperative that everybody come on time.",
+      "explain": "If 'comes' (fact form) were correct, it would mean everybody already arrives on time — making the notice pointless. 'Come' (base form) correctly signals this is a requirement, not yet a fact."
+    },
+    {
+      "q": "Correct the error: 'The boss wants that everybody comes on time.'",
+      "answer": "The boss wants that everybody come on time.",
+      "explain": "Same logic — 'comes' would mean people already arrive on time (no need to want it); 'come' (base form) correctly shows this is a requirement."
+    },
+    {
+      "q": "Correct the error: 'The rule requires that every member signs the form.'",
+      "answer": "The rule requires that every member sign the form.",
+      "explain": "'Signs' would mean members already sign it as routine, making the rule pointless. 'Sign' (base form) correctly shows this is being required, not already true."
+    },
+    {
+      "q": "Correct the error: 'The teacher suggested that he was more careful in future.'",
+      "answer": "The teacher suggested that he be more careful in future.",
+      "explain": "Even though 'suggested' is past tense, the requirement itself is still 'not yet true, should become true' — so the base form 'be' stays the same regardless of the reporting verb's tense."
+    },
+    {
       "q": "Correct the error: 'It is necessary that the work is done efficiently.'",
       "answer": "It is necessary that the work be done efficiently.",
-      "explain": "Passive Present Subjunctive uses 'BE + V3' (base form 'be', not 'is'), following the same base-form logic as the active voice."
+      "explain": "'Is done' would mean the work is already being done efficiently (a fact), which contradicts 'necessary'. Passive subjunctive uses 'be + V3' ('be done') to show it's a requirement."
     },
     {
       "q": "Correct the error: 'The workers demanded that their salary is increased.'",
       "answer": "The workers demanded that their salary be increased.",
-      "explain": "'Demand' triggers Present Subjunctive — in passive voice, this becomes 'be + V3' ('be increased'), never 'is/was increased'."
+      "explain": "'Is increased' would mean the salary is already being increased (fact) — then there'd be nothing to demand. 'Be increased' (base form) correctly shows this is the requirement being demanded."
     },
     {
-      "q": "Fill (passive subjunctive): 'The committee insisted that the decision ___ (reconsider) before the vote.'",
-      "answer": "be reconsidered",
-      "explain": "Passive subjunctive pattern: base form 'be' + V3 ('reconsidered') — 'is reconsidered' or 'was reconsidered' would be incorrect here."
+      "q": "Fill in the blank and explain: 'It is vital that she ___ (attend) the interview.' What would 'attends' incorrectly imply?",
+      "answer": "attend (base form). 'Attends' would incorrectly imply she already/habitually attends interviews as a fact, making the word 'vital' pointless.",
+      "explain": "The base form correctly expresses that her attending is a requirement/necessity that hasn't happened yet, not an existing fact."
     }
   ]
 }
